@@ -4,6 +4,7 @@ import './style.css'
 import { firstLivingMapArea } from './areas'
 import { aucklandLocalitiesUrl } from './localities'
 import { exGamesBrand, exGamesPalette } from './brand'
+import { firstTarget2050Candidate } from './candidates'
 
 const app = document.querySelector<HTMLDivElement>('#app')
 
@@ -36,6 +37,10 @@ let selectedLocalityId: string | number | undefined
 const hideDemonstrationSite = () => {
   map.setLayoutProperty('living-map-area-fill', 'visibility', 'none')
   map.setLayoutProperty('living-map-area-outline', 'visibility', 'none')
+}
+
+const hideTarget2050Candidate = () => {
+  map.setLayoutProperty('target-2050-candidate', 'visibility', 'none')
 }
 
 class AucklandRegionControl implements maplibregl.IControl {
@@ -93,6 +98,7 @@ class AucklandRegionControl implements maplibregl.IControl {
         }
 
         hideDemonstrationSite()
+        hideTarget2050Candidate()
       }
 
       this.button?.setAttribute(
@@ -200,6 +206,35 @@ map.on('load', () => {
 
   map.addControl(new AucklandRegionControl(), 'top-left')
 
+  map.addSource('target-2050-candidates', {
+    type: 'geojson',
+    data: firstTarget2050Candidate,
+  })
+
+  map.addLayer({
+    id: 'target-2050-candidate',
+    type: 'circle',
+    source: 'target-2050-candidates',
+    layout: {
+      visibility: 'none',
+    },
+    paint: {
+      'circle-radius': [
+        'interpolate',
+        ['linear'],
+        ['zoom'],
+        8,
+        7,
+        13,
+        13,
+      ],
+      'circle-color': exGamesPalette.leafLime,
+      'circle-stroke-color': exGamesPalette.kauriDark,
+      'circle-stroke-width': 3,
+      'circle-opacity': 0.95,
+    },
+  })
+
   map.addSource('living-map-areas', {
     type: 'geojson',
     data: firstLivingMapArea,
@@ -279,32 +314,48 @@ map.on('load', () => {
 
     const localityName =
       feature.properties?.name ?? feature.properties?.major_name ?? 'Locality'
-    const isAucklandCentral = localityName === 'Auckland Central'
+    const revealsDemonstrationSite = localityName === 'Auckland Central'
+    const revealsTarget2050Candidate = localityName === 'Manurewa'
 
     map.setLayoutProperty(
       'living-map-area-fill',
       'visibility',
-      isAucklandCentral ? 'visible' : 'none',
+      revealsDemonstrationSite ? 'visible' : 'none',
     )
     map.setLayoutProperty(
       'living-map-area-outline',
       'visibility',
-      isAucklandCentral ? 'visible' : 'none',
+      revealsDemonstrationSite ? 'visible' : 'none',
+    )
+    map.setLayoutProperty(
+      'target-2050-candidate',
+      'visibility',
+      revealsTarget2050Candidate ? 'visible' : 'none',
     )
 
     new maplibregl.Popup({ className: 'ex-games-popup' })
       .setLngLat(event.lngLat)
       .setHTML(
-        isAucklandCentral
+        revealsDemonstrationSite
           ? `
             <strong>${localityName}</strong>
             <p>1 contained Site revealed</p>
             <small>Select the Demonstration Site to inspect it.</small>
           `
-          : `
-            <strong>${localityName}</strong>
-            <p>No demonstration Sites registered yet.</p>
-          `,
+          : revealsTarget2050Candidate
+            ? `
+              <div class="ex-games-popup__brand">
+                <span>${exGamesBrand.name}</span>
+                <small>${exGamesBrand.mission}</small>
+              </div>
+              <strong>${localityName}</strong>
+              <p>1 active Target 2050 candidate revealed</p>
+              <small>Select the green candidate marker to inspect it.</small>
+            `
+            : `
+              <strong>${localityName}</strong>
+              <p>No Living Map candidates registered yet.</p>
+            `,
       )
       .addTo(map)
   })
@@ -314,6 +365,59 @@ map.on('load', () => {
   })
 
   map.on('mouseleave', 'auckland-localities-fill', () => {
+    map.getCanvas().style.cursor = ''
+  })
+
+  map.on('click', 'target-2050-candidate', (event) => {
+    const feature = event.features?.[0]
+    const properties = feature?.properties
+
+    if (!feature || !properties) {
+      return
+    }
+
+    new maplibregl.Popup({ className: 'ex-games-popup' })
+      .setLngLat(event.lngLat)
+      .setHTML(`
+        <div class="ex-games-popup__brand">
+          <span>${exGamesBrand.name}</span>
+          <small>${exGamesBrand.mission}</small>
+        </div>
+        <strong>${properties.name}</strong>
+        <p>${properties.localityName} · ${properties.status}</p>
+        <p>${properties.mission}</p>
+        <dl class="ex-games-candidate-facts">
+          <div>
+            <dt>Community lead</dt>
+            <dd>${properties.leadOrganisation}</dd>
+          </div>
+          <div>
+            <dt>Target alignment</dt>
+            <dd>${properties.targetAlignment}</dd>
+          </div>
+          <div>
+            <dt>Verified</dt>
+            <dd>${properties.verifiedDate}</dd>
+          </div>
+        </dl>
+        <p class="ex-games-candidate-links">
+          <a href="${properties.evidenceUrl}" target="_blank" rel="noreferrer">
+            Programme evidence
+          </a>
+          <a href="${properties.currentEvidenceUrl}" target="_blank" rel="noreferrer">
+            Current activity
+          </a>
+        </p>
+        <small>${properties.positionStatus}</small>
+      `)
+      .addTo(map)
+  })
+
+  map.on('mouseenter', 'target-2050-candidate', () => {
+    map.getCanvas().style.cursor = 'pointer'
+  })
+
+  map.on('mouseleave', 'target-2050-candidate', () => {
     map.getCanvas().style.cursor = ''
   })
 
