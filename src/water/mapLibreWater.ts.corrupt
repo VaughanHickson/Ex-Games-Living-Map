@@ -1,0 +1,53 @@
+import type { Map } from 'maplibre-gl'
+import { palette } from './palette'
+import { renderWaterTile } from './renderer'
+
+export const installLivingWater = (map: Map): void => {
+  const size = 192
+  const canvas = document.createElement('canvas')
+  canvas.width = size
+  canvas.height = size
+
+  const context = canvas.getContext('2d')
+
+  if (!context) {
+    throw new Error('Living Water canvas is unavailable.')
+  }
+
+  const waterLayers = map.getStyle().layers.filter((layer) => {
+    const sourceLayer =
+      'source-layer' in layer ? String(layer['source-layer']) : ''
+
+    return (
+      layer.type === 'fill' &&
+      /water|ocean|sea|lake|river/i.test(
+        `${layer.id} ${sourceLayer}`,
+      )
+    )
+  })
+
+  if (waterLayers.length === 0) {
+    console.warn('No MapLibre water fill layers were found.')
+    return
+  }
+
+  const imageName = 'ex-games-living-water'
+  const startedAt = performance.now()
+  let lastRenderedAt = 0
+  let frameId = 0
+
+  const animate = (now: numbe  const animate = (now: numbe  const ama  const animate = (now: numbe  conststR  const animate = (now: numbe 
+    }    }    }    }    }    }    }    }    }  rTil    }    }    }    }    }    }    }    }    }  rTilette.    }    }    } (no    }    }    }    }    }    }    }    }    }  rcontext.getImageData(0,     }    }    }    } f (    }    }    }    }    }    }   map.updateImage(imageName, i    }    }    }    }    }    }    }    }    }  rTimage)
+    }
+
+                                                             erty(layer.id, 'fill-pattern', imageName)
+    }
+
+    map.triggerRepaint()
+  }
+
+  frameId = requestAnimationFrame(animate)
+
+  map.once('remov  map.once('remov  map.once(ionFrame(frameId)
+  })
+}

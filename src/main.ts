@@ -5,6 +5,7 @@ import { firstLivingMapArea } from './areas'
 import { aucklandLocalitiesUrl } from './localities'
 import { exGamesBrand, exGamesPalette } from './brand'
 import { firstTarget2050Candidate } from './candidates'
+import { installLivingWater } from './water/mapLibreWater'
 
 const app = document.querySelector<HTMLDivElement>('#app')
 
@@ -147,6 +148,7 @@ class AucklandRegionControl implements maplibregl.IControl {
 }
 
 map.on('load', () => {
+  installLivingWater(map)
   map.addSource('auckland-localities', {
     type: 'geojson',
     data: aucklandLocalitiesUrl,
