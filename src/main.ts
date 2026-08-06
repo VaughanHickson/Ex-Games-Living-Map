@@ -10,7 +10,7 @@ if (!app) {
 
 app.innerHTML = '<div id="map" aria-label="Interactive map of Auckland"></div>'
 
-new maplibregl.Map({
+const map = new maplibregl.Map({
   container: 'map',
   style: 'https://tiles.openfreemap.org/styles/liberty',
   center: [174.7633, -36.8485],
@@ -18,3 +18,12 @@ new maplibregl.Map({
   bearing: 0,
   pitch: 0,
 })
+
+map.addControl(
+  new maplibregl.NavigationControl({
+    showCompass: true,
+    showZoom: true,
+    visualizePitch: true,
+  }),
+  'top-right',
+)
