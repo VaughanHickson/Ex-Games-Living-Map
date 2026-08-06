@@ -89,7 +89,7 @@ class AucklandRegionControl implements maplibregl.IControl {
       controlMap.setLayoutProperty(
         'auckland-localities-labels',
         'visibility',
-        visibility,
+        'none',
       )
       controlMap.setLayoutProperty(
         'auckland-localities-selected-label',
@@ -235,7 +235,7 @@ map.on('load', () => {
     minzoom: 10.25,
     layout: {
       visibility: 'none',
-      'text-field': ['get', 'name'],
+      'text-field': '',
       'text-font': ['Noto Sans Bold'],
       'text-size': [
         'interpolate',
@@ -302,6 +302,16 @@ map.on('load', () => {
       'symbol-placement': 'point',
     },
     paint: {
+      'text-opacity': [
+        'case',
+        [
+          'any',
+          ['boolean', ['feature-state', 'selected'], false],
+          ['boolean', ['feature-state', 'hovered'], false],
+        ],
+        1,
+        0,
+      ],
       'text-color': [
         'case',
         [

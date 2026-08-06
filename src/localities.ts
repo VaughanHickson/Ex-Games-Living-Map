@@ -1,7 +1,8 @@
 const aucklandExtent = '174.25,-37.35,175.55,-35.85'
 
 const queryParameters = new URLSearchParams({
-  where: '1=1',
+  where:
+  "type IN ('Suburb','Locality')",
   geometry: aucklandExtent,
   geometryType: 'esriGeometryEnvelope',
   inSR: '4326',
