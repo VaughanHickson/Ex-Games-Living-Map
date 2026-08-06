@@ -1,6 +1,7 @@
 import * as maplibregl from 'maplibre-gl'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import './style.css'
+import { firstLivingMapArea } from './areas'
 
 const app = document.querySelector<HTMLDivElement>('#app')
 
@@ -27,3 +28,93 @@ map.addControl(
   }),
   'top-right',
 )
+
+map.on('load', () => {
+  map.addSource('living-map-areas', {
+    type: 'geojson',
+    data: firstLivingMapArea,
+  })
+
+  map.addLayer({
+    id: 'living-map-area-fill',
+    type: 'fill',
+    source: 'living-map-areas',
+    paint: {
+      'fill-color': [
+        'case',
+        ['boolean', ['feature-state', 'selected'], false],
+        '#e4b44c',
+        '#315f64',
+      ],
+      'fill-opacity': [
+        'case',
+        ['boolean', ['feature-state', 'selected'], false],
+        0.55,
+        0.28,
+      ],
+    },
+  })
+
+  map.addLayer({
+    id: 'living-map-area-outline',
+    type: 'line',
+    source: 'living-map-areas',
+    paint: {
+      'line-color': [
+        'case',
+        ['boolean', ['feature-state', 'selected'], false],
+        '#f6d787',
+        '#23494d',
+      ],
+      'line-width': [
+        'case',
+        ['boolean', ['feature-state', 'selected'], false],
+        3,
+        2,
+      ],
+    },
+  })
+
+  let selectedAreaId: string | number | undefined
+
+  map.on('click', 'living-map-area-fill', (event) => {
+    const feature = event.features?.[0]
+
+    if (!feature || feature.id === undefined) {
+      return
+    }
+
+    if (selectedAreaId !== undefined) {
+      map.setFeatureState(
+        { source: 'living-map-areas', id: selectedAreaId },
+        { selected: false },
+      )
+    }
+
+    selectedAreaId = feature.id
+
+    map.setFeatureState(
+      { source: 'living-map-areas', id: selectedAreaId },
+      { selected: true },
+    )
+
+    const properties = feature.properties
+
+    new maplibregl.Popup()
+      .setLngLat(event.lngLat)
+      .setHTML(`
+        <strong>${properties.name}</strong>
+        <p>${properties.territoryReference}</p>
+        <small>${properties.boundaryStatus}</small>
+      `)
+      .addTo(map)
+  })
+
+  map.on('mouseenter', 'living-map-area-fill', () => {
+    map.getCanvas().style.cursor = 'pointer'
+  })
+
+  map.on('mouseleave', 'living-map-area-fill', () => {
+    map.getCanvas().style.cursor = ''
+  })
+})
