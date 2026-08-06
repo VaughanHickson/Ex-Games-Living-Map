@@ -5,7 +5,7 @@ import { firstLivingMapArea } from './areas'
 import { aucklandLocalitiesUrl } from './localities'
 import { exGamesBrand, exGamesPalette } from './brand'
 import { firstTarget2050Candidate } from './candidates'
-import { installLivingWater } from './water/mapLibreWater'
+import { installLivingWater } from './water/worldWater'
 
 const app = document.querySelector<HTMLDivElement>('#app')
 

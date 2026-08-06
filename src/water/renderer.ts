@@ -24,15 +24,15 @@ const mix = (
 }
 
 const oceanBlue: RgbColour = {
-  red: 31,
-  green: 101,
-  blue: 128,
+  red: 70,
+  green: 150,
+  blue: 195,
 }
 
 const blueGreen: RgbColour = {
-  red: 44,
-  green: 137,
-  blue: 128,
+  red: 75,
+  green: 170,
+  blue: 190,
 }
 
 const livingGreen: RgbColour = {
@@ -627,7 +627,7 @@ export const renderWaterTile = (
   for (let py = 0; py < rh; py += 1) {
     for (let px = 0; px < rw; px += 1) {
       const colour = sampleContinuousSurface(
-        { red: 16, green: 78, blue: 110 },
+        { red: 85, green: 155, blue: 195 },
         px / Math.max(1, rw - 1),
         py / Math.max(1, rh - 1),
         elapsedSeconds,
