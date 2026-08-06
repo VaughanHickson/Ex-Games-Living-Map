@@ -16,3 +16,75 @@ body {
   position: absolute;
   inset: 0;
 }
+
+/* LM001 Increment 012 — Ex Games brand surface */
+:root {
+  --ex-forest-green: #2f6f3e;
+  --ex-leaf-lime: #7fa650;
+  --ex-kauri-dark: #17251c;
+  --ex-manuka-grey: #4e5d4c;
+  --ex-mist: #e8efe7;
+  --ex-warm-gold: #d9a441;
+}
+
+.ex-games-region-control {
+  width: auto !important;
+  min-width: 142px;
+  padding: 0 12px !important;
+  border: 1px solid rgb(232 239 231 / 45%) !important;
+  background:
+    linear-gradient(rgb(23 37 28 / 88%), rgb(23 37 28 / 88%)),
+    url('/brand/ex-games-master-image.png') center / cover !important;
+  color: var(--ex-mist);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.ex-games-region-control:hover {
+  background:
+    linear-gradient(rgb(47 111 62 / 86%), rgb(47 111 62 / 86%)),
+    url('/brand/ex-games-master-image.png') center / cover !important;
+}
+
+.ex-games-region-control[aria-pressed='true'] {
+  color: var(--ex-kauri-dark);
+  background:
+    linear-gradient(rgb(127 166 80 / 88%), rgb(127 166 80 / 88%)),
+    url('/brand/ex-games-master-image.png') center / cover !important;
+}
+
+.ex-games-popup .maplibregl-popup-content {
+  max-width: 280px;
+  border: 1px solid var(--ex-leaf-lime);
+  border-radius: 8px;
+  background: var(--ex-mist);
+  color: var(--ex-kauri-dark);
+  box-shadow: 0 8px 28px rgb(23 37 28 / 28%);
+}
+
+.ex-games-popup .maplibregl-popup-close-button {
+  color: var(--ex-kauri-dark);
+}
+
+.ex-games-popup__brand {
+  display: flex;
+  flex-direction: column;
+  margin: -10px -10px 12px;
+  padding: 10px 12px;
+  border-radius: 7px 7px 0 0;
+  background:
+    linear-gradient(rgb(23 37 28 / 84%), rgb(23 37 28 / 84%)),
+    url('/brand/ex-games-master-image.png') center / cover;
+  color: var(--ex-mist);
+}
+
+.ex-games-popup__brand span {
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.ex-games-popup__brand small {
+  color: var(--ex-leaf-lime);
+  font-weight: 700;
+}

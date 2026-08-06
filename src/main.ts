@@ -3,6 +3,7 @@ import 'maplibre-gl/dist/maplibre-gl.css'
 import './style.css'
 import { firstLivingMapArea } from './areas'
 import { aucklandLocalitiesUrl } from './localities'
+import { exGamesBrand, exGamesPalette } from './brand'
 
 const app = document.querySelector<HTMLDivElement>('#app')
 
@@ -52,10 +53,7 @@ class AucklandRegionControl implements maplibregl.IControl {
     this.button.title = 'Reveal Auckland localities'
     this.button.setAttribute('aria-label', 'Reveal Auckland localities')
     this.button.setAttribute('aria-pressed', 'false')
-    this.button.style.width = 'auto'
-    this.button.style.padding = '0 12px'
-    this.button.style.fontWeight = '600'
-    this.button.style.whiteSpace = 'nowrap'
+    this.button.className = 'ex-games-region-control'
 
     this.button.addEventListener('click', () => {
       this.localitiesRevealed = !this.localitiesRevealed
@@ -136,7 +134,7 @@ map.on('load', () => {
       visibility: 'none',
     },
     paint: {
-      'fill-color': '#315f64',
+      'fill-color': exGamesPalette.forestGreen,
       'fill-opacity': 0.08,
     },
   })
@@ -149,7 +147,7 @@ map.on('load', () => {
       visibility: 'none',
     },
     paint: {
-      'line-color': '#315f64',
+      'line-color': exGamesPalette.manukaGrey,
       'line-opacity': 0.72,
       'line-width': [
         'interpolate',
@@ -171,7 +169,7 @@ map.on('load', () => {
       visibility: 'none',
     },
     paint: {
-      'fill-color': '#e4b44c',
+      'fill-color': exGamesPalette.leafLime,
       'fill-opacity': [
         'case',
         ['boolean', ['feature-state', 'selected'], false],
@@ -189,7 +187,7 @@ map.on('load', () => {
       visibility: 'none',
     },
     paint: {
-      'line-color': '#b98216',
+      'line-color': exGamesPalette.warmGold,
       'line-opacity': [
         'case',
         ['boolean', ['feature-state', 'selected'], false],
@@ -218,8 +216,8 @@ map.on('load', () => {
       'fill-color': [
         'case',
         ['boolean', ['feature-state', 'selected'], false],
-        '#e4b44c',
-        '#315f64',
+        exGamesPalette.leafLime,
+        exGamesPalette.forestGreen,
       ],
       'fill-opacity': [
         'case',
@@ -241,8 +239,8 @@ map.on('load', () => {
       'line-color': [
         'case',
         ['boolean', ['feature-state', 'selected'], false],
-        '#f6d787',
-        '#23494d',
+        exGamesPalette.mist,
+        exGamesPalette.kauriDark,
       ],
       'line-width': [
         'case',
@@ -294,7 +292,7 @@ map.on('load', () => {
       isAucklandCentral ? 'visible' : 'none',
     )
 
-    new maplibregl.Popup()
+    new maplibregl.Popup({ className: 'ex-games-popup' })
       .setLngLat(event.lngLat)
       .setHTML(
         isAucklandCentral
@@ -344,9 +342,13 @@ map.on('load', () => {
 
     const properties = feature.properties
 
-    new maplibregl.Popup()
+    new maplibregl.Popup({ className: 'ex-games-popup' })
       .setLngLat(event.lngLat)
       .setHTML(`
+        <div class="ex-games-popup__brand">
+          <span>${exGamesBrand.name}</span>
+          <small>${exGamesBrand.mission}</small>
+        </div>
         <strong>${properties.name}</strong>
         <p>${properties.regionName} → ${properties.localityName}</p>
         <p><small>${properties.hierarchyLabel}</small></p>
