@@ -30,6 +30,13 @@ map.addControl(
   'top-right',
 )
 
+let selectedLocalityId: string | number | undefined
+
+const hideDemonstrationSite = () => {
+  map.setLayoutProperty('living-map-area-fill', 'visibility', 'none')
+  map.setLayoutProperty('living-map-area-outline', 'visibility', 'none')
+}
+
 class AucklandRegionControl implements maplibregl.IControl {
   private container?: HTMLDivElement
   private button?: HTMLButtonElement
@@ -52,19 +59,43 @@ class AucklandRegionControl implements maplibregl.IControl {
 
     this.button.addEventListener('click', () => {
       this.localitiesRevealed = !this.localitiesRevealed
-      const fillOpacity = this.localitiesRevealed ? 0.08 : 0
-      const lineOpacity = this.localitiesRevealed ? 0.72 : 0
+      const visibility = this.localitiesRevealed ? 'visible' : 'none'
 
-      controlMap.setPaintProperty(
+      controlMap.setLayoutProperty(
         'auckland-localities-fill',
-        'fill-opacity',
-        fillOpacity,
+        'visibility',
+        visibility,
       )
-      controlMap.setPaintProperty(
+      controlMap.setLayoutProperty(
         'auckland-localities-outline',
-        'line-opacity',
-        lineOpacity,
+        'visibility',
+        visibility,
       )
+      controlMap.setLayoutProperty(
+        'auckland-localities-selected-fill',
+        'visibility',
+        visibility,
+      )
+      controlMap.setLayoutProperty(
+        'auckland-localities-selected-outline',
+        'visibility',
+        visibility,
+      )
+
+      if (!this.localitiesRevealed) {
+        if (selectedLocalityId !== undefined) {
+          controlMap.setFeatureState(
+            {
+              source: 'auckland-localities',
+              id: selectedLocalityId,
+            },
+            { selected: false },
+          )
+          selectedLocalityId = undefined
+        }
+
+        hideDemonstrationSite()
+      }
 
       this.button?.setAttribute(
         'aria-pressed',
@@ -94,15 +125,19 @@ map.on('load', () => {
     type: 'geojson',
     data: aucklandLocalitiesUrl,
     attribution: 'NZ Suburbs and Localities © LINZ',
+    generateId: true,
   })
 
   map.addLayer({
     id: 'auckland-localities-fill',
     type: 'fill',
     source: 'auckland-localities',
+    layout: {
+      visibility: 'none',
+    },
     paint: {
       'fill-color': '#315f64',
-      'fill-opacity': 0,
+      'fill-opacity': 0.08,
     },
   })
 
@@ -110,9 +145,12 @@ map.on('load', () => {
     id: 'auckland-localities-outline',
     type: 'line',
     source: 'auckland-localities',
+    layout: {
+      visibility: 'none',
+    },
     paint: {
       'line-color': '#315f64',
-      'line-opacity': 0,
+      'line-opacity': 0.72,
       'line-width': [
         'interpolate',
         ['linear'],
@@ -122,6 +160,43 @@ map.on('load', () => {
         12,
         1.5,
       ],
+    },
+  })
+
+  map.addLayer({
+    id: 'auckland-localities-selected-fill',
+    type: 'fill',
+    source: 'auckland-localities',
+    layout: {
+      visibility: 'none',
+    },
+    paint: {
+      'fill-color': '#e4b44c',
+      'fill-opacity': [
+        'case',
+        ['boolean', ['feature-state', 'selected'], false],
+        0.32,
+        0,
+      ],
+    },
+  })
+
+  map.addLayer({
+    id: 'auckland-localities-selected-outline',
+    type: 'line',
+    source: 'auckland-localities',
+    layout: {
+      visibility: 'none',
+    },
+    paint: {
+      'line-color': '#b98216',
+      'line-opacity': [
+        'case',
+        ['boolean', ['feature-state', 'selected'], false],
+        1,
+        0,
+      ],
+      'line-width': 3,
     },
   })
 
@@ -136,6 +211,9 @@ map.on('load', () => {
     id: 'living-map-area-fill',
     type: 'fill',
     source: 'living-map-areas',
+    layout: {
+      visibility: 'none',
+    },
     paint: {
       'fill-color': [
         'case',
@@ -156,6 +234,9 @@ map.on('load', () => {
     id: 'living-map-area-outline',
     type: 'line',
     source: 'living-map-areas',
+    layout: {
+      visibility: 'none',
+    },
     paint: {
       'line-color': [
         'case',
@@ -170,6 +251,72 @@ map.on('load', () => {
         2,
       ],
     },
+  })
+
+  map.on('click', 'auckland-localities-fill', (event) => {
+    const feature = event.features?.[0]
+
+    if (!feature || feature.id === undefined) {
+      return
+    }
+
+    if (selectedLocalityId !== undefined) {
+      map.setFeatureState(
+        {
+          source: 'auckland-localities',
+          id: selectedLocalityId,
+        },
+        { selected: false },
+      )
+    }
+
+    selectedLocalityId = feature.id
+    map.setFeatureState(
+      {
+        source: 'auckland-localities',
+        id: selectedLocalityId,
+      },
+      { selected: true },
+    )
+
+    const localityName =
+      feature.properties?.name ?? feature.properties?.major_name ?? 'Locality'
+    const isAucklandCentral = localityName === 'Auckland Central'
+
+    map.setLayoutProperty(
+      'living-map-area-fill',
+      'visibility',
+      isAucklandCentral ? 'visible' : 'none',
+    )
+    map.setLayoutProperty(
+      'living-map-area-outline',
+      'visibility',
+      isAucklandCentral ? 'visible' : 'none',
+    )
+
+    new maplibregl.Popup()
+      .setLngLat(event.lngLat)
+      .setHTML(
+        isAucklandCentral
+          ? `
+            <strong>${localityName}</strong>
+            <p>1 contained Site revealed</p>
+            <small>Select the Demonstration Site to inspect it.</small>
+          `
+          : `
+            <strong>${localityName}</strong>
+            <p>No demonstration Sites registered yet.</p>
+          `,
+      )
+      .addTo(map)
+  })
+
+  map.on('mouseenter', 'auckland-localities-fill', () => {
+    map.getCanvas().style.cursor = 'pointer'
+  })
+
+  map.on('mouseleave', 'auckland-localities-fill', () => {
+    map.getCanvas().style.cursor = ''
   })
 
   let selectedAreaId: string | number | undefined
