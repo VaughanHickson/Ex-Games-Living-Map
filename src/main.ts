@@ -2,6 +2,7 @@ import * as maplibregl from 'maplibre-gl'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import './style.css'
 import { firstLivingMapArea } from './areas'
+import { aucklandLocalitiesUrl } from './localities'
 
 const app = document.querySelector<HTMLDivElement>('#app')
 
@@ -30,6 +31,41 @@ map.addControl(
 )
 
 map.on('load', () => {
+  map.addSource('auckland-localities', {
+    type: 'geojson',
+    data: aucklandLocalitiesUrl,
+    attribution: 'NZ Suburbs and Localities © LINZ',
+  })
+
+  map.addLayer({
+    id: 'auckland-localities-fill',
+    type: 'fill',
+    source: 'auckland-localities',
+    paint: {
+      'fill-color': '#315f64',
+      'fill-opacity': 0.08,
+    },
+  })
+
+  map.addLayer({
+    id: 'auckland-localities-outline',
+    type: 'line',
+    source: 'auckland-localities',
+    paint: {
+      'line-color': '#315f64',
+      'line-opacity': 0.72,
+      'line-width': [
+        'interpolate',
+        ['linear'],
+        ['zoom'],
+        8,
+        0.5,
+        12,
+        1.5,
+      ],
+    },
+  })
+
   map.addSource('living-map-areas', {
     type: 'geojson',
     data: firstLivingMapArea,
