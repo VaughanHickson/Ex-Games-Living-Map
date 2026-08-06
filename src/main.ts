@@ -8,24 +8,13 @@ if (!app) {
   throw new Error('Living Map application root was not found.')
 }
 
-app.innerHTML = '<div id="map" aria-label="Ex Games Living Map"></div>'
+app.innerHTML = '<div id="map" aria-label="Interactive map of Auckland"></div>'
 
 new maplibregl.Map({
   container: 'map',
-  style: {
-    version: 8,
-    sources: {},
-    layers: [
-      {
-        id: 'background',
-        type: 'background',
-        paint: {
-          'background-color': '#101820',
-        },
-      },
-    ],
-  },
-  center: [0, 0],
-  zoom: 1,
-  attributionControl: false,
+  style: 'https://tiles.openfreemap.org/styles/liberty',
+  center: [174.7633, -36.8485],
+  zoom: 9.5,
+  bearing: 0,
+  pitch: 0,
 })
