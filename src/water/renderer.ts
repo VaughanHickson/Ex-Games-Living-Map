@@ -229,7 +229,7 @@ const sampleContinuousSurface = (
   )
 
   const mediumTeal = continuousNoise(
-    flow.x * 0.24 - 3.2,
+    flow.x * 0.52 - 3.2,
     flow.y * 0.28 + 4.1,
     flow.localTime * 0.31,
     11.7,
@@ -294,7 +294,22 @@ const sampleContinuousSurface = (
   const reflection =
     smoothStep((lightCarrier - 0.52) / 0.24) * 0.31
 
-  return mix(colour, mistWhite, reflection)
+  const sparkleSeed = hashValue(
+    Math.floor(x * 150),
+    Math.floor(y * 150),
+    83.4,
+  )
+
+  const staticSparkle =
+    sparkleSeed > 0.990
+      ? smoothStep((lightCarrier - 0.18) / 0.42) * 0.52
+      : 0
+
+  return mix(
+    mix(colour, mistWhite, reflection),
+    mistWhite,
+    staticSparkle,
+  )
 }
 
 let offscreen: HTMLCanvasElement | null = null
@@ -627,7 +642,7 @@ export const renderWaterTile = (
   for (let py = 0; py < rh; py += 1) {
     for (let px = 0; px < rw; px += 1) {
       const colour = sampleContinuousSurface(
-        { red: 85, green: 155, blue: 195 },
+        { red: 70, green: 140, blue: 185 },
         px / Math.max(1, rw - 1),
         py / Math.max(1, rh - 1),
         elapsedSeconds,
