@@ -104,7 +104,8 @@ map.on('load', () => {
       .setLngLat(event.lngLat)
       .setHTML(`
         <strong>${properties.name}</strong>
-        <p>${properties.territoryReference}</p>
+        <p>${properties.regionName} → ${properties.localityName}</p>
+        <p><small>${properties.hierarchyLabel}</small></p>
         <small>${properties.boundaryStatus}</small>
       `)
       .addTo(map)

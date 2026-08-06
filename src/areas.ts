@@ -3,12 +3,15 @@ export const firstLivingMapArea = {
   features: [
     {
       type: 'Feature' as const,
-      id: 'area-auckland-central-001',
+      id: 'area-auckland-central-site-001',
       properties: {
-        areaId: 'AREA-AKL-CENTRAL-001',
-        name: 'Auckland Central',
-        areaType: 'Demonstration territory',
-        territoryReference: 'Postcode 1010 prototype',
+        areaId: 'AREA-AKL-CENTRAL-SITE-001',
+        name: 'Demonstration Site',
+        areaType: 'SITE',
+        regionName: 'Auckland Region',
+        localityName: 'Auckland Central',
+        hierarchyLabel:
+          'Auckland Region → Auckland Central → Demonstration Site',
         boundaryStatus: 'Illustrative demonstration boundary',
       },
       geometry: {
