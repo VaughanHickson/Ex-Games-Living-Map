@@ -33,6 +33,7 @@ map.addControl(
 )
 
 let selectedLocalityId: string | number | undefined
+let hoveredLocalityId: string | number | undefined
 
 const hideDemonstrationSite = () => {
   map.setLayoutProperty('living-map-area-fill', 'visibility', 'none')
@@ -84,6 +85,16 @@ class AucklandRegionControl implements maplibregl.IControl {
         'visibility',
         visibility,
       )
+      controlMap.setLayoutProperty(
+        'auckland-localities-labels',
+        'visibility',
+        visibility,
+      )
+      controlMap.setLayoutProperty(
+        'auckland-localities-selected-label',
+        'visibility',
+        visibility,
+      )
 
       if (!this.localitiesRevealed) {
         if (selectedLocalityId !== undefined) {
@@ -95,6 +106,17 @@ class AucklandRegionControl implements maplibregl.IControl {
             { selected: false },
           )
           selectedLocalityId = undefined
+        }
+
+        if (hoveredLocalityId !== undefined) {
+          controlMap.setFeatureState(
+            {
+              source: 'auckland-localities',
+              id: hoveredLocalityId,
+            },
+            { hovered: false },
+          )
+          hoveredLocalityId = undefined
         }
 
         hideDemonstrationSite()
@@ -201,6 +223,110 @@ map.on('load', () => {
         0,
       ],
       'line-width': 3,
+    },
+  })
+
+  map.addLayer({
+    id: 'auckland-localities-labels',
+    type: 'symbol',
+    source: 'auckland-localities',
+    minzoom: 10.25,
+    layout: {
+      visibility: 'none',
+      'text-field': ['get', 'name'],
+      'text-font': ['Noto Sans Bold'],
+      'text-size': [
+        'interpolate',
+        ['linear'],
+        ['zoom'],
+        10.25,
+        10,
+        12,
+        13,
+        14,
+        16,
+      ],
+      'text-letter-spacing': 0.02,
+      'text-max-width': 8,
+      'text-padding': 22,
+      'text-allow-overlap': false,
+      'text-ignore-placement': false,
+      'text-optional': true,
+      'symbol-placement': 'point',
+    },
+    paint: {
+      'text-color': exGamesPalette.kauriDark,
+      'text-halo-color': exGamesPalette.mist,
+      'text-halo-width': 2,
+      'text-halo-blur': 0.4,
+      'text-opacity': [
+        'interpolate',
+        ['linear'],
+        ['zoom'],
+        10.25,
+        0.72,
+        12,
+        0.92,
+        14,
+        1,
+      ],
+    },
+  })
+
+  map.addLayer({
+    id: 'auckland-localities-selected-label',
+    type: 'symbol',
+    source: 'auckland-localities',
+    minzoom: 9,
+    layout: {
+      visibility: 'none',
+      'text-field': ['get', 'name'],
+      'text-font': ['Noto Sans Bold'],
+      'text-size': [
+        'interpolate',
+        ['linear'],
+        ['zoom'],
+        9,
+        12,
+        11,
+        15,
+        14,
+        19,
+      ],
+      'text-letter-spacing': 0.035,
+      'text-max-width': 9,
+      'text-allow-overlap': true,
+      'text-ignore-placement': true,
+      'symbol-placement': 'point',
+    },
+    paint: {
+      'text-color': [
+        'case',
+        [
+          'any',
+          ['boolean', ['feature-state', 'selected'], false],
+          ['boolean', ['feature-state', 'hovered'], false],
+        ],
+        exGamesPalette.kauriDark,
+        'rgba(0, 0, 0, 0)',
+      ],
+      'text-halo-color': [
+        'case',
+        ['boolean', ['feature-state', 'selected'], false],
+        exGamesPalette.leafLime,
+        exGamesPalette.mist,
+      ],
+      'text-halo-width': [
+        'case',
+        [
+          'any',
+          ['boolean', ['feature-state', 'selected'], false],
+          ['boolean', ['feature-state', 'hovered'], false],
+        ],
+        3,
+        0,
+      ],
+      'text-halo-blur': 0.45,
     },
   })
 
@@ -360,12 +486,51 @@ map.on('load', () => {
       .addTo(map)
   })
 
-  map.on('mouseenter', 'auckland-localities-fill', () => {
+  map.on('mousemove', 'auckland-localities-fill', (event) => {
     map.getCanvas().style.cursor = 'pointer'
+
+    const feature = event.features?.[0]
+
+    if (!feature || feature.id === undefined) {
+      return
+    }
+
+    if (
+      hoveredLocalityId !== undefined &&
+      hoveredLocalityId !== feature.id
+    ) {
+      map.setFeatureState(
+        {
+          source: 'auckland-localities',
+          id: hoveredLocalityId,
+        },
+        { hovered: false },
+      )
+    }
+
+    hoveredLocalityId = feature.id
+    map.setFeatureState(
+      {
+        source: 'auckland-localities',
+        id: hoveredLocalityId,
+      },
+      { hovered: true },
+    )
   })
 
   map.on('mouseleave', 'auckland-localities-fill', () => {
     map.getCanvas().style.cursor = ''
+
+    if (hoveredLocalityId !== undefined) {
+      map.setFeatureState(
+        {
+          source: 'auckland-localities',
+          id: hoveredLocalityId,
+        },
+        { hovered: false },
+      )
+      hoveredLocalityId = undefined
+    }
   })
 
   map.on('click', 'target-2050-candidate', (event) => {
