@@ -652,7 +652,15 @@ export const renderWaterTile = (
     }
   }
 
-  buffer.putImageData(image, 0, 0)
+  for (let y = 0; y < rh; y += 1) {
+  const a = (y * rw) * 4
+  const b = (y * rw + rw - 1) * 4
+  for (let c = 0; c < 3; c += 1) {
+    image.data[b + c] = image.data[a + c]
+  }
+}
+
+buffer.putImageData(image, 0, 0)
   context.clearRect(0, 0, width, height)
   context.drawImage(offscreen!, 0, 0, width, height)
 }
