@@ -88,3 +88,88 @@ body {
   color: var(--ex-leaf-lime);
   font-weight: 700;
 }
+
+.participant-panel {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: min(360px, calc(100vw - 40px));
+  max-height: calc(100vh - 40px);
+  overflow: auto;
+  z-index: 5;
+  padding: 18px;
+  background: rgba(245, 244, 236, 0.96);
+  border: 1px solid rgba(39, 57, 47, 0.25);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.16);
+  color: #27392f;
+}
+
+.participant-panel[hidden] { display: none; }
+.participant-panel h2 { margin: 4px 0; }
+.participant-panel p { margin: 0 0 14px; }
+.participant-search { width: 100%; padding: 10px; box-sizing: border-box; }
+.participant-list { display: grid; gap: 8px; margin-top: 12px; }
+
+.participant-card {
+  display: grid;
+  gap: 3px;
+  width: 100%;
+  padding: 12px;
+  text-align: left;
+  background: rgba(255,255,255,0.72);
+  border: 1px solid rgba(39,57,47,0.16);
+  cursor: pointer;
+}
+
+.participant-card strong { font-size: 15px; }
+.participant-card small { opacity: 0.65; }
+.participant-card span { font-size: 13px; line-height: 1.35; }
+
+.participant-card:hover {
+  background: rgba(255,255,255,0.95);
+}
+
+.participant-claim-strip {
+  margin: -18px -18px 14px;
+  padding: 8px 18px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  background: rgba(39,57,47,0.08);
+}
+
+.participant-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 12px 0 16px;
+}
+
+.participant-tags span {
+  padding: 4px 7px;
+  border: 1px solid rgba(39,57,47,0.18);
+  font-size: 11px;
+}
+
+.participant-claim-status {
+  margin-top: 5px;
+  font-style: normal;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  opacity: 0.72;
+}
+
+.participant-card:hover .participant-claim-status {
+  opacity: 1;
+}
+
+.participant-card:hover .participant-claim-status {
+  font-size: 0;
+}
+
+.participant-card:hover .participant-claim-status::after {
+  content: 'IS THIS YOU? · CLAIM PROFILE';
+  font-size: 10px;
+  letter-spacing: 0.06em;
+}

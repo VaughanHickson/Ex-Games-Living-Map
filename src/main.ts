@@ -5,6 +5,7 @@ import { firstLivingMapArea } from './areas'
 import { aucklandLocalitiesUrl } from './localities'
 import { exGamesBrand, exGamesPalette } from './brand'
 import { firstTarget2050Candidate } from './candidates'
+import { riverheadParticipants } from './participants'
 import { installLivingWater } from './water/worldWater'
 
 const app = document.querySelector<HTMLDivElement>('#app')
@@ -34,7 +35,52 @@ map.addControl(
 )
 
 let selectedLocalityId: string | number | undefined
+
+const participantPanel = document.createElement('aside')
+participantPanel.className = 'participant-panel'
+participantPanel.hidden = true
+
+app.appendChild(participantPanel)
 let hoveredLocalityId: string | number | undefined
+
+const showRiverheadParticipants = () => {
+  participantPanel.hidden = false
+  participantPanel.innerHTML = `
+    <div class="participant-panel__head">
+      <small>RIVERHEAD</small>
+      <h2>Participants</h2>
+      <p>${riverheadParticipants.length} currently on the map</p>
+      <input class="participant-search"
+        placeholder="Are you on the map?" />
+    </div>
+    <div class="participant-list">
+      ${riverheadParticipants.map((p) => `
+        <button class="participant-card" data-id="${p.id}">
+          <strong>${p.name}</strong>
+          <small>${p.type}</small>
+          <span>${p.summary}</span>
+          <em class="participant-claim-status">
+            ${p.profileClaimed ? 'PROFILE CLAIMED' : 'UNCLAIMED'}
+          </em>
+        </button>`).join('')}
+    </div>`
+}
+
+const showParticipant = (id: string) => {
+  const p = riverheadParticipants.find((item) => item.id === id)
+  if (!p) return
+
+  participantPanel.innerHTML = `
+    <button class="participant-back">← Riverhead participants</button>
+    <small>${p.type.toUpperCase()}</small>
+    <h2>${p.name}</h2>
+    <p>${p.relationship}</p>
+    <div class="participant-tags">
+      ${p.activities.map((a) => `<span>${a}</span>`).join('')}
+    </div>
+    ${p.detail ? `<p>${p.detail}</p>` : ''}
+  `
+}
 
 const hideDemonstrationSite = () => {
   map.setLayoutProperty('living-map-area-fill', 'visibility', 'none')
@@ -454,6 +500,13 @@ map.on('load', () => {
       feature.properties?.name ?? feature.properties?.major_name ?? 'Locality'
     const revealsDemonstrationSite = localityName === 'Auckland Central'
     const revealsTarget2050Candidate = localityName === 'Manurewa'
+    const revealsRiverheadParticipants = localityName === 'Riverhead'
+
+    participantPanel.hidden = !revealsRiverheadParticipants
+
+    if (revealsRiverheadParticipants) {
+      showRiverheadParticipants()
+    }
 
     map.setLayoutProperty(
       'living-map-area-fill',
@@ -470,6 +523,10 @@ map.on('load', () => {
       'visibility',
       revealsTarget2050Candidate ? 'visible' : 'none',
     )
+
+    if (revealsRiverheadParticipants) {
+      return
+    }
 
     new maplibregl.Popup({ className: 'ex-games-popup' })
       .setLngLat(event.lngLat)
@@ -645,4 +702,18 @@ map.on('load', () => {
   map.on('mouseleave', 'living-map-area-fill', () => {
     map.getCanvas().style.cursor = ''
   })
+})
+
+participantPanel.addEventListener('click', (event) => {
+  const target = event.target as HTMLElement
+
+  const card = target.closest<HTMLElement>('.participant-card')
+  if (card?.dataset.id) {
+    showParticipant(card.dataset.id)
+    return
+  }
+
+  if (target.closest('.participant-back')) {
+    showRiverheadParticipants()
+  }
 })
