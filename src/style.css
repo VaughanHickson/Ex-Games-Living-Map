@@ -201,3 +201,20 @@ body {
 .participant-card:hover .participant-claim-status--claimed::after {
   content: none;
 }
+
+.verification-or {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.verification-or::before,
+.verification-or::after {
+  content: '';
+  flex: 1;
+  border-top: 1px solid currentColor;
+  opacity: 0.3;
+}

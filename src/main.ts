@@ -44,6 +44,8 @@ app.appendChild(participantPanel)
 let hoveredLocalityId: string | number | undefined
 const claimedParticipants = new Set<string>()
 const participantEdits = new Map<string, Record<string, string>>()
+const verificationContacts = new Map<string, { email?: string; mobile?: string }>()
+const verificationTargets = new Map<string, string>()
 
 const getParticipant = (id: string) => {
   const base = riverheadParticipants.find((item) => item.id === id)
@@ -100,6 +102,48 @@ const showParticipant = (id: string) => {
     <small>Change, add or remove anything before continuing.</small>
     <button class="participant-profile-action" data-id="${p.id}">${p.profileClaimed || claimedParticipants.has(p.id) ? 'Save updates' : 'Claim profile'}</button>
   `
+}
+
+const showVerification = (id: string) => {
+const p = getParticipant(id)
+if (!p) return
+participantPanel.innerHTML = `
+<button class="verification-back" data-id="${p.id}" data-stage="contact">← Back</button>
+<small>CLAIM PENDING</small>
+<h2>Verify your claim</h2>
+<p>${p.name}</p>
+<p>Choose email or mobile to verify your claim.</p>
+<label>Email<input name="verify-email" type="email"></label>
+<div class="verification-or">OR</div>
+<label>Mobile<input name="verify-mobile" type="tel"></label>
+<button class="participant-verify" data-id="${p.id}">Send verification code</button>
+`
+}
+
+const showVerificationMethod = (id: string) => {
+const c = verificationContacts.get(id)
+if (!c) return
+participantPanel.innerHTML = `
+<button class="verification-back" data-id="${id}" data-stage="method">← Back</button>
+<small>CLAIM PENDING</small>
+<h2>Choose verification method</h2>
+${c.email ? `<button class="verify-method" data-id="${id}" data-method="email">Email · ${c.email}</button>` : ''}
+${c.mobile ? `<button class="verify-method" data-id="${id}" data-method="mobile">SMS · ${c.mobile}</button>` : ''}
+`
+}
+
+const showVerificationCode = (id: string) => {
+const p = getParticipant(id)
+if (!p) return
+participantPanel.innerHTML = `
+<button class="verification-back" data-id="${p.id}" data-stage="code">← Back</button>
+<small>CLAIM PENDING</small>
+<h2>Enter verification code</h2>
+<p>${p.name}</p>
+<p>Verification code sent to ${verificationTargets.get(id) ?? 'your chosen contact method'}.</p>
+<label>Verification code<input name="verification-code" inputmode="numeric"></label>
+<button class="participant-confirm-verify" data-id="${p.id}">Verify code</button>
+`
 }
 
 const showClaimedParticipant = (id: string) => {
@@ -747,8 +791,38 @@ const fields = participantPanel.querySelectorAll<HTMLInputElement | HTMLTextArea
 const edits: Record<string, string> = {}
 fields.forEach((field) => { edits[field.name] = field.value })
 participantEdits.set(action.dataset.id, edits)
-claimedParticipants.add(action.dataset.id)
+if (claimedParticipants.has(action.dataset.id)) {
 showClaimedParticipant(action.dataset.id)
+} else {
+showVerification(action.dataset.id)
+}
+return
+}
+const verify = target.closest<HTMLElement>('.participant-verify')
+if (verify?.dataset.id) {
+const email = participantPanel.querySelector<HTMLInputElement>('[name="verify-email"]')?.value.trim()
+const mobile = participantPanel.querySelector<HTMLInputElement>('[name="verify-mobile"]')?.value.trim()
+if (!email && !mobile) {
+alert('Please enter an email address or mobile number.')
+return
+}
+verificationContacts.set(verify.dataset.id, { email, mobile })
+if (email && mobile) showVerificationMethod(verify.dataset.id)
+else {
+verificationTargets.set(verify.dataset.id, email || mobile || '')
+showVerificationCode(verify.dataset.id)
+}
+return
+}
+const back = target.closest<HTMLElement>('.verification-back')
+if (back?.dataset.id) {
+const id = back.dataset.id
+if (back.dataset.stage === 'contact') showParticipant(id)
+else if (back.dataset.stage === 'method') showVerification(id)
+else {
+const c = verificationContacts.get(id)
+c?.email && c?.mobile ? showVerificationMethod(id) : showVerification(id)
+}
 return
 }
 const update = target.closest<HTMLElement>('.participant-update')
