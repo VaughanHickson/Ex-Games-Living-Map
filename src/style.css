@@ -121,6 +121,10 @@ body {
   cursor: pointer;
 }
 
+.participant-card[hidden] {
+display: none;
+}
+
 .participant-card strong { font-size: 15px; }
 .participant-card small { opacity: 0.65; }
 .participant-card span { font-size: 13px; line-height: 1.35; }

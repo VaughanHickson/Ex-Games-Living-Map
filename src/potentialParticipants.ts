@@ -22,7 +22,7 @@ export const potentialParticipants: readonly PotentialParticipant[] =
   }))
 
 export const loadPotentialParticipants = async () => {
-  const response = await fetch('/api/participants?locality=Riverhead')
+  const response = await fetch('/data/potential-participants.json')
 
   if (!response.ok) {
     throw new Error(

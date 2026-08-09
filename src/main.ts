@@ -800,6 +800,21 @@ map.on('load', () => {
   })
 })
 
+participantPanel.addEventListener('input', (event) => {
+  const target = event.target as HTMLInputElement
+
+  if (!target.matches('.participant-search')) return
+
+  const query = target.value.trim().toLowerCase()
+
+  participantPanel
+    .querySelectorAll<HTMLElement>('.participant-card')
+    .forEach((card) => {
+      const haystack = card.textContent?.toLowerCase() ?? ''
+      card.hidden = query.length > 0 && !haystack.includes(query)
+    })
+})
+
 participantPanel.addEventListener('click', (event) => {
 const target = event.target as HTMLElement
 
