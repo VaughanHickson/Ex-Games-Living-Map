@@ -42,6 +42,15 @@ participantPanel.hidden = true
 
 app.appendChild(participantPanel)
 let hoveredLocalityId: string | number | undefined
+const claimedParticipants = new Set<string>()
+const participantEdits = new Map<string, Record<string, string>>()
+
+const getParticipant = (id: string) => {
+  const base = riverheadParticipants.find((item) => item.id === id)
+  if (!base) return undefined
+  const edits = participantEdits.get(id)
+  return edits ? { ...base, ...edits, activities: edits.activities?.split(',').map((v) => v.trim()).filter(Boolean) ?? base.activities } : base
+}
 
 const showRiverheadParticipants = () => {
   participantPanel.hidden = false
@@ -52,6 +61,10 @@ const showRiverheadParticipants = () => {
       <p>${riverheadParticipants.length} currently on the map</p>
       <input class="participant-search"
         placeholder="Are you on the map?" />
+       <div class="participant-actions">
+         <button class="participant-action">Add yourself / your organisation</button>
+         <button class="participant-action">Remove my listing</button>
+       </div>
     </div>
     <div class="participant-list">
       ${riverheadParticipants.map((p) => `
@@ -59,26 +72,48 @@ const showRiverheadParticipants = () => {
           <strong>${p.name}</strong>
           <small>${p.type}</small>
           <span>${p.summary}</span>
-          <em class="participant-claim-status">
-            ${p.profileClaimed ? 'PROFILE CLAIMED' : 'UNCLAIMED'}
+          <em class="participant-claim-status ${p.profileClaimed || claimedParticipants.has(p.id)
+? 'participant-claim-status--claimed' : ''}">
+            ${p.profileClaimed || claimedParticipants.has(p.id)
+? 'PROFILE CLAIMED · UPDATE PROFILE'
+: 'IS THIS YOU? · CLAIM PROFILE'}
           </em>
         </button>`).join('')}
     </div>`
 }
 
 const showParticipant = (id: string) => {
-  const p = riverheadParticipants.find((item) => item.id === id)
+  const p = getParticipant(id)
   if (!p) return
 
   participantPanel.innerHTML = `
     <button class="participant-back">← Riverhead participants</button>
     <small>${p.type.toUpperCase()}</small>
     <h2>${p.name}</h2>
+    <p>Review and adjust your information before claiming this profile.</p>
+    <label>Name<input name="name" value="${p.name}"></label>
+    <label>Relationship<textarea name="relationship">${p.relationship}</textarea></label>
+    <label>Summary<textarea name="summary">${p.summary}</textarea></label>
+    <label>Activities<input name="activities" value="${p.activities.join(', ')}"></label>
+    <label>Detail<textarea name="detail">${p.detail ?? ''}</textarea></label>
+<label>Website<input name="website" value="${p.website ?? ''}"></label>
+    <small>Change, add or remove anything before continuing.</small>
+    <button class="participant-profile-action" data-id="${p.id}">${p.profileClaimed || claimedParticipants.has(p.id) ? 'Save updates' : 'Claim profile'}</button>
+  `
+}
+
+const showClaimedParticipant = (id: string) => {
+  const p = getParticipant(id)
+  if (!p) return
+  participantPanel.innerHTML = `
+    <button class="participant-back">← Riverhead participants</button>
+    <small>${p.type.toUpperCase()}</small>
+    <h2>${p.name}</h2>
     <p>${p.relationship}</p>
-    <div class="participant-tags">
-      ${p.activities.map((a) => `<span>${a}</span>`).join('')}
-    </div>
+    <div class="participant-tags">${p.activities.map((a) => `<span>${a}</span>`).join('')}</div>
     ${p.detail ? `<p>${p.detail}</p>` : ''}
+    ${p.website ? `<p>${p.website}</p>` : ''}
+    <button class="participant-update" data-id="${p.id}">Update my details</button>
   `
 }
 
@@ -705,15 +740,28 @@ map.on('load', () => {
 })
 
 participantPanel.addEventListener('click', (event) => {
-  const target = event.target as HTMLElement
-
-  const card = target.closest<HTMLElement>('.participant-card')
-  if (card?.dataset.id) {
-    showParticipant(card.dataset.id)
-    return
-  }
-
-  if (target.closest('.participant-back')) {
-    showRiverheadParticipants()
-  }
+const target = event.target as HTMLElement
+const action = target.closest<HTMLElement>('.participant-profile-action')
+if (action?.dataset.id) {
+const fields = participantPanel.querySelectorAll<HTMLInputElement | HTMLTextAreaElement>('[name]')
+const edits: Record<string, string> = {}
+fields.forEach((field) => { edits[field.name] = field.value })
+participantEdits.set(action.dataset.id, edits)
+claimedParticipants.add(action.dataset.id)
+showClaimedParticipant(action.dataset.id)
+return
+}
+const update = target.closest<HTMLElement>('.participant-update')
+if (update?.dataset.id) {
+showParticipant(update.dataset.id)
+return
+}
+const card = target.closest<HTMLElement>('.participant-card')
+if (card?.dataset.id) {
+claimedParticipants.has(card.dataset.id)
+? showClaimedParticipant(card.dataset.id)
+: showParticipant(card.dataset.id)
+return
+}
+if (target.closest('.participant-back')) showRiverheadParticipants()
 })

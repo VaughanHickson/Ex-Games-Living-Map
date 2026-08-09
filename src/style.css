@@ -173,3 +173,31 @@ body {
   font-size: 10px;
   letter-spacing: 0.06em;
 }
+
+.participant-panel label {
+  display: block;
+  margin: 12px 0;
+}
+
+.participant-panel label input,
+.participant-panel label textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 4px;
+  padding: 9px;
+  font: inherit;
+}
+
+.participant-panel label textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.participant-card:hover .participant-claim-status--claimed {
+  font-size: 10px;
+}
+
+.participant-card:hover .participant-claim-status--claimed::after {
+  content: none;
+}
