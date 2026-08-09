@@ -4,3 +4,6 @@ search:
   formats:
     - html
     - json
+
+server:
+  secret_key: "ex-games-searxng-2026-change-this"
