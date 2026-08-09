@@ -42,6 +42,7 @@ participantPanel.hidden = true
 
 app.appendChild(participantPanel)
 let hoveredLocalityId: string | number | undefined
+let activeParticipantLocality: string | undefined
 const claimedParticipants = new Set<string>()
 const participantEdits = new Map<string, Record<string, string>>()
 const verificationContacts = new Map<string, { email?: string; mobile?: string }>()
@@ -54,13 +55,17 @@ const getParticipant = (id: string) => {
   return edits ? { ...base, ...edits, activities: edits.activities?.split(',').map((v) => v.trim()).filter(Boolean) ?? base.activities } : base
 }
 
-const showRiverheadParticipants = () => {
+const showParticipants = (localityName: string) => {
+  const participants = riverheadParticipants.filter(
+    (item) => item.locality === localityName,
+  )
+  activeParticipantLocality = localityName
   participantPanel.hidden = false
   participantPanel.innerHTML = `
     <div class="participant-panel__head">
-      <small>RIVERHEAD</small>
+      <small>${localityName.toUpperCase()}</small>
       <h2>Participants</h2>
-      <p>${riverheadParticipants.length} currently on the map</p>
+      <p>${participants.length} currently on the map</p>
       <input class="participant-search"
         placeholder="Are you on the map?" />
        <div class="participant-actions">
@@ -69,7 +74,7 @@ const showRiverheadParticipants = () => {
        </div>
     </div>
     <div class="participant-list">
-      ${riverheadParticipants.map((p) => `
+      ${participants.map((p) => `
         <button class="participant-card" data-id="${p.id}">
           <strong>${p.name}</strong>
           <small>${p.type}</small>
@@ -579,12 +584,14 @@ map.on('load', () => {
       feature.properties?.name ?? feature.properties?.major_name ?? 'Locality'
     const revealsDemonstrationSite = localityName === 'Auckland Central'
     const revealsTarget2050Candidate = localityName === 'Manurewa'
-    const revealsRiverheadParticipants = localityName === 'Riverhead'
+    const revealsParticipants = riverheadParticipants.some(
+  (participant) => participant.locality === localityName,
+)
 
-    participantPanel.hidden = !revealsRiverheadParticipants
+    participantPanel.hidden = !revealsParticipants
 
-    if (revealsRiverheadParticipants) {
-      showRiverheadParticipants()
+    if (revealsParticipants) {
+      showParticipants(localityName)
     }
 
     map.setLayoutProperty(
@@ -603,7 +610,7 @@ map.on('load', () => {
       revealsTarget2050Candidate ? 'visible' : 'none',
     )
 
-    if (revealsRiverheadParticipants) {
+    if (revealsParticipants) {
       return
     }
 
@@ -837,5 +844,7 @@ claimedParticipants.has(card.dataset.id)
 : showParticipant(card.dataset.id)
 return
 }
-if (target.closest('.participant-back')) showRiverheadParticipants()
+if (target.closest('.participant-back') && activeParticipantLocality) {
+  showParticipants(activeParticipantLocality)
+}
 })
