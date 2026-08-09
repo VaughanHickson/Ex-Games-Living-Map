@@ -6,6 +6,7 @@ import { aucklandLocalitiesUrl } from './localities'
 import { exGamesBrand, exGamesPalette } from './brand'
 import { firstTarget2050Candidate } from './candidates'
 import { riverheadParticipants } from './participants'
+import { potentialParticipants } from './potentialParticipants'
 import { installLivingWater } from './water/worldWater'
 
 const app = document.querySelector<HTMLDivElement>('#app')
@@ -584,7 +585,7 @@ map.on('load', () => {
       feature.properties?.name ?? feature.properties?.major_name ?? 'Locality'
     const revealsDemonstrationSite = localityName === 'Auckland Central'
     const revealsTarget2050Candidate = localityName === 'Manurewa'
-    const revealsParticipants = riverheadParticipants.some(
+    const revealsParticipants = potentialParticipants.some(
   (participant) => participant.locality === localityName,
 )
 
