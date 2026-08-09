@@ -1,8 +1,10 @@
 import { bunnyParticipantDiscovery } from './bunnyParticipantDiscovery.ts'
 
-globalThis.Deno = {
-  env: { get: () => 'http:' + '//search.test' },
-} as typeof Deno
+Object.assign(globalThis, {
+  Deno: {
+    env: { get: () => 'http:' + '//search.test' },
+  },
+})
 
 globalThis.fetch = async () => Response.json({
   results: [

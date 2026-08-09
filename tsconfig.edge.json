@@ -6,7 +6,10 @@
     "noUnusedParameters": true
   },
   "include": [
-    "edge/**/*.ts",
+    "edge/bunnyParticipantDiscovery.ts",
+    "edge/participantApiHandler.ts",
+    "edge/searxngSearch.ts",
+    "edge/searxngTypes.ts",
     "shared/**/*.ts"
   ]
 }
