@@ -34,7 +34,7 @@ body {
   border: 1px solid rgb(232 239 231 / 45%) !important;
   background:
     linear-gradient(rgb(23 37 28 / 88%), rgb(23 37 28 / 88%)),
-    url('/brand/ex-games-master-image.png') center / cover !important;
+    url('/brand/ex-games-web-master-image.png') center / cover !important;
   color: var(--ex-mist);
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -44,14 +44,14 @@ body {
 .ex-games-region-control:hover {
   background:
     linear-gradient(rgb(47 111 62 / 86%), rgb(47 111 62 / 86%)),
-    url('/brand/ex-games-master-image.png') center / cover !important;
+    url('/brand/ex-games-web-master-image.png') center / cover !important;
 }
 
 .ex-games-region-control[aria-pressed='true'] {
   color: var(--ex-kauri-dark);
   background:
     linear-gradient(rgb(127 166 80 / 88%), rgb(127 166 80 / 88%)),
-    url('/brand/ex-games-master-image.png') center / cover !important;
+    url('/brand/ex-games-web-master-image.png') center / cover !important;
 }
 
 .ex-games-popup .maplibregl-popup-content {
@@ -75,7 +75,7 @@ body {
   border-radius: 7px 7px 0 0;
   background:
     linear-gradient(rgb(23 37 28 / 84%), rgb(23 37 28 / 84%)),
-    url('/brand/ex-games-master-image.png') center / cover;
+    url('/brand/ex-games-web-master-image.png') center / cover;
   color: var(--ex-mist);
 }
 

@@ -11,5 +11,5 @@ export const exGamesBrand = {
   name: 'NZ EX GAME(S)',
   mission: 'The Race to 2050',
   purpose: 'Protect Our Land. Restore Our Future.',
-  masterImagePath: '/brand/ex-games-master-image.png',
+  masterImagePath: '/brand/ex-games-web-master-image.png',
 } as const
