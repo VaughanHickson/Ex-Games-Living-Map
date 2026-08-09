@@ -810,7 +810,9 @@ participantPanel.addEventListener('input', (event) => {
   participantPanel
     .querySelectorAll<HTMLElement>('.participant-card')
     .forEach((card) => {
-      const haystack = card.textContent?.toLowerCase() ?? ''
+      const cardText = card.textContent?.toLowerCase() ?? ''
+      const localityText = activeParticipantLocality?.toLowerCase() ?? ''
+      const haystack = `${cardText} ${localityText}`
       card.hidden = query.length > 0 && !haystack.includes(query)
     })
 })
