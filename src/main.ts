@@ -6,7 +6,10 @@ import { aucklandLocalitiesUrl } from './localities'
 import { exGamesBrand, exGamesPalette } from './brand'
 import { firstTarget2050Candidate } from './candidates'
 import { riverheadParticipants } from './participants'
-import { potentialParticipants } from './potentialParticipants'
+import {
+  potentialParticipants,
+  loadPotentialParticipants,
+} from './potentialParticipants'
 import { installLivingWater } from './water/worldWater'
 
 const app = document.querySelector<HTMLDivElement>('#app')
@@ -44,6 +47,15 @@ participantPanel.hidden = true
 app.appendChild(participantPanel)
 let hoveredLocalityId: string | number | undefined
 let activeParticipantLocality: string | undefined
+let discoveredParticipants = [...potentialParticipants]
+
+loadPotentialParticipants()
+  .then((participants) => {
+    discoveredParticipants = participants
+  })
+  .catch((error) => {
+    console.warn('Using fallback participant discovery data.', error)
+  })
 const claimedParticipants = new Set<string>()
 const participantEdits = new Map<string, Record<string, string>>()
 const verificationContacts = new Map<string, { email?: string; mobile?: string }>()
@@ -57,7 +69,7 @@ const getParticipant = (id: string) => {
 }
 
 const showParticipants = (localityName: string) => {
-  const participants = riverheadParticipants.filter(
+  const participants = discoveredParticipants.filter(
     (item) => item.locality === localityName,
   )
   activeParticipantLocality = localityName
@@ -76,18 +88,15 @@ const showParticipants = (localityName: string) => {
     </div>
     <div class="participant-list">
       ${participants.map((p) => `
-        <button class="participant-card" data-id="${p.id}">
-          <strong>${p.name}</strong>
-          <small>${p.type}</small>
-          <span>${p.summary}</span>
-          <em class="participant-claim-status ${p.profileClaimed || claimedParticipants.has(p.id)
-? 'participant-claim-status--claimed' : ''}">
-            ${p.profileClaimed || claimedParticipants.has(p.id)
-? 'PROFILE CLAIMED · UPDATE PROFILE'
-: 'IS THIS YOU? · CLAIM PROFILE'}
-          </em>
-        </button>`).join('')}
-    </div>`
+<button class="participant-card" data-id="${p.id}">
+  <strong>${p.name}</strong>
+  <small>${p.type}</small>
+  <em class="participant-claim-status">
+    IS THIS YOU? · CLAIM PROFILE
+  </em>
+</button>`).join('')}
+    </div>
+    <button class="participant-close">Close</button>`
 }
 
 const showParticipant = (id: string) => {
@@ -585,7 +594,7 @@ map.on('load', () => {
       feature.properties?.name ?? feature.properties?.major_name ?? 'Locality'
     const revealsDemonstrationSite = localityName === 'Auckland Central'
     const revealsTarget2050Candidate = localityName === 'Manurewa'
-    const revealsParticipants = potentialParticipants.some(
+    const revealsParticipants = discoveredParticipants.some(
   (participant) => participant.locality === localityName,
 )
 
@@ -793,6 +802,12 @@ map.on('load', () => {
 
 participantPanel.addEventListener('click', (event) => {
 const target = event.target as HTMLElement
+
+if (target.closest('.participant-close')) {
+  participantPanel.hidden = true
+  activeParticipantLocality = undefined
+  return
+}
 const action = target.closest<HTMLElement>('.participant-profile-action')
 if (action?.dataset.id) {
 const fields = participantPanel.querySelectorAll<HTMLInputElement | HTMLTextAreaElement>('[name]')
