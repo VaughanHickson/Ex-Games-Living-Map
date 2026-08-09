@@ -1,6 +1,5 @@
 import { defineConfig } from 'vite'
-import { readFile } from 'node:fs/promises'
-import { participantsForLocality } from './shared/participantDiscovery.ts'
+import { cachedParticipantDiscovery } from './dev/cachedParticipantDiscovery.ts'
 
 export default defineConfig({
   optimizeDeps: { exclude: ['maplibre-gl'] },
@@ -10,14 +9,8 @@ export default defineConfig({
       server.middlewares.use('/api/participants', async (req, res) => {
         const url = new URL(req.url ?? '', 'http:' + '//localhost')
         const locality = url.searchParams.get('locality') ?? ''
-        const raw = await readFile(
-          'public/data/potential-participants.json', 'utf8'
-        )
-        const all = JSON.parse(raw)
-        const matches = participantsForLocality(
-          all,
-          locality,
-        )
+        const matches =
+          await cachedParticipantDiscovery.discover({ locality })
         res.setHeader('Content-Type', 'application/json')
         res.end(JSON.stringify(matches))
       })
