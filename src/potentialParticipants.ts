@@ -22,7 +22,7 @@ export const potentialParticipants: readonly PotentialParticipant[] =
   }))
 
 export const loadPotentialParticipants = async () => {
-  const response = await fetch('/data/potential-participants.json')
+  const response = await fetch('https://mc-buom3p4wv3.bunny.run/api/participants?locality=Riverhead')
 
   if (!response.ok) {
     throw new Error(

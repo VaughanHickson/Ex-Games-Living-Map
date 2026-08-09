@@ -12,6 +12,7 @@ export const handleParticipantRequest = async (
   return Response.json(participants, {
     headers: {
       'Cache-Control': 'public, max-age=300',
+      'Access-Control-Allow-Origin': 'https://ex-games-living-map.b-cdn.net',
     },
   })
 }
