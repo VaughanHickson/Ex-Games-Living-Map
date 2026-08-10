@@ -4,6 +4,8 @@ import type {
 import { searchSearxng } from './searxngSearch.ts'
 import { qualifiesParticipantResult } from './qualifyParticipantResult.ts'
 import { toParticipantEvidence } from './participantEvidence.ts'
+import { scoreParticipantEvidence } from './scoreParticipantEvidence.ts'
+import { groupParticipantEvidence } from './groupParticipantEvidence.ts'
 
 const slugify = (value: string) =>
   value.toLowerCase().replace(/[^a-z0-9]+/g, '-')
@@ -13,11 +15,11 @@ export const bunnyParticipantDiscovery:
   ParticipantDiscoveryAdapter = {
   async discover({ locality }) {
     const queries = [
-      `${locality} community association`,
-      `${locality} school`,
-      `${locality} conservation trust`,
-      `${locality} business organisation`,
-      `${locality} community group`,
+      `${locality} pest control`,
+      `${locality} predator control`,
+      `${locality} conservation`,
+      `${locality} biodiversity restoration`,
+      `${locality} environmental trust`,
     ]
 
     const batches = await Promise.all(
@@ -38,13 +40,21 @@ export const bunnyParticipantDiscovery:
       toParticipantEvidence(result.title!, result.url!, result.content),
     )
 
-    return evidence.slice(0, 10).map((item) => ({
-      id: slugify(item.title),
-      name: item.title,
+    const rankedEvidence = evidence
+      .map((item) => ({ item, score: scoreParticipantEvidence(locality, item) }))
+      .filter(({ score }) => score > 0)
+      .sort((a, b) => b.score - a.score)
+      .map(({ item }) => item)
+
+    const candidates = groupParticipantEvidence(locality, rankedEvidence)
+
+    return candidates.slice(0, 10).map((candidate) => ({
+      id: slugify(candidate.name),
+      name: candidate.name,
       locality,
       type: 'Potential participant',
-      sourceUrl: item.url,
-      sourceUrls: [item.url],
+      sourceUrl: candidate.evidence[0].url,
+      sourceUrls: candidate.evidence.map((item) => item.url),
       status: 'potential',
     }))
   },

@@ -22,6 +22,8 @@ export const scoreParticipantEvidence = (
     '.pdf', '/media/', '/docs/', '/document', '/attachment',
     '/notice/', '/consultation/', '/posts/', '/videos/',
     'report', 'strategy', 'work programme', 'response id',
+    'retail for lease', 'for lease', 'breaks ranks',
+    'state highway', 'sh16 brigham creek',
   ]) if (url.includes(cue) || text.includes(cue)) score -= 5
 
   return score
