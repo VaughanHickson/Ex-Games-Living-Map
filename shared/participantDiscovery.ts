@@ -1,3 +1,5 @@
+import type { ParticipantEvaluation } from './participantEvaluation.ts'
+
 export interface PotentialParticipant {
   id: string
   name: string
@@ -6,6 +8,7 @@ export interface PotentialParticipant {
   website?: string
   sourceUrl?: string
   sourceUrls?: readonly string[]
+  evaluation?: ParticipantEvaluation
   status: 'potential'
 }
 
