@@ -12,9 +12,18 @@ const slugify = (value: string) =>
 export const bunnyParticipantDiscovery:
   ParticipantDiscoveryAdapter = {
   async discover({ locality }) {
-    const results = await searchSearxng(
-      `${locality} Auckland organisation community business conservation`
+    const queries = [
+      `${locality} community association`,
+      `${locality} school`,
+      `${locality} conservation trust`,
+      `${locality} business organisation`,
+      `${locality} community group`,
+    ]
+
+    const batches = await Promise.all(
+      queries.map((query) => searchSearxng(query)),
     )
+    const results = batches.flat()
 
     const seen = new Set<string>()
     const usable = results.filter((result) => {
