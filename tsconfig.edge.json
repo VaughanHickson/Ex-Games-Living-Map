@@ -8,7 +8,6 @@
   "include": [
     "edge/bunnyParticipantDiscovery.ts",
     "edge/openAiParticipantEvaluator.ts",
-    "edge/participantEvaluatorCheck.ts",
     "edge/participantApiHandler.ts",
     "edge/searxngSearch.ts",
     "edge/searxngTypes.ts",
