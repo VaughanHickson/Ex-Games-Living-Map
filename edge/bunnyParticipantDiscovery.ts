@@ -7,10 +7,28 @@ import { toParticipantEvidence } from './participantEvidence.ts'
 import { scoreParticipantEvidence } from './scoreParticipantEvidence.ts'
 import { groupParticipantEvidence } from './groupParticipantEvidence.ts'
 import { isEligibleParticipantEntity } from './isEligibleParticipantEntity.ts'
+import { openAiParticipantEvaluator } from './openAiParticipantEvaluator.ts'
+import type { ParticipantEvaluation } from '../shared/participantEvaluation.ts'
+import type { ParticipantEntityCandidate } from './participantEntityCandidate.ts'
 
 const slugify = (value: string) =>
   value.toLowerCase().replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '')
+
+const formatParticipant = (
+  candidate: ParticipantEntityCandidate,
+  locality: string,
+  evaluation?: ParticipantEvaluation,
+) => ({
+  id: slugify(candidate.name),
+  name: candidate.name,
+  locality,
+  type: 'Potential participant',
+  sourceUrl: candidate.evidence[0].url,
+  sourceUrls: candidate.evidence.map((item) => item.url),
+  status: 'potential' as const,
+  evaluation,
+})
 
 export const bunnyParticipantDiscovery:
   ParticipantDiscoveryAdapter = {
@@ -49,15 +67,27 @@ export const bunnyParticipantDiscovery:
 
     const candidates = groupParticipantEvidence(locality, rankedEvidence)
       .filter(isEligibleParticipantEntity)
+      .slice(0, 10)
 
-    return candidates.slice(0, 10).map((candidate) => ({
-      id: slugify(candidate.name),
-      name: candidate.name,
-      locality,
-      type: 'Potential participant',
-      sourceUrl: candidate.evidence[0].url,
-      sourceUrls: candidate.evidence.map((item) => item.url),
-      status: 'potential',
-    }))
+    try {
+      const judged = await Promise.all(
+        candidates.map(async (candidate) => ({
+          candidate,
+          evaluation: await openAiParticipantEvaluator.evaluate(candidate),
+        })),
+      )
+
+      return judged
+        .filter(({ evaluation }) => evaluation.eligible)
+        .sort((a, b) => b.evaluation.score - a.evaluation.score)
+        .map(({ candidate, evaluation }) =>
+          formatParticipant(candidate, locality, evaluation)
+        )
+    } catch (error) {
+      console.warn('Participant evaluator unavailable.', error)
+      return candidates.map((candidate) =>
+        formatParticipant(candidate, locality)
+      )
+    }
   },
 }
