@@ -49,13 +49,6 @@ let hoveredLocalityId: string | number | undefined
 let activeParticipantLocality: string | undefined
 let discoveredParticipants = [...potentialParticipants]
 
-loadPotentialParticipants()
-  .then((participants) => {
-    discoveredParticipants = participants
-  })
-  .catch((error) => {
-    console.warn('Using fallback participant discovery data.', error)
-  })
 const claimedParticipants = new Set<string>()
 const participantEdits = new Map<string, Record<string, string>>()
 const verificationContacts = new Map<string, { email?: string; mobile?: string }>()
@@ -126,7 +119,7 @@ const showParticipant = (id: string) => {
   if (!p) return
 
   participantPanel.innerHTML = `
-    <button class="participant-back">← Riverhead participants</button>
+    <button class="participant-back">← ${activeParticipantLocality ?? p.locality} participants</button>
     <small>${p.type.toUpperCase()}</small>
     <h2>${p.name}</h2>
     <p>Review and adjust your information before claiming this profile.</p>
@@ -187,7 +180,7 @@ const showClaimedParticipant = (id: string) => {
   const p = getParticipant(id)
   if (!p) return
   participantPanel.innerHTML = `
-    <button class="participant-back">← Riverhead participants</button>
+    <button class="participant-back">← ${activeParticipantLocality ?? p.locality} participants</button>
     <small>${p.type.toUpperCase()}</small>
     <h2>${p.name}</h2>
     <p>${p.relationship}</p>
@@ -616,15 +609,17 @@ map.on('load', () => {
       feature.properties?.name ?? feature.properties?.major_name ?? 'Locality'
     const revealsDemonstrationSite = localityName === 'Auckland Central'
     const revealsTarget2050Candidate = localityName === 'Manurewa'
-    const revealsParticipants = discoveredParticipants.some(
-  (participant) => participant.locality === localityName,
-)
+    activeParticipantLocality = localityName
+    participantPanel.hidden = false
 
-    participantPanel.hidden = !revealsParticipants
-
-    if (revealsParticipants) {
-      showParticipants(localityName)
-    }
+    loadPotentialParticipants(localityName)
+      .then((participants) => {
+        discoveredParticipants = participants
+        showParticipants(localityName)
+      })
+      .catch((error) => {
+        console.warn(`Participant discovery failed for ${localityName}.`, error)
+      })
 
     map.setLayoutProperty(
       'living-map-area-fill',
@@ -642,9 +637,6 @@ map.on('load', () => {
       revealsTarget2050Candidate ? 'visible' : 'none',
     )
 
-    if (revealsParticipants) {
-      return
-    }
 
     new maplibregl.Popup({ className: 'ex-games-popup' })
       .setLngLat(event.lngLat)

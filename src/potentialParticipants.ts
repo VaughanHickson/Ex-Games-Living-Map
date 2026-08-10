@@ -21,10 +21,11 @@ export const potentialParticipants: readonly PotentialParticipant[] =
     status: 'potential',
   }))
 
-export const loadPotentialParticipants = async () => {
+export const loadPotentialParticipants = async (locality: string) => {
+  const encodedLocality = encodeURIComponent(locality)
   const endpoint = import.meta.env.DEV
-    ? '/api/participants?locality=Riverhead'
-    : 'https:' + '//mc-buom3p4wv3.bunny.run/api/participants?locality=Riverhead'
+    ? `/api/participants?locality=${encodedLocality}`
+    : `https://mc-buom3p4wv3.bunny.run/api/participants?locality=${encodedLocality}`
 
   const response = await fetch(endpoint)
 
