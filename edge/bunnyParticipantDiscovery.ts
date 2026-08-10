@@ -3,6 +3,7 @@ import type {
 } from '../shared/participantDiscoveryAdapter.ts'
 import { searchSearxng } from './searxngSearch.ts'
 import { qualifiesParticipantResult } from './qualifyParticipantResult.ts'
+import { toParticipantEvidence } from './participantEvidence.ts'
 
 const slugify = (value: string) =>
   value.toLowerCase().replace(/[^a-z0-9]+/g, '-')
@@ -24,12 +25,17 @@ export const bunnyParticipantDiscovery:
       return true
     })
 
-    return usable.slice(0, 10).map((result) => ({
-      id: slugify(result.title!),
-      name: result.title!,
+    const evidence = usable.map((result) =>
+      toParticipantEvidence(result.title!, result.url!, result.content),
+    )
+
+    return evidence.slice(0, 10).map((item) => ({
+      id: slugify(item.title),
+      name: item.title,
       locality,
       type: 'Potential participant',
-      sourceUrl: result.url,
+      sourceUrl: item.url,
+      sourceUrls: [item.url],
       status: 'potential',
     }))
   },

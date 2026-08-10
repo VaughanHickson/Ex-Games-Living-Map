@@ -5,6 +5,7 @@ export interface PotentialParticipant {
   type: string
   website?: string
   sourceUrl?: string
+  sourceUrls?: readonly string[]
   status: 'potential'
 }
 
