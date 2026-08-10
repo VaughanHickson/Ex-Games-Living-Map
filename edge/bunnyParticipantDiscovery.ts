@@ -6,6 +6,7 @@ import { qualifiesParticipantResult } from './qualifyParticipantResult.ts'
 import { toParticipantEvidence } from './participantEvidence.ts'
 import { scoreParticipantEvidence } from './scoreParticipantEvidence.ts'
 import { groupParticipantEvidence } from './groupParticipantEvidence.ts'
+import { isEligibleParticipantEntity } from './isEligibleParticipantEntity.ts'
 
 const slugify = (value: string) =>
   value.toLowerCase().replace(/[^a-z0-9]+/g, '-')
@@ -15,11 +16,11 @@ export const bunnyParticipantDiscovery:
   ParticipantDiscoveryAdapter = {
   async discover({ locality }) {
     const queries = [
-      `${locality} pest control`,
-      `${locality} predator control`,
-      `${locality} conservation`,
-      `${locality} biodiversity restoration`,
-      `${locality} environmental trust`,
+      `${locality} Auckland New Zealand pest control`,
+      `${locality} Auckland New Zealand predator control`,
+      `${locality} Auckland New Zealand conservation`,
+      `${locality} Auckland New Zealand biodiversity restoration`,
+      `${locality} Auckland New Zealand environmental trust`,
     ]
 
     const batches = await Promise.all(
@@ -47,6 +48,7 @@ export const bunnyParticipantDiscovery:
       .map(({ item }) => item)
 
     const candidates = groupParticipantEvidence(locality, rankedEvidence)
+      .filter(isEligibleParticipantEntity)
 
     return candidates.slice(0, 10).map((candidate) => ({
       id: slugify(candidate.name),
