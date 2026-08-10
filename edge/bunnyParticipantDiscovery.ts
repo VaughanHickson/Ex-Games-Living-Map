@@ -2,6 +2,7 @@ import type {
   ParticipantDiscoveryAdapter,
 } from '../shared/participantDiscoveryAdapter.ts'
 import { searchSearxng } from './searxngSearch.ts'
+import { qualifiesParticipantResult } from './qualifyParticipantResult.ts'
 
 const slugify = (value: string) =>
   value.toLowerCase().replace(/[^a-z0-9]+/g, '-')
@@ -16,9 +17,10 @@ export const bunnyParticipantDiscovery:
 
     const seen = new Set<string>()
     const usable = results.filter((result) => {
-      if (!result.title || !result.url) return false
-      if (seen.has(result.url)) return false
-      seen.add(result.url)
+      if (!qualifiesParticipantResult(result)) return false
+      const url = result.url!
+      if (seen.has(url)) return false
+      seen.add(url)
       return true
     })
 
