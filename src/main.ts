@@ -62,10 +62,32 @@ const verificationContacts = new Map<string, { email?: string; mobile?: string }
 const verificationTargets = new Map<string, string>()
 
 const getParticipant = (id: string) => {
-  const base = riverheadParticipants.find((item) => item.id === id)
-  if (!base) return undefined
+  const discovered = discoveredParticipants.find((item) => item.id === id)
+  if (!discovered) return undefined
+
+  const legacy = riverheadParticipants.find((item) => item.id === id)
+
+  const base = {
+    ...discovered,
+    relationship: legacy?.relationship ?? '',
+    summary: legacy?.summary ?? '',
+    activities: legacy?.activities ?? [],
+    detail: legacy?.detail ?? '',
+    website: discovered.website ?? legacy?.website ?? '',
+    profileClaimed: legacy?.profileClaimed ?? false,
+  }
+
   const edits = participantEdits.get(id)
-  return edits ? { ...base, ...edits, activities: edits.activities?.split(',').map((v) => v.trim()).filter(Boolean) ?? base.activities } : base
+
+  return edits
+    ? {
+        ...base,
+        ...edits,
+        activities:
+          edits.activities?.split(',').map((v) => v.trim()).filter(Boolean) ??
+          base.activities,
+      }
+    : base
 }
 
 const showParticipants = (localityName: string) => {
