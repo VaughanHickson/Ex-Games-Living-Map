@@ -8,32 +8,24 @@ export interface PotentialParticipant {
   status: 'potential'
 }
 
-import { riverheadParticipants } from './participants'
+type SeedParticipant = {
+  id: string
+  name: string
+  entityType: string
+  status: 'potential'
+  localities: string[]
+  sources?: string[]
+}
+
+const seed = await fetch('/data/participants-auckland.json').then(r => r.json())
 
 export const potentialParticipants: readonly PotentialParticipant[] =
-  riverheadParticipants.map((participant) => ({
-    id: participant.id,
-    name: participant.name,
-    locality: participant.locality,
-    type: participant.type,
-    website: participant.website,
-    sourceUrl: participant.website,
-    status: 'potential',
-  }))
+  (seed.participants as SeedParticipant[]).flatMap(p =>
+    p.localities.map(locality => ({
+      id: p.id, name: p.name, locality,
+      type: p.entityType, sourceUrl: p.sources?.[0], status: 'potential' as const,
+    }))
+  )
 
-export const loadPotentialParticipants = async (locality: string) => {
-  const encodedLocality = encodeURIComponent(locality)
-  const endpoint = import.meta.env.DEV
-    ? `/api/participants?locality=${encodedLocality}`
-    : `https://mc-buom3p4wv3.bunny.run/api/participants?locality=${encodedLocality}`
-
-  const response = await fetch(endpoint)
-
-  if (!response.ok) {
-    throw new Error(
-      `Participant discovery load failed: ${response.status}`,
-    )
-  }
-
-  return (await response.json()) as PotentialParticipant[]
-}
+export const loadPotentialParticipants = async (locality: string) =>
+  potentialParticipants.filter(p => p.locality === locality)
