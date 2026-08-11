@@ -4,6 +4,22 @@ search:
   formats:
     - html
     - json
+  ban_time_on_fail: 5
+  max_ban_time_on_fail: 60
+  suspended_times:
+    SearxEngineTooManyRequests: 60
+    SearxEngineAccessDenied: 120
 
 server:
   secret_key: "ex-games-searxng-2026-change-this"
+
+outgoing:
+  request_timeout: 6.0
+
+engines:
+  - name: bing
+    disabled: false
+  - name: qwant
+    disabled: false
+  - name: mojeek
+    disabled: false
