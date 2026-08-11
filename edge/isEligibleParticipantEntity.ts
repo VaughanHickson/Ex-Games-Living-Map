@@ -5,6 +5,7 @@ export const isEligibleParticipantEntity = (
 ): boolean => {
   const name = candidate.name.toLowerCase()
   const place = candidate.locality.toLowerCase()
+if (name.includes('general businesses') || name.includes('business directory') || name.includes('local guide') || name.includes('suburb guide')) return false
 
   const entityCues = [
     'association', 'community group', 'trust', 'conservation',
@@ -12,7 +13,9 @@ export const isEligibleParticipantEntity = (
     'school', 'limited', ' ltd', 'society', 'foundation',
   ]
 
-  const entityLike = entityCues.some((cue) => name.includes(cue))
+  if (name.includes('school - ') && ['conservation','environmental','ecology','restoration','biodiversity'].every(cue => name.includes(cue) === false)) return false
+
+const entityLike = entityCues.some((cue) => name.includes(cue))
   if (!entityLike) return false
 
   if (name.includes(place)) return true

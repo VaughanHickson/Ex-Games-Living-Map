@@ -12,9 +12,15 @@ export const qualifiesParticipantResult = (
   if (url.includes('wikipedia.org')) return false
   if (url.includes('seek.com')) return false
   if (url.includes('eventfinda.co.nz')) return false
-  if (url.includes('treasury.govt.nz/publications/consultation')) return false
-  if (url.includes('instagram.com/p/') || url.includes('instagram.com/reel/')) return false
+  if (url.includes('instagram.com/p/')) return false
+  if (url.includes('instagram.com/reel/')) return false
   if (title.startsWith('response id ')) return false
+  if (title.includes('general businesses')) return false
+  if (title.includes('business directory')) return false
+  if (title.includes('local guide')) return false
+  if (title.includes('suburb guide')) return false
+  if (title.includes('schools, lifestyle')) return false
+  if (title.includes('things to do')) return false
 
   return true
 }

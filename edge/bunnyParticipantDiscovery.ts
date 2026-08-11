@@ -23,7 +23,7 @@ const formatParticipant = (
   id: slugify(candidate.name),
   name: candidate.name,
   locality,
-  type: 'Potential participant',
+  type: '',
   sourceUrl: candidate.evidence[0].url,
   sourceUrls: candidate.evidence.map((item) => item.url),
   status: 'potential' as const,
