@@ -3,6 +3,7 @@ import 'maplibre-gl/dist/maplibre-gl.css'
 import './style.css'
 import { firstLivingMapArea } from './areas'
 import { nzLocalitiesUrl } from './localities'
+import { nzRegions } from './regions'
 import { exGamesBrand, exGamesPalette } from './brand'
 import { firstTarget2050Candidate } from './candidates'
 import { riverheadParticipants } from './participants'
@@ -191,115 +192,32 @@ const showClaimedParticipant = (id: string) => {
   `
 }
 
-const hideDemonstrationSite = () => {
-  map.setLayoutProperty('living-map-area-fill', 'visibility', 'none')
-  map.setLayoutProperty('living-map-area-outline', 'visibility', 'none')
+
+
+const setActiveRegion = (map: maplibregl.Map, region: string) => {
+const layers=['auckland-localities-fill','auckland-localities-outline',
+'auckland-localities-selected-fill','auckland-localities-selected-outline',
+'auckland-localities-selected-label']
+for (const id of layers) {
+map.setFilter(id,region ? ['==',['get','region'],region] : null)
+map.setLayoutProperty(id,'visibility',region ? 'visible' : 'none')
+}
 }
 
-const hideTarget2050Candidate = () => {
-  map.setLayoutProperty('target-2050-candidate', 'visibility', 'none')
+class RegionControl implements maplibregl.IControl {
+private container?: HTMLDivElement
+onAdd(controlMap: maplibregl.Map): HTMLElement {
+this.container=document.createElement('div')
+this.container.className='maplibregl-ctrl maplibregl-ctrl-group'
+const select=document.createElement('select')
+select.className='ex-games-region-control'
+select.setAttribute('aria-label','Select your region')
+select.innerHTML='<option value="">SELECT YOUR REGION</option>'+nzRegions.map(([label,value])=>`<option value="${value}">${label}</option>`).join('')
+select.addEventListener('change',()=>setActiveRegion(controlMap,select.value))
+this.container.appendChild(select)
+return this.container
 }
-
-class AucklandRegionControl implements maplibregl.IControl {
-  private container?: HTMLDivElement
-  private button?: HTMLButtonElement
-  private localitiesRevealed = false
-
-  onAdd(controlMap: maplibregl.Map): HTMLElement {
-    this.container = document.createElement('div')
-    this.container.className = 'maplibregl-ctrl maplibregl-ctrl-group'
-
-    this.button = document.createElement('button')
-    this.button.type = 'button'
-    this.button.textContent = 'NZ Localities'
-    this.button.title = 'Reveal NZ localities'
-    this.button.setAttribute('aria-label', 'Reveal NZ localities')
-    this.button.setAttribute('aria-pressed', 'false')
-    this.button.className = 'ex-games-region-control'
-
-    this.button.addEventListener('click', () => {
-      this.localitiesRevealed = !this.localitiesRevealed
-      const visibility = this.localitiesRevealed ? 'visible' : 'none'
-
-      controlMap.setLayoutProperty(
-        'auckland-localities-fill',
-        'visibility',
-        visibility,
-      )
-      controlMap.setLayoutProperty(
-        'auckland-localities-outline',
-        'visibility',
-        visibility,
-      )
-      controlMap.setLayoutProperty(
-        'auckland-localities-selected-fill',
-        'visibility',
-        visibility,
-      )
-      controlMap.setLayoutProperty(
-        'auckland-localities-selected-outline',
-        'visibility',
-        visibility,
-      )
-      controlMap.setLayoutProperty(
-        'auckland-localities-labels',
-        'visibility',
-        'none',
-      )
-      controlMap.setLayoutProperty(
-        'auckland-localities-selected-label',
-        'visibility',
-        visibility,
-      )
-
-      if (!this.localitiesRevealed) {
-        if (selectedLocalityId !== undefined) {
-          controlMap.setFeatureState(
-            {
-              source: 'auckland-localities',
-              id: selectedLocalityId,
-            },
-            { selected: false },
-          )
-          selectedLocalityId = undefined
-        }
-
-        if (hoveredLocalityId !== undefined) {
-          controlMap.setFeatureState(
-            {
-              source: 'auckland-localities',
-              id: hoveredLocalityId,
-            },
-            { hovered: false },
-          )
-          hoveredLocalityId = undefined
-        }
-
-        hideDemonstrationSite()
-        hideTarget2050Candidate()
-      }
-
-      this.button?.setAttribute(
-        'aria-pressed',
-        String(this.localitiesRevealed),
-      )
-      this.button!.textContent = this.localitiesRevealed
-        ? 'NZ Localities ✓'
-        : 'NZ Localities'
-      this.button!.title = this.localitiesRevealed
-        ? 'Hide NZ localities'
-        : 'Reveal NZ localities'
-    })
-
-    this.container.appendChild(this.button)
-    return this.container
-  }
-
-  onRemove(): void {
-    this.container?.remove()
-    this.container = undefined
-    this.button = undefined
-  }
+onRemove(){this.container?.remove();this.container=undefined}
 }
 
 map.on('load', async () => {
@@ -497,7 +415,7 @@ map.on('load', async () => {
     },
   })
 
-  map.addControl(new AucklandRegionControl(), 'top-left')
+  map.addControl(new RegionControl(), 'top-left')
 
   map.addSource('target-2050-candidates', {
     type: 'geojson',
@@ -657,10 +575,7 @@ map.on('load', async () => {
               <p>1 active Target 2050 candidate revealed</p>
               <small>Select the green candidate marker to inspect it.</small>
             `
-            : `
-              <strong>${localityName}</strong>
-              <p>No Living Map candidates registered yet.</p>
-            `,
+            : '',
       )
       .addTo(map)
   })
