@@ -2,7 +2,7 @@ import * as maplibregl from 'maplibre-gl'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import './style.css'
 import { firstLivingMapArea } from './areas'
-import { aucklandLocalitiesUrl } from './localities'
+import { nzLocalitiesUrl } from './localities'
 import { exGamesBrand, exGamesPalette } from './brand'
 import { firstTarget2050Candidate } from './candidates'
 import { riverheadParticipants } from './participants'
@@ -211,9 +211,9 @@ class AucklandRegionControl implements maplibregl.IControl {
 
     this.button = document.createElement('button')
     this.button.type = 'button'
-    this.button.textContent = 'Auckland Region'
-    this.button.title = 'Reveal Auckland localities'
-    this.button.setAttribute('aria-label', 'Reveal Auckland localities')
+    this.button.textContent = 'NZ Localities'
+    this.button.title = 'Reveal NZ localities'
+    this.button.setAttribute('aria-label', 'Reveal NZ localities')
     this.button.setAttribute('aria-pressed', 'false')
     this.button.className = 'ex-games-region-control'
 
@@ -284,11 +284,11 @@ class AucklandRegionControl implements maplibregl.IControl {
         String(this.localitiesRevealed),
       )
       this.button!.textContent = this.localitiesRevealed
-        ? 'Auckland Region ✓'
-        : 'Auckland Region'
+        ? 'NZ Localities ✓'
+        : 'NZ Localities'
       this.button!.title = this.localitiesRevealed
-        ? 'Hide Auckland localities'
-        : 'Reveal Auckland localities'
+        ? 'Hide NZ localities'
+        : 'Reveal NZ localities'
     })
 
     this.container.appendChild(this.button)
@@ -302,11 +302,11 @@ class AucklandRegionControl implements maplibregl.IControl {
   }
 }
 
-map.on('load', () => {
+map.on('load', async () => {
   installLivingWater(map)
   map.addSource('auckland-localities', {
     type: 'geojson',
-    data: aucklandLocalitiesUrl,
+    data: nzLocalitiesUrl,
     attribution: 'NZ Suburbs and Localities © LINZ',
     generateId: true,
   })

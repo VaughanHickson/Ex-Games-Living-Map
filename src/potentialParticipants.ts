@@ -28,12 +28,22 @@ type SeedParticipant = {
   website?: string | null
 }
 
-const seed = await fetch('/data/participants-auckland-located-001.json').then(r => r.json())
+const seeds = await Promise.all([
+fetch('/data/participants-auckland-located-001.json').then(r => r.json()),
+fetch('/data/participants-northland-located-001.json').then(r => r.json()),
+])
+
+const localityAliases: Record<string,string> = {
+'Hukerenui':'Hūkerenui','Mokau':'Mōkau','Okaihau':'Ōkaihau',
+'Okura':'Ōkura','Puhipuhi':'Puhi Puhi','Ruakaka':'Ruakākā',
+'Taupo Bay':'Taupō Bay','Whangarei':'Whangārei',
+'Whangarei Heads':'Whangārei Heads',
+}
 
 export const locatedParticipants: readonly LocatedParticipant[] =
-  (seed.participants as SeedParticipant[]).flatMap(p =>
+  seeds.flatMap(seed => (seed.participants as SeedParticipant[])).flatMap(p =>
     (p.localities ?? (p.locality ? [p.locality] : [])).map(locality => ({
-      id: p.id, name: p.name, locality,
+      id: p.id, name: p.name, locality: localityAliases[locality] ?? locality,
       type: p.entityType ?? p.populationClass ?? 'Participant', sourceUrl: p.sources?.[0],
       relationship: p.relationship, summary: p.summary,
       activities: p.activities, detail: p.detail,
