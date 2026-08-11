@@ -150,24 +150,31 @@ vec3 livingWater(
   vec3 softSage =
     vec3(145.0, 200.0, 166.0) / 255.0;
 
+  float detailStrength =
+    1.0 - smoothstep(
+      0.006,
+      0.055,
+      u_world_scale
+    );
+
   vec3 colour = oceanBlue;
 
   colour = mix(
     colour,
     blueGreen,
-    smoothstep(-0.42, 0.58, broad) * 0.46
+    smoothstep(-0.42, 0.58, broad) * 0.46 * detailStrength
   );
 
   colour = mix(
     colour,
     livingGreen,
-    smoothstep(0.02, 0.72, medium) * 0.16
+    smoothstep(0.02, 0.72, medium) * 0.16 * detailStrength
   );
 
   colour = mix(
     colour,
     softSage,
-    smoothstep(0.36, 0.82, fine) * 0.065
+    smoothstep(0.36, 0.82, fine) * 0.065 * detailStrength
   );
 
   return colour;
