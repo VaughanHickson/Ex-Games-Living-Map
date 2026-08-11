@@ -1,0 +1,311 @@
+{
+  "region": "Northland",
+  "version": "001",
+  "resolutions": {
+    "Kerikeri": [
+      "Kerikeri"
+    ],
+    "Okaihau": [
+      "Ōkaihau"
+    ],
+    "Whangarei Heads": [
+      "Whangārei Heads"
+    ],
+    "Opua, Bay of Islands": [
+      "Opua"
+    ],
+    "Waipapa": [
+      "Waipapa"
+    ],
+    "Takahiwai": [
+      "Takahiwai"
+    ],
+    "Broadwood": [
+      "Broadwood"
+    ],
+    "Maunu": [
+      "Maunu"
+    ],
+    "Kaitaia": [
+      "Kaitaia"
+    ],
+    "Matauri Bay": [
+      "Matauri Bay",
+      "Mata"
+    ],
+    "Eastern Whangarei": [
+      "Whangārei"
+    ],
+    "Purua": [
+      "Purua"
+    ],
+    "Maungakaramea": [
+      "Maungakaramea"
+    ],
+    "Kaeo": [
+      "Kaeo"
+    ],
+    "Ruakaka": [
+      "Ruakākā"
+    ],
+    "Waipu": [
+      "Waipu"
+    ],
+    "Dargaville": [
+      "Dargaville"
+    ],
+    "Poroti": [
+      "Poroti"
+    ],
+    "Matakohe/ Limestone Island, Whangarei Harbour": [
+      "Whangārei",
+      "Matakohe",
+      "Mata"
+    ],
+    "Coopers Beach": [
+      "Coopers Beach"
+    ],
+    "Glenbervie": [
+      "Glenbervie"
+    ],
+    "Hikurangi": [
+      "Hikurangi"
+    ],
+    "Moerewa": [
+      "Moerewa"
+    ],
+    "Helena Bay": [
+      "Helena Bay"
+    ],
+    "Herekino": [
+      "Herekino"
+    ],
+    "Peria": [
+      "Peria"
+    ],
+    "Hukerenui": [
+      "Hūkerenui"
+    ],
+    "Kaikohe": [
+      "Kaikohe"
+    ],
+    "Mangawhai": [
+      "Mangawhai"
+    ],
+    "Ngunguru": [
+      "Ngunguru"
+    ],
+    "Karetu": [
+      "Karetu"
+    ],
+    "Kauri": [
+      "Kauri"
+    ],
+    "Kerikeri Peninsula": [
+      "Kerikeri"
+    ],
+    "Kerikeri - Puketotara": [
+      "Kerikeri"
+    ],
+    "Whangarei": [
+      "Whangārei"
+    ],
+    "Pawarenga": [
+      "Pawarenga"
+    ],
+    "Kohukohu": [
+      "Kohukohu"
+    ],
+    "Whangaroa": [
+      "Whangaroa"
+    ],
+    "Lake Omapere": [
+      "Ōmāpere"
+    ],
+    "Parua Bay": [
+      "Parua Bay"
+    ],
+    "Langs Beach": [
+      "Langs Beach"
+    ],
+    "Brynderwyns": [
+      "Brynderwyn"
+    ],
+    "Mangamuka": [
+      "Mangamuka"
+    ],
+    "Fisher Riley Rd, Kaitaia": [
+      "Kaitaia"
+    ],
+    "Pataua North": [
+      "Pataua North"
+    ],
+    "Kaihu": [
+      "Kaihu"
+    ],
+    "Whale Bay - Matapouri": [
+      "Matapouri",
+      "Mata"
+    ],
+    "Mataraua, Kauri Coast": [
+      "Matarau",
+      "Kauri",
+      "Mata"
+    ],
+    "Kawakawa": [
+      "Kawakawa"
+    ],
+    "Waipu & Mangawhai Spits": [
+      "Mangawhai",
+      "Waipu"
+    ],
+    "Ngunguru Ford": [
+      "Ngunguru"
+    ],
+    "Mt Huruiki between Whangapara and Whangaruru": [
+      "Whangaruru"
+    ],
+    "Motatau": [
+      "Motatau"
+    ],
+    "Ocean Beach, Whangarei Heads": [
+      "Whangārei Heads",
+      "Whangārei"
+    ],
+    "Okura": [
+      "Ōkura"
+    ],
+    "Onerahi": [
+      "Onerahi"
+    ],
+    "Opua": [
+      "Opua"
+    ],
+    "Oromahoe": [
+      "Oromahoe"
+    ],
+    "Otaua": [
+      "Ōtaua"
+    ],
+    "Omamari": [
+      "Omamari"
+    ],
+    "Karikari Peninsula": [
+      "Karikari Peninsula"
+    ],
+    "Whakapara": [
+      "Whakapara"
+    ],
+    "Oakleigh/Mangapai": [
+      "Oakleigh",
+      "Mangapai"
+    ],
+    "Pahi, Petley, Te Pahi and Matakohe Peninsulas": [
+      "Matakohe",
+      "Pahi",
+      "Mata"
+    ],
+    "Mataroa Peninsula": [
+      "Mata"
+    ],
+    "Puhipuhi": [
+      "Puhi Puhi"
+    ],
+    "Piroa Brynderwyns": [
+      "Brynderwyn"
+    ],
+    "Massey Road, Waipu": [
+      "Waipu"
+    ],
+    "Otaika": [
+      "Otaika"
+    ],
+    "Haruru - Puketona": [
+      "Haruru"
+    ],
+    "Riponui": [
+      "Riponui"
+    ],
+    "Ngunguru river": [
+      "Ngunguru"
+    ],
+    "Haruru": [
+      "Haruru"
+    ],
+    "Russell, Bay of Islands": [
+      "Russell"
+    ],
+    "Russell": [
+      "Russell"
+    ],
+    "South Kerikeri Inlet": [
+      "Kerikeri"
+    ],
+    "Mokau": [
+      "Mōkau"
+    ],
+    "Omahuta": [
+      "Mahuta"
+    ],
+    "Taheke": [
+      "Taheke"
+    ],
+    "Takahue": [
+      "Takahue"
+    ],
+    "Tangiteroria": [
+      "Tangiteroria"
+    ],
+    "Taupo Bay": [
+      "Taupō Bay"
+    ],
+    "Taurikura, Whangarei Heads": [
+      "Whangārei Heads",
+      "Whangārei"
+    ],
+    "Waimamaku": [
+      "Waimamaku",
+      "Waimā"
+    ],
+    "Umawera": [
+      "Umawera"
+    ],
+    "Whangaruru": [
+      "Whangaruru"
+    ],
+    "Tutukaka": [
+      "Tutukaka"
+    ],
+    "Utakura Valley, Okaihau": [
+      "Ōkaihau"
+    ],
+    "Waikare": [
+      "Waikare"
+    ],
+    "Waimate North": [
+      "Waimate North",
+      "Waimā"
+    ],
+    "Waitangi": [
+      "Waitangi"
+    ],
+    "Wekaweka Valley, Kauri Coast": [
+      "Kauri"
+    ],
+    "Hihi Peninsula": [
+      "Hihi"
+    ],
+    "Whananaki": [
+      "Whananaki"
+    ],
+    "Whangaruru Peninsula": [
+      "Whangaruru"
+    ],
+    "Whareora/Mt Tiger": [
+      "Whareora"
+    ],
+    "Purerua-Mataroa": [
+      "Mata"
+    ]
+  }
+}

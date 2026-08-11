@@ -19,6 +19,7 @@ type SeedParticipant = {
   populationClass?: string
   status: 'located'
   localities?: string[]
+  mapLocalities?: string[]
   locality?: string
   sources?: string[]
   relationship?: string
@@ -42,7 +43,7 @@ const localityAliases: Record<string,string> = {
 
 export const locatedParticipants: readonly LocatedParticipant[] =
   seeds.flatMap(seed => (seed.participants as SeedParticipant[])).flatMap(p =>
-    (p.localities ?? (p.locality ? [p.locality] : [])).map(locality => ({
+    (p.mapLocalities?.length ? p.mapLocalities : (p.localities ?? (p.locality ? [p.locality] : []))).map(locality => ({
       id: p.id, name: p.name, locality: localityAliases[locality] ?? locality,
       type: p.entityType ?? p.populationClass ?? 'Participant', sourceUrl: p.sources?.[0],
       relationship: p.relationship, summary: p.summary,
