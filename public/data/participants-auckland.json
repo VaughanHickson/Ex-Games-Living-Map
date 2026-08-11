@@ -1,0 +1,1809 @@
+{
+  "dataset": "Ex Games Living Map — Auckland-001 Candidate Population",
+  "version": "2026-08-11",
+  "region": "Auckland",
+  "status": "candidate-return",
+  "method": {
+    "description": "AI-assisted, source-backed seed population assembled from Auckland conservation networks, directories and direct project evidence.",
+    "inclusionRule": "Substantive evidenced ecological, environmental, restoration, biodiversity, sustainability or closely related community activity.",
+    "localityRule": "Localities are evidenced operating relationships where available. No entity is invented to fill a locality.",
+    "verification": "All records remain potential/discovered; inclusion does not mean the entity has claimed or verified its Ex Games profile."
+  },
+  "summary": {
+    "candidateCount": 100,
+    "candidateLocalityRelationships": 179,
+    "uniqueLocalitiesWithCandidateRelationships": 132
+  },
+  "participants": [
+    {
+      "id": "20-acre-wood",
+      "name": "20 Acre Wood",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Titirangi"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://pfwra.org.nz/find-your-people/",
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ]
+    },
+    {
+      "id": "algies-bay-residents-and-ratepayers-association",
+      "name": "Algies Bay Residents and Ratepayers Association",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Algies Bay"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ]
+    },
+    {
+      "id": "aotea-great-barrier-environmental-trust",
+      "name": "Aotea Great Barrier Environmental Trust",
+      "entityType": "Island conservation trust",
+      "status": "potential",
+      "localities": [],
+      "activities": [
+        "pest animal control",
+        "pest plant control",
+        "habitat restoration",
+        "species management"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ],
+      "notes": "Island-scale relationship; no exact Auckland locality forced."
+    },
+    {
+      "id": "aotea-trap-library",
+      "name": "Aotea Trap Library",
+      "entityType": "Island conservation initiative",
+      "status": "potential",
+      "localities": [],
+      "activities": [
+        "pest animal control",
+        "environmental education"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ],
+      "notes": "Island-scale relationship; no exact Auckland locality forced."
+    },
+    {
+      "id": "apirana-bush-regeneration-group",
+      "name": "Apirana Bush Regeneration Group",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Glen Innes"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ]
+    },
+    {
+      "id": "araparera-community-catchment-group",
+      "name": "Araparera Community Catchment Group",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "South Head"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ]
+    },
+    {
+      "id": "ark-in-the-park",
+      "name": "Ark in the Park",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Waitākere"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://pfwra.org.nz/find-your-people/",
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ]
+    },
+    {
+      "id": "ark-in-the-park-buffer-zone",
+      "name": "Ark in the Park Buffer Zone",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Waitākere"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://pfwra.org.nz/find-your-people/",
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ]
+    },
+    {
+      "id": "auckland-invasive-weeds-group",
+      "name": "Auckland Invasive Weeds Group",
+      "entityType": "Regional conservation network",
+      "status": "potential",
+      "localities": [],
+      "activities": [
+        "advocacy and education",
+        "pest plant control"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ],
+      "notes": "Regional Auckland relationship; no single locality forced."
+    },
+    {
+      "id": "auckland-king-tides-initiative",
+      "name": "Auckland King Tides Initiative",
+      "entityType": "Regional environmental initiative",
+      "status": "potential",
+      "localities": [],
+      "activities": [
+        "climate action",
+        "environmental quality monitoring"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ],
+      "notes": "Regional Auckland relationship; no single locality forced."
+    },
+    {
+      "id": "awhitu-peninsula-landcare-incorporated",
+      "name": "Awhitu Peninsula Landcare Incorporated",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Āwhitu"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ]
+    },
+    {
+      "id": "beautification-trust",
+      "name": "Beautification Trust",
+      "entityType": "Environmental NGO",
+      "status": "potential",
+      "localities": [
+        "Manurewa"
+      ],
+      "activities": [
+        "pest animal control",
+        "pest plant control",
+        "habitat restoration",
+        "environmental education"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/",
+        "https://ourauckland.aucklandcouncil.govt.nz/news/2026/03/three-ways-manurewa-cares-for-its-flora-and-fauna/"
+      ],
+      "homeLocality": "Manurewa"
+    },
+    {
+      "id": "birdcare-aotearoa",
+      "name": "BirdCare Aotearoa",
+      "entityType": "Wildlife conservation organisation",
+      "status": "potential",
+      "localities": [
+        "Green Bay"
+      ],
+      "activities": [
+        "species management and monitoring",
+        "wildlife rehabilitation",
+        "environmental education"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ]
+    },
+    {
+      "id": "birdsong-op-nuku",
+      "name": "Birdsong Opānuku",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Henderson",
+        "Henderson Valley"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://pfwra.org.nz/find-your-people/"
+      ]
+    },
+    {
+      "id": "birkenhead-war-memorial-park-volunteers",
+      "name": "Birkenhead War Memorial Park Volunteers",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Birkenhead"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ]
+    },
+    {
+      "id": "bushglen-restoration-project",
+      "name": "Bushglen Restoration Project",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Browns Bay"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://restorehb.org.nz/group-directory/"
+      ]
+    },
+    {
+      "id": "centennial-park-bush-society",
+      "name": "Centennial Park Bush Society",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Campbells Bay"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://restorehb.org.nz/group-directory/"
+      ]
+    },
+    {
+      "id": "coastal-custodians",
+      "name": "Coastal Custodians",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Oneroa",
+        "Onetangi"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://waihekecollective.org/our-community-copy"
+      ]
+    },
+    {
+      "id": "conservation-volunteers-new-zealand",
+      "name": "Conservation Volunteers New Zealand",
+      "entityType": "Conservation volunteer organisation",
+      "status": "potential",
+      "localities": [
+        "Mount Eden"
+      ],
+      "activities": [
+        "habitat restoration",
+        "native planting",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ],
+      "homeLocality": "Mount Eden"
+    },
+    {
+      "id": "cornwallis-petrelheads",
+      "name": "Cornwallis Petrelheads",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Cornwallis"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://pfwra.org.nz/find-your-people/"
+      ]
+    },
+    {
+      "id": "eastern-bays-songbird-project",
+      "name": "Eastern Bays Songbird Project",
+      "entityType": "Landscape conservation organisation",
+      "status": "potential",
+      "localities": [
+        "Orakei",
+        "Mission Bay",
+        "Kohimarama",
+        "Saint Heliers",
+        "Glendowie",
+        "Remuera",
+        "Meadowbank",
+        "St Johns",
+        "Stonefields",
+        "Glen Innes",
+        "Wai o Taiki Bay",
+        "Point England"
+      ],
+      "activities": [
+        "predator control",
+        "ecosystem restoration",
+        "bird and invertebrate conservation"
+      ],
+      "sources": [
+        "https://www.songbird.org.nz/about"
+      ]
+    },
+    {
+      "id": "forest-bird-hauraki-islands-branch",
+      "name": "Forest & Bird Hauraki Islands Branch",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Oneroa"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://waihekecollective.org/our-community-copy"
+      ]
+    },
+    {
+      "id": "friends-of-anawhata",
+      "name": "Friends of Anawhata",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Anawhata"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://pfwra.org.nz/find-your-people/"
+      ]
+    },
+    {
+      "id": "friends-of-awa-matakanakana",
+      "name": "Friends of Awa Matakanakana",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Matakana",
+        "Sandspit"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.restorerodneyeast.org.nz/projects"
+      ]
+    },
+    {
+      "id": "friends-of-awaawaroa-wetland",
+      "name": "Friends of Awaawaroa Wetland",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Onetangi"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://waihekecollective.org/our-community-copy"
+      ]
+    },
+    {
+      "id": "friends-of-bayside-drive-reserve",
+      "name": "Friends of Bayside Drive Reserve",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Browns Bay"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://restorehb.org.nz/group-directory/"
+      ]
+    },
+    {
+      "id": "friends-of-long-bay",
+      "name": "Friends of Long Bay",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Long Bay"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://restorehb.org.nz/group-directory/"
+      ]
+    },
+    {
+      "id": "friends-of-maungawhau",
+      "name": "Friends of Maungawhau",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Mount Eden"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://urbanark.nz/get-involved/"
+      ]
+    },
+    {
+      "id": "friends-of-mckenzie-reserve",
+      "name": "Friends of McKenzie Reserve",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Oneroa"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://waihekecollective.org/our-community-copy"
+      ]
+    },
+    {
+      "id": "friends-of-oakley-creek-te-auaunga",
+      "name": "Friends of Oakley Creek / Te Auaunga",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Waterview",
+        "Mount Albert"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://urbanark.nz/get-involved/"
+      ]
+    },
+    {
+      "id": "friends-of-okura-bush",
+      "name": "Friends of Okura Bush",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Ōkura",
+        "Okura Bush"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://restorehb.org.nz/group-directory/"
+      ]
+    },
+    {
+      "id": "greenhithe-possum-free-project",
+      "name": "Greenhithe Possum Free Project",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Greenhithe"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ]
+    },
+    {
+      "id": "hauraki-gulf-conservation-trust",
+      "name": "Hauraki Gulf Conservation Trust",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Oneroa"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://waihekecollective.org/our-community-copy"
+      ]
+    },
+    {
+      "id": "herald-island-environmental-group",
+      "name": "Herald Island Environmental Group",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Herald Island"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ]
+    },
+    {
+      "id": "huia-trappers-group",
+      "name": "Huia Trappers Group",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Huia"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://pfwra.org.nz/find-your-people/"
+      ]
+    },
+    {
+      "id": "jaggers-bush-restoration-group",
+      "name": "Jaggers Bush Restoration Group",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Westmere"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://urbanark.nz/get-involved/"
+      ]
+    },
+    {
+      "id": "kaip-tiki-project",
+      "name": "Kaipātiki Project",
+      "entityType": "Environmental organisation",
+      "status": "potential",
+      "localities": [
+        "Birkdale"
+      ],
+      "activities": [
+        "forest restoration",
+        "stream and estuary restoration",
+        "native plant nursery",
+        "pest management",
+        "sustainability"
+      ],
+      "sources": [
+        "https://kcft.org.nz/kaipatiki-environmental-groups/"
+      ],
+      "homeLocality": "Birkdale"
+    },
+    {
+      "id": "karekare-landcare",
+      "name": "Karekare Landcare",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Karekare"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://pfwra.org.nz/find-your-people/"
+      ]
+    },
+    {
+      "id": "leigh-harbour-valley-society",
+      "name": "Leigh Harbour Valley Society",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Leigh"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.restorerodneyeast.org.nz/projects"
+      ]
+    },
+    {
+      "id": "leigh-penguin-project",
+      "name": "Leigh Penguin Project",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Leigh"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.restorerodneyeast.org.nz/projects"
+      ]
+    },
+    {
+      "id": "mahurangi-east-land-restoration",
+      "name": "Mahurangi East Land Restoration",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Mahurangi East",
+        "Snells Beach"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.restorerodneyeast.org.nz/projects"
+      ]
+    },
+    {
+      "id": "mahurangi-river-restoration-trust",
+      "name": "Mahurangi River Restoration Trust",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Warkworth"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.restorerodneyeast.org.nz/projects"
+      ]
+    },
+    {
+      "id": "mahurangi-west-pest-group",
+      "name": "Mahurangi West Pest Group",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Mahurangi West"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.restorerodneyeast.org.nz/projects"
+      ]
+    },
+    {
+      "id": "matuku-link",
+      "name": "Matuku Link",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Te Henga / Bethells Beach"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://pfwra.org.nz/find-your-people/"
+      ]
+    },
+    {
+      "id": "matuku-reserve",
+      "name": "Matuku Reserve",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Te Henga / Bethells Beach"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://pfwra.org.nz/find-your-people/"
+      ]
+    },
+    {
+      "id": "mawhitipana-valley-project",
+      "name": "Mawhitipana Valley Project",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Onetangi"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://waihekecollective.org/our-community-copy"
+      ]
+    },
+    {
+      "id": "muriwai-environmental-action-group",
+      "name": "Muriwai Environmental Action Group",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Muriwai"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://pfwra.org.nz/find-your-people/"
+      ]
+    },
+    {
+      "id": "onetangi-beach-ratepayers-association",
+      "name": "Onetangi Beach Ratepayers Association",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Onetangi"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://waihekecollective.org/our-community-copy"
+      ]
+    },
+    {
+      "id": "oratia-wildlife-project",
+      "name": "Oratia Wildlife Project",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Oratia"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://pfwra.org.nz/find-your-people/"
+      ]
+    },
+    {
+      "id": "orewa-estuary-restoration",
+      "name": "Orewa Estuary Restoration",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Orewa"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://restorehb.org.nz/group-directory/"
+      ]
+    },
+    {
+      "id": "owhanake-pest-control-group",
+      "name": "Owhanake Pest Control Group",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Oneroa"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://waihekecollective.org/our-community-copy"
+      ]
+    },
+    {
+      "id": "papakura-stream-restoration-project",
+      "name": "Papakura Stream Restoration Project",
+      "entityType": "Catchment restoration project",
+      "status": "potential",
+      "localities": [
+        "Papakura",
+        "Takanini",
+        "Ardmore"
+      ],
+      "activities": [
+        "stream restoration",
+        "wetland restoration",
+        "native planting",
+        "weed control",
+        "water quality"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ]
+    },
+    {
+      "id": "pest-free-hibiscus-coast",
+      "name": "Pest Free Hibiscus Coast",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Orewa",
+        "Silverdale",
+        "Red Beach",
+        "Stanmore Bay",
+        "Gulf Harbour",
+        "Army Bay",
+        "Manly"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://restorehb.org.nz/group-directory/"
+      ]
+    },
+    {
+      "id": "pest-free-kaip-tiki-restoration-society",
+      "name": "Pest Free Kaipātiki Restoration Society",
+      "entityType": "Landscape conservation organisation",
+      "status": "potential",
+      "localities": [
+        "Glenfield",
+        "Birkdale",
+        "Birkenhead",
+        "Beach Haven",
+        "Bayview",
+        "Hillcrest",
+        "Northcote",
+        "Northcote Point"
+      ],
+      "activities": [
+        "native habitat restoration",
+        "pest control",
+        "community conservation"
+      ],
+      "sources": [
+        "https://kcft.org.nz/kaipatiki-environmental-groups/"
+      ],
+      "homeLocality": "Glenfield"
+    },
+    {
+      "id": "pest-free-leigh",
+      "name": "Pest Free Leigh",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Leigh"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.restorerodneyeast.org.nz/projects"
+      ]
+    },
+    {
+      "id": "pest-free-matakana",
+      "name": "Pest Free Matakana",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Matakana"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.restorerodneyeast.org.nz/projects"
+      ]
+    },
+    {
+      "id": "pest-free-piha",
+      "name": "Pest Free Piha",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Piha"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://pfwra.org.nz/find-your-people/"
+      ]
+    },
+    {
+      "id": "pest-free-point-chevalier",
+      "name": "Pest Free Point Chevalier",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Point Chevalier"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://urbanark.nz/get-involved/"
+      ]
+    },
+    {
+      "id": "pest-free-sandringham",
+      "name": "Pest Free Sandringham",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Sandringham"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://urbanark.nz/get-involved/"
+      ]
+    },
+    {
+      "id": "pest-free-snells",
+      "name": "Pest Free Snells",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Snells Beach"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.restorerodneyeast.org.nz/projects"
+      ]
+    },
+    {
+      "id": "pest-free-south-auckland",
+      "name": "Pest Free South Auckland",
+      "entityType": "Landscape conservation programme",
+      "status": "potential",
+      "localities": [
+        "Manurewa",
+        "Manurewa East",
+        "Clendon Park",
+        "Randwick Park",
+        "Wattle Downs",
+        "Māngere",
+        "Māngere Bridge",
+        "Māngere East",
+        "Ōtāhuhu",
+        "Ōtara",
+        "Papatoetoe",
+        "Papakura"
+      ],
+      "activities": [
+        "pest animal control",
+        "pest plant control",
+        "native biodiversity restoration"
+      ],
+      "sources": [
+        "https://ourauckland.aucklandcouncil.govt.nz/news/2026/03/three-ways-manurewa-cares-for-its-flora-and-fauna/"
+      ]
+    },
+    {
+      "id": "pest-free-waiatarua",
+      "name": "Pest Free Waiatarua",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Waiatarua"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://pfwra.org.nz/find-your-people/"
+      ]
+    },
+    {
+      "id": "pest-free-waterview",
+      "name": "Pest Free Waterview",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Waterview"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://urbanark.nz/get-involved/"
+      ]
+    },
+    {
+      "id": "pest-free-wairaka",
+      "name": "Pest Free Ōwairaka",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Mount Albert"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://urbanark.nz/get-involved/"
+      ]
+    },
+    {
+      "id": "predator-free-coatesville",
+      "name": "Predator Free Coatesville",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Coatesville"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ]
+    },
+    {
+      "id": "predator-free-dairy-flat-and-waitoki",
+      "name": "Predator Free Dairy Flat and Waitoki",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Dairy Flat",
+        "Waitoki"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ]
+    },
+    {
+      "id": "predator-free-grey-lynn",
+      "name": "Predator Free Grey Lynn",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Grey Lynn"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://urbanark.nz/get-involved/"
+      ]
+    },
+    {
+      "id": "predator-free-herne-bay-ponsonby",
+      "name": "Predator Free Herne Bay–Ponsonby",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Herne Bay",
+        "Ponsonby",
+        "Saint Marys Bay",
+        "Freemans Bay"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://urbanark.nz/get-involved/"
+      ]
+    },
+    {
+      "id": "predator-free-kaukapakapa",
+      "name": "Predator Free Kaukapakapa",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Kaukapakapa"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ]
+    },
+    {
+      "id": "predator-free-morningside-western-springs",
+      "name": "Predator Free Morningside / Western Springs",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Morningside",
+        "Western Springs"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://urbanark.nz/get-involved/"
+      ]
+    },
+    {
+      "id": "predator-free-swanson-wait-kere",
+      "name": "Predator Free Swanson / Waitākere",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Swanson",
+        "Waitākere"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://pfwra.org.nz/find-your-people/"
+      ]
+    },
+    {
+      "id": "predator-free-westmere",
+      "name": "Predator Free Westmere",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Westmere"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://urbanark.nz/get-involved/"
+      ]
+    },
+    {
+      "id": "puhoi-landcare-group",
+      "name": "Puhoi Landcare Group",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Puhoi"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.restorerodneyeast.org.nz/projects"
+      ]
+    },
+    {
+      "id": "pupuke-birdsong-project",
+      "name": "Pupuke Birdsong Project",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Takapuna"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ]
+    },
+    {
+      "id": "p-kiri-community-landcare",
+      "name": "Pākiri Community Landcare",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Pakiri"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.restorerodneyeast.org.nz/projects"
+      ]
+    },
+    {
+      "id": "restoration-ruatuna",
+      "name": "Restoration Ruatuna",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Titirangi"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://pfwra.org.nz/find-your-people/"
+      ]
+    },
+    {
+      "id": "rocky-bay-rat-busters",
+      "name": "Rocky Bay Rat Busters",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Ōmiha"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://waihekecollective.org/our-community-copy"
+      ]
+    },
+    {
+      "id": "rothesay-bay-stream-restoration",
+      "name": "Rothesay Bay Stream Restoration",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Rothesay Bay"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://restorehb.org.nz/group-directory/"
+      ]
+    },
+    {
+      "id": "snells-conservation",
+      "name": "Snells Conservation",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Snells Beach"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.restorerodneyeast.org.nz/projects"
+      ]
+    },
+    {
+      "id": "sustainable-papakura",
+      "name": "Sustainable Papakura",
+      "entityType": "Environmental charitable trust",
+      "status": "potential",
+      "localities": [
+        "Papakura"
+      ],
+      "activities": [
+        "sustainability",
+        "urban gardening",
+        "waste reduction",
+        "environmental education"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ]
+    },
+    {
+      "id": "takatu-landcare",
+      "name": "Takatu Landcare",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Tāwharanui Peninsula"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.restorerodneyeast.org.nz/projects"
+      ]
+    },
+    {
+      "id": "takatu-wetland-restoration-group",
+      "name": "Takatu Wetland Restoration Group",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Tāwharanui Peninsula"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.restorerodneyeast.org.nz/projects"
+      ]
+    },
+    {
+      "id": "tamahunga-trappers",
+      "name": "Tamahunga Trappers",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Matakana",
+        "Leigh"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.restorerodneyeast.org.nz/projects"
+      ]
+    },
+    {
+      "id": "te-ara-h-koi-predator-free-franklin",
+      "name": "Te Ara Hīkoi / Predator Free Franklin",
+      "entityType": "Landscape conservation organisation",
+      "status": "potential",
+      "localities": [
+        "Waiuku",
+        "Pukekohe",
+        "Pukekohe East",
+        "Patumahoe",
+        "Mauku",
+        "Glenbrook",
+        "Clarks Beach",
+        "Waiau Pa",
+        "Karaka",
+        "Kingseat",
+        "Drury",
+        "Ramarama",
+        "Bombay",
+        "Clevedon",
+        "Beachlands",
+        "Maraetai",
+        "Whitford",
+        "Kawakawa Bay",
+        "Ōrere Point",
+        "Āwhitu"
+      ],
+      "activities": [
+        "predator control",
+        "biodiversity restoration",
+        "community conservation",
+        "conservation training"
+      ],
+      "sources": [
+        "https://predatorfreefranklin.nz/"
+      ]
+    },
+    {
+      "id": "te-h-nonga-a-iwi-restoring-rosedale",
+      "name": "Te Hōnonga a Iwi / Restoring Rosedale",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Rosedale"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ]
+    },
+    {
+      "id": "te-korowai-o-waiheke",
+      "name": "Te Korowai o Waiheke",
+      "entityType": "Island conservation organisation",
+      "status": "potential",
+      "localities": [
+        "Oneroa",
+        "Onetangi",
+        "Ostend",
+        "Palm Beach",
+        "Surfdale",
+        "Ōmiha"
+      ],
+      "activities": [
+        "predator control",
+        "biodiversity restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://waihekecollective.org/our-community-copy"
+      ]
+    },
+    {
+      "id": "te-waipuna-pu-wai-trust",
+      "name": "Te Waipuna Puāwai Trust",
+      "entityType": "Community environmental trust",
+      "status": "potential",
+      "localities": [
+        "Ranui"
+      ],
+      "activities": [
+        "stream restoration",
+        "environmental education"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ]
+    },
+    {
+      "id": "the-forest-bridge-trust",
+      "name": "The Forest Bridge Trust",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Riverhead",
+        "Waimauku",
+        "Kaukapakapa"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ]
+    },
+    {
+      "id": "titirangi-urban-sanctuary",
+      "name": "Titirangi Urban Sanctuary",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Titirangi"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://pfwra.org.nz/find-your-people/"
+      ]
+    },
+    {
+      "id": "t-wharanui-open-sanctuary-society",
+      "name": "Tāwharanui Open Sanctuary Society",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Tāwharanui Peninsula"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.restorerodneyeast.org.nz/projects"
+      ]
+    },
+    {
+      "id": "upper-waitemat-ecology-network",
+      "name": "Upper Waitematā Ecology Network",
+      "entityType": "Landscape conservation network",
+      "status": "potential",
+      "localities": [
+        "Hobsonville",
+        "Whenuapai",
+        "Greenhithe",
+        "Rosedale"
+      ],
+      "activities": [
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ]
+    },
+    {
+      "id": "waiheke-resources-trust",
+      "name": "Waiheke Resources Trust",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Oneroa",
+        "Ostend"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://waihekecollective.org/our-community-copy"
+      ]
+    },
+    {
+      "id": "waima-to-laingholm-pest-free",
+      "name": "Waima to Laingholm Pest Free",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Laingholm"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://pfwra.org.nz/find-your-people/"
+      ]
+    },
+    {
+      "id": "wait-kere-ranges-protection-society",
+      "name": "Waitākere Ranges Protection Society",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Waitākere"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://pfwra.org.nz/find-your-people/"
+      ]
+    },
+    {
+      "id": "waiwera-catchment-project",
+      "name": "Waiwera Catchment Project",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Waiwera"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://restorehb.org.nz/group-directory/"
+      ]
+    },
+    {
+      "id": "weona-lemington-coastal-forest-restoration-group",
+      "name": "Weona Lemington Coastal Forest Restoration Group",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Westmere"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://urbanark.nz/get-involved/"
+      ]
+    },
+    {
+      "id": "whau-river-catchment-trust",
+      "name": "Whau River Catchment Trust",
+      "entityType": "Catchment restoration organisation",
+      "status": "potential",
+      "localities": [
+        "Blockhouse Bay",
+        "Avondale",
+        "New Lynn",
+        "Green Bay"
+      ],
+      "activities": [
+        "catchment restoration",
+        "waterway restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.conservationauckland.co.nz/get-involved/auckland-conservation-directory/"
+      ],
+      "homeLocality": "Blockhouse Bay"
+    },
+    {
+      "id": "maha-beach-community-trappers",
+      "name": "Ōmaha Beach Community Trappers",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Omaha"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.restorerodneyeast.org.nz/projects"
+      ]
+    },
+    {
+      "id": "maha-shorebird-sanctuary",
+      "name": "Ōmaha Shorebird Sanctuary",
+      "entityType": "Community conservation group",
+      "status": "potential",
+      "localities": [
+        "Omaha"
+      ],
+      "activities": [
+        "pest control",
+        "habitat restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://www.restorerodneyeast.org.nz/projects"
+      ]
+    },
+    {
+      "id": "tara-waterways-and-lake-trust",
+      "name": "Ōtara Waterways and Lake Trust",
+      "entityType": "Catchment restoration trust",
+      "status": "potential",
+      "localities": [
+        "Ōtara"
+      ],
+      "activities": [
+        "waterway restoration",
+        "community conservation"
+      ],
+      "sources": [
+        "https://ourauckland.aucklandcouncil.govt.nz/news/2026/03/three-ways-manurewa-cares-for-its-flora-and-fauna/"
+      ]
+    }
+  ]
+}

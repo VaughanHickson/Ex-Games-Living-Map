@@ -21,6 +21,5 @@ export const searchSearxng = async (
   if (!response.ok) return []
 
   const data = await response.json() as SearxngResponse
-  if ((data.results?.length ?? 0) === 0 && (data.unresponsive_engines?.length ?? 0) > 0) throw new Error('SEARXNG_SEARCH_INCOMPLETE')
   return data.results ?? []
 }

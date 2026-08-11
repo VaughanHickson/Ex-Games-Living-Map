@@ -6,5 +6,4 @@ export interface SearxngResult {
 
 export interface SearxngResponse {
   results?: SearxngResult[]
-  unresponsive_engines?: unknown[]
 }
