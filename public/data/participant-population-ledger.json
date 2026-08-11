@@ -1,0 +1,16 @@
+{
+  "localities": {
+    "Riverhead": {
+      "status": "RETRY_REQUIRED",
+      "error": "SEARXNG_SEARCH_INCOMPLETE"
+    },
+    "Waimauku": {
+      "status": "RETRY_REQUIRED",
+      "error": "SEARXNG_SEARCH_INCOMPLETE"
+    },
+    "Coatesville": {
+      "status": "RETRY_REQUIRED",
+      "error": "SEARXNG_SEARCH_INCOMPLETE"
+    }
+  }
+}
