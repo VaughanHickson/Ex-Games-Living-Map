@@ -7,8 +7,8 @@ import { exGamesBrand, exGamesPalette } from './brand'
 import { firstTarget2050Candidate } from './candidates'
 import { riverheadParticipants } from './participants'
 import {
-  potentialParticipants,
-  loadPotentialParticipants,
+  locatedParticipants,
+  loadLocatedParticipants,
 } from './potentialParticipants'
 import { installLivingWater } from './water/worldWater'
 
@@ -47,7 +47,7 @@ participantPanel.hidden = true
 app.appendChild(participantPanel)
 let hoveredLocalityId: string | number | undefined
 let activeParticipantLocality: string | undefined
-let discoveredParticipants = [...potentialParticipants]
+let discoveredParticipants = [...locatedParticipants]
 
 const claimedParticipants = new Set<string>()
 const participantEdits = new Map<string, Record<string, string>>()
@@ -62,10 +62,10 @@ const getParticipant = (id: string) => {
 
   const base = {
     ...discovered,
-    relationship: legacy?.relationship ?? '',
-    summary: legacy?.summary ?? '',
-    activities: legacy?.activities ?? [],
-    detail: legacy?.detail ?? '',
+    relationship: discovered.relationship ?? legacy?.relationship ?? '',
+    summary: discovered.summary ?? legacy?.summary ?? '',
+    activities: discovered.activities ?? legacy?.activities ?? [],
+    detail: discovered.detail ?? legacy?.detail ?? '',
     website: discovered.website ?? legacy?.website ?? '',
     profileClaimed: legacy?.profileClaimed ?? false,
   }
@@ -92,8 +92,8 @@ const showParticipants = (localityName: string) => {
   participantPanel.innerHTML = `
     <div class="participant-panel__head">
       <small>${localityName.toUpperCase()}</small>
-      <h2>Participants</h2>
-      <p>${participants.length} currently on the map</p>
+      <h2>Located Participants</h2>
+      <p>${participants.length} located on the map</p>
       <input class="participant-search"
         placeholder="Are you on the map?" />
        <div class="participant-actions">
@@ -107,7 +107,7 @@ const showParticipants = (localityName: string) => {
   <strong>${p.name}</strong>
   <small>${p.type}</small>
   <em class="participant-claim-status">
-    IS THIS YOU? · CLAIM PROFILE
+    IS THIS YOU? · VERIFY PROFILE
   </em>
 </button>`).join('')}
     </div>
@@ -122,7 +122,7 @@ const showParticipant = (id: string) => {
     <button class="participant-back">← ${activeParticipantLocality ?? p.locality} participants</button>
     <small>${p.type.toUpperCase()}</small>
     <h2>${p.name}</h2>
-    <p>Review and adjust your information before claiming this profile.</p>
+    <p>Review and adjust your information before verifying this profile.</p>
     <label>Name<input name="name" value="${p.name}"></label>
     <label>Relationship<textarea name="relationship">${p.relationship}</textarea></label>
     <label>Summary<textarea name="summary">${p.summary}</textarea></label>
@@ -130,7 +130,7 @@ const showParticipant = (id: string) => {
     <label>Detail<textarea name="detail">${p.detail ?? ''}</textarea></label>
 <label>Website<input name="website" value="${p.website ?? ''}"></label>
     <small>Change, add or remove anything before continuing.</small>
-    <button class="participant-profile-action" data-id="${p.id}">${p.profileClaimed || claimedParticipants.has(p.id) ? 'Save updates' : 'Claim profile'}</button>
+    <button class="participant-profile-action" data-id="${p.id}">${p.profileClaimed || claimedParticipants.has(p.id) ? 'Save updates' : 'Verify profile'}</button>
   `
 }
 
@@ -139,10 +139,10 @@ const p = getParticipant(id)
 if (!p) return
 participantPanel.innerHTML = `
 <button class="verification-back" data-id="${p.id}" data-stage="contact">← Back</button>
-<small>CLAIM PENDING</small>
-<h2>Verify your claim</h2>
+<small>VERIFICATION PENDING</small>
+<h2>Verify your profile</h2>
 <p>${p.name}</p>
-<p>Choose email or mobile to verify your claim.</p>
+<p>Choose email or mobile to verify your profile.</p>
 <label>Email<input name="verify-email" type="email"></label>
 <div class="verification-or">OR</div>
 <label>Mobile<input name="verify-mobile" type="tel"></label>
@@ -155,7 +155,7 @@ const c = verificationContacts.get(id)
 if (!c) return
 participantPanel.innerHTML = `
 <button class="verification-back" data-id="${id}" data-stage="method">← Back</button>
-<small>CLAIM PENDING</small>
+<small>VERIFICATION PENDING</small>
 <h2>Choose verification method</h2>
 ${c.email ? `<button class="verify-method" data-id="${id}" data-method="email">Email · ${c.email}</button>` : ''}
 ${c.mobile ? `<button class="verify-method" data-id="${id}" data-method="mobile">SMS · ${c.mobile}</button>` : ''}
@@ -167,7 +167,7 @@ const p = getParticipant(id)
 if (!p) return
 participantPanel.innerHTML = `
 <button class="verification-back" data-id="${p.id}" data-stage="code">← Back</button>
-<small>CLAIM PENDING</small>
+<small>VERIFICATION PENDING</small>
 <h2>Enter verification code</h2>
 <p>${p.name}</p>
 <p>Verification code sent to ${verificationTargets.get(id) ?? 'your chosen contact method'}.</p>
@@ -612,7 +612,7 @@ map.on('load', () => {
     activeParticipantLocality = localityName
     participantPanel.hidden = false
 
-    loadPotentialParticipants(localityName)
+    loadLocatedParticipants(localityName)
       .then((participants) => {
         discoveredParticipants = participants
         showParticipants(localityName)

@@ -173,7 +173,7 @@ display: none;
 }
 
 .participant-card:hover .participant-claim-status::after {
-  content: 'IS THIS YOU? · CLAIM PROFILE';
+  content: 'IS THIS YOU? · VERIFY PROFILE';
   font-size: 10px;
   letter-spacing: 0.06em;
 }
