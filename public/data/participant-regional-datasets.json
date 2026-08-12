@@ -1,0 +1,12 @@
+{
+  "datasets": [
+    {
+      "region": "Auckland",
+      "path": "/data/participants-auckland-located-001.json"
+    },
+    {
+      "region": "Northland",
+      "path": "/data/participants-northland-located-001.json"
+    }
+  ]
+}

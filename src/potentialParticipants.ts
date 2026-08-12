@@ -29,10 +29,13 @@ type SeedParticipant = {
   website?: string | null
 }
 
-const regionalParticipantDatasets = [
-  '/data/participants-auckland-located-001.json',
-  '/data/participants-northland-located-001.json',
-] as const
+const regionalDatasetManifest = await fetch(
+  '/data/participant-regional-datasets.json'
+).then(response => response.json())
+
+const regionalParticipantDatasets = (
+  regionalDatasetManifest.datasets as { region: string; path: string }[]
+).map(dataset => dataset.path)
 
 const seeds = (
   await Promise.all(
