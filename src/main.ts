@@ -19,7 +19,7 @@ if (!app) {
   throw new Error('Living Map application root was not found.')
 }
 
-app.innerHTML = '<div id="map" aria-label="Interactive map of Auckland"></div>'
+app.innerHTML = '<div id="map" aria-label="Interactive map of Aotearoa New Zealand"></div>'
 
 const map = new maplibregl.Map({
   container: 'map',
