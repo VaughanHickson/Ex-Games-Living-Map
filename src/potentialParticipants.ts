@@ -29,10 +29,16 @@ type SeedParticipant = {
   website?: string | null
 }
 
-const seeds = await Promise.all([
-fetch('/data/participants-auckland-located-001.json').then(r => r.json()),
-fetch('/data/participants-northland-located-001.json').then(r => r.json()),
-])
+const regionalParticipantDatasets = [
+  '/data/participants-auckland-located-001.json',
+  '/data/participants-northland-located-001.json',
+] as const
+
+const seeds = await Promise.all(
+  regionalParticipantDatasets.map(path =>
+    fetch(path).then(response => response.json())
+  )
+)
 
 const localityAliases: Record<string,string> = {
 'Hukerenui':'Hūkerenui','Mokau':'Mōkau','Okaihau':'Ōkaihau',
