@@ -528,11 +528,14 @@ map.on('load', async () => {
     const revealsDemonstrationSite = localityName === 'Auckland Central'
     const revealsTarget2050Candidate = localityName === 'Manurewa'
     activeParticipantLocality = localityName
-    participantPanel.hidden = false
+    participantPanel.hidden = true
 
     loadLocatedParticipants(localityName)
       .then((participants) => {
-        discoveredParticipants = participants
+        if (!participants.length) {
+          activeParticipantLocality = undefined
+          return
+        }
         showParticipants(localityName)
       })
       .catch((error) => {
