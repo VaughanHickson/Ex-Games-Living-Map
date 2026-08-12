@@ -808,7 +808,9 @@
       "name": "Aotea Great Barrier Environmental Trust",
       "entityType": "Island conservation trust",
       "status": "located",
-      "localities": [],
+      "localities": [
+        "Aotea / Great Barrier Island"
+      ],
       "relationship": "Public conservation-network evidence associates Aotea Great Barrier Environmental Trust with the Auckland region.",
       "summary": "Island conservation trust with evidenced activity in pest animal control, pest plant control, habitat restoration, and species management.",
       "activities": [
@@ -833,7 +835,9 @@
       "name": "Aotea Trap Library",
       "entityType": "Island conservation initiative",
       "status": "located",
-      "localities": [],
+      "localities": [
+        "Aotea / Great Barrier Island"
+      ],
       "relationship": "Public conservation-network evidence associates Aotea Trap Library with the Auckland region.",
       "summary": "Island conservation initiative with evidenced activity in pest animal control and environmental education.",
       "activities": [
