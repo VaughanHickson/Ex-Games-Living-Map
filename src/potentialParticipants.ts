@@ -34,11 +34,19 @@ const regionalParticipantDatasets = [
   '/data/participants-northland-located-001.json',
 ] as const
 
-const seeds = await Promise.all(
-  regionalParticipantDatasets.map(path =>
-    fetch(path).then(response => response.json())
+const seeds = (
+  await Promise.all(
+    regionalParticipantDatasets.map(async path => {
+      try {
+        const response = await fetch(path)
+        if (!response.ok) return null
+        return await response.json()
+      } catch {
+        return null
+      }
+    })
   )
-)
+).filter(Boolean)
 
 const localityAliases: Record<string,string> = {
 'Hukerenui':'Hūkerenui','Mokau':'Mōkau','Okaihau':'Ōkaihau',
