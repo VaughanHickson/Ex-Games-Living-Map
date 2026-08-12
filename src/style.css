@@ -222,3 +222,17 @@ display: none;
   border-top: 1px solid currentColor;
   opacity: 0.3;
 }
+
+.participant-panel__head {
+  position: sticky;
+  top: -18px;
+  z-index: 2;
+  margin: -18px -18px 0;
+  padding: 18px 18px 12px;
+  background: rgba(245, 244, 236, 0.98);
+  border-bottom: 1px solid rgba(39,57,47,0.14);
+}
+
+.participant-list {
+  padding-top: 4px;
+}
