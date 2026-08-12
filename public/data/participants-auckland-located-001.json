@@ -4109,7 +4109,10 @@
       ],
       "name": "James Russell",
       "status": "located",
-      "populationClass": "independent individual"
+      "populationClass": "independent individual",
+      "mapLocalities": [
+        "Swanson"
+      ]
     },
     {
       "id": "AKL-IND-OWN-002",
@@ -4148,7 +4151,10 @@
       ],
       "name": "Dave Minty",
       "status": "located",
-      "populationClass": "independent individual"
+      "populationClass": "independent individual",
+      "mapLocalities": [
+        "Huia"
+      ]
     },
     {
       "id": "AKL-IND-OWN-003",
@@ -4185,7 +4191,10 @@
       ],
       "name": "Sam McClatchie",
       "status": "located",
-      "populationClass": "independent individual"
+      "populationClass": "independent individual",
+      "mapLocalities": [
+        "Huia"
+      ]
     },
     {
       "id": "AKL-IND-OWN-004",
@@ -4222,7 +4231,10 @@
       ],
       "name": "Brendan Boughen",
       "status": "located",
-      "populationClass": "independent individual"
+      "populationClass": "independent individual",
+      "mapLocalities": [
+        "Huia"
+      ]
     },
     {
       "id": "AKL-IND-OWN-005",
@@ -4261,7 +4273,10 @@
       ],
       "name": "Wayne",
       "status": "located",
-      "populationClass": "independent individual"
+      "populationClass": "independent individual",
+      "mapLocalities": [
+        "Hillcrest"
+      ]
     },
     {
       "id": "AKL-IND-OWN-006",
@@ -4298,7 +4313,10 @@
       ],
       "name": "Rama",
       "status": "located",
-      "populationClass": "independent individual"
+      "populationClass": "independent individual",
+      "mapLocalities": [
+        "Hillcrest"
+      ]
     },
     {
       "id": "AKL-IND-OWN-007",
@@ -4342,7 +4360,10 @@
       ],
       "name": "Phoebe",
       "status": "located",
-      "populationClass": "independent individual"
+      "populationClass": "independent individual",
+      "mapLocalities": [
+        "Forrest Hill"
+      ]
     },
     {
       "id": "AKL-IND-OWN-008",
@@ -4380,7 +4401,10 @@
       ],
       "name": "Dave",
       "status": "located",
-      "populationClass": "independent individual"
+      "populationClass": "independent individual",
+      "mapLocalities": [
+        "Forrest Hill"
+      ]
     },
     {
       "id": "AKL-IND-OWN-009",
@@ -4420,7 +4444,10 @@
       ],
       "name": "Helen",
       "status": "located",
-      "populationClass": "independent individual"
+      "populationClass": "independent individual",
+      "mapLocalities": [
+        "Ararimu"
+      ]
     },
     {
       "id": "AKL-IND-OWN-010",
@@ -4458,7 +4485,10 @@
       ],
       "name": "Rob",
       "status": "located",
-      "populationClass": "independent individual"
+      "populationClass": "independent individual",
+      "mapLocalities": [
+        "Ararimu"
+      ]
     },
     {
       "id": "AKL-IND-OWN-011",
@@ -4497,7 +4527,10 @@
       ],
       "name": "Victoria",
       "status": "located",
-      "populationClass": "independent individual"
+      "populationClass": "independent individual",
+      "mapLocalities": [
+        "Forrest Hill"
+      ]
     },
     {
       "id": "AKL-IND-OWN-012",
@@ -4541,7 +4574,10 @@
       ],
       "name": "Rebecka Keeling",
       "status": "located",
-      "populationClass": "independent individual"
+      "populationClass": "independent individual",
+      "mapLocalities": [
+        "Matakana"
+      ]
     },
     {
       "id": "AKL-IND-OWN-013",
@@ -4579,7 +4615,10 @@
       ],
       "name": "Jenny",
       "status": "located",
-      "populationClass": "independent individual"
+      "populationClass": "independent individual",
+      "mapLocalities": [
+        "Onehunga"
+      ]
     },
     {
       "id": "AKL-IND-OWN-014",
