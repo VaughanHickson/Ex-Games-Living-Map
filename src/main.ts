@@ -11,6 +11,7 @@ import {
   locatedParticipants,
   loadLocatedParticipants,
 } from './potentialParticipants'
+import { searchParticipants } from './search'
 import { installLivingWater } from './water/worldWater'
 
 const app = document.querySelector<HTMLDivElement>('#app')
@@ -113,6 +114,20 @@ const showParticipants = (localityName: string) => {
 </button>`).join('')}
     </div>
     <button class="participant-close">Close</button>`
+}
+
+const openSearchMatch = (name: string, locality?: string) => {
+  const result = searchParticipants({ name, locality })
+
+  if (result.outcome !== 'EXISTING_MATCH') return result
+
+  const match = result.candidates[0]
+  if (!match) return result
+
+  activeParticipantLocality = match.participant.locality
+  showParticipant(match.participant.id)
+
+  return result
 }
 
 const showParticipant = (id: string) => {
@@ -730,6 +745,25 @@ map.on('load', async () => {
   map.on('mouseleave', 'living-map-area-fill', () => {
     map.getCanvas().style.cursor = ''
   })
+})
+
+participantPanel.addEventListener('keydown', (event) => {
+  const target = event.target as HTMLInputElement
+
+  if (!target.matches('.participant-search')) return
+  if (event.key !== 'Enter') return
+
+  const query = target.value.trim()
+  if (!query) return
+
+  const result = openSearchMatch(
+    query,
+    activeParticipantLocality,
+  )
+
+  if (result.outcome === 'EXISTING_MATCH') {
+    event.preventDefault()
+  }
 })
 
 participantPanel.addEventListener('input', (event) => {
