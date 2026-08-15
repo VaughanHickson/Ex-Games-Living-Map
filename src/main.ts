@@ -97,7 +97,8 @@ const showParticipants = (localityName: string) => {
       <h2>Located Participants</h2>
       <p>${participants.length} located on the map</p>
       <input class="participant-search"
-        placeholder="Are you on the map?" />
+        placeholder="Find yourself or your group" />
+      <div class="participant-search-result" aria-live="polite"></div>
        <div class="participant-actions">
          <button class="participant-action">Add yourself / your organisation</button>
          <button class="participant-action">Remove my listing</button>
@@ -747,6 +748,13 @@ map.on('load', async () => {
   })
 })
 
+const showSearchResult = (message: string) => {
+  const result = participantPanel.querySelector<HTMLElement>(
+    '.participant-search-result',
+  )
+  if (result) result.textContent = message
+}
+
 participantPanel.addEventListener('keydown', (event) => {
   const target = event.target as HTMLInputElement
 
@@ -761,9 +769,21 @@ participantPanel.addEventListener('keydown', (event) => {
     activeParticipantLocality,
   )
 
-  if (result.outcome === 'EXISTING_MATCH') {
-    event.preventDefault()
+  event.preventDefault()
+
+  if (result.outcome === 'EXISTING_MATCH') return
+
+  if (result.outcome === 'POSSIBLE_MATCH') {
+    showSearchResult('We found a possible match. Review it before registering.')
+    return
   }
+
+  if (result.outcome === 'MULTIPLE_MATCHES') {
+    showSearchResult('We found several possible matches. Refine your search or review them.')
+    return
+  }
+
+  showSearchResult('No existing participant found. You can continue to register.')
 })
 
 participantPanel.addEventListener('input', (event) => {
@@ -791,6 +811,30 @@ if (target.closest('.participant-close')) {
   activeParticipantLocality = undefined
   return
 }
+const addParticipant = target.closest<HTMLElement>('.participant-action')
+if (addParticipant?.textContent?.includes('Add yourself')) {
+  const search = participantPanel.querySelector<HTMLInputElement>('.participant-search')
+  const query = search?.value.trim() ?? ''
+
+  if (!query) {
+    showSearchResult('Search for yourself or your group first.')
+    return
+  }
+
+  const result = searchParticipants({
+    name: query,
+    locality: activeParticipantLocality,
+  })
+
+  if (result.outcome === 'NO_MATCH') {
+    showSearchResult('No existing participant found. Registration can begin from here.')
+    return
+  }
+
+  showSearchResult('Review the existing or possible match before registering.')
+  return
+}
+
 const action = target.closest<HTMLElement>('.participant-profile-action')
 if (action?.dataset.id) {
 const fields = participantPanel.querySelectorAll<HTMLInputElement | HTMLTextAreaElement>('[name]')

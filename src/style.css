@@ -236,3 +236,19 @@ display: none;
 .participant-list {
   padding-top: 4px;
 }
+
+.participant-search-result {
+  min-height: 0;
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.participant-search-result:empty {
+  display: none;
+}
+
+.participant-search-result strong {
+  display: block;
+  margin-bottom: 3px;
+}
