@@ -26,3 +26,5 @@ export * from './types'
 export * from './normalise'
 
 export { searchParticipants } from './match'
+
+export * from './registration-handoff'
