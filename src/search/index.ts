@@ -24,3 +24,5 @@ export const participantSearchIndex = buildParticipantSearchIndex()
 
 export * from './types'
 export * from './normalise'
+
+export { searchParticipants } from './match'
