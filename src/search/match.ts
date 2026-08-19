@@ -4,22 +4,34 @@ import type {
   ParticipantSearchResult,
 } from './types'
 
-import { participantSearchIndex } from './index'
-import { normaliseSearchText, sameSearchText } from './normalise'
+import { buildParticipantSearchIndex } from './index'
+import { locatedParticipants, type LocatedParticipant } from '../potentialParticipants'
+import { normaliseSearchText, sameSearchText, searchTokens } from './normalise'
 
 const matchCandidate = (
   request: ParticipantSearchRequest,
+  participants: readonly LocatedParticipant[],
 ): readonly ParticipantSearchCandidate[] => {
   const name = normaliseSearchText(request.name)
   const locality = normaliseSearchText(request.locality)
-  return participantSearchIndex
-    .filter((entry) => normaliseSearchText(entry.name).includes(name))
+  const tokens = searchTokens(request.name)
+  return buildParticipantSearchIndex(participants)
+    .filter((entry) => {
+      const haystack = normaliseSearchText(entry.searchText)
+      return tokens.length > 0 && tokens.every((token) => haystack.includes(token))
+    })
     .map((entry) => {
       const reasons: string[] = []
       if (sameSearchText(entry.name, request.name)) {
         reasons.push('exact name')
-      } else {
+      } else if (normaliseSearchText(entry.name).includes(name)) {
         reasons.push('name contains search text')
+      } else if (normaliseSearchText(entry.locality).includes(name)) {
+        reasons.push('locality match')
+      } else if (normaliseSearchText(entry.type).includes(name)) {
+        reasons.push('participant type match')
+      } else {
+        reasons.push('profile information match')
       }
 
       const exactName = sameSearchText(entry.name, request.name)
@@ -43,8 +55,9 @@ const matchCandidate = (
 
 export const searchParticipants = (
   request: ParticipantSearchRequest,
+  participants: readonly LocatedParticipant[] = locatedParticipants,
 ): ParticipantSearchResult => {
-  const candidates = matchCandidate(request)
+  const candidates = matchCandidate(request, participants)
 
   if (!candidates.length) {
     return {

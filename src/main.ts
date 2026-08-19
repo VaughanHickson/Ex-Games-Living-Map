@@ -31,6 +31,23 @@ const map = new maplibregl.Map({
   pitch: 0,
 })
 
+class FindMeControl implements maplibregl.IControl {
+  private container?: HTMLDivElement
+  onAdd(): HTMLElement {
+    this.container = document.createElement('div')
+    this.container.className = 'maplibregl-ctrl maplibregl-ctrl-group'
+    const button = document.createElement('button')
+    button.className = 'ex-games-find-me'
+    button.type = 'button'
+    button.textContent = 'Find me / Add me'
+    button.setAttribute('aria-label', 'Find yourself or add yourself to the Living Map')
+    this.container.appendChild(button)
+    return this.container
+  }
+  onRemove() { this.container?.remove(); this.container = undefined }
+}
+map.addControl(new FindMeControl(), 'top-left')
+
 map.addControl(
   new maplibregl.NavigationControl({
     showCompass: true,
@@ -85,6 +102,29 @@ const getParticipant = (id: string) => {
     : base
 }
 
+const showFindMe = () => {
+  activeParticipantLocality = undefined
+  participantPanel.hidden = false
+  participantPanel.innerHTML = `
+    <div class="participant-panel__head">
+      <small>LIVING MAP</small>
+      <h2>Find yourself or your group</h2>
+      <p>Search the Living Map. If we do not know you yet, you can add yourself.</p>
+      <input class="participant-search"
+        placeholder="Name, group, project or organisation" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" autofocus />
+      <div class="participant-search-result" aria-live="polite"></div>
+      <div class="participant-actions">
+        <button class="participant-action">Add yourself / your organisation</button>
+      </div>
+    </div>
+    <button class="participant-close">Close</button>`
+}
+
+document.addEventListener("click", (event) => {
+  const target = event.target as HTMLElement
+  if (target.closest(".ex-games-find-me")) showFindMe()
+})
+
 const showParticipants = (localityName: string) => {
   const participants = discoveredParticipants.filter(
     (item) => item.locality === localityName,
@@ -118,7 +158,7 @@ const showParticipants = (localityName: string) => {
 }
 
 const openSearchMatch = (name: string, locality?: string) => {
-  const result = searchParticipants({ name, locality })
+  const result = searchParticipants({ name, locality }, discoveredParticipants)
 
   if (result.outcome !== 'EXISTING_MATCH') return result
 
@@ -748,11 +788,14 @@ map.on('load', async () => {
   })
 })
 
-const showSearchResult = (message: string) => {
-  const result = participantPanel.querySelector<HTMLElement>(
-    '.participant-search-result',
-  )
-  if (result) result.textContent = message
+const showSearchResult = (message: string, candidates: readonly any[] = []) => {
+  const result = participantPanel.querySelector<HTMLElement>('.participant-search-result')
+  if (!result) return
+  result.innerHTML = `<p>${message}</p>` + candidates.map((c) => `
+    <button class="participant-search-candidate" data-id="${c.participant.id}">
+      <strong>${c.participant.name}</strong>
+      <small>${c.participant.type} · ${c.participant.locality}</small>
+    </button>`).join('')
 }
 
 participantPanel.addEventListener('keydown', (event) => {
@@ -774,12 +817,12 @@ participantPanel.addEventListener('keydown', (event) => {
   if (result.outcome === 'EXISTING_MATCH') return
 
   if (result.outcome === 'POSSIBLE_MATCH') {
-    showSearchResult('We found a possible match. Review it before registering.')
+    showSearchResult('Possible match:', result.candidates)
     return
   }
 
   if (result.outcome === 'MULTIPLE_MATCHES') {
-    showSearchResult('We found several possible matches. Refine your search or review them.')
+    showSearchResult('Possible matches:', result.candidates)
     return
   }
 
@@ -788,23 +831,30 @@ participantPanel.addEventListener('keydown', (event) => {
 
 participantPanel.addEventListener('input', (event) => {
   const target = event.target as HTMLInputElement
-
   if (!target.matches('.participant-search')) return
-
-  const query = target.value.trim().toLowerCase()
-
-  participantPanel
-    .querySelectorAll<HTMLElement>('.participant-card')
-    .forEach((card) => {
-      const cardText = card.textContent?.toLowerCase() ?? ''
-      const localityText = activeParticipantLocality?.toLowerCase() ?? ''
-      const haystack = `${cardText} ${localityText}`
-      card.hidden = query.length > 0 && !haystack.includes(query)
-    })
+  const query = target.value.trim()
+  if (!query) { showSearchResult(''); return }
+  const result = searchParticipants(
+    { name: query, locality: activeParticipantLocality },
+    discoveredParticipants,
+  )
+  if (result.outcome === 'NO_MATCH')
+    showSearchResult('No existing participant found.')
+  else
+    showSearchResult(
+      result.outcome === 'EXISTING_MATCH' ? 'Existing match:' : 'Possible matches:',
+      result.candidates,
+    )
 })
 
 participantPanel.addEventListener('click', (event) => {
 const target = event.target as HTMLElement
+
+const candidate = target.closest<HTMLElement>(".participant-search-candidate")
+if (candidate?.dataset.id) {
+  showParticipant(candidate.dataset.id)
+  return
+}
 
 if (target.closest('.participant-close')) {
   participantPanel.hidden = true
@@ -824,7 +874,7 @@ if (addParticipant?.textContent?.includes('Add yourself')) {
   const result = searchParticipants({
     name: query,
     locality: activeParticipantLocality,
-  })
+  }, discoveredParticipants)
 
   if (result.outcome === 'NO_MATCH') {
     showSearchResult('No existing participant found. Registration can begin from here.')

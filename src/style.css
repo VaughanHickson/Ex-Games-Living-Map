@@ -252,3 +252,18 @@ display: none;
   display: block;
   margin-bottom: 3px;
 }
+
+/* Permanent Living Map participant entry point */
+.maplibregl-ctrl-group button.ex-games-find-me {
+  width: auto;
+  min-width: 132px;
+  height: 32px;
+  padding: 0 12px;
+  white-space: nowrap;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  cursor: pointer;
+}
