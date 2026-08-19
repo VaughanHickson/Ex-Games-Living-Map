@@ -1,0 +1,65 @@
+{
+  "schema": "EXG-LM-FOUR-REGION-LAUNCH-BASELINE-001",
+  "status": "FROZEN_FOR_LAUNCH_BASELINE",
+  "regions": [
+    "Northland Region",
+    "Auckland",
+    "Waikato Region",
+    "Bay of Plenty Region"
+  ],
+  "participantCount": 968,
+  "datasets": [
+    {
+      "region": "Northland Region",
+      "source": "data/participants/resolved/participants-northland-located-002-resolved-001.json",
+      "frozenFile": "data/participants/baseline/launch-001/participants-northland-located-002-resolved-001.json",
+      "participantCount": 432,
+      "sha256": "eaf864c4f49c0e08f50940546647acf8ebcf528498a3456b81a479be0e819954"
+    },
+    {
+      "region": "Auckland",
+      "source": "data/participants/baseline/participants-auckland-located-002-baseline-001.json",
+      "frozenFile": "data/participants/baseline/launch-001/participants-auckland-located-002-baseline-001.json",
+      "participantCount": 192,
+      "sha256": "704f25b0e7d95949995e37f8f06e3573044ea33109ef900ed8379a915fe83d9a"
+    },
+    {
+      "region": "Waikato Region",
+      "source": "data/participants/resolved/participants-waikato-located-001-resolved-001.json",
+      "frozenFile": "data/participants/baseline/launch-001/participants-waikato-located-001-resolved-001.json",
+      "participantCount": 117,
+      "sha256": "6f7c1e3abaf10346702794e91e72b7409e7151e0eb60ee67aba7a14e12c8981d"
+    },
+    {
+      "region": "Bay of Plenty Region",
+      "source": "data/participants/baseline/participants-bay-of-plenty-located-003-baseline-001.json",
+      "frozenFile": "data/participants/baseline/launch-001/participants-bay-of-plenty-located-003-baseline-001.json",
+      "participantCount": 227,
+      "sha256": "0b87a327f3925d845686231bb1be9cfcc7868e2f79db134e05e225abc03b23ae"
+    }
+  ],
+  "acceptanceStandard": "docs/EXG-LM-LAUNCH-BASELINE-001.md",
+  "audit": "data/geography/staged/four-region-launch-baseline-audit-003.json",
+  "acceptedUnknowns": {
+    "zeroParticipantLocalities": true,
+    "sourceLocatedButNoSafeLINZLocality": true,
+    "unknownLongTailLandscapeAreas": true,
+    "invalidLocalityGeometryWhenBrowserRenderingReliable": true
+  },
+  "nonNegotiableFailures": {
+    "silentParticipantLoss": false,
+    "inventedGeography": false,
+    "brokenRegionOrLocalityNavigation": false,
+    "brokenParticipantProfiles": false,
+    "materiallyMisleadingGeography": false
+  },
+  "browserValidation": {
+    "northlandProfilesConfirmed": true,
+    "areaModel002DevelopmentProofConfirmed": true
+  },
+  "notes": [
+    "This freeze defines a practical launch baseline, not geographic completeness.",
+    "Post-launch enrichment may add participants, aliases, landscape Areas and authoritative geometry.",
+    "No public/data registration is performed by this script."
+  ]
+}

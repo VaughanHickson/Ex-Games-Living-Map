@@ -1,0 +1,1960 @@
+{
+  "dataset": "EXG-WAIKATO-LONG-TAIL-ENHANCED-001",
+  "generated": "2026-08-18",
+  "region": "Waikato",
+  "status": "ENHANCED_CANDIDATE_PACKAGE_NOT_FINAL_PARTICIPANT_REGISTER",
+  "governance": {
+    "evidence_before_inference": true,
+    "baseline_preserved": true,
+    "no_saturation_claim": true,
+    "claim_status": "All additions are public-source candidate records; none are claimed participants.",
+    "privacy": "No private contact details added.",
+    "living_map_rule": "PROVISIONAL means candidate geography/entity identity still requires LM canonical-location resolution before publication."
+  },
+  "baseline": {
+    "source_package": "waikato-exa-xhigh-001.json",
+    "record_count_actual": 97,
+    "record_count_reported_by_source": 93,
+    "records": [
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waipā catchment",
+        "source_urls": [
+          "https://www.puniuinc.org/project/te-manawanui-o-waipa"
+        ],
+        "discovery_notes": "Canonicalised from Pūniu River Care variants.",
+        "evidence_summary": "Multiple projects evidence practical restoration along the Pūniu and tributaries.",
+        "participant_name": "Pūniu River Care Incorporated",
+        "participant_class": "community restoration group",
+        "canonical_locality": "Pūniu River",
+        "ecological_activity": "Riparian fencing, native planting, wetland restoration and pest control.",
+        "organisation_relationship": "Iwi-led; works with Mangatoatoa Marae."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Lower Waikato",
+        "source_urls": [
+          "https://www.waikatorivercare.co.nz/home"
+        ],
+        "discovery_notes": "Canonicalised from Waikato River Care variants.",
+        "evidence_summary": "Charitable trust with documented Taupiri and Mangawara wetland projects.",
+        "participant_name": "Waikato RiverCare",
+        "participant_class": "conservation organisation",
+        "canonical_locality": "Huntly",
+        "ecological_activity": "Riparian restoration, constructed wetlands and native planting.",
+        "organisation_relationship": "Independent charitable trust."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waipā",
+        "source_urls": [
+          "https://www.rnz.co.nz/news/environment/963536/thrilling-young-kiwi-sighting-a-milestone-for-iwi-restoration-efforts"
+        ],
+        "discovery_notes": "Aliases merged.",
+        "evidence_summary": "Documented sanctuary restoration and translocation programme.",
+        "participant_name": "Sanctuary Mountain Maungatautari",
+        "participant_class": "conservation organisation",
+        "canonical_locality": "Maungatautari",
+        "ecological_activity": "Pest-exclusion sanctuary, predator control and species reintroductions.",
+        "organisation_relationship": "Also known as Maungatautari Ecological Island Trust/project."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waipā",
+        "source_urls": [
+          "https://landcare.org.nz/project/maungatautari-to-pirongia-maunga-ecological-corridor/"
+        ],
+        "discovery_notes": "Lower Mangapiko and Taiea aliases merged.",
+        "evidence_summary": "The corridor society leads practical restoration between Maungatautari and Pirongia.",
+        "participant_name": "Maungatautari to Pirongia Ecological Corridor Incorporated Society (Taiea te Taiao)",
+        "participant_class": "community restoration group",
+        "canonical_locality": "Mangapiko catchment",
+        "ecological_activity": "Planting, fencing, wetland work, erosion control and predator/pest control.",
+        "organisation_relationship": "Formerly Lower Mangapiko Streamcare; NZ Landcare Trust partner."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waipā",
+        "source_urls": [
+          "https://www.nzherald.co.nz/waikato-news/news/mt-pirongias-native-species-on-the-comeback-as-pirongia-te-aroaro-o-kahu-restoration-society-celebrates-21-years/XV3USR65AZEEDNILI4HW6J6QCQ/"
+        ],
+        "discovery_notes": "Distinct from the corridor society.",
+        "evidence_summary": "Long-running hands-on restoration society on Pirongia.",
+        "participant_name": "Pirongia Te Aroaro o Kahu Restoration Society",
+        "participant_class": "conservation organisation",
+        "canonical_locality": "Pirongia",
+        "ecological_activity": "Predator control, planting, kōkako and other threatened-species work.",
+        "organisation_relationship": "Taiea te Taiao partner."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waipā",
+        "source_urls": [
+          "https://www.waikatoregion.govt.nz/assets/WRC/EIFSummaryApplications20242025.pdf"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Funding records identify its practical predator-control work.",
+        "participant_name": "Kakepuku Mountain Conservation Society",
+        "participant_class": "community restoration group",
+        "canonical_locality": "Kakepuku",
+        "ecological_activity": "Predator trapping to protect native flora and fauna.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waipā",
+        "source_urls": [
+          "https://www.mangaotama.nz/about/"
+        ],
+        "discovery_notes": "Project/trust names resolved to the trust.",
+        "evidence_summary": "Landowner trust and Mangaotama project document delivered catchment restoration.",
+        "participant_name": "Mangaotama Stream and Wetland Restoration Trust",
+        "participant_class": "community restoration group",
+        "canonical_locality": "Ōhaupō",
+        "ecological_activity": "Catchment fencing, native planting, wetland and stream restoration.",
+        "organisation_relationship": "Living Water partnership."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waipā",
+        "source_urls": [
+          "https://landcare.org.nz/project/rotopiko-community-pest-control-project/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Leads/partners restoration and pest-control activity at Rotopiko.",
+        "participant_name": "National Wetland Trust",
+        "participant_class": "conservation organisation",
+        "canonical_locality": "Lake Rotopiko",
+        "ecological_activity": "Wetland restoration, pest control and fauna recovery.",
+        "organisation_relationship": "NZ Landcare Trust partner."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waipā",
+        "source_urls": [
+          "https://landcare.org.nz/project/rotopiko-community-pest-control-project/"
+        ],
+        "discovery_notes": "Retained as a distinct named field project.",
+        "evidence_summary": "Project page directly describes local pest-control work.",
+        "participant_name": "Rotopiko Community Pest Control Project",
+        "participant_class": "community restoration group",
+        "canonical_locality": "Lake Rotopiko",
+        "ecological_activity": "Predator control around a peat-lake wetland reserve.",
+        "organisation_relationship": "National Wetland Trust and NZ Landcare Trust partnership."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waipā",
+        "source_urls": [
+          "https://waikatoriver.org.nz/wharekorino/"
+        ],
+        "discovery_notes": "Project retained separately from its lead organisation.",
+        "evidence_summary": "Public project record documents delivered restoration beside Mangatoatoa Marae.",
+        "participant_name": "Pūniu River Care / Mangatoatoa Marae Wharekorino Wetland Project",
+        "participant_class": "iwi_hapu_marae_initiative",
+        "canonical_locality": "Te Awamutu",
+        "ecological_activity": "Wetland weed control, fencing and 32,000 native plants.",
+        "organisation_relationship": "Led by Pūniu River Care with Mangatoatoa Marae."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waipā",
+        "source_urls": [
+          "https://www.scoop.co.nz/stories/AK2307/S00464.htm"
+        ],
+        "discovery_notes": "Kotahitanga spelling variant merged.",
+        "evidence_summary": "Initiated the Te Ara a Waiwaiā planting project.",
+        "participant_name": "Te Kotahitanga Marae",
+        "participant_class": "iwi_hapu_marae_initiative",
+        "canonical_locality": "Ōtorohanga",
+        "ecological_activity": "Waipā River riparian planting and awa restoration.",
+        "organisation_relationship": "Te Ara a Waiwaiā partner."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waipā",
+        "source_urls": [
+          "https://www.scoop.co.nz/stories/AK2307/S00464.htm"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Reported thousands of native plants along the Waipā River.",
+        "participant_name": "Te Ara a Waiwaiā Waipā River Enhancement Project",
+        "participant_class": "community restoration group",
+        "canonical_locality": "Ōtorohanga",
+        "ecological_activity": "Community riparian planting and riverbank maintenance.",
+        "organisation_relationship": "Council, iwi, schools and Waikato River Authority partnership."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Ōtorohanga",
+        "source_urls": [
+          "https://www.coastalrestorationtrust.org.nz/coast-care-groups/groups/te-taiao-o-k-whia-moana/"
+        ],
+        "discovery_notes": "Incorporated and non-incorporated variants merged.",
+        "evidence_summary": "Coastcare and fund evidence records practical harbour/coastal activity.",
+        "participant_name": "Te Taiao o Kāwhia Moana",
+        "participant_class": "iwi_hapu_marae_initiative",
+        "canonical_locality": "Kāwhia Harbour",
+        "ecological_activity": "Dune planting, coastal restoration, trapping and pest-plant control.",
+        "organisation_relationship": "Multi-stakeholder Coastcare group."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Ōtorohanga",
+        "source_urls": [
+          "https://www.coastalrestorationtrust.org.nz/coast-care-groups/groups/k-whia-beachcare-group/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Coastcare profile reports sustained work since 2008.",
+        "participant_name": "Onepu Trust",
+        "participant_class": "iwi_hapu_marae_initiative",
+        "canonical_locality": "Kāwhia",
+        "ecological_activity": "Coastal protection, restoration planting and beach patrols.",
+        "organisation_relationship": "Te Taiao o Kāwhia Moana participant."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waitomo",
+        "source_urls": [
+          "https://www.coastalrestorationtrust.org.nz/coast-care-groups/groups/kiritehere/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Coastcare group profile attributes ongoing restoration to the whānau.",
+        "participant_name": "Tahi Hohaia Hikoia Whānau",
+        "participant_class": "iwi_hapu_marae_initiative",
+        "canonical_locality": "Kiritehere",
+        "ecological_activity": "Dune planting and weed control.",
+        "organisation_relationship": "Coastcare-supported."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waitomo",
+        "source_urls": [
+          "https://waikatoriver.org.nz/wp-content/uploads/2014/06/Maniapoto-EMP1.pdf"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Maniapoto environmental plan identifies restoration work adjacent to the marae.",
+        "participant_name": "Mangapeehi Marae",
+        "participant_class": "iwi_hapu_marae_initiative",
+        "canonical_locality": "Benneydale",
+        "ecological_activity": "Riparian and wetland restoration for biodiversity and water quality.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waikato District",
+        "source_urls": [
+          "https://waikatoriver.org.nz/funded-projects/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Waikato River Authority funding register names the board and restoration project.",
+        "participant_name": "Tūrangawaewae Trust Board",
+        "participant_class": "iwi_hapu_marae_initiative",
+        "canonical_locality": "Ngāruawāhia",
+        "ecological_activity": "Te Puea Hērangi wetland pest-plant control and native planting.",
+        "organisation_relationship": "Tūrangawaewae Marae entity."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waikato District",
+        "source_urls": [
+          "https://waikatoriver.org.nz/media-release-october-18-2023/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "River Authority and council reports evidence work near Lake Okowhao.",
+        "participant_name": "Te Kauri Marae",
+        "participant_class": "iwi_hapu_marae_initiative",
+        "canonical_locality": "Huntly",
+        "ecological_activity": "Puna and wetland restoration through fencing and planting.",
+        "organisation_relationship": "Associated iwi enterprise."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waikato Region",
+        "source_urls": [
+          "https://www.doc.govt.nz/news/media-releases/2021-media-releases/revegetation-programme-underway-at-lake-whangape/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Public sources connect the iwi authority with applied restoration projects across its rohe.",
+        "participant_name": "Waikato-Tainui",
+        "participant_class": "iwi_hapu_marae_initiative",
+        "canonical_locality": "Waikato River",
+        "ecological_activity": "Native species restoration, planting, nursery and pest-management work.",
+        "organisation_relationship": "Iwi authority."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Matamata-Piako",
+        "source_urls": [
+          "https://www.waikatoregion.govt.nz/assets/WRC/EIFSummaryApplications20242025.pdf"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Council fund documentation gives area and pest-control activity.",
+        "participant_name": "Ngāti Hinerangi",
+        "participant_class": "iwi_hapu_marae_initiative",
+        "canonical_locality": "Kaimai-Mamaku Ranges",
+        "ecological_activity": "Rat, possum and mustelid control across a 1,029-ha restoration area.",
+        "organisation_relationship": "Manaaki Kaimai Mamaku hub relationship."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Lower Waikato",
+        "source_urls": [
+          "https://www.waikatoregion.govt.nz/story-hub/fish-passage-kaupapa/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Public account places iwi practical work beside the Waikato River.",
+        "participant_name": "Ngāti Te Ata",
+        "participant_class": "iwi_hapu_marae_initiative",
+        "canonical_locality": "Mangawhero",
+        "ecological_activity": "Riparian planting and fish-passage protection.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Thames-Coromandel",
+        "source_urls": [
+          "https://meg.org.nz/projects/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Group documents active projects and kiwi-sanctuary work.",
+        "participant_name": "Moehau Environment Group",
+        "participant_class": "conservation_organisation",
+        "canonical_locality": "Northern Coromandel",
+        "ecological_activity": "Kiwi protection, predator and weed control, wetland restoration.",
+        "organisation_relationship": "Independent; works in the Hauraki-Coromandel network."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Thames-Coromandel and Hauraki",
+        "source_urls": [
+          "https://pfhc.nz/projects"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Trust documents projects and support for more than 60 local groups.",
+        "participant_name": "Predator Free Hauraki Coromandel Community Trust",
+        "participant_class": "conservation_organisation",
+        "canonical_locality": "Hauraki-Coromandel",
+        "ecological_activity": "Predator control and practical support to local conservation groups.",
+        "organisation_relationship": "Regional hub."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Thames-Coromandel",
+        "source_urls": [
+          "https://www.projectkiwi.org.nz/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Trust’s project information directly evidences practical kiwi conservation.",
+        "participant_name": "Project Kiwi Trust",
+        "participant_class": "conservation_organisation",
+        "canonical_locality": "Kūaotunu Peninsula",
+        "ecological_activity": "Kiwi monitoring, predator control and Operation Nest Egg.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Thames-Coromandel",
+        "source_urls": [
+          "https://pfhc.nz/blog/whenuakit-kiwi-care-group"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Network profile reports field control and kiwi-population outcomes.",
+        "participant_name": "Whenuakite Kiwi Care Group",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Whenuakite",
+        "ecological_activity": "Predator control and kiwi monitoring over 3,500 ha.",
+        "organisation_relationship": "Hauraki-Coromandel network."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Thames-Coromandel",
+        "source_urls": [
+          "https://kapowaikiwigroup.co.nz/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Group describes a community-operated kiwi-protection programme.",
+        "participant_name": "Kapowai Kiwi Group",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Kapowai Valley",
+        "ecological_activity": "Predator control for Coromandel brown kiwi.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Thames-Coromandel",
+        "source_urls": [
+          "https://www.thamescoastkiwicare.org/our-kaupapa/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Its kaupapa page describes extensive practical trapping.",
+        "participant_name": "Thames Coast Kiwi Care",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Thames Coast",
+        "ecological_activity": "Mustelid, rat and possum trapping for kiwi.",
+        "organisation_relationship": "Thames Coast Protection Society; Hauraki-Coromandel network."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Thames-Coromandel",
+        "source_urls": [
+          "https://www.manamanu.org.nz/our-organisation"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Trust and network sources describe predator control and habitat restoration.",
+        "participant_name": "Mana Manu Trust",
+        "participant_class": "conservation_organisation",
+        "canonical_locality": "Whangapoua",
+        "ecological_activity": "Pest control and reforestation across private land.",
+        "organisation_relationship": "Hauraki-Coromandel network."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Thames-Coromandel",
+        "source_urls": [
+          "https://www.purangiconservationtrust.org/regenerate/"
+        ],
+        "discovery_notes": "Former name merged.",
+        "evidence_summary": "Trust documents both regeneration planting and predator control.",
+        "participant_name": "Purangi Conservation Trust",
+        "participant_class": "conservation_organisation",
+        "canonical_locality": "Cooks Beach/Ferry Landing",
+        "ecological_activity": "Trap network, weed control and restoration planting.",
+        "organisation_relationship": "Formerly Rodent Control FMFC Trust."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Thames-Coromandel",
+        "source_urls": [
+          "https://www.ringsbeachwetlandgroup.org.nz/what-we-do/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Group documents restoration of Matarangi Bluff and wetland habitat.",
+        "participant_name": "Rings Beach Wetland Group",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Matarangi",
+        "ecological_activity": "Predator and weed control and native revegetation.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Thames-Coromandel",
+        "source_urls": [
+          "https://www.otamareservesgroup.org.nz/what-we-do/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Group describes reserve management and practical conservation.",
+        "participant_name": "Otama Reserves Group",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Ōtama",
+        "ecological_activity": "Coastal wetland/dune restoration, planting and predator control.",
+        "organisation_relationship": "Works with DOC and Ngāti Hei."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Thames-Coromandel",
+        "source_urls": [
+          "https://www.coastalrestorationtrust.org.nz/coast-care-groups/groups/k-aotunu-dune-care-group/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Coastcare profile records monthly working bees and planting.",
+        "participant_name": "Kūaotunu Dune Care Group",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Kūaotunu",
+        "ecological_activity": "Dune planting and weed control.",
+        "organisation_relationship": "Coastcare Waikato."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Thames-Coromandel",
+        "source_urls": [
+          "http://www.cooksbeachcare.org.nz/"
+        ],
+        "discovery_notes": "Cooks Beachcare aliases merged.",
+        "evidence_summary": "Group public material records weekly working bees and planting.",
+        "participant_name": "Cooks Beachcare Group",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Cooks Beach",
+        "ecological_activity": "Dune restoration, weed removal and planting.",
+        "organisation_relationship": "Coastcare Waikato."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Thames-Coromandel",
+        "source_urls": [
+          "https://www.coastalrestorationtrust.org.nz/coast-care-groups/groups/wharekaho-simpsons-beach-beachcare/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Coastcare profile reports 4,827 plants in the 2023 season.",
+        "participant_name": "Wharekaho/Simpsons Beach Beachcare",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Wharekaho",
+        "ecological_activity": "Dune restoration and native planting.",
+        "organisation_relationship": "Coastcare Waikato."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Thames-Coromandel",
+        "source_urls": [
+          "https://www.coastalrestorationtrust.org.nz/coast-care-groups/groups/matarangi-beachcare-group/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Coastcare profile reports multi-event restoration planting.",
+        "participant_name": "Matarangi Beachcare Group",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Matarangi",
+        "ecological_activity": "Dune restoration.",
+        "organisation_relationship": "Coastcare Waikato."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Thames-Coromandel",
+        "source_urls": [
+          "https://www.coastalrestorationtrust.org.nz/coast-care-groups/groups/pauanui-beachcare-group/"
+        ],
+        "discovery_notes": "Beachcare alias merged.",
+        "evidence_summary": "Public sources document regular work bees and planting.",
+        "participant_name": "Pauanui Dune Protection Society",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Pauanui",
+        "ecological_activity": "Dune restoration, weeding and native planting.",
+        "organisation_relationship": "Also operates as Pauanui Beachcare; Coastcare Waikato."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Thames-Coromandel",
+        "source_urls": [
+          "https://www.coastalrestorationtrust.org.nz/coast-care-groups/groups/whangamat-dune-protection-society/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Coastcare profile directly evidences field activities.",
+        "participant_name": "Whangamatā Dune Protection Society",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Whangamatā",
+        "ecological_activity": "Dune planting, weed control and rodent control.",
+        "organisation_relationship": "Coastcare Waikato."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Thames-Coromandel",
+        "source_urls": [
+          "https://www.coastalrestorationtrust.org.nz/coast-care-groups/groups/onemana-beachcare-group/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Profile reports regular volunteer planting, including 800 plants.",
+        "participant_name": "Onemana Beachcare Group",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Onemana",
+        "ecological_activity": "Coastal restoration and planting.",
+        "organisation_relationship": "Coastcare Waikato."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Thames-Coromandel",
+        "source_urls": [
+          "https://www.whangamataharbourcare.com/aboutus"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Group materials and shorebird account identify field trapping and restoration.",
+        "participant_name": "Whangamatā Harbour Care",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Whangamatā",
+        "ecological_activity": "Harbour/estuary restoration, planting and predator trapping.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Thames-Coromandel",
+        "source_urls": [
+          "https://hcpost.news/2026/01/08/kaitiaki-programme-strengthens-predator-control-at-two-iconic-hauraki-coromandel-destinations/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Public reporting documents its AT220 trap deployment.",
+        "participant_name": "Hahei Community Conservation Group",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Hahei",
+        "ecological_activity": "Predator control and native planting.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Thames-Coromandel",
+        "source_urls": [
+          "https://www.waikatoregion.govt.nz/story-hub/funding-creates-environmental-benefits-jobs-and-hope/"
+        ],
+        "discovery_notes": "Project/coordinator treated as one participant.",
+        "evidence_summary": "Council story documents nursery production and landowner restoration delivery.",
+        "participant_name": "Moehau ki te Moana / Colville Junction",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Colville",
+        "ecological_activity": "Native nursery, fencing, riparian planting and pest control.",
+        "organisation_relationship": "Colville Junction coordinates the project."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Thames-Coromandel",
+        "source_urls": [
+          "https://www.waikatoregion.govt.nz/assets/WRC/EIFSummaryApplications20242025.pdf"
+        ],
+        "discovery_notes": "The Colville Project alias merged.",
+        "evidence_summary": "Council fund material identifies control across a 35-ha forest block.",
+        "participant_name": "The Colville Project Trust",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Northern Coromandel",
+        "ecological_activity": "Pest-plant control in regenerating forest.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Raglan",
+        "source_urls": [
+          "https://www.coastalrestorationtrust.org.nz/coast-care-groups/groups/ruapuke-beachcare-group/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Coastcare profile records activity since 2007.",
+        "participant_name": "Ruapuke Kaitiaki Group",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Ruapuke Beach",
+        "ecological_activity": "Coastal planting, dune restoration and weed control.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Raglan",
+        "source_urls": [
+          "https://www.coastalrestorationtrust.org.nz/coast-care-groups/groups/raglan-wh-ingaroa-beachcare-group/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Coastcare profile connects the trust to applied coastal restoration.",
+        "participant_name": "Whāingaroa ki te Whenua Trust",
+        "participant_class": "conservation_organisation",
+        "canonical_locality": "Raglan/Whāingaroa",
+        "ecological_activity": "Coastal restoration and dune planting.",
+        "organisation_relationship": "Works with hapū and councils."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waikato District",
+        "source_urls": [
+          "https://www.waikatodistrict.govt.nz/news/article/2026/03/02/community-aspirations-for-lorenzen-bay-reserve-recognised"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Council material records community restoration activity since 2013.",
+        "participant_name": "Kirikiripu Catchment Care",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Raglan",
+        "ecological_activity": "Native planting and pest-plant control at Waikokowai/Lorenzen Bay.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Raglan",
+        "source_urls": [
+          "https://www.waikatoregion.govt.nz/assets/WRC/PS2525AnnualReportBiodiversity202425.pdf"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Council biodiversity report places practical work at Mount Karioi/Raglan.",
+        "participant_name": "A Rocha Aotearoa",
+        "participant_class": "conservation_organisation",
+        "canonical_locality": "Whāingaroa/Raglan",
+        "ecological_activity": "Pest control, wetland and native-habitat restoration.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waikato District",
+        "source_urls": [
+          "https://www.coastalrestorationtrust.org.nz/coast-care-groups/groups/port-waikato-beachcare-group/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Coastcare profile documents restoration and tern-attraction work.",
+        "participant_name": "Port Waikato Beachcare Group",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Port Waikato",
+        "ecological_activity": "Dune planting and shorebird protection.",
+        "organisation_relationship": "Coastal Restoration Trust network."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waitomo",
+        "source_urls": [
+          "https://www.glowing.co.nz/pakeho-restoration-project"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Project account records over 8,000 planted trees and pest-control network.",
+        "participant_name": "Pākehō Restoration Project",
+        "participant_class": "private_farm_or_landowner_project",
+        "canonical_locality": "Waitomo",
+        "ecological_activity": "Native forest planting, predator control and waterway fencing.",
+        "organisation_relationship": "Independent private-land project."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waitomo",
+        "source_urls": [
+          "https://www.coastalrestorationtrust.org.nz/coast-care-groups/groups/marokopa-beachcare-group/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Coastcare profile documents practical coastal restoration.",
+        "participant_name": "Marokopa Beachcare Group",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Marokopa",
+        "ecological_activity": "Dune restoration and native planting.",
+        "organisation_relationship": "Ngāti Toa Tupahau Trust/Coastcare partners."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waikato District",
+        "source_urls": [
+          "https://www.haakarimata.com/mahitahi"
+        ],
+        "discovery_notes": "Haakarimata Restoration Group treated as the trust’s operating group.",
+        "evidence_summary": "Trust documents community planting and control work in the ranges.",
+        "participant_name": "Haakarimata Restoration Trust",
+        "participant_class": "conservation_organisation",
+        "canonical_locality": "Ngāruawāhia",
+        "ecological_activity": "Forest restoration, planting and predator control.",
+        "organisation_relationship": "Morepork Action Group partner."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Hamilton",
+        "source_urls": [
+          "https://www.nzpcn.org.nz/conservation/restoration/ecological-restoration/case-studies/waiwhakareke/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Case study documents a 60-ha restoration project.",
+        "participant_name": "Waiwhakareke Natural Heritage Park",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Hamilton",
+        "ecological_activity": "Lowland/wetland ecosystem reconstruction, planting and pest control.",
+        "organisation_relationship": "Hamilton City Council, University of Waikato and Tūī 2000 partnership."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Hamilton",
+        "source_urls": [
+          "https://www.waikatobiodiversity.org.nz/friends-of-waiwhakareke/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Forum records regular hands-on work at Waiwhakareke.",
+        "participant_name": "Friends of Waiwhakareke",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Hamilton",
+        "ecological_activity": "Volunteer weeding and planting maintenance.",
+        "organisation_relationship": "Waiwhakareke volunteer group."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Hamilton",
+        "source_urls": [
+          "https://www.seeleygully.org.nz/about-us"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Trust describes ongoing reserve restoration with council.",
+        "participant_name": "AJ Seeley Gully Trust",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Claudelands",
+        "ecological_activity": "Native bush restoration, planting, weed and predator control.",
+        "organisation_relationship": "Hamilton City Council partner."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Hamilton",
+        "source_urls": [
+          "https://www.weedbusters.org.nz/get-involved/regional-awards/nominations/mangaiti-gully-restoration-trust/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Multiple public records document the trust’s practical work.",
+        "participant_name": "Mangaiti Gully Restoration Trust",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Huntington",
+        "ecological_activity": "Gully planting, weed control, predator control and bat habitat work.",
+        "organisation_relationship": "Hamilton City Council partner."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Hamilton",
+        "source_urls": [
+          "https://www.resi.org.nz/pest-free-riverlea/"
+        ],
+        "discovery_notes": "Riverlea Environment Group aliases merged.",
+        "evidence_summary": "Society documents working bees and Pest-Free Riverlea activity.",
+        "participant_name": "Riverlea Environment Society Inc",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Riverlea",
+        "ecological_activity": "Hammond Park planting, weeding and pest control.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Hamilton",
+        "source_urls": [
+          "https://blog.doc.govt.nz/2021/10/14/regeneration-the-bradley-way/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "DOC account records regular volunteer restoration work.",
+        "participant_name": "Friends of Mangaonua Esplanade",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Silverdale Gully",
+        "ecological_activity": "Pest-plant removal and native regeneration/planting.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Hamilton",
+        "source_urls": [
+          "https://hamilton.govt.nz/strategies-plans-and-projects/projects/nature-in-the-city/kukutaaruhe-gully-restoration-donny-park"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Project and council sources document active community restoration.",
+        "participant_name": "The Fairfield Project",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Kukutāruhe Gully",
+        "ecological_activity": "Gully weed/rubbish removal, planting and pest monitoring.",
+        "organisation_relationship": "Works with Kukutāruhe Education Trust, schools and mana whenua."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Hamilton",
+        "source_urls": [
+          "https://hamilton.govt.nz/assets/Uploads/Documents/Content-Documents/Property-Rates-and-Building/PC5-Peacocke-Structure-Plan/Submitter-statements-of-evidence/Mangakotukutuku-Stream-Care-Group/MSCG_Collier_Plan_Change_5_Evidence.pdf"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Evidence identifies active restoration since 2007.",
+        "participant_name": "Mangakotukutuku Stream Care Group",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Mangakotukutuku catchment",
+        "ecological_activity": "Stream/gully restoration and native-fish habitat monitoring.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Hamilton and Cambridge",
+        "source_urls": [
+          "https://blog.doc.govt.nz/2022/09/08/the-tui-in-my-yard/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "DOC blog identifies the long-standing volunteer group’s work.",
+        "participant_name": "Tūī 2000",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Hamilton",
+        "ecological_activity": "Restoration planting and predator control for tūī habitat.",
+        "organisation_relationship": "Hamilton Halo/Waiwhakareke partner."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waikato District",
+        "source_urls": [
+          "https://www.predatorfreetamahere.com/project-news/gully-restoration-amp-walkways"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Project website records trapping and restoration work.",
+        "participant_name": "Predator Free Tamahere",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Tamahere",
+        "ecological_activity": "Predator trapping, gully restoration and habitat planting.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waikato District",
+        "source_urls": [
+          "https://www.tamaherewalkways.org/our-projects"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Local sources document volunteer-led restoration of gully networks.",
+        "participant_name": "Tamahere Mangaone Restoration Trust",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Tamahere",
+        "ecological_activity": "Gully and streamside planting, weed control and habitat restoration.",
+        "organisation_relationship": "Supported by local partners."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Taupō",
+        "source_urls": [
+          "https://www.greeningtaupo.org.nz/our-projects"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Organisation documents several active restoration sites.",
+        "participant_name": "Greening Taupō",
+        "participant_class": "conservation_organisation",
+        "canonical_locality": "Taupō",
+        "ecological_activity": "Native planting, weed/pest control and river/lakeshore restoration.",
+        "organisation_relationship": "Works with Project Tongariro and local partners."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Taupō/Tongariro",
+        "source_urls": [
+          "https://www.tongariro.org.nz/our-impact"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Organisation documents Rotopounamu, Te Matapuna and Oruatua field projects.",
+        "participant_name": "Project Tongariro",
+        "participant_class": "conservation_organisation",
+        "canonical_locality": "Lake Rotopounamu",
+        "ecological_activity": "Trapline work, wetland restoration, native planting and weed control.",
+        "organisation_relationship": "DOC and community partners."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Taupō",
+        "source_urls": [
+          "https://www.wceet.org.nz/oruatua-restoration/"
+        ],
+        "discovery_notes": "Project variants merged.",
+        "evidence_summary": "WCEET project record describes resident-led restoration.",
+        "participant_name": "Oruatua Restoration",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Tauranga-Taupō",
+        "ecological_activity": "Predator trapping, weed clearance and native planting.",
+        "organisation_relationship": "Project Tongariro/WCEET support."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Taupō",
+        "source_urls": [
+          "https://www.tongariro.org.nz/te-matapuna-wetland"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Project Tongariro documents long-term wetland restoration.",
+        "participant_name": "Te Matapuna Wetland Restoration",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "South Taupō",
+        "ecological_activity": "Willow removal, planting and predator control.",
+        "organisation_relationship": "Project Tongariro project."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Taupō",
+        "source_urls": [
+          "https://www.waikatoregion.govt.nz/story-hub/community-group-efforts-strengthen-native-birdsong/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Council report documents 25 lines, 500+ traps and planting.",
+        "participant_name": "Pukawa Bay Trust",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Pukawa Bay",
+        "ecological_activity": "Large trapping network and native planting programme.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Taupō",
+        "source_urls": [
+          "https://www.predatorfreetaupo.nz/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Organisation operates practical district trapping and project pages.",
+        "participant_name": "Predator Free Taupō",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Taupō",
+        "ecological_activity": "Community predator trapping.",
+        "organisation_relationship": "Project Tongariro support."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Taupō",
+        "source_urls": [
+          "https://www.kidsgreeningtaupo.org.nz/our-projects"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Programme documents practical activities across Taupō and Tūrangi schools.",
+        "participant_name": "Kids Greening Taupō",
+        "participant_class": "school_or_youth_programme",
+        "canonical_locality": "Taupō",
+        "ecological_activity": "Youth-led planting, weeding, mulching, trapping and restoration.",
+        "organisation_relationship": "Independent programme with school partners."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "South Waikato",
+        "source_urls": [
+          "https://www.pokaiwhenua.org.nz/about-us/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Group documents landowner restoration projects and planting days.",
+        "participant_name": "Pokaiwhenua Catchment Group",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Tokoroa",
+        "ecological_activity": "Wetland/riparian fencing and planting, catchment restoration.",
+        "organisation_relationship": "Works with Raukawa and DairyNZ."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "South Waikato",
+        "source_urls": [
+          "https://waikatoriver.org.nz/waikato-river-trails-riparian-work/"
+        ],
+        "discovery_notes": "Trust naming variants merged.",
+        "evidence_summary": "River Authority records extensive volunteer native planting.",
+        "participant_name": "Waikato River Trails Charitable Trust",
+        "participant_class": "conservation_organisation",
+        "canonical_locality": "South Waikato",
+        "ecological_activity": "Waikato River margin planting and riparian regeneration.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Taupō",
+        "source_urls": [
+          "https://www.waikatoregion.govt.nz/assets/WRC/CentralVolcanicPlateauPlantingGuide.pdf"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Waikato planting guide identifies the local restoration group and work.",
+        "participant_name": "Waimarino Wetland Restoration",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "South Taupō",
+        "ecological_activity": "Willow control, bird monitoring and native replanting.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "South Waikato",
+        "source_urls": [
+          "https://www.waikatoregion.govt.nz/assets/WRC/EIFSummaryApplications20242025.pdf"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Council fund documentation identifies delivered network work.",
+        "participant_name": "Mokaihaha Kōkako Trust",
+        "participant_class": "conservation_organisation",
+        "canonical_locality": "Mokaihaha Ecological Area",
+        "ecological_activity": "Predator-control network maintenance for kōkako and native fauna.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Matamata-Piako",
+        "source_urls": [
+          "https://piakocatchmentforum.co.nz/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Forum publicly describes catchment restoration programme.",
+        "participant_name": "Piako Catchment Forum",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Matamata-Piako",
+        "ecological_activity": "Riparian planting, forest monitoring, landowner pest/weed support.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Matamata-Piako",
+        "source_urls": [
+          "https://predatorfreematamata.nz/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Organisation website documents practical local trapping.",
+        "participant_name": "Predator Free Matamata",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Matamata",
+        "ecological_activity": "Traplines and bait stations for predator control.",
+        "organisation_relationship": "Ngāti Hinerangi partner."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Hauraki",
+        "source_urls": [
+          "https://www.westernfirth.org.nz/aims-achievements"
+        ],
+        "discovery_notes": "Western Firth canonicalised.",
+        "evidence_summary": "Group publishes achievements and field objectives.",
+        "participant_name": "Western Firth Catchment Group",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Pūkorokoro-Miranda",
+        "ecological_activity": "Riparian planting, predator control, monitoring and sediment reduction.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waipā",
+        "source_urls": [
+          "https://www.scoop.co.nz/stories/AK0909/S00008/environment-waikato-secures-funding-for-peat-lake.htm"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Public report identifies care-group restoration at the peat lake.",
+        "participant_name": "Lake Mangahia Care Group",
+        "participant_class": "community_restoration_group",
+        "canonical_locality": "Rukuhia",
+        "ecological_activity": "Wetland fencing, weed control and native sedge/shrub planting.",
+        "organisation_relationship": "Environment Waikato support."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Lower Waikato",
+        "source_urls": [
+          "https://waikatoriver.org.nz/iinanga-revival/"
+        ],
+        "discovery_notes": "Individual/family/project aliases merged.",
+        "evidence_summary": "River Authority account identifies Stu Muir’s long-running personally led field project.",
+        "participant_name": "Stu Muir and family / Mangati Stream Inanga Restoration",
+        "participant_class": "independent_individual",
+        "canonical_locality": "Aka Aka/Mangati Stream",
+        "ecological_activity": "Whitebait habitat restoration, 60,000+ native plants and animal-pest control.",
+        "organisation_relationship": "Independent family farm project."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Lower Waikato",
+        "source_urls": [
+          "https://waikatoriver.org.nz/lake-waikare-restoration/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "River Authority profile identifies Nikau’s leadership and field work.",
+        "participant_name": "Tawera Nikau",
+        "participant_class": "independent_individual",
+        "canonical_locality": "Lake Waikare",
+        "ecological_activity": "Leads clearing and planting in a multi-year lake clean-up.",
+        "organisation_relationship": "Nikau Estate Trust."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waikato District",
+        "source_urls": [
+          "https://waikatoriver.org.nz/media-release-october-18-2023/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "River Authority release identifies his practical restoration leadership.",
+        "participant_name": "Eddie Berryman",
+        "participant_class": "independent_individual",
+        "canonical_locality": "Huntly",
+        "ecological_activity": "Puna/wetland restoration through fencing and native planting.",
+        "organisation_relationship": "Associated with Te Kauri Marae projects."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Raglan",
+        "source_urls": [
+          "https://nzfetrust.org.nz/stories/tor-pedersen-of-broomore-farm/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Farm Environment Trust profile documents practical work and award evidence.",
+        "participant_name": "Tor Pedersen / Broomore Farm",
+        "participant_class": "private_farm_or_landowner_project",
+        "canonical_locality": "Raglan",
+        "ecological_activity": "Waterway fencing, wetland restoration and 30,000 native trees.",
+        "organisation_relationship": "Independent farm."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "South Waikato",
+        "source_urls": [
+          "https://nzfarmsource.co.nz/advice-and-support/enrich/the-waikato-farm-that-carved-out-a-corner-for-nature.html"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Farm account documents completed on-farm restoration.",
+        "participant_name": "James and Melissa Barbour",
+        "participant_class": "private_farm_or_landowner_project",
+        "canonical_locality": "Waotu",
+        "ecological_activity": "Wetland restoration, fencing, weed removal and 18,000 native plants.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Matamata-Piako",
+        "source_urls": [
+          "https://www.nzherald.co.nz/the-country/news/waikato-farms-wetland-project-sets-standard-for-environmental-rules/6YGUWC7ZCZH4JFJYBXDNSPXJZI/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Farm coverage documents 15,000 planted trees and wetland work.",
+        "participant_name": "Johan and Kylie van Ras",
+        "participant_class": "private_farm_or_landowner_project",
+        "canonical_locality": "Te Puninga",
+        "ecological_activity": "Native wetland conversion and riparian planting.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waipā",
+        "source_urls": [
+          "https://waikatoriver.org.nz/maungatautari-wetland-restoration/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "River Authority project record identifies the family and delivered planting.",
+        "participant_name": "Gina, Neville and Louise Williams",
+        "participant_class": "private_farm_or_landowner_project",
+        "canonical_locality": "Horahora",
+        "ecological_activity": "Dairy-farm wetland restoration and 30,000+ native plants.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waipā",
+        "source_urls": [
+          "https://www.tarunafarm.co.nz/the-riparian-planting/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Farm publishes its 40-ha retirement and 48,000-tree restoration work.",
+        "participant_name": "Taruna Farm",
+        "participant_class": "private_farm_or_landowner_project",
+        "canonical_locality": "Maungatautari",
+        "ecological_activity": "Riparian planting, wetland/gully retirement and pest control.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waikato District",
+        "source_urls": [
+          "https://nzfetrust.org.nz/news/leadership-and-community-based-action-sees-alastair-and-ann-reeves-of-reeves-farms-take-out-the-regional-supreme-award-at-the-waikato-ballance-farm-environment-awards/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Farm Environment Trust profile documents practical field work.",
+        "participant_name": "Alastair and Ann Reeves / Reeves Farms",
+        "participant_class": "private_farm_or_landowner_project",
+        "canonical_locality": "Te Akau",
+        "ecological_activity": "Riparian corridors, planting and predator management.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Lower Waikato",
+        "source_urls": [
+          "https://waikatoregion.govt.nz/assets/WRC/Community/Ripple/Lake-Whangape-restoration.pdf"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Council report identifies landowner project and delivered activity.",
+        "participant_name": "Wairenga Holdings Ltd",
+        "participant_class": "private_farm_or_landowner_project",
+        "canonical_locality": "Lake Whangape",
+        "ecological_activity": "4.5-km riparian restoration, fencing and 20,000 native plants.",
+        "organisation_relationship": "Council partnership."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waikato District",
+        "source_urls": [
+          "https://waikatoriver.org.nz/kerr-family/"
+        ],
+        "discovery_notes": "Family/project aliases merged.",
+        "evidence_summary": "River Authority project record reports 31,000 plants.",
+        "participant_name": "Lance Kerr / Kerr Family Restoration Project",
+        "participant_class": "private_farm_or_landowner_project",
+        "canonical_locality": "Ohinewai",
+        "ecological_activity": "Lake-margin retirement, fencing, planting and pest control.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Taupō",
+        "source_urls": [
+          "https://www.wairakeiestate.co.nz/our-environment"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Estate environmental reporting documents applied work.",
+        "participant_name": "Wairakei Estate",
+        "participant_class": "private_farm_or_landowner_project",
+        "canonical_locality": "Wairakei",
+        "ecological_activity": "Wetland restoration, planting, pest eradication and riparian protection.",
+        "organisation_relationship": "Works with Pāmu on some sites."
+      },
+      {
+        "confidence": "MEDIUM",
+        "wider_area": "South Waikato",
+        "source_urls": [
+          "https://waikatoriver.org.nz/wp-content/uploads/2020/02/Waikato-Waipa-Restoration-Strategy-NEW.pdf"
+        ],
+        "discovery_notes": "Evidence is strategy-level rather than a dedicated project page.",
+        "evidence_summary": "Waikato-Waipā restoration strategy identifies active wetland management.",
+        "participant_name": "Hancock Forest Management",
+        "participant_class": "private_farm_or_landowner_project",
+        "canonical_locality": "Tokoroa",
+        "ecological_activity": "Biodiversity management of significant forestry wetlands.",
+        "organisation_relationship": "Independent."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "South Waikato",
+        "source_urls": [
+          "https://waikatoriver.org.nz/waikato-river-trails-riparian-work/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "River Trails account documents direct student participation.",
+        "participant_name": "Upper Atiamuri School",
+        "participant_class": "school_or_youth_programme",
+        "canonical_locality": "Atiamuri",
+        "ecological_activity": "Student riparian native-tree planting.",
+        "organisation_relationship": "Waikato River Trails project partner."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "South Waikato",
+        "source_urls": [
+          "https://www.fvhs.school.nz/news/pokaiwhenua-stream-restoration"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "School documents Pokaiwhenua Stream restoration activities.",
+        "participant_name": "Forest View High School",
+        "participant_class": "school_or_youth_programme",
+        "canonical_locality": "Tokoroa",
+        "ecological_activity": "Wetland creation, riparian planting and water sampling.",
+        "organisation_relationship": "Enviroschools."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waipā",
+        "source_urls": [
+          "https://enviroschools.org.nz/creating-change/stories/community-restoration-in-waipa/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Enviroschools case study evidences practical work.",
+        "participant_name": "Paterangi School",
+        "participant_class": "school_or_youth_programme",
+        "canonical_locality": "Paterangi",
+        "ecological_activity": "Predator control, planting and gully/wetland restoration.",
+        "organisation_relationship": "Taiea te Taiao and Living Water participant."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waipā",
+        "source_urls": [
+          "https://enviroschools.org.nz/creating-change/stories/community-restoration-in-waipa/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Enviroschools case study describes applied projects.",
+        "participant_name": "Pirongia School",
+        "participant_class": "school_or_youth_programme",
+        "canonical_locality": "Pirongia",
+        "ecological_activity": "Predator control and native planting.",
+        "organisation_relationship": "Taiea te Taiao participant."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waipā",
+        "source_urls": [
+          "https://enviroschools.org.nz/creating-change/stories/community-restoration-in-waipa/"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Enviroschools evidence identifies integrated trap work.",
+        "participant_name": "Te Awamutu College",
+        "participant_class": "school_or_youth_programme",
+        "canonical_locality": "Te Awamutu",
+        "ecological_activity": "Predator monitoring and trapping.",
+        "organisation_relationship": "Taiea te Taiao participant."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Taupō",
+        "source_urls": [
+          "https://www.kidsgreeningtaupo.org.nz/greening-news/working-with-kura-kaupapa-and-rumaki"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Kids Greening Taupō documents practical restoration at school and Wiremu Street Reserve.",
+        "participant_name": "Tongariro School",
+        "participant_class": "school_or_youth_programme",
+        "canonical_locality": "Tūrangi",
+        "ecological_activity": "Planting, weeding, mulching and trapline work.",
+        "organisation_relationship": "Kids Greening Taupō partner."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Taupō",
+        "source_urls": [
+          "https://www.kidsgreeningtaupo.org.nz/greening-news/2022/tauhara-primary"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "Programme page documents student restoration work.",
+        "participant_name": "Tauhara Primary School",
+        "participant_class": "school_or_youth_programme",
+        "canonical_locality": "Taupō",
+        "ecological_activity": "Planting, mammal-predator trapping and lizard habitat creation.",
+        "organisation_relationship": "Kids Greening Taupō partner."
+      },
+      {
+        "confidence": "HIGH",
+        "wider_area": "Waikato District",
+        "source_urls": [
+          "https://waikatoriver.org.nz/wp-content/uploads/2021/08/WRA13-026-Restoration-from-willows-to-indigenous-plants-through-under-planting.pdf"
+        ],
+        "discovery_notes": "",
+        "evidence_summary": "River Authority report documents student planting participation.",
+        "participant_name": "Te Wharekura o Rakaumanga",
+        "participant_class": "school_or_youth_programme",
+        "canonical_locality": "Lake Waahi",
+        "ecological_activity": "Native planting and riparian restoration trials.",
+        "organisation_relationship": "Independent."
+      }
+    ]
+  },
+  "summary": {
+    "baseline_record_count": 97,
+    "direct_long_tail_additions": 20,
+    "review_or_ecosystem_entities": 8,
+    "alias_relationship_resolutions": 5,
+    "enhanced_direct_candidate_count_if_appended": 117,
+    "same_name_additions_found_in_baseline_guard": []
+  },
+  "long_tail_additions": [
+    {
+      "candidate_id": "WAI-LT-001",
+      "canonical_name": "Project Manu Te Kuiti",
+      "canonical_name_status": "SOURCE_NAMED",
+      "candidate_type": "community_group",
+      "region": "Waikato",
+      "locality_or_operating_area": "Te Kūiti / Mangaokewa Scenic Reserve",
+      "activity_summary": "Volunteer biodiversity group active in the 200-hectare Mangaokewa Scenic Reserve since 1995.",
+      "activity_categories": [
+        "predator control",
+        "weed management",
+        "species recovery",
+        "reserve restoration"
+      ],
+      "organisation_or_affiliation": null,
+      "relationships": [],
+      "sources": [
+        "https://www.waikatobiodiversity.org.nz/members/waikato-members/"
+      ],
+      "confidence": "HIGH",
+      "participant_candidate": true,
+      "living_map_eligible": "PROVISIONAL",
+      "verification_status": "PUBLIC_SOURCE_EVIDENCED",
+      "notes": null
+    },
+    {
+      "candidate_id": "WAI-LT-002",
+      "canonical_name": "Tairua Environmental Society",
+      "canonical_name_status": "SOURCE_NAMED",
+      "candidate_type": "community_group",
+      "region": "Waikato",
+      "locality_or_operating_area": "Tairua",
+      "activity_summary": "Local action-oriented environmental group protecting and enhancing the Tairua environment.",
+      "activity_categories": [
+        "community conservation",
+        "habitat protection"
+      ],
+      "organisation_or_affiliation": null,
+      "relationships": [],
+      "sources": [
+        "https://www.waikatobiodiversity.org.nz/members/waikato-members/"
+      ],
+      "confidence": "HIGH",
+      "participant_candidate": true,
+      "living_map_eligible": "PROVISIONAL",
+      "verification_status": "PUBLIC_SOURCE_EVIDENCED",
+      "notes": null
+    },
+    {
+      "candidate_id": "WAI-LT-003",
+      "canonical_name": "Whāingaroa Harbourcare",
+      "canonical_name_status": "SOURCE_NAMED",
+      "candidate_type": "community_group",
+      "region": "Waikato",
+      "locality_or_operating_area": "Whāingaroa / Raglan",
+      "activity_summary": "Catchment restoration group that has grown and planted more than a million native trees along streams and harbour margins.",
+      "activity_categories": [
+        "riparian restoration",
+        "native planting",
+        "sediment reduction",
+        "water quality"
+      ],
+      "organisation_or_affiliation": null,
+      "relationships": [],
+      "sources": [
+        "https://www.waikatobiodiversity.org.nz/members/waikato-members/"
+      ],
+      "confidence": "HIGH",
+      "participant_candidate": true,
+      "living_map_eligible": "PROVISIONAL",
+      "verification_status": "PUBLIC_SOURCE_EVIDENCED",
+      "notes": null
+    },
+    {
+      "candidate_id": "WAI-LT-004",
+      "canonical_name": "Harkers Reserve volunteer group",
+      "canonical_name_status": "SOURCE_NAMED",
+      "candidate_type": "community_group",
+      "region": "Waikato",
+      "locality_or_operating_area": "Onewhero / Harkers Reserve",
+      "activity_summary": "Local volunteer group maintaining Harkers Reserve and track with council and QEII support.",
+      "activity_categories": [
+        "reserve stewardship",
+        "community volunteering"
+      ],
+      "organisation_or_affiliation": null,
+      "relationships": [],
+      "sources": [
+        "https://www.waikatobiodiversity.org.nz/members/waikato-members/"
+      ],
+      "confidence": "HIGH",
+      "participant_candidate": true,
+      "living_map_eligible": "PROVISIONAL",
+      "verification_status": "PUBLIC_SOURCE_EVIDENCED",
+      "notes": null
+    },
+    {
+      "candidate_id": "WAI-LT-005",
+      "canonical_name": "Friends of the Kauaeranga",
+      "canonical_name_status": "SOURCE_NAMED",
+      "candidate_type": "community_group",
+      "region": "Waikato",
+      "locality_or_operating_area": "Kauaeranga Valley",
+      "activity_summary": "Community restoration group revegetating the valley entrance with native trees and undertaking weed control.",
+      "activity_categories": [
+        "native planting",
+        "weed control",
+        "revegetation"
+      ],
+      "organisation_or_affiliation": null,
+      "relationships": [],
+      "sources": [
+        "https://www.waikatobiodiversity.org.nz/members/waikato-members/"
+      ],
+      "confidence": "HIGH",
+      "participant_candidate": true,
+      "living_map_eligible": "PROVISIONAL",
+      "verification_status": "PUBLIC_SOURCE_EVIDENCED",
+      "notes": null
+    },
+    {
+      "candidate_id": "WAI-LT-006",
+      "canonical_name": "Waikato River Care",
+      "canonical_name_status": "SOURCE_NAMED",
+      "candidate_type": "community_group",
+      "region": "Waikato",
+      "locality_or_operating_area": "Lower Waikato River and catchments",
+      "activity_summary": "Community-focused organisation preparing, planting and maintaining native habitat along the lower Waikato River and associated catchments.",
+      "activity_categories": [
+        "riparian restoration",
+        "native planting",
+        "community conservation"
+      ],
+      "organisation_or_affiliation": null,
+      "relationships": [],
+      "sources": [
+        "https://www.waikatobiodiversity.org.nz/members/waikato-members/"
+      ],
+      "confidence": "HIGH",
+      "participant_candidate": true,
+      "living_map_eligible": "PROVISIONAL",
+      "verification_status": "PUBLIC_SOURCE_EVIDENCED",
+      "notes": null
+    },
+    {
+      "candidate_id": "WAI-LT-007",
+      "canonical_name": "Pukawa Wildlife Management Group",
+      "canonical_name_status": "SOURCE_NAMED",
+      "candidate_type": "community_group",
+      "region": "Waikato",
+      "locality_or_operating_area": "Pukawa / southern Lake Taupō",
+      "activity_summary": "Local wildlife group controlling rats, possums and mustelids around Pukawa to improve native bird survival and breeding.",
+      "activity_categories": [
+        "predator control",
+        "bird protection",
+        "ecological monitoring"
+      ],
+      "organisation_or_affiliation": null,
+      "relationships": [],
+      "sources": [
+        "https://www.waikatobiodiversity.org.nz/members/waikato-members/"
+      ],
+      "confidence": "HIGH",
+      "participant_candidate": true,
+      "living_map_eligible": "PROVISIONAL",
+      "verification_status": "PUBLIC_SOURCE_EVIDENCED",
+      "notes": null
+    },
+    {
+      "candidate_id": "WAI-LT-008",
+      "canonical_name": "Upper Piako Wildlife Management Association",
+      "canonical_name_status": "SOURCE_NAMED",
+      "candidate_type": "community_group",
+      "region": "Waikato",
+      "locality_or_operating_area": "Upper Piako",
+      "activity_summary": "Community association enhancing wetland habitat through weed control, animal pest control and planting.",
+      "activity_categories": [
+        "wetland restoration",
+        "weed control",
+        "predator control",
+        "native planting"
+      ],
+      "organisation_or_affiliation": null,
+      "relationships": [],
+      "sources": [
+        "https://www.waikatobiodiversity.org.nz/members/waikato-members/"
+      ],
+      "confidence": "HIGH",
+      "participant_candidate": true,
+      "living_map_eligible": "PROVISIONAL",
+      "verification_status": "PUBLIC_SOURCE_EVIDENCED",
+      "notes": null
+    },
+    {
+      "candidate_id": "WAI-LT-009",
+      "canonical_name": "Friends of Wainui Reserve",
+      "canonical_name_status": "SOURCE_NAMED",
+      "candidate_type": "community_group",
+      "region": "Waikato",
+      "locality_or_operating_area": "Wainui Reserve",
+      "activity_summary": "Long-running volunteer group planting and tending Wainui Bush Park within the larger reserve.",
+      "activity_categories": [
+        "native planting",
+        "reserve restoration",
+        "community volunteering"
+      ],
+      "organisation_or_affiliation": null,
+      "relationships": [],
+      "sources": [
+        "https://www.waikatobiodiversity.org.nz/members/waikato-members/"
+      ],
+      "confidence": "HIGH",
+      "participant_candidate": true,
+      "living_map_eligible": "PROVISIONAL",
+      "verification_status": "PUBLIC_SOURCE_EVIDENCED",
+      "notes": null
+    },
+    {
+      "candidate_id": "WAI-LT-010",
+      "canonical_name": "Forest Flora",
+      "canonical_name_status": "SOURCE_NAMED",
+      "candidate_type": "business",
+      "region": "Waikato",
+      "locality_or_operating_area": "Waikato region",
+      "activity_summary": "Ecological restoration nursery and practitioner supporting restoration of Waikato forests and wetlands with ecosourced native plants.",
+      "activity_categories": [
+        "ecological restoration services",
+        "native nursery",
+        "forest restoration",
+        "wetland restoration"
+      ],
+      "organisation_or_affiliation": null,
+      "relationships": [],
+      "sources": [
+        "https://www.waikatobiodiversity.org.nz/members/waikato-members/"
+      ],
+      "confidence": "HIGH",
+      "participant_candidate": true,
+      "living_map_eligible": "PROVISIONAL",
+      "verification_status": "PUBLIC_SOURCE_EVIDENCED",
+      "notes": null
+    },
+    {
+      "candidate_id": "WAI-LT-011",
+      "canonical_name": "Mystery Creek Community Catchment",
+      "canonical_name_status": "SOURCE_NAMED",
+      "candidate_type": "community_group",
+      "region": "Waikato",
+      "locality_or_operating_area": "Mystery Creek / Waipā",
+      "activity_summary": "Catchment initiative bringing stakeholders together around environmental impacts and biodiversity, with school/iwi/community education.",
+      "activity_categories": [
+        "catchment restoration",
+        "biodiversity",
+        "environmental education"
+      ],
+      "organisation_or_affiliation": null,
+      "relationships": [],
+      "sources": [
+        "https://www.waikatoregion.govt.nz/assets/WRC/EIFSummaryApplications20242025.pdf"
+      ],
+      "confidence": "HIGH",
+      "participant_candidate": true,
+      "living_map_eligible": "PROVISIONAL",
+      "verification_status": "PUBLIC_SOURCE_EVIDENCED",
+      "notes": null
+    },
+    {
+      "candidate_id": "WAI-LT-012",
+      "canonical_name": "Te Moata Charitable Trust",
+      "canonical_name_status": "SOURCE_NAMED",
+      "candidate_type": "trust",
+      "region": "Waikato",
+      "locality_or_operating_area": "Tairua / Thames-Coromandel",
+      "activity_summary": "Trust managing 344 hectares of regenerating QEII-protected native bush, developing and monitoring predator-control traplines and training volunteers.",
+      "activity_categories": [
+        "predator control",
+        "kiwi protection",
+        "native forest restoration",
+        "volunteer training"
+      ],
+      "organisation_or_affiliation": null,
+      "relationships": [],
+      "sources": [
+        "https://www.waikatoregion.govt.nz/assets/WRC/EIFSummaryApplications20242025.pdf"
+      ],
+      "confidence": "HIGH",
+      "participant_candidate": true,
+      "living_map_eligible": "PROVISIONAL",
+      "verification_status": "PUBLIC_SOURCE_EVIDENCED",
+      "notes": null
+    },
+    {
+      "candidate_id": "WAI-LT-013",
+      "canonical_name": "Ka Pihi Ka Pua Charitable Trust",
+      "canonical_name_status": "SOURCE_NAMED",
+      "candidate_type": "trust",
+      "region": "Waikato",
+      "locality_or_operating_area": "Lake Rotoaira / Taupō district",
+      "activity_summary": "Trust supporting pest management across a high-biodiversity-value 5,489-hectare site through monitoring, baiting and trapping.",
+      "activity_categories": [
+        "predator control",
+        "monitoring",
+        "biodiversity protection"
+      ],
+      "organisation_or_affiliation": null,
+      "relationships": [],
+      "sources": [
+        "https://www.waikatoregion.govt.nz/assets/WRC/EIFSummaryApplications20242025.pdf"
+      ],
+      "confidence": "HIGH",
+      "participant_candidate": true,
+      "living_map_eligible": "PROVISIONAL",
+      "verification_status": "PUBLIC_SOURCE_EVIDENCED",
+      "notes": null
+    },
+    {
+      "candidate_id": "WAI-LT-014",
+      "canonical_name": "Whakaora Tauhara Maunga Initiative",
+      "canonical_name_status": "SOURCE_NAMED",
+      "candidate_type": "project",
+      "region": "Waikato",
+      "locality_or_operating_area": "Tauhara maunga / Taupō",
+      "activity_summary": "Mana whenua-led project developing sustained pest animal control across Tauhara maunga.",
+      "activity_categories": [
+        "predator control",
+        "track development",
+        "mana whenua restoration"
+      ],
+      "organisation_or_affiliation": "He Akina Limited / Tauhara Collective",
+      "relationships": [],
+      "sources": [
+        "https://www.waikatoregion.govt.nz/assets/WRC/NHFProjects202526.pdf",
+        "https://www.waikatoregion.govt.nz/community/whats-happening/news/council-grants-1-66m-to-six-landscape-scale-environmental-projects/"
+      ],
+      "confidence": "HIGH",
+      "participant_candidate": true,
+      "living_map_eligible": "PROVISIONAL",
+      "verification_status": "PUBLIC_SOURCE_EVIDENCED",
+      "notes": null
+    },
+    {
+      "candidate_id": "WAI-LT-015",
+      "canonical_name": "E Ora Tāne Pest Management Limited Partnership",
+      "canonical_name_status": "SOURCE_NAMED",
+      "candidate_type": "business",
+      "region": "Waikato",
+      "locality_or_operating_area": "Lake Rotoaira / central North Island",
+      "activity_summary": "Mana whenua-led environmental delivery operation undertaking landscape-scale biodiversity restoration and pest control on Lake Rotoaira Forest Trust whenua.",
+      "activity_categories": [
+        "predator control",
+        "biodiversity restoration",
+        "mātauranga Māori"
+      ],
+      "organisation_or_affiliation": null,
+      "relationships": [],
+      "sources": [
+        "https://www.waikatoregion.govt.nz/assets/WRC/NHFProjects202526.pdf",
+        "https://www.waikatoregion.govt.nz/community/whats-happening/news/council-grants-1-66m-to-six-landscape-scale-environmental-projects/"
+      ],
+      "confidence": "HIGH",
+      "participant_candidate": true,
+      "living_map_eligible": "PROVISIONAL",
+      "verification_status": "PUBLIC_SOURCE_EVIDENCED",
+      "notes": null
+    },
+    {
+      "candidate_id": "WAI-LT-016",
+      "canonical_name": "Tipu Environmental",
+      "canonical_name_status": "SOURCE_NAMED",
+      "candidate_type": "business",
+      "region": "Waikato",
+      "locality_or_operating_area": "Horohoro / South Waikato-Rotorua boundary",
+      "activity_summary": "Environmental arm of Te Paiaka Lands Trust delivering pest animal control and project management on Horohoro maunga.",
+      "activity_categories": [
+        "predator control",
+        "riparian planting",
+        "native nursery"
+      ],
+      "organisation_or_affiliation": "Te Paiaka Lands Trust",
+      "relationships": [
+        {
+          "type": "delivers",
+          "target": "Te Whakamaru o Horohoro"
+        }
+      ],
+      "sources": [
+        "https://www.waikatoregion.govt.nz/assets/WRC/NHFProjects202526.pdf",
+        "https://www.waikatoregion.govt.nz/community/whats-happening/news/council-grants-1-66m-to-six-landscape-scale-environmental-projects/"
+      ],
+      "confidence": "HIGH",
+      "participant_candidate": true,
+      "living_map_eligible": "PROVISIONAL",
+      "verification_status": "PUBLIC_SOURCE_EVIDENCED",
+      "notes": null
+    },
+    {
+      "candidate_id": "WAI-LT-017",
+      "canonical_name": "Wairere Mahi",
+      "canonical_name_status": "SOURCE_NAMED",
+      "candidate_type": "project",
+      "region": "Waikato",
+      "locality_or_operating_area": "western Kaimai-Mamaku / Matamata-Piako",
+      "activity_summary": "Ngāti Hinerangi-led restoration project undertaking landscape-scale pest animal control and monitoring.",
+      "activity_categories": [
+        "predator control",
+        "monitoring",
+        "iwi-led restoration"
+      ],
+      "organisation_or_affiliation": "Ngāti Hinerangi / Manaaki Kaimai Mamaku Trust",
+      "relationships": [],
+      "sources": [
+        "https://www.waikatoregion.govt.nz/assets/WRC/EIFSummaryApplications20242025.pdf"
+      ],
+      "confidence": "HIGH",
+      "participant_candidate": true,
+      "living_map_eligible": "PROVISIONAL",
+      "verification_status": "PUBLIC_SOURCE_EVIDENCED",
+      "notes": null
+    },
+    {
+      "candidate_id": "WAI-LT-018",
+      "canonical_name": "Tumutumu Kaitiaki Taiao",
+      "canonical_name_status": "SOURCE_NAMED",
+      "candidate_type": "project",
+      "region": "Waikato",
+      "locality_or_operating_area": "Te Aroha maunga / Waiorongomai",
+      "activity_summary": "Ngāti Tumutumu-led restoration project controlling and monitoring pest plants across roughly 600 hectares.",
+      "activity_categories": [
+        "pest plant control",
+        "monitoring",
+        "iwi-led restoration"
+      ],
+      "organisation_or_affiliation": "Ngāti Tumutumu / Manaaki Kaimai Mamaku Trust",
+      "relationships": [],
+      "sources": [
+        "https://www.waikatoregion.govt.nz/assets/WRC/EIFSummaryApplications20242025.pdf"
+      ],
+      "confidence": "HIGH",
+      "participant_candidate": true,
+      "living_map_eligible": "PROVISIONAL",
+      "verification_status": "PUBLIC_SOURCE_EVIDENCED",
+      "notes": null
+    },
+    {
+      "candidate_id": "WAI-LT-019",
+      "canonical_name": "Te Whakamaru o Horohoro",
+      "canonical_name_status": "SOURCE_NAMED",
+      "candidate_type": "project",
+      "region": "Waikato",
+      "locality_or_operating_area": "Horohoro maunga / Rotorua-South Waikato",
+      "activity_summary": "Ngāti Kearoa Ngāti Tuara-aligned project focused on landscape pest control and protection of pekapeka and other native species.",
+      "activity_categories": [
+        "predator control",
+        "bat protection",
+        "biodiversity restoration"
+      ],
+      "organisation_or_affiliation": "Te Paiaka Lands Trust / Tipu Environmental",
+      "relationships": [],
+      "sources": [
+        "https://www.waikatoregion.govt.nz/assets/WRC/NHFProjects202526.pdf",
+        "https://www.waikatoregion.govt.nz/community/whats-happening/news/council-grants-1-66m-to-six-landscape-scale-environmental-projects/"
+      ],
+      "confidence": "HIGH",
+      "participant_candidate": true,
+      "living_map_eligible": "PROVISIONAL",
+      "verification_status": "PUBLIC_SOURCE_EVIDENCED",
+      "notes": null
+    },
+    {
+      "candidate_id": "WAI-LT-020",
+      "canonical_name": "Go Eco / Waikato Environment Centre",
+      "canonical_name_status": "SOURCE_NAMED",
+      "candidate_type": "organisation",
+      "region": "Waikato",
+      "locality_or_operating_area": "Hamilton / multiple Waikato catchments",
+      "activity_summary": "Subregional environmental hub currently funded to build community capability for wetland and stream biodiversity protection and restoration.",
+      "activity_categories": [
+        "wetland restoration support",
+        "freshwater restoration support",
+        "community capability",
+        "environmental education"
+      ],
+      "organisation_or_affiliation": null,
+      "relationships": [],
+      "sources": [
+        "https://www.waikatobiodiversity.org.nz/members/waikato-members/",
+        "https://www.waikatoregion.govt.nz/assets/WRC/NHFProjects202526.pdf"
+      ],
+      "confidence": "HIGH",
+      "participant_candidate": true,
+      "living_map_eligible": "PROVISIONAL",
+      "verification_status": "PUBLIC_SOURCE_EVIDENCED",
+      "notes": null
+    }
+  ],
+  "review_or_ecosystem_entities": [
+    {
+      "name": "Whāingaroa Environment Centre",
+      "reason": "Important local action/resource hub; retain as ecosystem enabler and potential participant pending direct field-activity scoping.",
+      "source": "https://www.waikatobiodiversity.org.nz/members/waikato-members/"
+    },
+    {
+      "name": "Enviroschools Waikato",
+      "reason": "Large education/action network; better modelled as programme/enabler with school-project relationships rather than one LM point.",
+      "source": "https://www.waikatobiodiversity.org.nz/members/waikato-members/"
+    },
+    {
+      "name": "Waikato Catchment Ecological Enhancement Trust",
+      "reason": "Funding/enabling trust; valuable knowledge-graph entity but not automatically a field participant.",
+      "source": "https://www.waikatobiodiversity.org.nz/members/waikato-members/"
+    },
+    {
+      "name": "Hauraki Māori Trust Board",
+      "reason": "Regional iwi governance/environment entity; direct project relationships should be mapped separately.",
+      "source": "https://www.waikatobiodiversity.org.nz/members/waikato-members/"
+    },
+    {
+      "name": "Waikato Raupatu Trust Board",
+      "reason": "Taiao governance and kaitiaki role; direct project eligibility should be resolved at project/operating-unit level.",
+      "source": "https://www.waikatobiodiversity.org.nz/members/waikato-members/"
+    },
+    {
+      "name": "Raukawa Māori Trust Board",
+      "reason": "Environmental advocacy/leadership body; preserve as ecosystem entity and map operational projects separately.",
+      "source": "https://www.waikatobiodiversity.org.nz/members/waikato-members/"
+    },
+    {
+      "name": "Maniapoto Māori Trust Board",
+      "reason": "Supports mana whenua environmental roles and Upper Waipā co-management; retain as ecosystem entity while resolving field projects.",
+      "source": "https://www.waikatobiodiversity.org.nz/members/waikato-members/"
+    },
+    {
+      "name": "Tāne's Tree Trust",
+      "reason": "Strong restoration-support entity; primarily enabling/knowledge role at regional level.",
+      "source": "https://www.waikatobiodiversity.org.nz/members/waikato-members/"
+    }
+  ],
+  "alias_relationship_resolutions": [
+    {
+      "source_name": "Maungatautari Ecological Island Trust",
+      "existing_name": "Sanctuary Mountain Maungatautari",
+      "source": "https://www.waikatobiodiversity.org.nz/members/waikato-members/"
+    },
+    {
+      "source_name": "Whenuakiwi Trust",
+      "existing_name": "Whenuakite Kiwi Care Group",
+      "relationship": "parent/trading entity",
+      "source": "https://www.waikatoregion.govt.nz/assets/WRC/NHFProjects202526.pdf"
+    },
+    {
+      "source_name": "Kapowai Kiwi Group Incorporated",
+      "existing_name": "Kapowai Kiwi Group",
+      "source": "https://www.waikatoregion.govt.nz/assets/WRC/EIFSummaryApplications20242025.pdf"
+    },
+    {
+      "source_name": "Rings Beach Wetland Group Incorporated",
+      "existing_name": "Rings Beach Wetland Group",
+      "source": "https://www.waikatoregion.govt.nz/assets/WRC/EIFSummaryApplications20242025.pdf"
+    },
+    {
+      "source_name": "Te Taiao o Kāwhia Moana Incorporated",
+      "existing_name": "Te Taiao o Kāwhia Moana",
+      "source": "https://www.waikatoregion.govt.nz/assets/WRC/EIFSummaryApplications20242025.pdf"
+    }
+  ],
+  "outstanding_research": [
+    "Source package is explicitly INCOMPLETE and contains an internal count inconsistency: participants array has 97 records while participant_count reports 93.",
+    "Waikato Biodiversity Forum and current WRC funding programmes expose additional community, iwi/hapū, wetland, catchment and project entities beyond the baseline.",
+    "NZ Landcare Trust 2024/25 impact report says Waikato staff work with 26 groups; those group identities remain an omission-test target.",
+    "Central Waikato Predator Free Hub member/cell identities remain incompletely exposed in indexed text and require a separate directory/map extraction.",
+    "Priority geographic gaps remain Waitomo/western King Country, southwest coast, Taupō/South Waikato, Matamata-Piako/Hauraki and north Waikato."
+  ]
+}
