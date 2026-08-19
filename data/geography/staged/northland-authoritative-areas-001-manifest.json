@@ -1,0 +1,135 @@
+{
+  "schema": "EXG-LM-NORTHLAND-AUTHORITATIVE-AREAS-001",
+  "authority": "Department of Conservation Te Papa Atawhai",
+  "sourceLayer": "DOC Public Conservation Land FeatureServer/0",
+  "status": "STAGED",
+  "policy": {
+    "authoritative_geometry_only": true,
+    "derived_geometry_only_from_doc_explicit_component_list": true,
+    "no_boundary_invention": true,
+    "nothing_registered_publicly": true
+  },
+  "areas": [
+    {
+      "areaId": "area-northland-takou-bay-river-scenic-reserve",
+      "decision": "ATTACHED_AUTHORITATIVE",
+      "sourceFeatures": [
+        {
+          "OBJECTID": 822,
+          "Name": "Takou River Scenic Reserve",
+          "Type": "RESERVE",
+          "Section": "S19_1_A_SCENIC_RESERVE",
+          "Conservation_Unit_Number": "P04029",
+          "Recorded_Area": 192
+        }
+      ]
+    },
+    {
+      "areaId": "area-northland-puketi-omahuta-forests",
+      "decision": "PENDING_COMPONENT_RECONCILIATION",
+      "missingNames": [
+        "Omahuta Forest",
+        "Omahuta Forest Addition",
+        "Omahuta Forest Addition No 1",
+        "Omahuta Forest Scenic Reserve No 2",
+        "Puketi Forest",
+        "Puketi Forest Addition",
+        "Puketi Forest Addition No 2"
+      ],
+      "ambiguousNames": [],
+      "componentReport": [
+        {
+          "requestedName": "Omahuta Forest",
+          "exactMatchCount": 0,
+          "matches": []
+        },
+        {
+          "requestedName": "Omahuta Forest Addition",
+          "exactMatchCount": 0,
+          "matches": []
+        },
+        {
+          "requestedName": "Omahuta Forest Addition No 1",
+          "exactMatchCount": 0,
+          "matches": []
+        },
+        {
+          "requestedName": "Omahuta Forest Scenic Reserve No 2",
+          "exactMatchCount": 0,
+          "matches": []
+        },
+        {
+          "requestedName": "Puketi Forest",
+          "exactMatchCount": 0,
+          "matches": []
+        },
+        {
+          "requestedName": "Puketi Scenic Reserve",
+          "exactMatchCount": 1,
+          "matches": [
+            {
+              "OBJECTID": 9674,
+              "Name": "Puketi Scenic Reserve",
+              "Type": "RESERVE",
+              "Section": "S19_1_A_SCENIC_RESERVE",
+              "Conservation_Unit_Number": "P05004",
+              "Recorded_Area": 82.6
+            }
+          ]
+        },
+        {
+          "requestedName": "Puketi Forest Addition",
+          "exactMatchCount": 0,
+          "matches": []
+        },
+        {
+          "requestedName": "Puketi Forest Addition No 2",
+          "exactMatchCount": 0,
+          "matches": []
+        },
+        {
+          "requestedName": "Aratoro Conservation Area",
+          "exactMatchCount": 1,
+          "matches": [
+            {
+              "OBJECTID": 6943,
+              "Name": "Aratoro Conservation Area",
+              "Type": "CONSERVATION_AREA",
+              "Section": "S25_STEWARDSHIP_AREA",
+              "Conservation_Unit_Number": "P05006",
+              "Recorded_Area": 390.6
+            }
+          ]
+        },
+        {
+          "requestedName": "Ahutoatoa Conservation Area",
+          "exactMatchCount": 1,
+          "matches": [
+            {
+              "OBJECTID": 5754,
+              "Name": "Ahutoatoa Conservation Area",
+              "Type": "CONSERVATION_AREA",
+              "Section": "S25_STEWARDSHIP_AREA",
+              "Conservation_Unit_Number": "O05051",
+              "Recorded_Area": 82.6
+            }
+          ]
+        },
+        {
+          "requestedName": "Manginangina Scenic Reserve",
+          "exactMatchCount": 1,
+          "matches": [
+            {
+              "OBJECTID": 5663,
+              "Name": "Manginangina Scenic Reserve",
+              "Type": "RESERVE",
+              "Section": "S19_1_A_SCENIC_RESERVE",
+              "Conservation_Unit_Number": "P05002",
+              "Recorded_Area": 100.9
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

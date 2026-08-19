@@ -1,0 +1,49 @@
+{
+  "schema": "EXG-LM-FOUR-REGION-NO-GEOGRAPHY-REVIEW-001",
+  "source": "data/geography/staged/four-region-launch-baseline-audit-003.json",
+  "count": 6,
+  "records": [
+    {
+      "region": "Auckland",
+      "id": "aotea-great-barrier-environmental-trust",
+      "name": "Aotea Great Barrier Environmental Trust",
+      "status": "NO_GEOGRAPHY"
+    },
+    {
+      "region": "Auckland",
+      "id": "aotea-trap-library",
+      "name": "Aotea Trap Library",
+      "status": "NO_GEOGRAPHY"
+    },
+    {
+      "region": "Auckland",
+      "id": "auckland-invasive-weeds-group",
+      "name": "Auckland Invasive Weeds Group",
+      "status": "NO_GEOGRAPHY"
+    },
+    {
+      "region": "Auckland",
+      "id": "auckland-king-tides-initiative",
+      "name": "Auckland King Tides Initiative",
+      "status": "NO_GEOGRAPHY"
+    },
+    {
+      "region": "Bay of Plenty Region",
+      "id": "bop-violet-pou",
+      "name": "Violet Pou",
+      "status": "NO_GEOGRAPHY"
+    },
+    {
+      "region": "Bay of Plenty Region",
+      "id": "bop-bill-kerrison",
+      "name": "Bill Kerrison",
+      "status": "NO_GEOGRAPHY"
+    }
+  ],
+  "reviewPolicy": {
+    "preferredOutcome": "explicit_source_geography_if_evidenced",
+    "acceptableFallback": "region_only_if_identity_and_region_membership_are_evidenced",
+    "doNotInventLocality": true,
+    "doNotInventCoordinates": true
+  }
+}

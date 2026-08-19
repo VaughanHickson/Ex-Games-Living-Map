@@ -1,0 +1,641 @@
+{
+  "schema": "EXG-LM-NORTHLAND-DOC-GEOMETRY-ACQUISITION-001",
+  "authority": "Department of Conservation Te Papa Atawhai",
+  "sourceLayer": "DOC Public Conservation Land FeatureServer/0",
+  "sourceUrl": "https://services1.arcgis.com/3JjYDyG3oajxU6HO/arcgis/rest/services/DOC_Public_Conservation_Land/FeatureServer/0",
+  "status": "CANDIDATE_GEOMETRY_ONLY",
+  "policy": {
+    "authoritative_source": true,
+    "automatic_attachment": false,
+    "ambiguous_matches_require_review": true,
+    "source_geometry_unmodified": true
+  },
+  "targets": [
+    {
+      "areaId": "area-northland-paihia-opua-forest",
+      "sourceName": "Paihia / Ōpua Forest",
+      "queries": [
+        {
+          "term": "Opua",
+          "featureCount": 15,
+          "error": null
+        },
+        {
+          "term": "Paihia",
+          "featureCount": 0,
+          "error": null
+        }
+      ],
+      "candidateFeatureCount": 15,
+      "candidateFile": "data/geography/staged/northland-doc-geometry-001/area-northland-paihia-opua-forest-candidates.geojson",
+      "matches": [
+        {
+          "OBJECTID": 294,
+          "Name": "Conservation Area - Kopuatai",
+          "Type": "CONSERVATION_AREA",
+          "Section": "S25_STEWARDSHIP_AREA",
+          "Conservation_Unit_Number": "T13533",
+          "Recorded_Area": 5.5
+        },
+        {
+          "OBJECTID": 457,
+          "Name": "Kopua Road No 1 Gravel Reserve",
+          "Type": "RESERVE",
+          "Section": "S23_LOCAL_PURPOSE_RESERVE",
+          "Conservation_Unit_Number": "80249",
+          "Recorded_Area": 0.2
+        },
+        {
+          "OBJECTID": 5405,
+          "Name": "Kopua Road No 2 Gravel Reserve",
+          "Type": "RESERVE",
+          "Section": "S23_LOCAL_PURPOSE_RESERVE",
+          "Conservation_Unit_Number": "80250",
+          "Recorded_Area": 0.2
+        },
+        {
+          "OBJECTID": 7771,
+          "Name": "Kopua Road No 3 Gravel Reserve",
+          "Type": "RESERVE",
+          "Section": "S23_LOCAL_PURPOSE_RESERVE",
+          "Conservation_Unit_Number": "80251",
+          "Recorded_Area": 0.3
+        },
+        {
+          "OBJECTID": 5337,
+          "Name": "Kopuapounamu Conservation Area",
+          "Type": "CONSERVATION_AREA",
+          "Section": "S25_STEWARDSHIP_AREA",
+          "Conservation_Unit_Number": "80367",
+          "Recorded_Area": 20.9
+        },
+        {
+          "OBJECTID": 10830,
+          "Name": "Kopuatai Wetland Management Reserve",
+          "Type": "RESERVE",
+          "Section": "S22_GOVERNMENT_PURPOSE_RESERVE",
+          "Conservation_Unit_Number": "T13501",
+          "Recorded_Area": 9179.1
+        },
+        {
+          "OBJECTID": 8435,
+          "Name": "Makopua Scenic Reserve",
+          "Type": "RESERVE",
+          "Section": "S19_1_A_SCENIC_RESERVE",
+          "Conservation_Unit_Number": "70191",
+          "Recorded_Area": 1.4
+        },
+        {
+          "OBJECTID": 9001,
+          "Name": "Marginal Strip - Haukopua",
+          "Type": "MARGINAL_STRIP",
+          "Section": "S24_1_2_MOVEABLE_MARGINAL_STRIP",
+          "Conservation_Unit_Number": "T24559",
+          "Recorded_Area": 1.9
+        },
+        {
+          "OBJECTID": 7,
+          "Name": "Marginal Strip - Opuatia River",
+          "Type": "MARGINAL_STRIP",
+          "Section": "S24_3_FIXED_MARGINAL_STRIP",
+          "Conservation_Unit_Number": "R13008",
+          "Recorded_Area": 5.3
+        },
+        {
+          "OBJECTID": 10585,
+          "Name": "Marginal Strip - Opuatia River",
+          "Type": "MARGINAL_STRIP",
+          "Section": "S24_3_FIXED_MARGINAL_STRIP",
+          "Conservation_Unit_Number": "R13009",
+          "Recorded_Area": 20.5
+        },
+        {
+          "OBJECTID": 1441,
+          "Name": "Opua Bay Recreation Reserve",
+          "Type": "RESERVE",
+          "Section": "17_RECREATION_RESERVE",
+          "Conservation_Unit_Number": "01058",
+          "Recorded_Area": 2.5
+        },
+        {
+          "OBJECTID": 6635,
+          "Name": "Opua Scenic Reserve",
+          "Type": "RESERVE",
+          "Section": "S19_1_A_SCENIC_RESERVE",
+          "Conservation_Unit_Number": "Q05041",
+          "Recorded_Area": 6.1
+        },
+        {
+          "OBJECTID": 103,
+          "Name": "Opuatia Swamp Wildlife Management Reserve",
+          "Type": "RESERVE",
+          "Section": "S22_GOVERNMENT_PURPOSE_RESERVE",
+          "Conservation_Unit_Number": "S13015",
+          "Recorded_Area": 78.6
+        },
+        {
+          "OBJECTID": 8394,
+          "Name": "Opuawhanga Government Purpose Wildlife Refuge Reserve",
+          "Type": "RESERVE",
+          "Section": "S22_GOVERNMENT_PURPOSE_RESERVE",
+          "Conservation_Unit_Number": "Q06018",
+          "Recorded_Area": 216.9
+        },
+        {
+          "OBJECTID": 1821,
+          "Name": "Popuanui Conservation Area",
+          "Type": "CONSERVATION_AREA",
+          "Section": "S25_STEWARDSHIP_AREA",
+          "Conservation_Unit_Number": "70392",
+          "Recorded_Area": 72.4
+        }
+      ],
+      "attachmentDecision": "PENDING_REVIEW"
+    },
+    {
+      "areaId": "area-northland-houto-forests",
+      "sourceName": "Houto forests",
+      "queries": [
+        {
+          "term": "Houto",
+          "featureCount": 1,
+          "error": null
+        }
+      ],
+      "candidateFeatureCount": 1,
+      "candidateFile": "data/geography/staged/northland-doc-geometry-001/area-northland-houto-forests-candidates.geojson",
+      "matches": [
+        {
+          "OBJECTID": 1801,
+          "Name": "Houto Local Purpose (Quarry) Reserve",
+          "Type": "RESERVE",
+          "Section": "S23_LOCAL_PURPOSE_RESERVE",
+          "Conservation_Unit_Number": "P07008",
+          "Recorded_Area": 3.2
+        }
+      ],
+      "attachmentDecision": "PENDING_REVIEW"
+    },
+    {
+      "areaId": "area-northland-kerikeri-puketi-forest",
+      "sourceName": "Kerikeri / Puketi Forest",
+      "queries": [
+        {
+          "term": "Puketi",
+          "featureCount": 4,
+          "error": null
+        },
+        {
+          "term": "Kerikeri",
+          "featureCount": 22,
+          "error": null
+        }
+      ],
+      "candidateFeatureCount": 26,
+      "candidateFile": "data/geography/staged/northland-doc-geometry-001/area-northland-kerikeri-puketi-forest-candidates.geojson",
+      "matches": [
+        {
+          "OBJECTID": 10949,
+          "Name": "Conservation Area - Puketi Rd",
+          "Type": "CONSERVATION_AREA",
+          "Section": "S25_STEWARDSHIP_AREA",
+          "Conservation_Unit_Number": "W16006",
+          "Recorded_Area": 0.4
+        },
+        {
+          "OBJECTID": 10757,
+          "Name": "Conservation Area - Puketiro / Tawanui Road",
+          "Type": "CONSERVATION_AREA",
+          "Section": "S25_STEWARDSHIP_AREA",
+          "Conservation_Unit_Number": "G47168",
+          "Recorded_Area": 0.7
+        },
+        {
+          "OBJECTID": 9934,
+          "Name": "Conservation Area - Puketiro Station Road",
+          "Type": "CONSERVATION_AREA",
+          "Section": "S25_STEWARDSHIP_AREA",
+          "Conservation_Unit_Number": "G47169",
+          "Recorded_Area": 1.3
+        },
+        {
+          "OBJECTID": 9674,
+          "Name": "Puketi Scenic Reserve",
+          "Type": "RESERVE",
+          "Section": "S19_1_A_SCENIC_RESERVE",
+          "Conservation_Unit_Number": "P05004",
+          "Recorded_Area": 82.6
+        },
+        {
+          "OBJECTID": 2584,
+          "Name": "Conservation Area Makerikeri River Leigh Camp",
+          "Type": "CONSERVATION_AREA",
+          "Section": "S25_STEWARDSHIP_AREA",
+          "Conservation_Unit_Number": "M34082",
+          "Recorded_Area": 19
+        },
+        {
+          "OBJECTID": 4531,
+          "Name": "Kerikeri (Scout Hall) Local Purpose Reserve",
+          "Type": "RESERVE",
+          "Section": "S23_LOCAL_PURPOSE_RESERVE",
+          "Conservation_Unit_Number": "P05063",
+          "Recorded_Area": 0.3
+        },
+        {
+          "OBJECTID": 10971,
+          "Name": "Kerikeri Basin Recreation Reserve",
+          "Type": "RESERVE",
+          "Section": "17_RECREATION_RESERVE",
+          "Conservation_Unit_Number": "P05024",
+          "Recorded_Area": 17.1
+        },
+        {
+          "OBJECTID": 1784,
+          "Name": "Kerikeri Government Purpose Reserve",
+          "Type": "RESERVE",
+          "Section": "S22_GOVERNMENT_PURPOSE_RESERVE",
+          "Conservation_Unit_Number": "P05027",
+          "Recorded_Area": 1.7
+        },
+        {
+          "OBJECTID": 10278,
+          "Name": "Kerikeri Inlet Scenic Reserve",
+          "Type": "RESERVE",
+          "Section": "S19_1_A_SCENIC_RESERVE",
+          "Conservation_Unit_Number": "P05026",
+          "Recorded_Area": 0
+        },
+        {
+          "OBJECTID": 8115,
+          "Name": "Kerikeri Local Purpose Esplanade Reserve",
+          "Type": "RESERVE",
+          "Section": "S23_LOCAL_PURPOSE_RESERVE",
+          "Conservation_Unit_Number": "P05065",
+          "Recorded_Area": 0.5
+        },
+        {
+          "OBJECTID": 2072,
+          "Name": "Kerikeri River Scenic Reserve",
+          "Type": "RESERVE",
+          "Section": "S19_1_A_SCENIC_RESERVE",
+          "Conservation_Unit_Number": "P05020",
+          "Recorded_Area": 20.6
+        },
+        {
+          "OBJECTID": 10160,
+          "Name": "Kerikeri Wharf Historic Reserve",
+          "Type": "RESERVE",
+          "Section": "S18_HISTORIC_RESERVE",
+          "Conservation_Unit_Number": "P05066",
+          "Recorded_Area": 0
+        },
+        {
+          "OBJECTID": 7471,
+          "Name": "Local Purpose Esplanade Reserve - Opito Bay - Kerikeri Inlet",
+          "Type": "RESERVE",
+          "Section": "S23_LOCAL_PURPOSE_RESERVE",
+          "Conservation_Unit_Number": null,
+          "Recorded_Area": 0.8
+        },
+        {
+          "OBJECTID": 9766,
+          "Name": "Marginal Strip - Kerikeri Inlet",
+          "Type": "MARGINAL_STRIP",
+          "Section": "S24_3_FIXED_MARGINAL_STRIP",
+          "Conservation_Unit_Number": "P05093",
+          "Recorded_Area": 3.9
+        },
+        {
+          "OBJECTID": 2511,
+          "Name": "Marginal Strip - Kerikeri River",
+          "Type": "MARGINAL_STRIP",
+          "Section": "S24_3_FIXED_MARGINAL_STRIP",
+          "Conservation_Unit_Number": "P05081",
+          "Recorded_Area": 4.5
+        },
+        {
+          "OBJECTID": 3451,
+          "Name": "Marginal Strip - Kerikeri River",
+          "Type": "MARGINAL_STRIP",
+          "Section": "S24_3_FIXED_MARGINAL_STRIP",
+          "Conservation_Unit_Number": "R14031",
+          "Recorded_Area": 1.1
+        },
+        {
+          "OBJECTID": 10883,
+          "Name": "Marginal Strip - Kerikeri River",
+          "Type": "MARGINAL_STRIP",
+          "Section": "S24_3_FIXED_MARGINAL_STRIP",
+          "Conservation_Unit_Number": "P05082",
+          "Recorded_Area": 9
+        },
+        {
+          "OBJECTID": 5481,
+          "Name": "Marginal Strip - Makerikeri River",
+          "Type": "MARGINAL_STRIP",
+          "Section": "S24_3_FIXED_MARGINAL_STRIP",
+          "Conservation_Unit_Number": "M34080",
+          "Recorded_Area": 1.6
+        },
+        {
+          "OBJECTID": 8048,
+          "Name": "Marginal Strip - Makerikeri River",
+          "Type": "MARGINAL_STRIP",
+          "Section": "S24_1_2_MOVEABLE_MARGINAL_STRIP",
+          "Conservation_Unit_Number": "M34023",
+          "Recorded_Area": 8.1
+        },
+        {
+          "OBJECTID": 9052,
+          "Name": "Marginal Strip - Makerikeri River",
+          "Type": "MARGINAL_STRIP",
+          "Section": "S24_1_2_MOVEABLE_MARGINAL_STRIP",
+          "Conservation_Unit_Number": "M34128",
+          "Recorded_Area": 1
+        },
+        {
+          "OBJECTID": 9187,
+          "Name": "Marginal Strip - Makerikeri River",
+          "Type": "MARGINAL_STRIP",
+          "Section": "S24_1_2_MOVEABLE_MARGINAL_STRIP",
+          "Conservation_Unit_Number": "M34150",
+          "Recorded_Area": 1
+        },
+        {
+          "OBJECTID": 2861,
+          "Name": "Marginal Strip - Waikerikeri Creek",
+          "Type": "MARGINAL_STRIP",
+          "Section": "S24_3_FIXED_MARGINAL_STRIP",
+          "Conservation_Unit_Number": "G42028",
+          "Recorded_Area": 2
+        },
+        {
+          "OBJECTID": 4505,
+          "Name": "Marginal Strip - Waikerikeri Creek",
+          "Type": "MARGINAL_STRIP",
+          "Section": "S24_1_2_MOVEABLE_MARGINAL_STRIP",
+          "Conservation_Unit_Number": "G41115",
+          "Recorded_Area": 27.9
+        },
+        {
+          "OBJECTID": 8161,
+          "Name": "Scenic Reserve - Dove Bay - Kerikeri",
+          "Type": "RESERVE",
+          "Section": "S19_1_A_SCENIC_RESERVE",
+          "Conservation_Unit_Number": null,
+          "Recorded_Area": 0.6
+        },
+        {
+          "OBJECTID": 3695,
+          "Name": "Te-Rere-O-Te-Kerikeri Conservation Area",
+          "Type": "CONSERVATION_AREA",
+          "Section": "S25_STEWARDSHIP_AREA",
+          "Conservation_Unit_Number": "P06002",
+          "Recorded_Area": 29.1
+        },
+        {
+          "OBJECTID": 6895,
+          "Name": "Waikerikeri Conservation Area",
+          "Type": "CONSERVATION_AREA",
+          "Section": "S7_CONSERVATION_PURPOSES",
+          "Conservation_Unit_Number": "G41112",
+          "Recorded_Area": 329
+        }
+      ],
+      "attachmentDecision": "PENDING_REVIEW"
+    },
+    {
+      "areaId": "area-northland-puketi-forest",
+      "sourceName": "Puketi Forest",
+      "queries": [
+        {
+          "term": "Puketi",
+          "featureCount": 4,
+          "error": null
+        }
+      ],
+      "candidateFeatureCount": 4,
+      "candidateFile": "data/geography/staged/northland-doc-geometry-001/area-northland-puketi-forest-candidates.geojson",
+      "matches": [
+        {
+          "OBJECTID": 10949,
+          "Name": "Conservation Area - Puketi Rd",
+          "Type": "CONSERVATION_AREA",
+          "Section": "S25_STEWARDSHIP_AREA",
+          "Conservation_Unit_Number": "W16006",
+          "Recorded_Area": 0.4
+        },
+        {
+          "OBJECTID": 10757,
+          "Name": "Conservation Area - Puketiro / Tawanui Road",
+          "Type": "CONSERVATION_AREA",
+          "Section": "S25_STEWARDSHIP_AREA",
+          "Conservation_Unit_Number": "G47168",
+          "Recorded_Area": 0.7
+        },
+        {
+          "OBJECTID": 9934,
+          "Name": "Conservation Area - Puketiro Station Road",
+          "Type": "CONSERVATION_AREA",
+          "Section": "S25_STEWARDSHIP_AREA",
+          "Conservation_Unit_Number": "G47169",
+          "Recorded_Area": 1.3
+        },
+        {
+          "OBJECTID": 9674,
+          "Name": "Puketi Scenic Reserve",
+          "Type": "RESERVE",
+          "Section": "S19_1_A_SCENIC_RESERVE",
+          "Conservation_Unit_Number": "P05004",
+          "Recorded_Area": 82.6
+        }
+      ],
+      "attachmentDecision": "PENDING_REVIEW"
+    },
+    {
+      "areaId": "area-northland-opua-forest-bay-of-islands",
+      "sourceName": "Ōpua Forest, Bay of Islands",
+      "queries": [
+        {
+          "term": "Opua",
+          "featureCount": 15,
+          "error": null
+        }
+      ],
+      "candidateFeatureCount": 15,
+      "candidateFile": "data/geography/staged/northland-doc-geometry-001/area-northland-opua-forest-bay-of-islands-candidates.geojson",
+      "matches": [
+        {
+          "OBJECTID": 294,
+          "Name": "Conservation Area - Kopuatai",
+          "Type": "CONSERVATION_AREA",
+          "Section": "S25_STEWARDSHIP_AREA",
+          "Conservation_Unit_Number": "T13533",
+          "Recorded_Area": 5.5
+        },
+        {
+          "OBJECTID": 457,
+          "Name": "Kopua Road No 1 Gravel Reserve",
+          "Type": "RESERVE",
+          "Section": "S23_LOCAL_PURPOSE_RESERVE",
+          "Conservation_Unit_Number": "80249",
+          "Recorded_Area": 0.2
+        },
+        {
+          "OBJECTID": 5405,
+          "Name": "Kopua Road No 2 Gravel Reserve",
+          "Type": "RESERVE",
+          "Section": "S23_LOCAL_PURPOSE_RESERVE",
+          "Conservation_Unit_Number": "80250",
+          "Recorded_Area": 0.2
+        },
+        {
+          "OBJECTID": 7771,
+          "Name": "Kopua Road No 3 Gravel Reserve",
+          "Type": "RESERVE",
+          "Section": "S23_LOCAL_PURPOSE_RESERVE",
+          "Conservation_Unit_Number": "80251",
+          "Recorded_Area": 0.3
+        },
+        {
+          "OBJECTID": 5337,
+          "Name": "Kopuapounamu Conservation Area",
+          "Type": "CONSERVATION_AREA",
+          "Section": "S25_STEWARDSHIP_AREA",
+          "Conservation_Unit_Number": "80367",
+          "Recorded_Area": 20.9
+        },
+        {
+          "OBJECTID": 10830,
+          "Name": "Kopuatai Wetland Management Reserve",
+          "Type": "RESERVE",
+          "Section": "S22_GOVERNMENT_PURPOSE_RESERVE",
+          "Conservation_Unit_Number": "T13501",
+          "Recorded_Area": 9179.1
+        },
+        {
+          "OBJECTID": 8435,
+          "Name": "Makopua Scenic Reserve",
+          "Type": "RESERVE",
+          "Section": "S19_1_A_SCENIC_RESERVE",
+          "Conservation_Unit_Number": "70191",
+          "Recorded_Area": 1.4
+        },
+        {
+          "OBJECTID": 9001,
+          "Name": "Marginal Strip - Haukopua",
+          "Type": "MARGINAL_STRIP",
+          "Section": "S24_1_2_MOVEABLE_MARGINAL_STRIP",
+          "Conservation_Unit_Number": "T24559",
+          "Recorded_Area": 1.9
+        },
+        {
+          "OBJECTID": 7,
+          "Name": "Marginal Strip - Opuatia River",
+          "Type": "MARGINAL_STRIP",
+          "Section": "S24_3_FIXED_MARGINAL_STRIP",
+          "Conservation_Unit_Number": "R13008",
+          "Recorded_Area": 5.3
+        },
+        {
+          "OBJECTID": 10585,
+          "Name": "Marginal Strip - Opuatia River",
+          "Type": "MARGINAL_STRIP",
+          "Section": "S24_3_FIXED_MARGINAL_STRIP",
+          "Conservation_Unit_Number": "R13009",
+          "Recorded_Area": 20.5
+        },
+        {
+          "OBJECTID": 1441,
+          "Name": "Opua Bay Recreation Reserve",
+          "Type": "RESERVE",
+          "Section": "17_RECREATION_RESERVE",
+          "Conservation_Unit_Number": "01058",
+          "Recorded_Area": 2.5
+        },
+        {
+          "OBJECTID": 6635,
+          "Name": "Opua Scenic Reserve",
+          "Type": "RESERVE",
+          "Section": "S19_1_A_SCENIC_RESERVE",
+          "Conservation_Unit_Number": "Q05041",
+          "Recorded_Area": 6.1
+        },
+        {
+          "OBJECTID": 103,
+          "Name": "Opuatia Swamp Wildlife Management Reserve",
+          "Type": "RESERVE",
+          "Section": "S22_GOVERNMENT_PURPOSE_RESERVE",
+          "Conservation_Unit_Number": "S13015",
+          "Recorded_Area": 78.6
+        },
+        {
+          "OBJECTID": 8394,
+          "Name": "Opuawhanga Government Purpose Wildlife Refuge Reserve",
+          "Type": "RESERVE",
+          "Section": "S22_GOVERNMENT_PURPOSE_RESERVE",
+          "Conservation_Unit_Number": "Q06018",
+          "Recorded_Area": 216.9
+        },
+        {
+          "OBJECTID": 1821,
+          "Name": "Popuanui Conservation Area",
+          "Type": "CONSERVATION_AREA",
+          "Section": "S25_STEWARDSHIP_AREA",
+          "Conservation_Unit_Number": "70392",
+          "Recorded_Area": 72.4
+        }
+      ],
+      "attachmentDecision": "PENDING_REVIEW"
+    },
+    {
+      "areaId": "area-northland-takou-bay-river-scenic-reserve",
+      "sourceName": "Takou Bay River Scenic Reserve",
+      "queries": [
+        {
+          "term": "Takou",
+          "featureCount": 4,
+          "error": null
+        }
+      ],
+      "candidateFeatureCount": 4,
+      "candidateFile": "data/geography/staged/northland-doc-geometry-001/area-northland-takou-bay-river-scenic-reserve-candidates.geojson",
+      "matches": [
+        {
+          "OBJECTID": 8813,
+          "Name": "Marginal Strip - Takou River",
+          "Type": "MARGINAL_STRIP",
+          "Section": "S24_3_FIXED_MARGINAL_STRIP",
+          "Conservation_Unit_Number": "P04044",
+          "Recorded_Area": 5
+        },
+        {
+          "OBJECTID": 9755,
+          "Name": "Marginal Strip - Takou River",
+          "Type": "MARGINAL_STRIP",
+          "Section": "S24_3_FIXED_MARGINAL_STRIP",
+          "Conservation_Unit_Number": "P04051",
+          "Recorded_Area": 0.5
+        },
+        {
+          "OBJECTID": 4669,
+          "Name": "Otakou Cemetery",
+          "Type": "RESERVE",
+          "Section": "S23_LOCAL_PURPOSE_RESERVE",
+          "Conservation_Unit_Number": "I44251",
+          "Recorded_Area": 0.4
+        },
+        {
+          "OBJECTID": 822,
+          "Name": "Takou River Scenic Reserve",
+          "Type": "RESERVE",
+          "Section": "S19_1_A_SCENIC_RESERVE",
+          "Conservation_Unit_Number": "P04029",
+          "Recorded_Area": 192
+        }
+      ],
+      "attachmentDecision": "PENDING_REVIEW"
+    }
+  ]
+}

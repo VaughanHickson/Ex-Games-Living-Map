@@ -1,0 +1,41 @@
+{
+  "schema": "EXG-LM-NORTHLAND-PUKETI-OMAHUTA-002",
+  "status": "STAGED_VERIFIED_COMPONENT_UNION",
+  "sourceLayer": "DOC Public Conservation Land FeatureServer/0",
+  "components": [
+    {
+      "OBJECTID": 5699,
+      "Name": "Ōmahuta Forest (Pt Northland Conservation Park)",
+      "Section": "S19_CONSERVATION_PARK",
+      "Conservation_Unit_Number": "O05004",
+      "Recorded_Area": 6571.9
+    },
+    {
+      "OBJECTID": 4695,
+      "Name": "Ōmahuta Forest (Addition) Conservation Area",
+      "Section": "S25_STEWARDSHIP_AREA",
+      "Conservation_Unit_Number": "P05069",
+      "Recorded_Area": 975.6
+    },
+    {
+      "OBJECTID": 7899,
+      "Name": "Puketī Forest (Pt Northland Conservation Park)",
+      "Section": "S19_CONSERVATION_PARK",
+      "Conservation_Unit_Number": "P05001",
+      "Recorded_Area": 7344.7
+    },
+    {
+      "OBJECTID": 4439,
+      "Name": "Puketī Forest (Addition No 2) Conservation Area",
+      "Section": "S25_STEWARDSHIP_AREA",
+      "Conservation_Unit_Number": "P05070",
+      "Recorded_Area": 1021.9
+    }
+  ],
+  "recordedComponentAreaHa": 15914.1,
+  "policy": {
+    "no_boundary_invention": true,
+    "legacy_unresolved_units_excluded": true
+  },
+  "output": "data/geography/staged/northland-puketi-omahuta-authoritative-002.geojson"
+}

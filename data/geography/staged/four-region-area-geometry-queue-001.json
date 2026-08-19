@@ -1,0 +1,2008 @@
+{
+  "schema": "EXG-LM-AREA-GEOMETRY-QUEUE-001",
+  "source": "data/geography/staged/four-region-landscape-areas-002.json",
+  "status": "STAGED",
+  "policy": {
+    "authoritative_geometry_preferred": true,
+    "no_boundary_invention": true,
+    "representative_geometry_requires_explicit_decision": true
+  },
+  "count": 130,
+  "countsByPriority": {
+    "A": 64,
+    "B": 60,
+    "C": 6
+  },
+  "countsByRegion": {
+    "Auckland": 14,
+    "Bay of Plenty Region": 29,
+    "Northland Region": 55,
+    "Waikato Region": 32
+  },
+  "countsByType": {
+    "CATCHMENT": 7,
+    "COASTAL_AREA": 5,
+    "FOREST": 7,
+    "HARBOUR_BAY": 21,
+    "ISLAND": 16,
+    "PENINSULA": 11,
+    "RANGE_MOUNTAIN": 8,
+    "RESERVE_SANCTUARY": 7,
+    "RIVER_STREAM": 13,
+    "VALLEY": 16,
+    "WETLAND_LAKE": 13,
+    "WIDER_ECOLOGICAL_AREA": 6
+  },
+  "queue": [
+    {
+      "areaId": "area-auckland-upper-harbour",
+      "name": "Upper Harbour",
+      "region": "Auckland",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 6,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-ohiwa-harbour",
+      "name": "Ōhiwa Harbour",
+      "region": "Bay of Plenty Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 4,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-bay-of-islands",
+      "name": "Bay of Islands",
+      "region": "Northland Region",
+      "areaType": "ISLAND",
+      "participantCount": 4,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-auckland-rakino-island",
+      "name": "Rakino Island",
+      "region": "Auckland",
+      "areaType": "ISLAND",
+      "participantCount": 3,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-takou-bay",
+      "name": "Takou Bay",
+      "region": "Northland Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 3,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-eastern-bay-of-islands",
+      "name": "Eastern Bay of Islands",
+      "region": "Northland Region",
+      "areaType": "ISLAND",
+      "participantCount": 3,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-paihia-opua-forest",
+      "name": "Paihia / Ōpua Forest",
+      "region": "Northland Region",
+      "areaType": "FOREST",
+      "participantCount": 2,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "LINZ/place datasets",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-doubtless-bay",
+      "name": "Doubtless Bay",
+      "region": "Northland Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 2,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-whangaroa-harbour",
+      "name": "Whangaroa Harbour",
+      "region": "Northland Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 2,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-lake-rotopiko",
+      "name": "Lake Rotopiko",
+      "region": "Waikato Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 2,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-auckland-hibiscus-and-bays",
+      "name": "Hibiscus & Bays",
+      "region": "Auckland",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-auckland-te-matuku-bay",
+      "name": "Te Matuku Bay",
+      "region": "Auckland",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-auckland-aotea-great-barrier-island",
+      "name": "Aotea / Great Barrier Island",
+      "region": "Auckland",
+      "areaType": "ISLAND",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-auckland-kawau-island",
+      "name": "Kawau Island",
+      "region": "Auckland",
+      "areaType": "ISLAND",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-auckland-tiritiri-matangi-island",
+      "name": "Tiritiri Matangi Island",
+      "region": "Auckland",
+      "areaType": "ISLAND",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-auckland-waiheke-island",
+      "name": "Waiheke Island",
+      "region": "Auckland",
+      "areaType": "ISLAND",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-auckland-waiheke-island-tikapa-moana",
+      "name": "Waiheke Island / Tīkapa Moana",
+      "region": "Auckland",
+      "areaType": "ISLAND",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-auckland-rewi-alley-reserve-wairau-catchment",
+      "name": "Rewi Alley Reserve / Wairau catchment",
+      "region": "Auckland",
+      "areaType": "RESERVE_SANCTUARY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "council reserve GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-auckland-swanson-kitewaho-reserve",
+      "name": "Swanson / Kitewaho Reserve",
+      "region": "Auckland",
+      "areaType": "RESERVE_SANCTUARY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "council reserve GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-rotoehu-forest",
+      "name": "Rotoehu Forest",
+      "region": "Bay of Plenty Region",
+      "areaType": "FOREST",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "LINZ/place datasets",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-otanewainuku-forest",
+      "name": "Ōtanewainuku Forest",
+      "region": "Bay of Plenty Region",
+      "areaType": "FOREST",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "LINZ/place datasets",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-nukuhou-and-ohiwa-harbour",
+      "name": "Nukuhou and Ōhiwa Harbour",
+      "region": "Bay of Plenty Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-papamoa-welcome-bay",
+      "name": "Pāpāmoa / Welcome Bay",
+      "region": "Bay of Plenty Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-torere-eastern-bay-of-plenty",
+      "name": "Tōrere / Eastern Bay of Plenty",
+      "region": "Bay of Plenty Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-waihi-harbour",
+      "name": "Waihī Harbour",
+      "region": "Bay of Plenty Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-otawa-western-bay-of-plenty",
+      "name": "Ōtawa / Western Bay of Plenty",
+      "region": "Bay of Plenty Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-matakana-island",
+      "name": "Matakana Island",
+      "region": "Bay of Plenty Region",
+      "areaType": "ISLAND",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-motu-trails",
+      "name": "Motu Trails",
+      "region": "Bay of Plenty Region",
+      "areaType": "ISLAND",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-puhikoko-and-ngakauroa-reserves",
+      "name": "Puhikoko and Ngakauroa Reserves",
+      "region": "Bay of Plenty Region",
+      "areaType": "RESERVE_SANCTUARY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "council reserve GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-awatapu-lagoon",
+      "name": "Awatapu Lagoon",
+      "region": "Bay of Plenty Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-lake-rotorua",
+      "name": "Lake Rotorua",
+      "region": "Bay of Plenty Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-rotorua-and-lake-okareka",
+      "name": "Rotorua and Lake Ōkāreka",
+      "region": "Bay of Plenty Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-houto-forests",
+      "name": "Houto forests",
+      "region": "Northland Region",
+      "areaType": "FOREST",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "LINZ/place datasets",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-kerikeri-puketi-forest",
+      "name": "Kerikeri / Puketi Forest",
+      "region": "Northland Region",
+      "areaType": "FOREST",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "LINZ/place datasets",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-puketi-forest",
+      "name": "Puketi Forest",
+      "region": "Northland Region",
+      "areaType": "FOREST",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "LINZ/place datasets",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-opua-forest-bay-of-islands",
+      "name": "Ōpua Forest, Bay of Islands",
+      "region": "Northland Region",
+      "areaType": "FOREST",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "LINZ/place datasets",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-bream-bay",
+      "name": "Bream Bay",
+      "region": "Northland Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-eastern-whangarei-parua-bay-ngunguru",
+      "name": "Eastern Whangārei, Parua Bay–Ngunguru",
+      "region": "Northland Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-hokianga-harbour",
+      "name": "Hokianga Harbour",
+      "region": "Northland Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-mahinepua-and-tauranga-bay",
+      "name": "Mahinepua and Tauranga Bay",
+      "region": "Northland Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-mcleod-bay",
+      "name": "McLeod Bay",
+      "region": "Northland Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-sandy-bay",
+      "name": "Sandy Bay",
+      "region": "Northland Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-tauranga-bay",
+      "name": "Tauranga Bay",
+      "region": "Northland Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-whale-bay-matapouri",
+      "name": "Whale Bay - Matapouri",
+      "region": "Northland Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-motutangi",
+      "name": "Motutangi",
+      "region": "Northland Region",
+      "areaType": "ISLAND",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-pewhairangi-bay-of-islands",
+      "name": "Pewhairangi / Bay of Islands",
+      "region": "Northland Region",
+      "areaType": "ISLAND",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-purerua-peninsula-bay-of-islands",
+      "name": "Purerua Peninsula, Bay of Islands",
+      "region": "Northland Region",
+      "areaType": "ISLAND",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-russell-bay-of-islands",
+      "name": "Russell, Bay of Islands",
+      "region": "Northland Region",
+      "areaType": "ISLAND",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-tangatapu-catchment-bay-of-islands",
+      "name": "Tangatapu Catchment, Bay of Islands",
+      "region": "Northland Region",
+      "areaType": "ISLAND",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-takou-bay-river-scenic-reserve",
+      "name": "Takou Bay River Scenic Reserve",
+      "region": "Northland Region",
+      "areaType": "RESERVE_SANCTUARY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "council reserve GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-lake-omapere",
+      "name": "Lake Omapere",
+      "region": "Northland Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-lake-omapere",
+      "name": "Lake Ōmāpere",
+      "region": "Northland Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-te-papa-paorooro-wetland",
+      "name": "Te Papa Paorooro Wetland",
+      "region": "Northland Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-kawhia-harbour",
+      "name": "Kāwhia Harbour",
+      "region": "Waikato Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-lake-rotoaira-central-north-island",
+      "name": "Lake Rotoaira / central North Island",
+      "region": "Waikato Region",
+      "areaType": "ISLAND",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-onewhero-harkers-reserve",
+      "name": "Onewhero / Harkers Reserve",
+      "region": "Waikato Region",
+      "areaType": "RESERVE_SANCTUARY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "council reserve GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-te-kuiti-mangaokewa-scenic-reserve",
+      "name": "Te Kūiti / Mangaokewa Scenic Reserve",
+      "region": "Waikato Region",
+      "areaType": "RESERVE_SANCTUARY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "council reserve GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-wainui-reserve",
+      "name": "Wainui Reserve",
+      "region": "Waikato Region",
+      "areaType": "RESERVE_SANCTUARY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "council reserve GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-lake-rotoaira-taupo-district",
+      "name": "Lake Rotoaira / Taupō district",
+      "region": "Waikato Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-lake-rotopounamu",
+      "name": "Lake Rotopounamu",
+      "region": "Waikato Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-lake-waahi",
+      "name": "Lake Waahi",
+      "region": "Waikato Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-lake-waikare",
+      "name": "Lake Waikare",
+      "region": "Waikato Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-lake-whangape",
+      "name": "Lake Whangape",
+      "region": "Waikato Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-pukawa-southern-lake-taupo",
+      "name": "Pukawa / southern Lake Taupō",
+      "region": "Waikato Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-brynderwyn-hills",
+      "name": "Brynderwyn Hills",
+      "region": "Northland Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 3,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-auckland-waitakere-ranges",
+      "name": "Waitākere Ranges",
+      "region": "Auckland",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-uretara-catchment",
+      "name": "Uretara catchment",
+      "region": "Bay of Plenty Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-waitao-stream",
+      "name": "Waitao Stream",
+      "region": "Bay of Plenty Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-aupouri-peninsula",
+      "name": "Aupōuri Peninsula",
+      "region": "Northland Region",
+      "areaType": "PENINSULA",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-kerikeri-peninsula",
+      "name": "Kerikeri Peninsula",
+      "region": "Northland Region",
+      "areaType": "PENINSULA",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-wairua-river",
+      "name": "Wairua River",
+      "region": "Northland Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-tangowahine-valley",
+      "name": "Tangowāhine Valley",
+      "region": "Northland Region",
+      "areaType": "VALLEY",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-auckland-takarunga-mount-victoria",
+      "name": "Takarunga / Mount Victoria",
+      "region": "Auckland",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-rangitaiki-river-catchment",
+      "name": "Rangitaiki River catchment",
+      "region": "Bay of Plenty Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-rotorua-lakes-catchment",
+      "name": "Rotorua lakes catchment",
+      "region": "Bay of Plenty Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-arataki-beach",
+      "name": "Arataki Beach",
+      "region": "Bay of Plenty Region",
+      "areaType": "COASTAL_AREA",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/place data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-awahou-stream",
+      "name": "Awahou Stream",
+      "region": "Bay of Plenty Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-paraiti-river",
+      "name": "Paraiti River",
+      "region": "Bay of Plenty Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-te-ranga-paraiti-river",
+      "name": "Te Ranga / Paraiti River",
+      "region": "Bay of Plenty Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-tuapiro-river",
+      "name": "Tuapiro River",
+      "region": "Bay of Plenty Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-utuhina-stream",
+      "name": "Utuhina Stream",
+      "region": "Bay of Plenty Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-kopurererua-valley",
+      "name": "Kōpūrererua Valley",
+      "region": "Bay of Plenty Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-paradise-valley",
+      "name": "Paradise Valley",
+      "region": "Bay of Plenty Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-waioeka-gorge",
+      "name": "Waioeka Gorge",
+      "region": "Bay of Plenty Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-ocean-beach-whangarei-heads",
+      "name": "Ocean Beach, Whangarei Heads",
+      "region": "Northland Region",
+      "areaType": "COASTAL_AREA",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/place data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-ocean-beach-whangarei-heads",
+      "name": "Ocean Beach, Whangārei Heads",
+      "region": "Northland Region",
+      "areaType": "COASTAL_AREA",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/place data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-omamari-beach",
+      "name": "Omamari Beach",
+      "region": "Northland Region",
+      "areaType": "COASTAL_AREA",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/place data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-aupouri-peninsula",
+      "name": "Aupouri Peninsula",
+      "region": "Northland Region",
+      "areaType": "PENINSULA",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-brett-and-russell-peninsulas",
+      "name": "Brett and Russell peninsulas",
+      "region": "Northland Region",
+      "areaType": "PENINSULA",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-hihi-peninsula",
+      "name": "Hihi Peninsula",
+      "region": "Northland Region",
+      "areaType": "PENINSULA",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-mangawhai-peninsula",
+      "name": "Mangawhai Peninsula",
+      "region": "Northland Region",
+      "areaType": "PENINSULA",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-opara-peninsula-hokianga",
+      "name": "Opara Peninsula, Hokianga",
+      "region": "Northland Region",
+      "areaType": "PENINSULA",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-pahi-petley-te-pahi-and-matakohe-peninsulas",
+      "name": "Pahi, Petley, Te Pahi and Matakohe Peninsulas",
+      "region": "Northland Region",
+      "areaType": "PENINSULA",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-russell-peninsula",
+      "name": "Russell Peninsula",
+      "region": "Northland Region",
+      "areaType": "PENINSULA",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-whangaruru-peninsula",
+      "name": "Whangaruru Peninsula",
+      "region": "Northland Region",
+      "areaType": "PENINSULA",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-whitehills",
+      "name": "Whitehills",
+      "region": "Northland Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-multiple-northland-rivers",
+      "name": "Multiple Northland rivers",
+      "region": "Northland Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-ngunguru-river",
+      "name": "Ngunguru river",
+      "region": "Northland Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-diggers-valley",
+      "name": "Diggers Valley",
+      "region": "Northland Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-glinks-gully",
+      "name": "Glinks Gully",
+      "region": "Northland Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-honeymoon-valley",
+      "name": "Honeymoon Valley",
+      "region": "Northland Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-utakura-valley-okaihau",
+      "name": "Utakura Valley, Okaihau",
+      "region": "Northland Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-waipoua-and-lower-waipoua-valley",
+      "name": "Waipoua and Lower Waipoua Valley",
+      "region": "Northland Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-wekaweka-valley-kauri-coast",
+      "name": "Wekaweka Valley, Kauri Coast",
+      "region": "Northland Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-whangaripo-valley",
+      "name": "Whangaripo Valley",
+      "region": "Northland Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-whau-valley-whangarei",
+      "name": "Whau Valley, Whangarei",
+      "region": "Northland Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-hamilton-multiple-waikato-catchments",
+      "name": "Hamilton / multiple Waikato catchments",
+      "region": "Waikato Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-lower-waikato-river-and-catchments",
+      "name": "Lower Waikato River and catchments",
+      "region": "Waikato Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-mangakotukutuku-catchment",
+      "name": "Mangakotukutuku catchment",
+      "region": "Waikato Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-mangapiko-catchment",
+      "name": "Mangapiko catchment",
+      "region": "Waikato Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-ruapuke-beach",
+      "name": "Ruapuke Beach",
+      "region": "Waikato Region",
+      "areaType": "COASTAL_AREA",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/place data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-kuaotunu-peninsula",
+      "name": "Kūaotunu Peninsula",
+      "region": "Waikato Region",
+      "areaType": "PENINSULA",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-horohoro-maunga-rotorua-south-waikato",
+      "name": "Horohoro maunga / Rotorua-South Waikato",
+      "region": "Waikato Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-kaimai-mamaku-ranges",
+      "name": "Kaimai-Mamaku Ranges",
+      "region": "Waikato Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-tauhara-maunga-taupo",
+      "name": "Tauhara maunga / Taupō",
+      "region": "Waikato Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-te-aroha-maunga-waiorongomai",
+      "name": "Te Aroha maunga / Waiorongomai",
+      "region": "Waikato Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-aka-aka-mangati-stream",
+      "name": "Aka Aka/Mangati Stream",
+      "region": "Waikato Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-mystery-creek-waipa",
+      "name": "Mystery Creek / Waipā",
+      "region": "Waikato Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-puniu-river",
+      "name": "Pūniu River",
+      "region": "Waikato Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-waikato-river",
+      "name": "Waikato River",
+      "region": "Waikato Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-kapowai-valley",
+      "name": "Kapowai Valley",
+      "region": "Waikato Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-kauaeranga-valley",
+      "name": "Kauaeranga Valley",
+      "region": "Waikato Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-kukutaruhe-gully",
+      "name": "Kukutāruhe Gully",
+      "region": "Waikato Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-silverdale-gully",
+      "name": "Silverdale Gully",
+      "region": "Waikato Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-auckland-auckland-region",
+      "name": "Auckland region",
+      "region": "Auckland",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 3,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-bryans-beach-and-waiotahe-estuary",
+      "name": "Bryans Beach and Waiōtahe Estuary",
+      "region": "Bay of Plenty Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-bay-of-plenty-waihi-estuary",
+      "name": "Waihī Estuary",
+      "region": "Bay of Plenty Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-northland-mataraua-kauri-coast",
+      "name": "Mataraua, Kauri Coast",
+      "region": "Northland Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-horohoro-south-waikato-rotorua-boundary",
+      "name": "Horohoro / South Waikato-Rotorua boundary",
+      "region": "Waikato Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-waikato-thames-coast",
+      "name": "Thames Coast",
+      "region": "Waikato Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    }
+  ]
+}

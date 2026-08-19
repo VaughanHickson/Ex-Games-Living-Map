@@ -1,0 +1,54 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1801,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              173.960102432657,
+              -35.7465900824762
+            ],
+            [
+              173.95925333341,
+              -35.7472223493082
+            ],
+            [
+              173.960062433777,
+              -35.7478581327893
+            ],
+            [
+              173.959399766983,
+              -35.7482827662979
+            ],
+            [
+              173.957794799591,
+              -35.7482809322312
+            ],
+            [
+              173.957794783549,
+              -35.7465880156453
+            ],
+            [
+              173.960102432657,
+              -35.7465900824762
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1801,
+        "NaPALIS_ID": 2797695,
+        "Name": "Houto Local Purpose (Quarry) Reserve",
+        "Type": "RESERVE",
+        "Legislation": "RESERVES_ACT",
+        "Section": "S23_LOCAL_PURPOSE_RESERVE",
+        "Conservation_Unit_Number": "P07008",
+        "Recorded_Area": 3.2
+      }
+    }
+  ]
+}

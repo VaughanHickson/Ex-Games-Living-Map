@@ -1,0 +1,456 @@
+{
+  "schema": "EXG-LM-NORTHLAND-PRIORITY-A-GEOMETRY-ACQUISITION-001",
+  "source": "data/geography/staged/four-region-area-geometry-queue-001.json",
+  "status": "STAGED",
+  "policy": {
+    "semantic_type_checked_before_geometry": true,
+    "authoritative_sources_only_for_boundary_attachment": true,
+    "no_boundary_invention": true,
+    "aliases_deduped_before_geometry": true,
+    "compound_areas_not_given_single_boundary_without_review": true
+  },
+  "sourceTiers": {
+    "DOC_PCL": {
+      "authority": "Department of Conservation",
+      "useFor": [
+        "FOREST",
+        "RESERVE_SANCTUARY"
+      ],
+      "data": "DOC Open Spatial Data Portal — public conservation areas; GeoJSON/ESRI REST available.",
+      "tier": 1
+    },
+    "LINZ_NZGB": {
+      "authority": "Toitū Te Whenua LINZ / NZ Geographic Board",
+      "useFor": [
+        "NAMED_PLACE",
+        "PENINSULA",
+        "HARBOUR_BAY",
+        "WETLAND_LAKE",
+        "PLACE_REVIEW"
+      ],
+      "data": "NZ Place Names Gazetteer point/line/polygon datasets.",
+      "tier": 1
+    },
+    "LINZ_COAST": {
+      "authority": "Toitū Te Whenua LINZ",
+      "useFor": [
+        "ISLAND",
+        "HARBOUR_BAY",
+        "COASTAL_AREA",
+        "PENINSULA"
+      ],
+      "data": "NZ Coastlines and Islands polygons / hydrographic datasets.",
+      "tier": 1
+    },
+    "NRC_GIS": {
+      "authority": "Northland Regional Council",
+      "useFor": [
+        "CATCHMENT",
+        "HARBOUR_BAY",
+        "WETLAND_LAKE",
+        "COASTAL_AREA"
+      ],
+      "data": "NRC LocalMaps/OpenData/download services.",
+      "tier": 1
+    }
+  },
+  "count": 27,
+  "queue": [
+    {
+      "areaId": "area-northland-bay-of-islands",
+      "sourceName": "Bay of Islands",
+      "participantCount": 4,
+      "originalAreaType": "ISLAND",
+      "correctedAreaType": "HARBOUR_BAY",
+      "action": "ACQUIRE",
+      "canonicalTarget": "Bay of Islands",
+      "sourcePlan": [
+        "LINZ_NZGB",
+        "LINZ_COAST"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": "Bay/harbour geography; not an island."
+    },
+    {
+      "areaId": "area-northland-takou-bay",
+      "sourceName": "Takou Bay",
+      "participantCount": 3,
+      "originalAreaType": "HARBOUR_BAY",
+      "correctedAreaType": "HARBOUR_BAY",
+      "action": "ACQUIRE",
+      "canonicalTarget": "Takou Bay",
+      "sourcePlan": [
+        "LINZ_NZGB",
+        "LINZ_COAST"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": null
+    },
+    {
+      "areaId": "area-northland-doubtless-bay",
+      "sourceName": "Doubtless Bay",
+      "participantCount": 2,
+      "originalAreaType": "HARBOUR_BAY",
+      "correctedAreaType": "HARBOUR_BAY",
+      "action": "ACQUIRE",
+      "canonicalTarget": "Doubtless Bay",
+      "sourcePlan": [
+        "LINZ_NZGB",
+        "LINZ_COAST"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": null
+    },
+    {
+      "areaId": "area-northland-paihia-opua-forest",
+      "sourceName": "Paihia / Ōpua Forest",
+      "participantCount": 2,
+      "originalAreaType": "FOREST",
+      "correctedAreaType": "FOREST",
+      "action": "ACQUIRE",
+      "canonicalTarget": "Paihia / Ōpua Forest",
+      "sourcePlan": [
+        "DOC_PCL"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": null
+    },
+    {
+      "areaId": "area-northland-whangaroa-harbour",
+      "sourceName": "Whangaroa Harbour",
+      "participantCount": 2,
+      "originalAreaType": "HARBOUR_BAY",
+      "correctedAreaType": "HARBOUR_BAY",
+      "action": "ACQUIRE",
+      "canonicalTarget": "Whangaroa Harbour",
+      "sourcePlan": [
+        "LINZ_NZGB",
+        "LINZ_COAST"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": null
+    },
+    {
+      "areaId": "area-northland-bream-bay",
+      "sourceName": "Bream Bay",
+      "participantCount": 1,
+      "originalAreaType": "HARBOUR_BAY",
+      "correctedAreaType": "HARBOUR_BAY",
+      "action": "ACQUIRE",
+      "canonicalTarget": "Bream Bay",
+      "sourcePlan": [
+        "LINZ_NZGB",
+        "LINZ_COAST"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": null
+    },
+    {
+      "areaId": "area-northland-hokianga-harbour",
+      "sourceName": "Hokianga Harbour",
+      "participantCount": 1,
+      "originalAreaType": "HARBOUR_BAY",
+      "correctedAreaType": "HARBOUR_BAY",
+      "action": "ACQUIRE",
+      "canonicalTarget": "Hokianga Harbour",
+      "sourcePlan": [
+        "LINZ_NZGB",
+        "LINZ_COAST"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": null
+    },
+    {
+      "areaId": "area-northland-houto-forests",
+      "sourceName": "Houto forests",
+      "participantCount": 1,
+      "originalAreaType": "FOREST",
+      "correctedAreaType": "FOREST",
+      "action": "ACQUIRE",
+      "canonicalTarget": "Houto forests",
+      "sourcePlan": [
+        "DOC_PCL"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": null
+    },
+    {
+      "areaId": "area-northland-kerikeri-puketi-forest",
+      "sourceName": "Kerikeri / Puketi Forest",
+      "participantCount": 1,
+      "originalAreaType": "FOREST",
+      "correctedAreaType": "FOREST",
+      "action": "ACQUIRE",
+      "canonicalTarget": "Kerikeri / Puketi Forest",
+      "sourcePlan": [
+        "DOC_PCL"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": null
+    },
+    {
+      "areaId": "area-northland-mcleod-bay",
+      "sourceName": "McLeod Bay",
+      "participantCount": 1,
+      "originalAreaType": "HARBOUR_BAY",
+      "correctedAreaType": "HARBOUR_BAY",
+      "action": "ACQUIRE",
+      "canonicalTarget": "McLeod Bay",
+      "sourcePlan": [
+        "LINZ_NZGB",
+        "LINZ_COAST"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": null
+    },
+    {
+      "areaId": "area-northland-puketi-forest",
+      "sourceName": "Puketi Forest",
+      "participantCount": 1,
+      "originalAreaType": "FOREST",
+      "correctedAreaType": "FOREST",
+      "action": "ACQUIRE",
+      "canonicalTarget": "Puketi Forest",
+      "sourcePlan": [
+        "DOC_PCL"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": null
+    },
+    {
+      "areaId": "area-northland-purerua-peninsula-bay-of-islands",
+      "sourceName": "Purerua Peninsula, Bay of Islands",
+      "participantCount": 1,
+      "originalAreaType": "ISLAND",
+      "correctedAreaType": "PENINSULA",
+      "action": "ACQUIRE",
+      "canonicalTarget": "Purerua Peninsula",
+      "sourcePlan": [
+        "LINZ_NZGB",
+        "LINZ_COAST"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": "Explicit peninsula."
+    },
+    {
+      "areaId": "area-northland-sandy-bay",
+      "sourceName": "Sandy Bay",
+      "participantCount": 1,
+      "originalAreaType": "HARBOUR_BAY",
+      "correctedAreaType": "HARBOUR_BAY",
+      "action": "ACQUIRE",
+      "canonicalTarget": "Sandy Bay",
+      "sourcePlan": [
+        "LINZ_NZGB",
+        "LINZ_COAST"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": null
+    },
+    {
+      "areaId": "area-northland-takou-bay-river-scenic-reserve",
+      "sourceName": "Takou Bay River Scenic Reserve",
+      "participantCount": 1,
+      "originalAreaType": "RESERVE_SANCTUARY",
+      "correctedAreaType": "RESERVE_SANCTUARY",
+      "action": "ACQUIRE",
+      "canonicalTarget": "Takou Bay River Scenic Reserve",
+      "sourcePlan": [
+        "DOC_PCL"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": null
+    },
+    {
+      "areaId": "area-northland-tangatapu-catchment-bay-of-islands",
+      "sourceName": "Tangatapu Catchment, Bay of Islands",
+      "participantCount": 1,
+      "originalAreaType": "ISLAND",
+      "correctedAreaType": "CATCHMENT",
+      "action": "ACQUIRE_OR_DERIVE",
+      "canonicalTarget": "Tangatapu Catchment",
+      "sourcePlan": [
+        "NRC_GIS"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": "Explicit catchment."
+    },
+    {
+      "areaId": "area-northland-tauranga-bay",
+      "sourceName": "Tauranga Bay",
+      "participantCount": 1,
+      "originalAreaType": "HARBOUR_BAY",
+      "correctedAreaType": "HARBOUR_BAY",
+      "action": "ACQUIRE",
+      "canonicalTarget": "Tauranga Bay",
+      "sourcePlan": [
+        "LINZ_NZGB",
+        "LINZ_COAST"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": null
+    },
+    {
+      "areaId": "area-northland-te-papa-paorooro-wetland",
+      "sourceName": "Te Papa Paorooro Wetland",
+      "participantCount": 1,
+      "originalAreaType": "WETLAND_LAKE",
+      "correctedAreaType": "WETLAND_LAKE",
+      "action": "ACQUIRE",
+      "canonicalTarget": "Te Papa Paorooro Wetland",
+      "sourcePlan": [
+        "LINZ_NZGB",
+        "NRC_GIS"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": null
+    },
+    {
+      "areaId": "area-northland-opua-forest-bay-of-islands",
+      "sourceName": "Ōpua Forest, Bay of Islands",
+      "participantCount": 1,
+      "originalAreaType": "FOREST",
+      "correctedAreaType": "FOREST",
+      "action": "ACQUIRE",
+      "canonicalTarget": "Ōpua Forest, Bay of Islands",
+      "sourcePlan": [
+        "DOC_PCL"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": null
+    },
+    {
+      "areaId": "area-northland-eastern-bay-of-islands",
+      "sourceName": "Eastern Bay of Islands",
+      "participantCount": 3,
+      "originalAreaType": "ISLAND",
+      "correctedAreaType": "WIDER_ECOLOGICAL_AREA",
+      "action": "REVIEW_BEFORE_GEOMETRY",
+      "canonicalTarget": "Eastern Bay of Islands",
+      "sourcePlan": [
+        "LINZ_NZGB",
+        "NRC_GIS"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": "Directional/wider area rather than a discrete island."
+    },
+    {
+      "areaId": "area-northland-eastern-whangarei-parua-bay-ngunguru",
+      "sourceName": "Eastern Whangārei, Parua Bay–Ngunguru",
+      "participantCount": 1,
+      "originalAreaType": "HARBOUR_BAY",
+      "correctedAreaType": "COASTAL_AREA",
+      "action": "REVIEW_BEFORE_GEOMETRY",
+      "canonicalTarget": "Eastern Whangārei, Parua Bay–Ngunguru",
+      "sourcePlan": [
+        "LINZ_NZGB",
+        "LINZ_COAST"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": "Multi-place coastal extent; not one bay polygon."
+    },
+    {
+      "areaId": "area-northland-lake-omapere",
+      "sourceName": "Lake Omapere",
+      "participantCount": 1,
+      "originalAreaType": "WETLAND_LAKE",
+      "correctedAreaType": "WETLAND_LAKE",
+      "action": "ALIAS_DEDUPE",
+      "canonicalTarget": "Lake Ōmāpere",
+      "sourcePlan": [
+        "LINZ_NZGB",
+        "NRC_GIS"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": "Duplicate spelling; canonical target is Lake Ōmāpere."
+    },
+    {
+      "areaId": "area-northland-lake-omapere",
+      "sourceName": "Lake Ōmāpere",
+      "participantCount": 1,
+      "originalAreaType": "WETLAND_LAKE",
+      "correctedAreaType": "WETLAND_LAKE",
+      "action": "ALIAS_DEDUPE",
+      "canonicalTarget": "Lake Ōmāpere",
+      "sourcePlan": [
+        "LINZ_NZGB",
+        "NRC_GIS"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": "Duplicate spelling; canonical target is Lake Ōmāpere."
+    },
+    {
+      "areaId": "area-northland-mahinepua-and-tauranga-bay",
+      "sourceName": "Mahinepua and Tauranga Bay",
+      "participantCount": 1,
+      "originalAreaType": "HARBOUR_BAY",
+      "correctedAreaType": "COMPOUND_AREA",
+      "action": "SPLIT_REQUIRED",
+      "canonicalTarget": null,
+      "sourcePlan": [
+        "LINZ_NZGB",
+        "NRC_GIS"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": "Compound source geography should not become one invented boundary."
+    },
+    {
+      "areaId": "area-northland-motutangi",
+      "sourceName": "Motutangi",
+      "participantCount": 1,
+      "originalAreaType": "ISLAND",
+      "correctedAreaType": "PLACE_REVIEW",
+      "action": "PLACE_SOURCE_MATCH",
+      "canonicalTarget": "Motutangi",
+      "sourcePlan": [
+        "LINZ_NZGB"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": "Name alone does not establish an island."
+    },
+    {
+      "areaId": "area-northland-pewhairangi-bay-of-islands",
+      "sourceName": "Pewhairangi / Bay of Islands",
+      "participantCount": 1,
+      "originalAreaType": "ISLAND",
+      "correctedAreaType": "HARBOUR_BAY",
+      "action": "ALIAS_DEDUPE",
+      "canonicalTarget": "Bay of Islands",
+      "sourcePlan": [
+        "LINZ_NZGB",
+        "LINZ_COAST"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": "Treat as Bay of Islands alias/context candidate, not a separate island."
+    },
+    {
+      "areaId": "area-northland-russell-bay-of-islands",
+      "sourceName": "Russell, Bay of Islands",
+      "participantCount": 1,
+      "originalAreaType": "ISLAND",
+      "correctedAreaType": "NAMED_PLACE",
+      "action": "MOVE_TO_PLACE_QUEUE",
+      "canonicalTarget": "Russell",
+      "sourcePlan": [
+        "LINZ_NZGB"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": "Named settlement/place context, not an island Area."
+    },
+    {
+      "areaId": "area-northland-whale-bay-matapouri",
+      "sourceName": "Whale Bay - Matapouri",
+      "participantCount": 1,
+      "originalAreaType": "HARBOUR_BAY",
+      "correctedAreaType": "COMPOUND_AREA",
+      "action": "SPLIT_OR_PRIMARY_PLACE_REVIEW",
+      "canonicalTarget": null,
+      "sourcePlan": [
+        "LINZ_NZGB",
+        "NRC_GIS"
+      ],
+      "geometryStatus": "PENDING",
+      "notes": "Two named coastal places; resolve source intent before geometry."
+    }
+  ]
+}

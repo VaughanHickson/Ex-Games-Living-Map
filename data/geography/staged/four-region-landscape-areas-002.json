@@ -1,0 +1,5985 @@
+{
+  "schema": "EXG-LM-LANDSCAPE-AREAS-002",
+  "areaModel": "EXG-LM-AREA-MODEL-002",
+  "status": "STAGED_REFINED",
+  "source": "data/geography/staged/four-region-landscape-areas-001.json",
+  "classificationAudit": "data/geography/staged/four-region-landscape-area-classification-audit-001.json",
+  "policy": {
+    "ordinary_named_places_not_auto_promoted": true,
+    "compound_multi_place_terms_not_auto_promoted": true,
+    "admin_wider_area_terms_not_auto_promoted": true,
+    "boundaries_not_invented": true
+  },
+  "areaCount": 130,
+  "excludedCandidateCount": 134,
+  "countsByRegion": {
+    "Auckland": 14,
+    "Bay of Plenty Region": 29,
+    "Northland Region": 55,
+    "Waikato Region": 32
+  },
+  "countsByType": {
+    "CATCHMENT": 7,
+    "COASTAL_AREA": 5,
+    "FOREST": 7,
+    "HARBOUR_BAY": 21,
+    "ISLAND": 16,
+    "PENINSULA": 11,
+    "RANGE_MOUNTAIN": 8,
+    "RESERVE_SANCTUARY": 7,
+    "RIVER_STREAM": 13,
+    "VALLEY": 16,
+    "WETLAND_LAKE": 13,
+    "WIDER_ECOLOGICAL_AREA": 6
+  },
+  "excludedCountsByAuditClass": {
+    "ADMIN_OR_WIDER_AREA": 1,
+    "COMPOUND_OR_MULTI_PLACE": 30,
+    "LIKELY_NAMED_PLACE": 100,
+    "NEEDS_REVIEW": 3
+  },
+  "areas": [
+    {
+      "id": "area-auckland-hibiscus-and-bays",
+      "name": "Hibiscus & Bays",
+      "areaType": "HARBOUR_BAY",
+      "region": "Auckland",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Hibiscus & Bays"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "AKL-LT-024"
+      ],
+      "participantNames": [
+        "Restore Hibiscus & Bays"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-auckland-te-matuku-bay",
+      "name": "Te Matuku Bay",
+      "areaType": "HARBOUR_BAY",
+      "region": "Auckland",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Te Matuku Bay"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "AKL-IND-013"
+      ],
+      "participantNames": [
+        "Craig Olsen"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-auckland-upper-harbour",
+      "name": "Upper Harbour",
+      "areaType": "HARBOUR_BAY",
+      "region": "Auckland",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Upper Harbour"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "AKL-IND-039",
+        "AKL-IND-040",
+        "AKL-IND-041",
+        "AKL-IND-042",
+        "AKL-IND-043",
+        "AKL-IND-044"
+      ],
+      "participantNames": [
+        "Jan Diprose",
+        "Annette Mitchell",
+        "Nicholas Mayne",
+        "Reshnu Sheela",
+        "Rachael Pates",
+        "Louis Foot"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 6
+      },
+      "participantCount": 6,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-auckland-aotea-great-barrier-island",
+      "name": "Aotea / Great Barrier Island",
+      "areaType": "ISLAND",
+      "region": "Auckland",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Aotea / Great Barrier Island"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "AKL-IND-032"
+      ],
+      "participantNames": [
+        "Taryn Wilks"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-auckland-kawau-island",
+      "name": "Kawau Island",
+      "areaType": "ISLAND",
+      "region": "Auckland",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Kawau Island"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "AKL-LT-029"
+      ],
+      "participantNames": [
+        "Pest Free Kawau Island programme"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-auckland-rakino-island",
+      "name": "Rakino Island",
+      "areaType": "ISLAND",
+      "region": "Auckland",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Rakino Island"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "AKL-IND-019",
+        "AKL-IND-020",
+        "AKL-IND-021"
+      ],
+      "participantNames": [
+        "John Mackenzie",
+        "Kevin Wragge",
+        "Linley Wragge"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 3
+      },
+      "participantCount": 3,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-auckland-tiritiri-matangi-island",
+      "name": "Tiritiri Matangi Island",
+      "areaType": "ISLAND",
+      "region": "Auckland",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Tiritiri Matangi Island"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "AKL-IND-031"
+      ],
+      "participantNames": [
+        "Ian Alexander"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-auckland-waiheke-island",
+      "name": "Waiheke Island",
+      "areaType": "ISLAND",
+      "region": "Auckland",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Waiheke Island"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "AKL-IND-013"
+      ],
+      "participantNames": [
+        "Craig Olsen"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-auckland-waiheke-island-tikapa-moana",
+      "name": "Waiheke Island / Tīkapa Moana",
+      "areaType": "ISLAND",
+      "region": "Auckland",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Waiheke Island / Tīkapa Moana"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "AKL-LT-032"
+      ],
+      "participantNames": [
+        "Waiheke Marine Project"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-auckland-takarunga-mount-victoria",
+      "name": "Takarunga / Mount Victoria",
+      "areaType": "RANGE_MOUNTAIN",
+      "region": "Auckland",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Takarunga / Mount Victoria"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "AKL-IND-046"
+      ],
+      "participantNames": [
+        "Nigel Hopkins"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-auckland-waitakere-ranges",
+      "name": "Waitākere Ranges",
+      "areaType": "RANGE_MOUNTAIN",
+      "region": "Auckland",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Waitākere Ranges"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "AKL-IND-007",
+        "AKL-IND-008"
+      ],
+      "participantNames": [
+        "Daria Erastova",
+        "Annalily van den Broeke"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 2
+      },
+      "participantCount": 2,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-auckland-rewi-alley-reserve-wairau-catchment",
+      "name": "Rewi Alley Reserve / Wairau catchment",
+      "areaType": "RESERVE_SANCTUARY",
+      "region": "Auckland",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Rewi Alley Reserve / Wairau catchment"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "AKL-LT-026"
+      ],
+      "participantNames": [
+        "Rewi Alley Reserve Restoration Group"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-auckland-swanson-kitewaho-reserve",
+      "name": "Swanson / Kitewaho Reserve",
+      "areaType": "RESERVE_SANCTUARY",
+      "region": "Auckland",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Swanson / Kitewaho Reserve"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "AKL-LT-020"
+      ],
+      "participantNames": [
+        "Kaitiaki Kitewaho"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-auckland-auckland-region",
+      "name": "Auckland region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "region": "Auckland",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Auckland region"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "AKL-LT-002",
+        "AKL-LT-003",
+        "AKL-LT-004"
+      ],
+      "participantNames": [
+        "A Rocha Aotearoa New Zealand",
+        "ASEZ WAO NZ",
+        "Beyond the Fence"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 3
+      },
+      "participantCount": 3,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-rangitaiki-river-catchment",
+      "name": "Rangitaiki River catchment",
+      "areaType": "CATCHMENT",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Rangitaiki River catchment"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "bop-ngati-manawa"
+      ],
+      "participantNames": [
+        "Ngāti Manawa"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-rotorua-lakes-catchment",
+      "name": "Rotorua lakes catchment",
+      "areaType": "CATCHMENT",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Rotorua lakes catchment"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "bop-tipu-wai"
+      ],
+      "participantNames": [
+        "Tipu Wai"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-uretara-catchment",
+      "name": "Uretara catchment",
+      "areaType": "CATCHMENT",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Uretara catchment"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "bop-brian-gordon",
+        "bop-bev-gordon"
+      ],
+      "participantNames": [
+        "Brian Gordon",
+        "Bev Gordon"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 2
+      },
+      "participantCount": 2,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-arataki-beach",
+      "name": "Arataki Beach",
+      "areaType": "COASTAL_AREA",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Arataki Beach"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "bop-kerry-willoughby"
+      ],
+      "participantNames": [
+        "Kerry Willoughby"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "PROMOTED_FROM_OTHER",
+      "refinementAuditClass": "LIKELY_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-rotoehu-forest",
+      "name": "Rotoehu Forest",
+      "areaType": "FOREST",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Rotoehu Forest"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "bop-rotoehu-ecological-trust"
+      ],
+      "participantNames": [
+        "Rotoehu Ecological Trust"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-otanewainuku-forest",
+      "name": "Ōtanewainuku Forest",
+      "areaType": "FOREST",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Ōtanewainuku Forest"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "bop-otanewainuku-kiwi-trust"
+      ],
+      "participantNames": [
+        "Ōtanewainuku Kiwi Trust"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-nukuhou-and-ohiwa-harbour",
+      "name": "Nukuhou and Ōhiwa Harbour",
+      "areaType": "HARBOUR_BAY",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Nukuhou and Ōhiwa Harbour"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "bop-nukuhou-saltmarsh-care-group"
+      ],
+      "participantNames": [
+        "Nukuhou Saltmarsh Care Group"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-papamoa-welcome-bay",
+      "name": "Pāpāmoa / Welcome Bay",
+      "areaType": "HARBOUR_BAY",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Pāpāmoa / Welcome Bay"
+      ],
+      "sourceResolutionClasses": [
+        "COMPOUND_PLACE"
+      ],
+      "participantIds": [
+        "bop-waitao-landcare-group"
+      ],
+      "participantNames": [
+        "Waitao Landcare Group"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-torere-eastern-bay-of-plenty",
+      "name": "Tōrere / Eastern Bay of Plenty",
+      "areaType": "HARBOUR_BAY",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Tōrere / Eastern Bay of Plenty"
+      ],
+      "sourceResolutionClasses": [
+        "COMPOUND_PLACE"
+      ],
+      "participantIds": [
+        "BOP-LT-007"
+      ],
+      "participantNames": [
+        "Te Kura o Tōrere environmental monitoring project"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-waihi-harbour",
+      "name": "Waihī Harbour",
+      "areaType": "HARBOUR_BAY",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Waihī Harbour"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "bop-julian-fitter"
+      ],
+      "participantNames": [
+        "Julian Fitter"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-ohiwa-harbour",
+      "name": "Ōhiwa Harbour",
+      "areaType": "HARBOUR_BAY",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Ōhiwa Harbour"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "bop-ohiwa-headland-sanctuary-trust",
+        "bop-kura-paul-burke",
+        "bop-hurike",
+        "bop-upokorehe-resource-management-team"
+      ],
+      "participantNames": [
+        "Ōhiwa Headland Sanctuary Trust",
+        "Kura Paul-Burke",
+        "Hurike",
+        "Ūpokorehe Resource Management Team"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 4
+      },
+      "participantCount": 4,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-otawa-western-bay-of-plenty",
+      "name": "Ōtawa / Western Bay of Plenty",
+      "areaType": "HARBOUR_BAY",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Ōtawa / Western Bay of Plenty"
+      ],
+      "sourceResolutionClasses": [
+        "COMPOUND_PLACE"
+      ],
+      "participantIds": [
+        "BOP-LT-001"
+      ],
+      "participantNames": [
+        "Ōtawa Waitaha a Hei"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-matakana-island",
+      "name": "Matakana Island",
+      "areaType": "ISLAND",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Matakana Island"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "bop-matakana-island-environmental-group"
+      ],
+      "participantNames": [
+        "Matakana Island Environmental Group"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-motu-trails",
+      "name": "Motu Trails",
+      "areaType": "ISLAND",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Motu Trails"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "bop-peter-cavanagh"
+      ],
+      "participantNames": [
+        "Peter Cavanagh"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "PROMOTED_FROM_OTHER",
+      "refinementAuditClass": "LIKELY_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-puhikoko-and-ngakauroa-reserves",
+      "name": "Puhikoko and Ngakauroa Reserves",
+      "areaType": "RESERVE_SANCTUARY",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Puhikoko and Ngakauroa Reserves"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "bop-omataroa"
+      ],
+      "participantNames": [
+        "Omataroa"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-awahou-stream",
+      "name": "Awahou Stream",
+      "areaType": "RIVER_STREAM",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Awahou Stream"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "bop-jaap-and-sue"
+      ],
+      "participantNames": [
+        "Jaap and Sue"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-paraiti-river",
+      "name": "Paraiti River",
+      "areaType": "RIVER_STREAM",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Paraiti River"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "bop-emily-cotter"
+      ],
+      "participantNames": [
+        "Emily Cotter"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-te-ranga-paraiti-river",
+      "name": "Te Ranga / Paraiti River",
+      "areaType": "RIVER_STREAM",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Te Ranga / Paraiti River"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "bop-paraiti-catchment-care-group"
+      ],
+      "participantNames": [
+        "Paraiti Catchment Care Group"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-tuapiro-river",
+      "name": "Tuapiro River",
+      "areaType": "RIVER_STREAM",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Tuapiro River"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "bop-ngati-te-wai-hapu"
+      ],
+      "participantNames": [
+        "Ngāti Te Wai Hapū"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-utuhina-stream",
+      "name": "Utuhina Stream",
+      "areaType": "RIVER_STREAM",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Utuhina Stream"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "bop-ngati-kea-ngati-tuara"
+      ],
+      "participantNames": [
+        "Ngāti Kea Ngāti Tuara"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-waitao-stream",
+      "name": "Waitao Stream",
+      "areaType": "RIVER_STREAM",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Waitao Stream"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "bop-hinenui-cooper",
+        "bop-thomas-cooper"
+      ],
+      "participantNames": [
+        "Hinenui Cooper",
+        "Thomas Cooper"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 2
+      },
+      "participantCount": 2,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-kopurererua-valley",
+      "name": "Kōpūrererua Valley",
+      "areaType": "VALLEY",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Kōpūrererua Valley"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "bop-kopurererua-valley-rotary-centennial-trust"
+      ],
+      "participantNames": [
+        "Kōpūrererua Valley Rotary Centennial Trust"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-paradise-valley",
+      "name": "Paradise Valley",
+      "areaType": "VALLEY",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Paradise Valley"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "bop-paradise-valley-catchment-group"
+      ],
+      "participantNames": [
+        "Paradise Valley Catchment Group"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-waioeka-gorge",
+      "name": "Waioeka Gorge",
+      "areaType": "VALLEY",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Waioeka Gorge"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "bop-eastern-whio-link"
+      ],
+      "participantNames": [
+        "Eastern Whio Link"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "PROMOTED_FROM_OTHER",
+      "refinementAuditClass": "LIKELY_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-awatapu-lagoon",
+      "name": "Awatapu Lagoon",
+      "areaType": "WETLAND_LAKE",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Awatapu Lagoon"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "bop-awatapu-otamakaokao-kaitiaki"
+      ],
+      "participantNames": [
+        "Awatapu Otamakaokao Kaitiaki"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-lake-rotorua",
+      "name": "Lake Rotorua",
+      "areaType": "WETLAND_LAKE",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Lake Rotorua"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "bop-catfish-killas"
+      ],
+      "participantNames": [
+        "Catfish Killas"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-rotorua-and-lake-okareka",
+      "name": "Rotorua and Lake Ōkāreka",
+      "areaType": "WETLAND_LAKE",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Rotorua and Lake Ōkāreka"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "bop-rotorua-forest-bird"
+      ],
+      "participantNames": [
+        "Rotorua Forest & Bird"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-bryans-beach-and-waiotahe-estuary",
+      "name": "Bryans Beach and Waiōtahe Estuary",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Bryans Beach and Waiōtahe Estuary"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "bop-bryans-beach-community-group"
+      ],
+      "participantNames": [
+        "Bryans Beach community group"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-bay-of-plenty-waihi-estuary",
+      "name": "Waihī Estuary",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "region": "Bay of Plenty Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Waihī Estuary"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "bop-te-wahapu-o-waihi"
+      ],
+      "participantNames": [
+        "Te Wahapū o Waihī"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-ocean-beach-whangarei-heads",
+      "name": "Ocean Beach, Whangarei Heads",
+      "areaType": "COASTAL_AREA",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Ocean Beach, Whangarei Heads"
+      ],
+      "sourceResolutionClasses": [
+        "COMPOUND_PLACE"
+      ],
+      "participantIds": [
+        "NL-0332"
+      ],
+      "participantNames": [
+        "Ocean Beach Landcare"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "PROMOTED_FROM_OTHER",
+      "refinementAuditClass": "LIKELY_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-ocean-beach-whangarei-heads",
+      "name": "Ocean Beach, Whangārei Heads",
+      "areaType": "COASTAL_AREA",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Ocean Beach, Whangārei Heads"
+      ],
+      "sourceResolutionClasses": [
+        "COMPOUND_PLACE"
+      ],
+      "participantIds": [
+        "NL-0121"
+      ],
+      "participantNames": [
+        "Ocean Beach Restoration Association"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "PROMOTED_FROM_OTHER",
+      "refinementAuditClass": "LIKELY_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-omamari-beach",
+      "name": "Omamari Beach",
+      "areaType": "COASTAL_AREA",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Omamari Beach"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "NL-0124"
+      ],
+      "participantNames": [
+        "Omamari Beach Care Group"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "PROMOTED_FROM_OTHER",
+      "refinementAuditClass": "LIKELY_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-houto-forests",
+      "name": "Houto forests",
+      "areaType": "FOREST",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Houto forests"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0078"
+      ],
+      "participantNames": [
+        "Kaipara Forest Conservation Trust"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-kerikeri-puketi-forest",
+      "name": "Kerikeri / Puketi Forest",
+      "areaType": "FOREST",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Kerikeri / Puketi Forest"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0062"
+      ],
+      "participantNames": [
+        "Ian Wilson"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-paihia-opua-forest",
+      "name": "Paihia / Ōpua Forest",
+      "areaType": "FOREST",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Paihia / Ōpua Forest"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0015",
+        "NL-0028"
+      ],
+      "participantNames": [
+        "Brad Windust",
+        "Craig Salmon"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 2
+      },
+      "participantCount": 2,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-puketi-forest",
+      "name": "Puketi Forest",
+      "areaType": "FOREST",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Puketi Forest"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0146"
+      ],
+      "participantNames": [
+        "Puketi Forest Trust"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-opua-forest-bay-of-islands",
+      "name": "Ōpua Forest, Bay of Islands",
+      "areaType": "FOREST",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Ōpua Forest, Bay of Islands"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0012"
+      ],
+      "participantNames": [
+        "Bay Bush Action"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-bream-bay",
+      "name": "Bream Bay",
+      "areaType": "HARBOUR_BAY",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Bream Bay"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "NL-0037"
+      ],
+      "participantNames": [
+        "Dūnyam Pepperell"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-doubtless-bay",
+      "name": "Doubtless Bay",
+      "areaType": "HARBOUR_BAY",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Doubtless Bay"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "NL-0186",
+        "NL-0244"
+      ],
+      "participantNames": [
+        "Te Paatu ki Kauhanga Trust Board",
+        "Doubtless Bay Landcare"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 2
+      },
+      "participantCount": 2,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-eastern-whangarei-parua-bay-ngunguru",
+      "name": "Eastern Whangārei, Parua Bay–Ngunguru",
+      "areaType": "HARBOUR_BAY",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Eastern Whangārei, Parua Bay–Ngunguru"
+      ],
+      "sourceResolutionClasses": [
+        "COMPOUND_PLACE"
+      ],
+      "participantIds": [
+        "NL-0088"
+      ],
+      "participantNames": [
+        "Kiwi Link"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-hokianga-harbour",
+      "name": "Hokianga Harbour",
+      "areaType": "HARBOUR_BAY",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Hokianga Harbour"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0098"
+      ],
+      "participantNames": [
+        "Manawatawa Native Restoration Project"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-mahinepua-and-tauranga-bay",
+      "name": "Mahinepua and Tauranga Bay",
+      "areaType": "HARBOUR_BAY",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Mahinepua and Tauranga Bay"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "NL-0096"
+      ],
+      "participantNames": [
+        "Mahinepua Radar Hill Landcare Group"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-mcleod-bay",
+      "name": "McLeod Bay",
+      "areaType": "HARBOUR_BAY",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "McLeod Bay"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "NL-0097"
+      ],
+      "participantNames": [
+        "Manaia Bush Recovery Group"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-sandy-bay",
+      "name": "Sandy Bay",
+      "areaType": "HARBOUR_BAY",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Sandy Bay"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "NL-0382"
+      ],
+      "participantNames": [
+        "Sandy Bay Kiwi"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-takou-bay",
+      "name": "Takou Bay",
+      "areaType": "HARBOUR_BAY",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Takou Bay"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "NL-0234",
+        "NL-0341",
+        "NL-0354"
+      ],
+      "participantNames": [
+        "Cavalli View Trappers",
+        "Otaha Station",
+        "Pamu Takou Bay Milk"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 3
+      },
+      "participantCount": 3,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-tauranga-bay",
+      "name": "Tauranga Bay",
+      "areaType": "HARBOUR_BAY",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Tauranga Bay"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "NL-0178"
+      ],
+      "participantNames": [
+        "Tauranga Bay Community Association CoastCare sub-committee"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-whale-bay-matapouri",
+      "name": "Whale Bay - Matapouri",
+      "areaType": "HARBOUR_BAY",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Whale Bay - Matapouri"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "NL-0311"
+      ],
+      "participantNames": [
+        "Matapouri Kaitiaki"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-whangaroa-harbour",
+      "name": "Whangaroa Harbour",
+      "areaType": "HARBOUR_BAY",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Whangaroa Harbour"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0091",
+        "NL-0181"
+      ],
+      "participantNames": [
+        "Kowhairoa peninsula restoration",
+        "Te Komanga Marae Trust"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 2
+      },
+      "participantCount": 2,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-bay-of-islands",
+      "name": "Bay of Islands",
+      "areaType": "ISLAND",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Bay of Islands"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0034",
+        "NL-0043",
+        "NL-0141",
+        "NL-0318"
+      ],
+      "participantNames": [
+        "Deb Bayens Wright",
+        "Fleur Corbett",
+        "Predator Free Pēwhairangi Whānui",
+        "Moturoa Island Private Wildlife Refuge"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 4
+      },
+      "participantCount": 4,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-eastern-bay-of-islands",
+      "name": "Eastern Bay of Islands",
+      "areaType": "ISLAND",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Eastern Bay of Islands"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0143",
+        "NL-0247",
+        "NL-0413"
+      ],
+      "participantNames": [
+        "Project Island Song",
+        "Eastern Bay of Islands Preservation Society",
+        "Te Tangi o Te Ata"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 3
+      },
+      "participantCount": 3,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-motutangi",
+      "name": "Motutangi",
+      "areaType": "ISLAND",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Motutangi"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "NL-0319"
+      ],
+      "participantNames": [
+        "Motutangi Pest Wipeout"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "PROMOTED_FROM_OTHER",
+      "refinementAuditClass": "LIKELY_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-pewhairangi-bay-of-islands",
+      "name": "Pewhairangi / Bay of Islands",
+      "areaType": "ISLAND",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Pewhairangi / Bay of Islands"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0069"
+      ],
+      "participantNames": [
+        "Jill Mortensen"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-purerua-peninsula-bay-of-islands",
+      "name": "Purerua Peninsula, Bay of Islands",
+      "areaType": "ISLAND",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Purerua Peninsula, Bay of Islands"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0136"
+      ],
+      "participantNames": [
+        "Pest Free Purerua"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-russell-bay-of-islands",
+      "name": "Russell, Bay of Islands",
+      "areaType": "ISLAND",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Russell, Bay of Islands"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0381"
+      ],
+      "participantNames": [
+        "Russell-Orongo Bay Holiday Park"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-tangatapu-catchment-bay-of-islands",
+      "name": "Tangatapu Catchment, Bay of Islands",
+      "areaType": "ISLAND",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Tangatapu Catchment, Bay of Islands"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0298"
+      ],
+      "participantNames": [
+        "Living Waters"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-aupouri-peninsula",
+      "name": "Aupouri Peninsula",
+      "areaType": "PENINSULA",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Aupouri Peninsula"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0399"
+      ],
+      "participantNames": [
+        "Summit Te Hiku"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-aupouri-peninsula",
+      "name": "Aupōuri Peninsula",
+      "areaType": "PENINSULA",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Aupōuri Peninsula"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0118",
+        "NL-0166"
+      ],
+      "participantNames": [
+        "Niki Conrad",
+        "Simon Job"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 2
+      },
+      "participantCount": 2,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-brett-and-russell-peninsulas",
+      "name": "Brett and Russell peninsulas",
+      "areaType": "PENINSULA",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Brett and Russell peninsulas"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0128"
+      ],
+      "participantNames": [
+        "Pacific Eco-Logic"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-hihi-peninsula",
+      "name": "Hihi Peninsula",
+      "areaType": "PENINSULA",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Hihi Peninsula"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0445"
+      ],
+      "participantNames": [
+        "Whakaangi Landcare Trust"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-kerikeri-peninsula",
+      "name": "Kerikeri Peninsula",
+      "areaType": "PENINSULA",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Kerikeri Peninsula"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0033",
+        "NL-0083"
+      ],
+      "participantNames": [
+        "Dean Wright",
+        "Kerikeri Peninsula Conservation Charitable Trust"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 2
+      },
+      "participantCount": 2,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-mangawhai-peninsula",
+      "name": "Mangawhai Peninsula",
+      "areaType": "PENINSULA",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Mangawhai Peninsula"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0197"
+      ],
+      "participantNames": [
+        "Tern Point Group"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-opara-peninsula-hokianga",
+      "name": "Opara Peninsula, Hokianga",
+      "areaType": "PENINSULA",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Opara Peninsula, Hokianga"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0336"
+      ],
+      "participantNames": [
+        "Opara Kiwi Conservation Estate"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-pahi-petley-te-pahi-and-matakohe-peninsulas",
+      "name": "Pahi, Petley, Te Pahi and Matakohe Peninsulas",
+      "areaType": "PENINSULA",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Pahi, Petley, Te Pahi and Matakohe Peninsulas"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0363"
+      ],
+      "participantNames": [
+        "Pest Free Peninsulas Kaipara"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-russell-peninsula",
+      "name": "Russell Peninsula",
+      "areaType": "PENINSULA",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Russell Peninsula"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0159"
+      ],
+      "participantNames": [
+        "Russell Landcare Trust"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-whangaruru-peninsula",
+      "name": "Whangaruru Peninsula",
+      "areaType": "PENINSULA",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Whangaruru Peninsula"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0449"
+      ],
+      "participantNames": [
+        "Whangaruru Nth Residents & Ratepayers"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-brynderwyn-hills",
+      "name": "Brynderwyn Hills",
+      "areaType": "RANGE_MOUNTAIN",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Brynderwyn Hills"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "NL-0139",
+        "NL-0193",
+        "NL-0195"
+      ],
+      "participantNames": [
+        "Piroa-Brynderwyns Landcare",
+        "Te Waorahi",
+        "Team Ruru Kaitiaki"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 3
+      },
+      "participantCount": 3,
+      "refinementStatus": "PROMOTED_FROM_OTHER",
+      "refinementAuditClass": "LIKELY_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-whitehills",
+      "name": "Whitehills",
+      "areaType": "RANGE_MOUNTAIN",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Whitehills"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "NL-0384"
+      ],
+      "participantNames": [
+        "Selwyn Driver (Farm)"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "PROMOTED_FROM_OTHER",
+      "refinementAuditClass": "LIKELY_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-takou-bay-river-scenic-reserve",
+      "name": "Takou Bay River Scenic Reserve",
+      "areaType": "RESERVE_SANCTUARY",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Takou Bay River Scenic Reserve"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0269"
+      ],
+      "participantNames": [
+        "Jonathan Rae Trust"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-multiple-northland-rivers",
+      "name": "Multiple Northland rivers",
+      "areaType": "RIVER_STREAM",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Multiple Northland rivers"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0120"
+      ],
+      "participantNames": [
+        "Northland Īnanga Spawning Habitat Restoration Project"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-ngunguru-river",
+      "name": "Ngunguru river",
+      "areaType": "RIVER_STREAM",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Ngunguru river"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0376"
+      ],
+      "participantNames": [
+        "Riverlands Landcare"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-wairua-river",
+      "name": "Wairua River",
+      "areaType": "RIVER_STREAM",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Wairua River"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0024",
+        "NL-0061"
+      ],
+      "participantNames": [
+        "Chantez Connor",
+        "Hori Kingi"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 2
+      },
+      "participantCount": 2,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-diggers-valley",
+      "name": "Diggers Valley",
+      "areaType": "VALLEY",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Diggers Valley"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0398"
+      ],
+      "participantNames": [
+        "Summit Stanley-Hunt"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-glinks-gully",
+      "name": "Glinks Gully",
+      "areaType": "VALLEY",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Glinks Gully"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "NL-0049"
+      ],
+      "participantNames": [
+        "Glinks Gully Protection Society"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "PROMOTED_FROM_OTHER",
+      "refinementAuditClass": "LIKELY_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-honeymoon-valley",
+      "name": "Honeymoon Valley",
+      "areaType": "VALLEY",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Honeymoon Valley"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0060"
+      ],
+      "participantNames": [
+        "Honeymoon Valley Landcare Charitable Trust"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-tangowahine-valley",
+      "name": "Tangowāhine Valley",
+      "areaType": "VALLEY",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Tangowāhine Valley"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0064",
+        "NL-0204"
+      ],
+      "participantNames": [
+        "James Parsons",
+        "Travis Pymm"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 2
+      },
+      "participantCount": 2,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-utakura-valley-okaihau",
+      "name": "Utakura Valley, Okaihau",
+      "areaType": "VALLEY",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Utakura Valley, Okaihau"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0420"
+      ],
+      "participantNames": [
+        "Utakura Trappers"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-waipoua-and-lower-waipoua-valley",
+      "name": "Waipoua and Lower Waipoua Valley",
+      "areaType": "VALLEY",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Waipoua and Lower Waipoua Valley"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0188"
+      ],
+      "participantNames": [
+        "Te Roroa"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-wekaweka-valley-kauri-coast",
+      "name": "Wekaweka Valley, Kauri Coast",
+      "areaType": "VALLEY",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Wekaweka Valley, Kauri Coast"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0444"
+      ],
+      "participantNames": [
+        "Wekaweka Landcare"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-whangaripo-valley",
+      "name": "Whangaripo Valley",
+      "areaType": "VALLEY",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Whangaripo Valley"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0194"
+      ],
+      "participantNames": [
+        "Te Whio"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-whau-valley-whangarei",
+      "name": "Whau Valley, Whangarei",
+      "areaType": "VALLEY",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Whau Valley, Whangarei"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0453"
+      ],
+      "participantNames": [
+        "Whau Valley Landcare Group"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-lake-omapere",
+      "name": "Lake Omapere",
+      "areaType": "WETLAND_LAKE",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Lake Omapere"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "NL-0295"
+      ],
+      "participantNames": [
+        "Lake Omapere Duck Hunters"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-lake-omapere",
+      "name": "Lake Ōmāpere",
+      "areaType": "WETLAND_LAKE",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Lake Ōmāpere"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "NL-0059"
+      ],
+      "participantNames": [
+        "Hone Dalton"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-te-papa-paorooro-wetland",
+      "name": "Te Papa Paorooro Wetland",
+      "areaType": "WETLAND_LAKE",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Te Papa Paorooro Wetland"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0115"
+      ],
+      "participantNames": [
+        "Ngā Tangariki o Ngāti Hine Charitable Trust"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-northland-mataraua-kauri-coast",
+      "name": "Mataraua, Kauri Coast",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "region": "Northland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Mataraua, Kauri Coast"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "NL-0312"
+      ],
+      "participantNames": [
+        "Mataraua Kiwi Project"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-hamilton-multiple-waikato-catchments",
+      "name": "Hamilton / multiple Waikato catchments",
+      "areaType": "CATCHMENT",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Hamilton / multiple Waikato catchments"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "WAI-LT-020"
+      ],
+      "participantNames": [
+        "Go Eco / Waikato Environment Centre"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-lower-waikato-river-and-catchments",
+      "name": "Lower Waikato River and catchments",
+      "areaType": "CATCHMENT",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Lower Waikato River and catchments"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "WAI-LT-006"
+      ],
+      "participantNames": [
+        "Waikato River Care"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-mangakotukutuku-catchment",
+      "name": "Mangakotukutuku catchment",
+      "areaType": "CATCHMENT",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Mangakotukutuku catchment"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "wkt-mangakotukutuku-stream-care-group"
+      ],
+      "participantNames": [
+        "Mangakotukutuku Stream Care Group"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-mangapiko-catchment",
+      "name": "Mangapiko catchment",
+      "areaType": "CATCHMENT",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Mangapiko catchment"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "wkt-maungatautari-to-pirongia-ecological-corridor-incorporated-society-taiea-te-taiao"
+      ],
+      "participantNames": [
+        "Maungatautari to Pirongia Ecological Corridor Incorporated Society (Taiea te Taiao)"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-ruapuke-beach",
+      "name": "Ruapuke Beach",
+      "areaType": "COASTAL_AREA",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Ruapuke Beach"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "wkt-ruapuke-kaitiaki-group"
+      ],
+      "participantNames": [
+        "Ruapuke Kaitiaki Group"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "PROMOTED_FROM_OTHER",
+      "refinementAuditClass": "LIKELY_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-kawhia-harbour",
+      "name": "Kāwhia Harbour",
+      "areaType": "HARBOUR_BAY",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Kāwhia Harbour"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "wkt-te-taiao-o-k-whia-moana"
+      ],
+      "participantNames": [
+        "Te Taiao o Kāwhia Moana"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-lake-rotoaira-central-north-island",
+      "name": "Lake Rotoaira / central North Island",
+      "areaType": "ISLAND",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Lake Rotoaira / central North Island"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "WAI-LT-015"
+      ],
+      "participantNames": [
+        "E Ora Tāne Pest Management Limited Partnership"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-kuaotunu-peninsula",
+      "name": "Kūaotunu Peninsula",
+      "areaType": "PENINSULA",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Kūaotunu Peninsula"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "wkt-project-kiwi-trust"
+      ],
+      "participantNames": [
+        "Project Kiwi Trust"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-horohoro-maunga-rotorua-south-waikato",
+      "name": "Horohoro maunga / Rotorua-South Waikato",
+      "areaType": "RANGE_MOUNTAIN",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Horohoro maunga / Rotorua-South Waikato"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "WAI-LT-019"
+      ],
+      "participantNames": [
+        "Te Whakamaru o Horohoro"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-kaimai-mamaku-ranges",
+      "name": "Kaimai-Mamaku Ranges",
+      "areaType": "RANGE_MOUNTAIN",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Kaimai-Mamaku Ranges"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "wkt-ng-ti-hinerangi"
+      ],
+      "participantNames": [
+        "Ngāti Hinerangi"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-tauhara-maunga-taupo",
+      "name": "Tauhara maunga / Taupō",
+      "areaType": "RANGE_MOUNTAIN",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Tauhara maunga / Taupō"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "WAI-LT-014"
+      ],
+      "participantNames": [
+        "Whakaora Tauhara Maunga Initiative"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-te-aroha-maunga-waiorongomai",
+      "name": "Te Aroha maunga / Waiorongomai",
+      "areaType": "RANGE_MOUNTAIN",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Te Aroha maunga / Waiorongomai"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "WAI-LT-018"
+      ],
+      "participantNames": [
+        "Tumutumu Kaitiaki Taiao"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-onewhero-harkers-reserve",
+      "name": "Onewhero / Harkers Reserve",
+      "areaType": "RESERVE_SANCTUARY",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Onewhero / Harkers Reserve"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "WAI-LT-004"
+      ],
+      "participantNames": [
+        "Harkers Reserve volunteer group"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-te-kuiti-mangaokewa-scenic-reserve",
+      "name": "Te Kūiti / Mangaokewa Scenic Reserve",
+      "areaType": "RESERVE_SANCTUARY",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Te Kūiti / Mangaokewa Scenic Reserve"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "WAI-LT-001"
+      ],
+      "participantNames": [
+        "Project Manu Te Kuiti"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-wainui-reserve",
+      "name": "Wainui Reserve",
+      "areaType": "RESERVE_SANCTUARY",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Wainui Reserve"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "WAI-LT-009"
+      ],
+      "participantNames": [
+        "Friends of Wainui Reserve"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-aka-aka-mangati-stream",
+      "name": "Aka Aka/Mangati Stream",
+      "areaType": "RIVER_STREAM",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Aka Aka/Mangati Stream"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "wkt-stu-muir-and-family-mangati-stream-inanga-restoration"
+      ],
+      "participantNames": [
+        "Stu Muir and family / Mangati Stream Inanga Restoration"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-mystery-creek-waipa",
+      "name": "Mystery Creek / Waipā",
+      "areaType": "RIVER_STREAM",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Mystery Creek / Waipā"
+      ],
+      "sourceResolutionClasses": [
+        "COMPOUND_PLACE"
+      ],
+      "participantIds": [
+        "WAI-LT-011"
+      ],
+      "participantNames": [
+        "Mystery Creek Community Catchment"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "PROMOTED_FROM_OTHER",
+      "refinementAuditClass": "LIKELY_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-puniu-river",
+      "name": "Pūniu River",
+      "areaType": "RIVER_STREAM",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Pūniu River"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "wkt-p-niu-river-care-incorporated"
+      ],
+      "participantNames": [
+        "Pūniu River Care Incorporated"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-waikato-river",
+      "name": "Waikato River",
+      "areaType": "RIVER_STREAM",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Waikato River"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "wkt-waikato-tainui"
+      ],
+      "participantNames": [
+        "Waikato-Tainui"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-kapowai-valley",
+      "name": "Kapowai Valley",
+      "areaType": "VALLEY",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Kapowai Valley"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "wkt-kapowai-kiwi-group"
+      ],
+      "participantNames": [
+        "Kapowai Kiwi Group"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-kauaeranga-valley",
+      "name": "Kauaeranga Valley",
+      "areaType": "VALLEY",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Kauaeranga Valley"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "WAI-LT-005"
+      ],
+      "participantNames": [
+        "Friends of the Kauaeranga"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-kukutaruhe-gully",
+      "name": "Kukutāruhe Gully",
+      "areaType": "VALLEY",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Kukutāruhe Gully"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "wkt-the-fairfield-project"
+      ],
+      "participantNames": [
+        "The Fairfield Project"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "PROMOTED_FROM_OTHER",
+      "refinementAuditClass": "LIKELY_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-silverdale-gully",
+      "name": "Silverdale Gully",
+      "areaType": "VALLEY",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Silverdale Gully"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "wkt-friends-of-mangaonua-esplanade"
+      ],
+      "participantNames": [
+        "Friends of Mangaonua Esplanade"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "PROMOTED_FROM_OTHER",
+      "refinementAuditClass": "LIKELY_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-lake-rotoaira-taupo-district",
+      "name": "Lake Rotoaira / Taupō district",
+      "areaType": "WETLAND_LAKE",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Lake Rotoaira / Taupō district"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "WAI-LT-013"
+      ],
+      "participantNames": [
+        "Ka Pihi Ka Pua Charitable Trust"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-lake-rotopiko",
+      "name": "Lake Rotopiko",
+      "areaType": "WETLAND_LAKE",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Lake Rotopiko"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "wkt-national-wetland-trust",
+        "wkt-rotopiko-community-pest-control-project"
+      ],
+      "participantNames": [
+        "National Wetland Trust",
+        "Rotopiko Community Pest Control Project"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 2
+      },
+      "participantCount": 2,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-lake-rotopounamu",
+      "name": "Lake Rotopounamu",
+      "areaType": "WETLAND_LAKE",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Lake Rotopounamu"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "wkt-project-tongariro"
+      ],
+      "participantNames": [
+        "Project Tongariro"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-lake-waahi",
+      "name": "Lake Waahi",
+      "areaType": "WETLAND_LAKE",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Lake Waahi"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "wkt-te-wharekura-o-rakaumanga"
+      ],
+      "participantNames": [
+        "Te Wharekura o Rakaumanga"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-lake-waikare",
+      "name": "Lake Waikare",
+      "areaType": "WETLAND_LAKE",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Lake Waikare"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "wkt-tawera-nikau"
+      ],
+      "participantNames": [
+        "Tawera Nikau"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-lake-whangape",
+      "name": "Lake Whangape",
+      "areaType": "WETLAND_LAKE",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Lake Whangape"
+      ],
+      "sourceResolutionClasses": [
+        "UNRESOLVED_PLACE"
+      ],
+      "participantIds": [
+        "wkt-wairenga-holdings-ltd"
+      ],
+      "participantNames": [
+        "Wairenga Holdings Ltd"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-pukawa-southern-lake-taupo",
+      "name": "Pukawa / southern Lake Taupō",
+      "areaType": "WETLAND_LAKE",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Pukawa / southern Lake Taupō"
+      ],
+      "sourceResolutionClasses": [
+        "COMPOUND_PLACE"
+      ],
+      "participantIds": [
+        "WAI-LT-007"
+      ],
+      "participantNames": [
+        "Pukawa Wildlife Management Group"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-horohoro-south-waikato-rotorua-boundary",
+      "name": "Horohoro / South Waikato-Rotorua boundary",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Horohoro / South Waikato-Rotorua boundary"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "WAI-LT-016"
+      ],
+      "participantNames": [
+        "Tipu Environmental"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    },
+    {
+      "id": "area-waikato-thames-coast",
+      "name": "Thames Coast",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "region": "Waikato Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Thames Coast"
+      ],
+      "sourceResolutionClasses": [
+        "WIDER_OR_LANDSCAPE"
+      ],
+      "participantIds": [
+        "wkt-thames-coast-kiwi-care"
+      ],
+      "participantNames": [
+        "Thames Coast Kiwi Care"
+      ],
+      "evidence": {
+        "origin": "four-region-locality-resolution-001",
+        "participantCountFromResolver": 1
+      },
+      "participantCount": 1,
+      "refinementStatus": "RETAINED_TYPED_LANDSCAPE"
+    }
+  ],
+  "excludedCandidates": [
+    {
+      "id": "area-auckland-franklin",
+      "name": "Franklin",
+      "region": "Auckland",
+      "participantIds": [
+        "AKL-IND-015",
+        "AKL-IND-016",
+        "AKL-LT-027",
+        "AKL-LT-028"
+      ],
+      "participantNames": [
+        "Andrew Sinclair",
+        "Catherine Bircher",
+        "Finding Franklin Bats",
+        "Finding Franklin Fish"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-auckland-huia-parau",
+      "name": "Huia / Parau",
+      "region": "Auckland",
+      "participantIds": [
+        "AKL-LT-019"
+      ],
+      "participantNames": [
+        "Huia Trapping Group"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-auckland-kaipatiki",
+      "name": "Kaipātiki",
+      "region": "Auckland",
+      "participantIds": [
+        "AKL-IND-033",
+        "AKL-IND-034",
+        "AKL-IND-035",
+        "AKL-IND-036",
+        "AKL-IND-037",
+        "AKL-IND-038"
+      ],
+      "participantNames": [
+        "Annie Dignan",
+        "Dion Pou",
+        "Cameron Holloway",
+        "Esther Hjelmström",
+        "Fiona Smal",
+        "Ian Naguiat"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-auckland-kauri-glen-north-shore",
+      "name": "Kauri Glen / North Shore",
+      "region": "Auckland",
+      "participantIds": [
+        "AKL-LT-025"
+      ],
+      "participantNames": [
+        "Kauri Glen Bush Society"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-auckland-matakana-sandspit",
+      "name": "Matakana / Sandspit",
+      "region": "Auckland",
+      "participantIds": [
+        "AKL-LT-006"
+      ],
+      "participantNames": [
+        "Friends of Awa Matakanakana (FOAM)"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-auckland-oratia-waiatarua",
+      "name": "Oratia / Waiatarua",
+      "region": "Auckland",
+      "participantIds": [
+        "AKL-LT-022"
+      ],
+      "participantNames": [
+        "Oratia & Waiatarua Native Wildlife Project"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-auckland-pukekohe-east",
+      "name": "Pukekohe East",
+      "region": "Auckland",
+      "participantIds": [
+        "te-ara-h-koi-predator-free-franklin"
+      ],
+      "participantNames": [
+        "Te Ara Hīkoi / Predator Free Franklin"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-auckland-rainbows-end-green-road-rodney",
+      "name": "Rainbows End / Green Road, Rodney",
+      "region": "Auckland",
+      "participantIds": [
+        "AKL-LT-011"
+      ],
+      "participantNames": [
+        "Rainbows End and Rivers Environmental Group"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-auckland-rodney",
+      "name": "Rodney",
+      "region": "Auckland",
+      "participantIds": [
+        "AKL-IND-022",
+        "AKL-IND-023",
+        "AKL-IND-024",
+        "AKL-IND-025",
+        "AKL-IND-026"
+      ],
+      "participantNames": [
+        "Kevin Adshead",
+        "Gill Adshead",
+        "Cam Rathe",
+        "Alex Flavell-Johnson",
+        "Rob Channing"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-auckland-sandspit-road-rodney",
+      "name": "Sandspit Road / Rodney",
+      "region": "Auckland",
+      "participantIds": [
+        "AKL-LT-013"
+      ],
+      "participantNames": [
+        "Sandspit Road Project"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-auckland-te-henga-bethells",
+      "name": "Te Henga / Bethells",
+      "region": "Auckland",
+      "participantIds": [
+        "AKL-LT-014",
+        "AKL-LT-021"
+      ],
+      "participantNames": [
+        "Forest Ridge Community Group",
+        "O'Neill's Petrel Project"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-auckland-tiritiri-matangi",
+      "name": "Tiritiri Matangi",
+      "region": "Auckland",
+      "participantIds": [
+        "AKL-IND-027"
+      ],
+      "participantNames": [
+        "Dianne Brunton"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-auckland-tuff-crater",
+      "name": "Tuff Crater",
+      "region": "Auckland",
+      "participantIds": [
+        "AKL-IND-047"
+      ],
+      "participantNames": [
+        "Richard Hursthouse"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-auckland-warkworth-mahurangi",
+      "name": "Warkworth / Mahurangi",
+      "region": "Auckland",
+      "participantIds": [
+        "AKL-LT-007"
+      ],
+      "participantNames": [
+        "Mahurangi College"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-auckland-warkworth-rodney-east",
+      "name": "Warkworth / Rodney East",
+      "region": "Auckland",
+      "participantIds": [
+        "AKL-LT-005"
+      ],
+      "participantNames": [
+        "Forest and Bird Warkworth"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-auckland-whatipu",
+      "name": "Whatipū",
+      "region": "Auckland",
+      "participantIds": [
+        "AKL-LT-017"
+      ],
+      "participantNames": [
+        "Friends of Whatipū"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-bay-of-plenty-clifton",
+      "name": "Clifton",
+      "region": "Bay of Plenty Region",
+      "participantIds": [
+        "bop-sandra-campbell"
+      ],
+      "participantNames": [
+        "Sandra Campbell"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-bay-of-plenty-hamurana-springs",
+      "name": "Hamurana Springs",
+      "region": "Bay of Plenty Region",
+      "participantIds": [
+        "bop-ngati-rangiwewehi"
+      ],
+      "participantNames": [
+        "Ngāti Rangiwewehi"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-bay-of-plenty-hinehopu",
+      "name": "Hinehopu",
+      "region": "Bay of Plenty Region",
+      "participantIds": [
+        "bop-te-tahuna-trust"
+      ],
+      "participantNames": [
+        "Te Tahuna Trust"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-bay-of-plenty-horohoro",
+      "name": "Horohoro",
+      "region": "Bay of Plenty Region",
+      "participantIds": [
+        "bop-tipu-environmental",
+        "bop-kataraina-george"
+      ],
+      "participantNames": [
+        "Tipu Environmental",
+        "Kataraina George"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-bay-of-plenty-horohoro-rotorua-south-waikato",
+      "name": "Horohoro / Rotorua-South Waikato",
+      "region": "Bay of Plenty Region",
+      "participantIds": [
+        "BOP-LT-003"
+      ],
+      "participantNames": [
+        "Te Whakamaru o Horohoro"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-bay-of-plenty-kaharoa",
+      "name": "Kaharoa",
+      "region": "Bay of Plenty Region",
+      "participantIds": [
+        "bop-peter-davey",
+        "bop-rachel-vellinga"
+      ],
+      "participantNames": [
+        "Peter Davey",
+        "Rachel Vellinga"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-bay-of-plenty-kaimai-mamaku",
+      "name": "Kaimai Mamaku",
+      "region": "Bay of Plenty Region",
+      "participantIds": [
+        "bop-manaaki-kaimai-mamaku-trust"
+      ],
+      "participantNames": [
+        "Manaaki Kaimai Mamaku Trust"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-bay-of-plenty-kaimai-near-katikati",
+      "name": "Kaimai near Katikati",
+      "region": "Bay of Plenty Region",
+      "participantIds": [
+        "bop-te-maire-2021"
+      ],
+      "participantNames": [
+        "Te Maire 2021"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-bay-of-plenty-kaituna",
+      "name": "Kaituna",
+      "region": "Bay of Plenty Region",
+      "participantIds": [
+        "bop-te-pourepo-o-kaituna"
+      ],
+      "participantNames": [
+        "Te Pourepo o Kaituna"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-bay-of-plenty-motu",
+      "name": "Mōtū",
+      "region": "Bay of Plenty Region",
+      "participantIds": [
+        "bop-motu-matawai-catchment-communities"
+      ],
+      "participantNames": [
+        "Mōtū Matawai Catchment Communities"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-bay-of-plenty-onepu",
+      "name": "Onepu",
+      "region": "Bay of Plenty Region",
+      "participantIds": [
+        "bop-onepu-care-group"
+      ],
+      "participantNames": [
+        "Onepu Care Group"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-bay-of-plenty-opuiaki",
+      "name": "Opuiaki",
+      "region": "Bay of Plenty Region",
+      "participantIds": [
+        "bop-nga-mata-hiringa",
+        "bop-whetu-apaapa"
+      ],
+      "participantNames": [
+        "Ngā Mata Hiringa",
+        "Whetu Apaapa"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-bay-of-plenty-pahoia",
+      "name": "Pahoia",
+      "region": "Bay of Plenty Region",
+      "participantIds": [
+        "bop-pahoia-school",
+        "bop-viola-palmer"
+      ],
+      "participantNames": [
+        "Pahoia School",
+        "Viola Palmer"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-bay-of-plenty-pukehina-maketu",
+      "name": "Pukehina / Maketū",
+      "region": "Bay of Plenty Region",
+      "participantIds": [
+        "bop-wai-kokopu"
+      ],
+      "participantNames": [
+        "Wai Kōkopu"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-bay-of-plenty-romai",
+      "name": "Rōmai",
+      "region": "Bay of Plenty Region",
+      "participantIds": [
+        "bop-tahuwhakatiki-marae"
+      ],
+      "participantNames": [
+        "Tahuwhakatiki Marae"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-bay-of-plenty-tauranga-moana",
+      "name": "Tauranga Moana",
+      "region": "Bay of Plenty Region",
+      "participantIds": [
+        "bop-outflow"
+      ],
+      "participantNames": [
+        "Outflow"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-bay-of-plenty-te-puke-te-takapu-o-tapuika",
+      "name": "Te Puke / Te Takapū o Tapuika",
+      "region": "Bay of Plenty Region",
+      "participantIds": [
+        "BOP-LT-002"
+      ],
+      "participantNames": [
+        "Te Wao Nui o Tapuika"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-bay-of-plenty-waiahou",
+      "name": "Waiahou",
+      "region": "Bay of Plenty Region",
+      "participantIds": [
+        "bop-ismael-mitai",
+        "bop-clifford-merriman",
+        "bop-kerehou-merriman",
+        "bop-brandon-toki"
+      ],
+      "participantNames": [
+        "Ismael Mitai",
+        "Clifford Merriman",
+        "Kerehou Merriman",
+        "Brandon Toki"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-bay-of-plenty-ohiwa",
+      "name": "Ōhiwa",
+      "region": "Bay of Plenty Region",
+      "participantIds": [
+        "bop-coral-malcolm",
+        "bop-laurie-matthews",
+        "bop-reuben-aikman",
+        "bop-barlow-onekawa"
+      ],
+      "participantNames": [
+        "Coral Malcolm",
+        "Laurie Matthews",
+        "Reuben Aikman",
+        "Barlow Onekawa"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-bay-of-plenty-okaro",
+      "name": "Ōkāro",
+      "region": "Bay of Plenty Region",
+      "participantIds": [
+        "bop-shane-birchall",
+        "bop-june-birchall"
+      ],
+      "participantNames": [
+        "Shane Birchall",
+        "June Birchall"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-bay-of-plenty-otamarakau",
+      "name": "Ōtamarākau",
+      "region": "Bay of Plenty Region",
+      "participantIds": [
+        "bop-mihi-awhimate",
+        "bop-john-rapana",
+        "bop-te-hau-richard-mitai-ngatai",
+        "bop-blake-stephens",
+        "bop-ngati-makino"
+      ],
+      "participantNames": [
+        "Mihi Awhimate",
+        "John Rapana",
+        "Te Hau Richard Mitai Ngātai",
+        "Blake Stephens",
+        "Ngāti Mākino"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-bay-of-plenty-otanewainuku",
+      "name": "Ōtanewainuku",
+      "region": "Bay of Plenty Region",
+      "participantIds": [
+        "bop-dave-edwards",
+        "bop-darren-van-der-hoof",
+        "bop-sheryl-petersen"
+      ],
+      "participantNames": [
+        "Dave Edwards",
+        "Darren van der Hoof",
+        "Sheryl Petersen"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-bay-of-plenty-otanewainuku-otawa",
+      "name": "Ōtanewainuku–Ōtawa",
+      "region": "Bay of Plenty Region",
+      "participantIds": [
+        "bop-te-kapu-o-waitaha",
+        "bop-ray-wihapa"
+      ],
+      "participantNames": [
+        "Te Kapu o Waitaha",
+        "Ray Wihapa"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-bream-head",
+      "name": "Bream Head",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0167"
+      ],
+      "participantNames": [
+        "Smugglers Track Maintenance Crew"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-bream-tail",
+      "name": "Bream Tail",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0230"
+      ],
+      "participantNames": [
+        "Bream Tail Farm"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-clifton",
+      "name": "Clifton",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0025",
+        "NL-0161"
+      ],
+      "participantNames": [
+        "Chris Campbell",
+        "Sandra Campbell"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-day-point",
+      "name": "Day Point",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0268"
+      ],
+      "participantNames": [
+        "JH Dowell Trust"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-fairburn",
+      "name": "Fairburn",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0401"
+      ],
+      "participantNames": [
+        "Summit Van Crasbeek"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-far-north",
+      "name": "Far North",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0183",
+        "NL-0190"
+      ],
+      "participantNames": [
+        "Te Kura o Waihārara",
+        "Te Rūnanga Nui o Te Aupōuri Trust"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-fern-flat-road-and-otangaroa-road",
+      "name": "Fern Flat Road and Otangaroa Road",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0163"
+      ],
+      "participantNames": [
+        "Scott and Lyn Morgan"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-fernflat",
+      "name": "Fernflat",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0392"
+      ],
+      "participantNames": [
+        "Summit Asia Fernflat"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-haruru-puketona",
+      "name": "Haruru - Puketona",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0374"
+      ],
+      "participantNames": [
+        "Retreat Rd Trappers"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-hokianga",
+      "name": "Hokianga",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0076",
+        "NL-0109",
+        "NL-0211"
+      ],
+      "participantNames": [
+        "Justin Blaikie",
+        "Motukauri Whakaora",
+        "Vince Kerr"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-houhora-far-north",
+      "name": "Houhora / Far North",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0095"
+      ],
+      "participantNames": [
+        "Laurence Gordon"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-hupara",
+      "name": "Hupara",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0266"
+      ],
+      "participantNames": [
+        "Hupara Landcare"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-kaimamaku-kaiikanui",
+      "name": "Kaimamaku – Kaiikanui",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0275"
+      ],
+      "participantNames": [
+        "Kaimamaku Landcare"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-kaipara",
+      "name": "Kaipara",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0164"
+      ],
+      "participantNames": [
+        "Shaun Holland"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-kaipiro",
+      "name": "Kaipiro",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0348"
+      ],
+      "participantNames": [
+        "Pamu Kapiro - Avocado"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-kamo",
+      "name": "Kamo",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0412"
+      ],
+      "participantNames": [
+        "Te Kāhu-Neighbours of Pukenui"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-kapiro",
+      "name": "Kapiro",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0347",
+        "NL-0387"
+      ],
+      "participantNames": [
+        "Pamu Kapiro Station",
+        "Siteworx Kapiro"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-kauri-and-marua",
+      "name": "Kauri and Marua",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0047",
+        "NL-0071"
+      ],
+      "participantNames": [
+        "Geoff Crawford",
+        "Jo Crawford"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-kerikeri-puketotara",
+      "name": "Kerikeri - Puketōtara",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0288"
+      ],
+      "participantNames": [
+        "Kerikeri-Puketōtara Catchment CPCA"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-kohumaru",
+      "name": "Kohumaru",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0292",
+        "NL-0394"
+      ],
+      "participantNames": [
+        "Kohumaru Kiwis",
+        "Summit Kohumaru"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-langs",
+      "name": "Langs",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0442"
+      ],
+      "participantNames": [
+        "Waorahi Kaitiaki"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-mangakahia",
+      "name": "Mangakahia",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0304"
+      ],
+      "participantNames": [
+        "Manulife: Gammons Block"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-mangatete",
+      "name": "Mangatete",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0100"
+      ],
+      "participantNames": [
+        "Mangatete Landcare"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-marunui",
+      "name": "Marunui",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0122"
+      ],
+      "participantNames": [
+        "Oi Kaitiaki"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-massey-road-waipu",
+      "name": "Massey Road, Waipu",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0310"
+      ],
+      "participantNames": [
+        "Massey Road Trappers"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-matakana",
+      "name": "Matakana",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0044",
+        "NL-0135",
+        "NL-0172",
+        "NL-0173",
+        "NL-0199",
+        "NL-0201"
+      ],
+      "participantNames": [
+        "Friends of Awa Matakanakana",
+        "Pest Free Matakana",
+        "Tamahunga Drive Trappers",
+        "Tamahunga Trappers",
+        "Tiaki Trappers",
+        "Tim Jack"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-matapouri-and-whananaki",
+      "name": "Matapouri and Whananaki",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0104"
+      ],
+      "participantNames": [
+        "Martin Luff"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-millington-road-whangarei",
+      "name": "Millington Road, Whangārei",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0054"
+      ],
+      "participantNames": [
+        "Haemish Reid"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-mokau",
+      "name": "Mokau",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0395"
+      ],
+      "participantNames": [
+        "Summit Mokau"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-morewa",
+      "name": "Morewa",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0262"
+      ],
+      "participantNames": [
+        "Hawkhill Farm"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-mt-huruiki-between-whangapara-and-whangaruru",
+      "name": "Mt Huruiki between Whangapara and Whangaruru",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0322"
+      ],
+      "participantNames": [
+        "Ngā Kaitiaki o Huruiki Maunga"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-ngati-wai-rohe",
+      "name": "Ngati Wai rohe",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0325"
+      ],
+      "participantNames": [
+        "Ngati Wai Trust Board"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "ADMIN_OR_WIDER_AREA",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-ngawha",
+      "name": "Ngawha",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0326"
+      ],
+      "participantNames": [
+        "Ngawha Top Energy Pest Control Area"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-ngunguru-ford",
+      "name": "Ngunguru Ford",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0327"
+      ],
+      "participantNames": [
+        "Ngunguru Sandspit & Ngunguru Ford LC"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-ngawha",
+      "name": "Ngāwhā",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0119"
+      ],
+      "participantNames": [
+        "Northland Mudfish Project"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-north-hokianga",
+      "name": "North Hokianga",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0279"
+      ],
+      "participantNames": [
+        "Kauaepepe Landcare"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-northern-kaipara",
+      "name": "Northern Kaipara",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0192"
+      ],
+      "participantNames": [
+        "Te Uri o Hau"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-northland-operations",
+      "name": "Northland operations",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0110"
+      ],
+      "participantNames": [
+        "Mountains to Sea Conservation Trust"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-oakleigh-mangapai",
+      "name": "Oakleigh/Mangapai",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0361"
+      ],
+      "participantNames": [
+        "Pest Free Mangapai"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-omahuta",
+      "name": "Omahuta",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0396"
+      ],
+      "participantNames": [
+        "Summit Omahuta"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-otangaroa",
+      "name": "Otangaroa",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0267",
+        "NL-0342",
+        "NL-0343",
+        "NL-0397"
+      ],
+      "participantNames": [
+        "Jack Bush",
+        "Otangaroa Landcare",
+        "Otangaroa Workgroup",
+        "Summit Otangaroa"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-otonga",
+      "name": "Otonga",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0245"
+      ],
+      "participantNames": [
+        "Dunlop & Craig Farm"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-owhiwa",
+      "name": "Owhiwa",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0154",
+        "NL-0264",
+        "NL-0345",
+        "NL-0380"
+      ],
+      "participantNames": [
+        "Robyn Bigelow",
+        "Hillbilly Trappers",
+        "Owhiwa Landcare",
+        "Rukuwai Landcare"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-owhiwa-whangarei-heads",
+      "name": "Owhiwa, Whangārei Heads",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0089"
+      ],
+      "participantNames": [
+        "Kohinui Landcare Group"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-piroa",
+      "name": "Piroa",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0070",
+        "NL-0177"
+      ],
+      "participantNames": [
+        "Jim Leslie",
+        "Tania Anderson"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-piroa-brynderwyns-incl-as-projects",
+      "name": "Piroa Brynderwyns incl. as projects",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0365"
+      ],
+      "participantNames": [
+        "Piroa Conservation Trust"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "NEEDS_REVIEW",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-puhipuhi",
+      "name": "Puhipuhi",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0364"
+      ],
+      "participantNames": [
+        "Pests Off Puhipuhi"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-puketi",
+      "name": "Puketi",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0366",
+        "NL-0425"
+      ],
+      "participantNames": [
+        "Puketi HQ Trapping Loops",
+        "Waihou Valley Trapping"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-puketotara",
+      "name": "Puketōtara",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0351"
+      ],
+      "participantNames": [
+        "Pamu Puketōtara"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-pungaere",
+      "name": "Pungaere",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0419"
+      ],
+      "participantNames": [
+        "Upper Pungaere Trappers"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-purerua",
+      "name": "Purerua",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0408"
+      ],
+      "participantNames": [
+        "Taronui Pest Control Area"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-pataua",
+      "name": "Pātaua",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0170"
+      ],
+      "participantNames": [
+        "Suzan Craig"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-rakaumangamanga",
+      "name": "Rakaumangamanga",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0323"
+      ],
+      "participantNames": [
+        "Ngā Kaitiaki o Ipipiri"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-ruakaka-northland",
+      "name": "Ruakākā / Northland",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0019"
+      ],
+      "participantNames": [
+        "Brooke Gray"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-ruakaka-and-uretiti",
+      "name": "Ruakākā and Uretiti",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0016"
+      ],
+      "participantNames": [
+        "Bream Bay Coastal Care Trust"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-south-hokianga",
+      "name": "South Hokianga",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0058"
+      ],
+      "participantNames": [
+        "Hokianga Harbor Care"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-south-kerikeri-inlet",
+      "name": "South Kerikeri Inlet",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0389"
+      ],
+      "participantNames": [
+        "South Kerikeri Inlet Landcare"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-south-of-kaitaia",
+      "name": "South of Kaitaia",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0171"
+      ],
+      "participantNames": [
+        "Takahue Pest Control"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-southern-hokianga",
+      "name": "Southern Hokianga",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0349"
+      ],
+      "participantNames": [
+        "Pamu Mangatoa"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-takakuri",
+      "name": "Takakuri",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0353"
+      ],
+      "participantNames": [
+        "Pamu Takakuri"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-tanekaha-hukerenui",
+      "name": "Tanekaha–Hukerenui",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0176"
+      ],
+      "participantNames": [
+        "Tanekaha-Hukerenui Kiwi Community"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-tapuhi",
+      "name": "Tapuhi",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0406"
+      ],
+      "participantNames": [
+        "Tapuhi Landcare"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-taurikura-whangarei-heads",
+      "name": "Taurikura, Whangarei Heads",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0410"
+      ],
+      "participantNames": [
+        "Taurikura Ridge Landcare"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-te-arai",
+      "name": "Te Arai",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0411"
+      ],
+      "participantNames": [
+        "Te Arai Forest Troop"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-te-hiku-o-te-ika",
+      "name": "Te Hiku o Te Ika",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0114"
+      ],
+      "participantNames": [
+        "Ngā Roto Tapokapoka"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "NEEDS_REVIEW",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-te-rawhiti",
+      "name": "Te Rāwhiti",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0007",
+        "NL-0210"
+      ],
+      "participantNames": [
+        "Arana Rewha",
+        "Viki Heta"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-the-nook",
+      "name": "The Nook",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0129"
+      ],
+      "participantNames": [
+        "Papakarahi Nursery"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-tutukaka-matapouri",
+      "name": "Tutukaka / Matapouri",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0057"
+      ],
+      "participantNames": [
+        "Hilton Ward"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-upokorau",
+      "name": "Upokorau",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0400",
+        "NL-0418"
+      ],
+      "participantNames": [
+        "Summit Upokorau",
+        "Upokorau Summit Ecological Project"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-various",
+      "name": "Various",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0243",
+        "NL-0329"
+      ],
+      "participantNames": [
+        "DOC Whangarei Kiwi Sanctuary and Pateke projects",
+        "NorthTec Conservation Management"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-waiare",
+      "name": "Waiare",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0393",
+        "NL-0423"
+      ],
+      "participantNames": [
+        "Summit Burlace",
+        "Waiare Rd Landcare Group"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-waipu-and-mangawhai-spits",
+      "name": "Waipu & Mangawhai Spits",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0331"
+      ],
+      "participantNames": [
+        "NZ Fairy Tern Trust"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "NEEDS_REVIEW",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-warawara",
+      "name": "Warawara",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0443"
+      ],
+      "participantNames": [
+        "Warawara Whenua Ngahere"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-whareora-mt-tiger",
+      "name": "Whareora–Mt Tiger",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0222"
+      ],
+      "participantNames": [
+        "Whareora Landcare"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-northland-whatatiri",
+      "name": "Whatatiri",
+      "region": "Northland Region",
+      "participantIds": [
+        "NL-0386",
+        "NL-0452"
+      ],
+      "participantNames": [
+        "Simons Rd Possum Trapping",
+        "Whatatiri Maunga"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-waikato-benneydale",
+      "name": "Benneydale",
+      "region": "Waikato Region",
+      "participantIds": [
+        "wkt-mangapeehi-marae"
+      ],
+      "participantNames": [
+        "Mangapeehi Marae"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-waikato-hamilton",
+      "name": "Hamilton",
+      "region": "Waikato Region",
+      "participantIds": [
+        "wkt-waiwhakareke-natural-heritage-park",
+        "wkt-friends-of-waiwhakareke",
+        "wkt-t-2000"
+      ],
+      "participantNames": [
+        "Waiwhakareke Natural Heritage Park",
+        "Friends of Waiwhakareke",
+        "Tūī 2000"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-waikato-hauraki-coromandel",
+      "name": "Hauraki-Coromandel",
+      "region": "Waikato Region",
+      "participantIds": [
+        "wkt-predator-free-hauraki-coromandel-community-trust"
+      ],
+      "participantNames": [
+        "Predator Free Hauraki Coromandel Community Trust"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-waikato-horahora",
+      "name": "Horahora",
+      "region": "Waikato Region",
+      "participantIds": [
+        "wkt-gina-neville-and-louise-williams"
+      ],
+      "participantNames": [
+        "Gina, Neville and Louise Williams"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-waikato-kakepuku",
+      "name": "Kakepuku",
+      "region": "Waikato Region",
+      "participantIds": [
+        "wkt-kakepuku-mountain-conservation-society"
+      ],
+      "participantNames": [
+        "Kakepuku Mountain Conservation Society"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-waikato-kiritehere",
+      "name": "Kiritehere",
+      "region": "Waikato Region",
+      "participantIds": [
+        "wkt-tahi-hohaia-hikoia-wh-nau"
+      ],
+      "participantNames": [
+        "Tahi Hohaia Hikoia Whānau"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-waikato-mangawhero",
+      "name": "Mangawhero",
+      "region": "Waikato Region",
+      "participantIds": [
+        "wkt-ng-ti-te-ata"
+      ],
+      "participantNames": [
+        "Ngāti Te Ata"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-waikato-matamata-piako",
+      "name": "Matamata-Piako",
+      "region": "Waikato Region",
+      "participantIds": [
+        "wkt-piako-catchment-forum"
+      ],
+      "participantNames": [
+        "Piako Catchment Forum"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-waikato-mokaihaha-ecological-area",
+      "name": "Mokaihaha Ecological Area",
+      "region": "Waikato Region",
+      "participantIds": [
+        "wkt-mokaihaha-k-kako-trust"
+      ],
+      "participantNames": [
+        "Mokaihaha Kōkako Trust"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-waikato-northern-coromandel",
+      "name": "Northern Coromandel",
+      "region": "Waikato Region",
+      "participantIds": [
+        "wkt-moehau-environment-group",
+        "wkt-the-colville-project-trust"
+      ],
+      "participantNames": [
+        "Moehau Environment Group",
+        "The Colville Project Trust"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-waikato-paterangi",
+      "name": "Paterangi",
+      "region": "Waikato Region",
+      "participantIds": [
+        "wkt-paterangi-school"
+      ],
+      "participantNames": [
+        "Paterangi School"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-waikato-raglan-whaingaroa",
+      "name": "Raglan/Whāingaroa",
+      "region": "Waikato Region",
+      "participantIds": [
+        "wkt-wh-ingaroa-ki-te-whenua-trust"
+      ],
+      "participantNames": [
+        "Whāingaroa ki te Whenua Trust"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-waikato-south-taupo",
+      "name": "South Taupō",
+      "region": "Waikato Region",
+      "participantIds": [
+        "wkt-te-matapuna-wetland-restoration",
+        "wkt-waimarino-wetland-restoration"
+      ],
+      "participantNames": [
+        "Te Matapuna Wetland Restoration",
+        "Waimarino Wetland Restoration"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-waikato-south-waikato",
+      "name": "South Waikato",
+      "region": "Waikato Region",
+      "participantIds": [
+        "wkt-waikato-river-trails-charitable-trust"
+      ],
+      "participantNames": [
+        "Waikato River Trails Charitable Trust"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-waikato-tairua-thames-coromandel",
+      "name": "Tairua / Thames-Coromandel",
+      "region": "Waikato Region",
+      "participantIds": [
+        "WAI-LT-012"
+      ],
+      "participantNames": [
+        "Te Moata Charitable Trust"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-waikato-upper-piako",
+      "name": "Upper Piako",
+      "region": "Waikato Region",
+      "participantIds": [
+        "WAI-LT-008"
+      ],
+      "participantNames": [
+        "Upper Piako Wildlife Management Association"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-waikato-western-kaimai-mamaku-matamata-piako",
+      "name": "western Kaimai-Mamaku / Matamata-Piako",
+      "region": "Waikato Region",
+      "participantIds": [
+        "WAI-LT-017"
+      ],
+      "participantNames": [
+        "Wairere Mahi"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-waikato-whaingaroa-raglan",
+      "name": "Whāingaroa / Raglan",
+      "region": "Waikato Region",
+      "participantIds": [
+        "WAI-LT-003"
+      ],
+      "participantNames": [
+        "Whāingaroa Harbourcare"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-waikato-whaingaroa-raglan",
+      "name": "Whāingaroa/Raglan",
+      "region": "Waikato Region",
+      "participantIds": [
+        "wkt-a-rocha-aotearoa"
+      ],
+      "participantNames": [
+        "A Rocha Aotearoa"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    },
+    {
+      "id": "area-waikato-otama",
+      "name": "Ōtama",
+      "region": "Waikato Region",
+      "participantIds": [
+        "wkt-otama-reserves-group"
+      ],
+      "participantNames": [
+        "Otama Reserves Group"
+      ],
+      "originalAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "reason": "Not automatically promoted to Landscape Area."
+    }
+  ],
+  "participantAreaLinks": {
+    "AKL-IND-007": [
+      "area-auckland-waitakere-ranges"
+    ],
+    "AKL-IND-008": [
+      "area-auckland-waitakere-ranges"
+    ],
+    "AKL-IND-013": [
+      "area-auckland-te-matuku-bay",
+      "area-auckland-waiheke-island"
+    ],
+    "AKL-IND-019": [
+      "area-auckland-rakino-island"
+    ],
+    "AKL-IND-020": [
+      "area-auckland-rakino-island"
+    ],
+    "AKL-IND-021": [
+      "area-auckland-rakino-island"
+    ],
+    "AKL-IND-031": [
+      "area-auckland-tiritiri-matangi-island"
+    ],
+    "AKL-IND-032": [
+      "area-auckland-aotea-great-barrier-island"
+    ],
+    "AKL-IND-039": [
+      "area-auckland-upper-harbour"
+    ],
+    "AKL-IND-040": [
+      "area-auckland-upper-harbour"
+    ],
+    "AKL-IND-041": [
+      "area-auckland-upper-harbour"
+    ],
+    "AKL-IND-042": [
+      "area-auckland-upper-harbour"
+    ],
+    "AKL-IND-043": [
+      "area-auckland-upper-harbour"
+    ],
+    "AKL-IND-044": [
+      "area-auckland-upper-harbour"
+    ],
+    "AKL-IND-046": [
+      "area-auckland-takarunga-mount-victoria"
+    ],
+    "AKL-LT-002": [
+      "area-auckland-auckland-region"
+    ],
+    "AKL-LT-003": [
+      "area-auckland-auckland-region"
+    ],
+    "AKL-LT-004": [
+      "area-auckland-auckland-region"
+    ],
+    "AKL-LT-020": [
+      "area-auckland-swanson-kitewaho-reserve"
+    ],
+    "AKL-LT-024": [
+      "area-auckland-hibiscus-and-bays"
+    ],
+    "AKL-LT-026": [
+      "area-auckland-rewi-alley-reserve-wairau-catchment"
+    ],
+    "AKL-LT-029": [
+      "area-auckland-kawau-island"
+    ],
+    "AKL-LT-032": [
+      "area-auckland-waiheke-island-tikapa-moana"
+    ],
+    "BOP-LT-001": [
+      "area-bay-of-plenty-otawa-western-bay-of-plenty"
+    ],
+    "BOP-LT-007": [
+      "area-bay-of-plenty-torere-eastern-bay-of-plenty"
+    ],
+    "NL-0012": [
+      "area-northland-opua-forest-bay-of-islands"
+    ],
+    "NL-0015": [
+      "area-northland-paihia-opua-forest"
+    ],
+    "NL-0024": [
+      "area-northland-wairua-river"
+    ],
+    "NL-0028": [
+      "area-northland-paihia-opua-forest"
+    ],
+    "NL-0033": [
+      "area-northland-kerikeri-peninsula"
+    ],
+    "NL-0034": [
+      "area-northland-bay-of-islands"
+    ],
+    "NL-0037": [
+      "area-northland-bream-bay"
+    ],
+    "NL-0043": [
+      "area-northland-bay-of-islands"
+    ],
+    "NL-0049": [
+      "area-northland-glinks-gully"
+    ],
+    "NL-0059": [
+      "area-northland-lake-omapere"
+    ],
+    "NL-0060": [
+      "area-northland-honeymoon-valley"
+    ],
+    "NL-0061": [
+      "area-northland-wairua-river"
+    ],
+    "NL-0062": [
+      "area-northland-kerikeri-puketi-forest"
+    ],
+    "NL-0064": [
+      "area-northland-tangowahine-valley"
+    ],
+    "NL-0069": [
+      "area-northland-pewhairangi-bay-of-islands"
+    ],
+    "NL-0078": [
+      "area-northland-houto-forests"
+    ],
+    "NL-0083": [
+      "area-northland-kerikeri-peninsula"
+    ],
+    "NL-0088": [
+      "area-northland-eastern-whangarei-parua-bay-ngunguru"
+    ],
+    "NL-0091": [
+      "area-northland-whangaroa-harbour"
+    ],
+    "NL-0096": [
+      "area-northland-mahinepua-and-tauranga-bay"
+    ],
+    "NL-0097": [
+      "area-northland-mcleod-bay"
+    ],
+    "NL-0098": [
+      "area-northland-hokianga-harbour"
+    ],
+    "NL-0115": [
+      "area-northland-te-papa-paorooro-wetland"
+    ],
+    "NL-0118": [
+      "area-northland-aupouri-peninsula"
+    ],
+    "NL-0120": [
+      "area-northland-multiple-northland-rivers"
+    ],
+    "NL-0121": [
+      "area-northland-ocean-beach-whangarei-heads"
+    ],
+    "NL-0124": [
+      "area-northland-omamari-beach"
+    ],
+    "NL-0128": [
+      "area-northland-brett-and-russell-peninsulas"
+    ],
+    "NL-0136": [
+      "area-northland-purerua-peninsula-bay-of-islands"
+    ],
+    "NL-0139": [
+      "area-northland-brynderwyn-hills"
+    ],
+    "NL-0141": [
+      "area-northland-bay-of-islands"
+    ],
+    "NL-0143": [
+      "area-northland-eastern-bay-of-islands"
+    ],
+    "NL-0146": [
+      "area-northland-puketi-forest"
+    ],
+    "NL-0159": [
+      "area-northland-russell-peninsula"
+    ],
+    "NL-0166": [
+      "area-northland-aupouri-peninsula"
+    ],
+    "NL-0178": [
+      "area-northland-tauranga-bay"
+    ],
+    "NL-0181": [
+      "area-northland-whangaroa-harbour"
+    ],
+    "NL-0186": [
+      "area-northland-doubtless-bay"
+    ],
+    "NL-0188": [
+      "area-northland-waipoua-and-lower-waipoua-valley"
+    ],
+    "NL-0193": [
+      "area-northland-brynderwyn-hills"
+    ],
+    "NL-0194": [
+      "area-northland-whangaripo-valley"
+    ],
+    "NL-0195": [
+      "area-northland-brynderwyn-hills"
+    ],
+    "NL-0197": [
+      "area-northland-mangawhai-peninsula"
+    ],
+    "NL-0204": [
+      "area-northland-tangowahine-valley"
+    ],
+    "NL-0234": [
+      "area-northland-takou-bay"
+    ],
+    "NL-0244": [
+      "area-northland-doubtless-bay"
+    ],
+    "NL-0247": [
+      "area-northland-eastern-bay-of-islands"
+    ],
+    "NL-0269": [
+      "area-northland-takou-bay-river-scenic-reserve"
+    ],
+    "NL-0295": [
+      "area-northland-lake-omapere"
+    ],
+    "NL-0298": [
+      "area-northland-tangatapu-catchment-bay-of-islands"
+    ],
+    "NL-0311": [
+      "area-northland-whale-bay-matapouri"
+    ],
+    "NL-0312": [
+      "area-northland-mataraua-kauri-coast"
+    ],
+    "NL-0318": [
+      "area-northland-bay-of-islands"
+    ],
+    "NL-0319": [
+      "area-northland-motutangi"
+    ],
+    "NL-0332": [
+      "area-northland-ocean-beach-whangarei-heads"
+    ],
+    "NL-0336": [
+      "area-northland-opara-peninsula-hokianga"
+    ],
+    "NL-0341": [
+      "area-northland-takou-bay"
+    ],
+    "NL-0354": [
+      "area-northland-takou-bay"
+    ],
+    "NL-0363": [
+      "area-northland-pahi-petley-te-pahi-and-matakohe-peninsulas"
+    ],
+    "NL-0376": [
+      "area-northland-ngunguru-river"
+    ],
+    "NL-0381": [
+      "area-northland-russell-bay-of-islands"
+    ],
+    "NL-0382": [
+      "area-northland-sandy-bay"
+    ],
+    "NL-0384": [
+      "area-northland-whitehills"
+    ],
+    "NL-0398": [
+      "area-northland-diggers-valley"
+    ],
+    "NL-0399": [
+      "area-northland-aupouri-peninsula"
+    ],
+    "NL-0413": [
+      "area-northland-eastern-bay-of-islands"
+    ],
+    "NL-0420": [
+      "area-northland-utakura-valley-okaihau"
+    ],
+    "NL-0444": [
+      "area-northland-wekaweka-valley-kauri-coast"
+    ],
+    "NL-0445": [
+      "area-northland-hihi-peninsula"
+    ],
+    "NL-0449": [
+      "area-northland-whangaruru-peninsula"
+    ],
+    "NL-0453": [
+      "area-northland-whau-valley-whangarei"
+    ],
+    "WAI-LT-001": [
+      "area-waikato-te-kuiti-mangaokewa-scenic-reserve"
+    ],
+    "WAI-LT-004": [
+      "area-waikato-onewhero-harkers-reserve"
+    ],
+    "WAI-LT-005": [
+      "area-waikato-kauaeranga-valley"
+    ],
+    "WAI-LT-006": [
+      "area-waikato-lower-waikato-river-and-catchments"
+    ],
+    "WAI-LT-007": [
+      "area-waikato-pukawa-southern-lake-taupo"
+    ],
+    "WAI-LT-009": [
+      "area-waikato-wainui-reserve"
+    ],
+    "WAI-LT-011": [
+      "area-waikato-mystery-creek-waipa"
+    ],
+    "WAI-LT-013": [
+      "area-waikato-lake-rotoaira-taupo-district"
+    ],
+    "WAI-LT-014": [
+      "area-waikato-tauhara-maunga-taupo"
+    ],
+    "WAI-LT-015": [
+      "area-waikato-lake-rotoaira-central-north-island"
+    ],
+    "WAI-LT-016": [
+      "area-waikato-horohoro-south-waikato-rotorua-boundary"
+    ],
+    "WAI-LT-018": [
+      "area-waikato-te-aroha-maunga-waiorongomai"
+    ],
+    "WAI-LT-019": [
+      "area-waikato-horohoro-maunga-rotorua-south-waikato"
+    ],
+    "WAI-LT-020": [
+      "area-waikato-hamilton-multiple-waikato-catchments"
+    ],
+    "bop-awatapu-otamakaokao-kaitiaki": [
+      "area-bay-of-plenty-awatapu-lagoon"
+    ],
+    "bop-bev-gordon": [
+      "area-bay-of-plenty-uretara-catchment"
+    ],
+    "bop-brian-gordon": [
+      "area-bay-of-plenty-uretara-catchment"
+    ],
+    "bop-bryans-beach-community-group": [
+      "area-bay-of-plenty-bryans-beach-and-waiotahe-estuary"
+    ],
+    "bop-catfish-killas": [
+      "area-bay-of-plenty-lake-rotorua"
+    ],
+    "bop-eastern-whio-link": [
+      "area-bay-of-plenty-waioeka-gorge"
+    ],
+    "bop-emily-cotter": [
+      "area-bay-of-plenty-paraiti-river"
+    ],
+    "bop-hinenui-cooper": [
+      "area-bay-of-plenty-waitao-stream"
+    ],
+    "bop-hurike": [
+      "area-bay-of-plenty-ohiwa-harbour"
+    ],
+    "bop-jaap-and-sue": [
+      "area-bay-of-plenty-awahou-stream"
+    ],
+    "bop-julian-fitter": [
+      "area-bay-of-plenty-waihi-harbour"
+    ],
+    "bop-kerry-willoughby": [
+      "area-bay-of-plenty-arataki-beach"
+    ],
+    "bop-kopurererua-valley-rotary-centennial-trust": [
+      "area-bay-of-plenty-kopurererua-valley"
+    ],
+    "bop-kura-paul-burke": [
+      "area-bay-of-plenty-ohiwa-harbour"
+    ],
+    "bop-matakana-island-environmental-group": [
+      "area-bay-of-plenty-matakana-island"
+    ],
+    "bop-ngati-kea-ngati-tuara": [
+      "area-bay-of-plenty-utuhina-stream"
+    ],
+    "bop-ngati-manawa": [
+      "area-bay-of-plenty-rangitaiki-river-catchment"
+    ],
+    "bop-ngati-te-wai-hapu": [
+      "area-bay-of-plenty-tuapiro-river"
+    ],
+    "bop-nukuhou-saltmarsh-care-group": [
+      "area-bay-of-plenty-nukuhou-and-ohiwa-harbour"
+    ],
+    "bop-ohiwa-headland-sanctuary-trust": [
+      "area-bay-of-plenty-ohiwa-harbour"
+    ],
+    "bop-omataroa": [
+      "area-bay-of-plenty-puhikoko-and-ngakauroa-reserves"
+    ],
+    "bop-otanewainuku-kiwi-trust": [
+      "area-bay-of-plenty-otanewainuku-forest"
+    ],
+    "bop-paradise-valley-catchment-group": [
+      "area-bay-of-plenty-paradise-valley"
+    ],
+    "bop-paraiti-catchment-care-group": [
+      "area-bay-of-plenty-te-ranga-paraiti-river"
+    ],
+    "bop-peter-cavanagh": [
+      "area-bay-of-plenty-motu-trails"
+    ],
+    "bop-rotoehu-ecological-trust": [
+      "area-bay-of-plenty-rotoehu-forest"
+    ],
+    "bop-rotorua-forest-bird": [
+      "area-bay-of-plenty-rotorua-and-lake-okareka"
+    ],
+    "bop-te-wahapu-o-waihi": [
+      "area-bay-of-plenty-waihi-estuary"
+    ],
+    "bop-thomas-cooper": [
+      "area-bay-of-plenty-waitao-stream"
+    ],
+    "bop-tipu-wai": [
+      "area-bay-of-plenty-rotorua-lakes-catchment"
+    ],
+    "bop-upokorehe-resource-management-team": [
+      "area-bay-of-plenty-ohiwa-harbour"
+    ],
+    "bop-waitao-landcare-group": [
+      "area-bay-of-plenty-papamoa-welcome-bay"
+    ],
+    "wkt-friends-of-mangaonua-esplanade": [
+      "area-waikato-silverdale-gully"
+    ],
+    "wkt-kapowai-kiwi-group": [
+      "area-waikato-kapowai-valley"
+    ],
+    "wkt-mangakotukutuku-stream-care-group": [
+      "area-waikato-mangakotukutuku-catchment"
+    ],
+    "wkt-maungatautari-to-pirongia-ecological-corridor-incorporated-society-taiea-te-taiao": [
+      "area-waikato-mangapiko-catchment"
+    ],
+    "wkt-national-wetland-trust": [
+      "area-waikato-lake-rotopiko"
+    ],
+    "wkt-ng-ti-hinerangi": [
+      "area-waikato-kaimai-mamaku-ranges"
+    ],
+    "wkt-p-niu-river-care-incorporated": [
+      "area-waikato-puniu-river"
+    ],
+    "wkt-project-kiwi-trust": [
+      "area-waikato-kuaotunu-peninsula"
+    ],
+    "wkt-project-tongariro": [
+      "area-waikato-lake-rotopounamu"
+    ],
+    "wkt-rotopiko-community-pest-control-project": [
+      "area-waikato-lake-rotopiko"
+    ],
+    "wkt-ruapuke-kaitiaki-group": [
+      "area-waikato-ruapuke-beach"
+    ],
+    "wkt-stu-muir-and-family-mangati-stream-inanga-restoration": [
+      "area-waikato-aka-aka-mangati-stream"
+    ],
+    "wkt-tawera-nikau": [
+      "area-waikato-lake-waikare"
+    ],
+    "wkt-te-taiao-o-k-whia-moana": [
+      "area-waikato-kawhia-harbour"
+    ],
+    "wkt-te-wharekura-o-rakaumanga": [
+      "area-waikato-lake-waahi"
+    ],
+    "wkt-thames-coast-kiwi-care": [
+      "area-waikato-thames-coast"
+    ],
+    "wkt-the-fairfield-project": [
+      "area-waikato-kukutaruhe-gully"
+    ],
+    "wkt-waikato-tainui": [
+      "area-waikato-waikato-river"
+    ],
+    "wkt-wairenga-holdings-ltd": [
+      "area-waikato-lake-whangape"
+    ]
+  }
+}

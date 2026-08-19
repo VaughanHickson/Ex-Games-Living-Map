@@ -253,7 +253,9 @@ const showClaimedParticipant = (id: string) => {
 const setActiveRegion = (map: maplibregl.Map, region: string) => {
 const layers=['auckland-localities-fill','auckland-localities-outline',
 'auckland-localities-selected-fill','auckland-localities-selected-outline',
-'auckland-localities-selected-label']
+'auckland-localities-selected-label',
+'dev-northland-authoritative-areas-fill',
+'dev-northland-authoritative-areas-outline']
 for (const id of layers) {
 map.setFilter(id,region ? ['==',['get','region'],region] : null)
 map.setLayoutProperty(id,'visibility',region ? 'visible' : 'none')
@@ -283,6 +285,42 @@ map.on('load', async () => {
     data: nzLocalitiesUrl,
     attribution: 'NZ Suburbs and Localities © LINZ',
     generateId: true,
+  })
+
+  // Area Model 002 development proof: authoritative Northland landscape Areas.
+  // This source is intentionally separate from locality and participant registries.
+  map.addSource('dev-northland-authoritative-areas', {
+    type: 'geojson',
+    data: '/data/dev-northland-authoritative-areas.geojson',
+    attribution: 'Landscape boundaries © Department of Conservation',
+    generateId: true,
+  })
+
+  map.addLayer({
+    id: 'dev-northland-authoritative-areas-fill',
+    type: 'fill',
+    source: 'dev-northland-authoritative-areas',
+    layout: {
+      visibility: 'none',
+    },
+    paint: {
+      'fill-color': exGamesPalette.forestGreen,
+      'fill-opacity': 0.18,
+    },
+  })
+
+  map.addLayer({
+    id: 'dev-northland-authoritative-areas-outline',
+    type: 'line',
+    source: 'dev-northland-authoritative-areas',
+    layout: {
+      visibility: 'none',
+    },
+    paint: {
+      'line-color': exGamesPalette.warmGold,
+      'line-width': 2.5,
+      'line-opacity': 0.95,
+    },
   })
 
   map.addLayer({
@@ -684,6 +722,44 @@ map.on('load', async () => {
       )
       hoveredLocalityId = undefined
     }
+  })
+
+  map.on('click', 'dev-northland-authoritative-areas-fill', (event) => {
+    const feature = event.features?.[0]
+    const properties = feature?.properties
+
+    if (!properties) return
+
+    const boundaryLabel =
+      properties.boundaryStatus === 'AUTHORITATIVE'
+        ? 'Authoritative boundary'
+        : 'Derived from authoritative DOC components'
+
+    const geometryLabel =
+      properties.geometryStatus === 'ATTACHED'
+        ? 'Geometry attached'
+        : 'Development geometry staged'
+
+    new maplibregl.Popup({ className: 'ex-games-popup' })
+      .setLngLat(event.lngLat)
+      .setHTML(`
+        <div class="ex-games-popup__brand">
+          <span>${exGamesBrand.name}</span>
+          <small>Area Model 002 · development proof</small>
+        </div>
+        <strong>${properties.name ?? 'Landscape Area'}</strong>
+        <p>${properties.areaType ?? 'LANDSCAPE AREA'} · ${properties.region ?? 'Northland Region'}</p>
+        <small>${boundaryLabel} · ${geometryLabel}</small>
+      `)
+      .addTo(map)
+  })
+
+  map.on('mouseenter', 'dev-northland-authoritative-areas-fill', () => {
+    map.getCanvas().style.cursor = 'pointer'
+  })
+
+  map.on('mouseleave', 'dev-northland-authoritative-areas-fill', () => {
+    map.getCanvas().style.cursor = ''
   })
 
   map.on('click', 'target-2050-candidate', (event) => {

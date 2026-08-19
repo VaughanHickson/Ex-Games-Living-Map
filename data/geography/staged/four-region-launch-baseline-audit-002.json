@@ -1,0 +1,5805 @@
+{
+  "schema": "EXG-LM-FOUR-REGION-LAUNCH-BASELINE-AUDIT-002",
+  "status": "BASELINE_REVIEW",
+  "policy": {
+    "zeroParticipantLocalityIsAcceptable": true,
+    "sourceLocatedButNoSafeMapLocalityIsAcceptable": true,
+    "unknownLandscapeAreaIsAcceptable": true,
+    "inventedGeographyIsNotAcceptable": true,
+    "allDeclaredMapLocalitiesUnmatchedRequiresFixOrExplicitUnresolve": true,
+    "participantWithNoGeographyRequiresReview": true,
+    "profileOrRenderingFailureIsLaunchBlocking": true,
+    "longTailCompletenessIsNotRequired": true
+  },
+  "totals": {
+    "participants": 968,
+    "participantsMappedToAtLeastOneLINZLocality": 13,
+    "participantsExplicitlyUnresolvedButSourceLocated": 947,
+    "participantsWithAllDeclaredMapLocalitiesUnmatched": 2,
+    "participantsWithPartiallyUnmatchedMapLocalities": 0,
+    "participantsWithNoGeography": 6
+  },
+  "regions": {
+    "Northland Region": {
+      "sourceFile": "data/participants/staged/participants-northland-located-002.json",
+      "datasetMissionRegion": "Northland",
+      "participantCount": 432,
+      "participantsMappedToAtLeastOneLINZLocality": 0,
+      "participantsExplicitlyUnresolvedButSourceLocated": 432,
+      "participantsWithPartiallyUnmatchedMapLocalities": 0,
+      "participantsWithNoGeography": 0,
+      "participantsWithMapLocalityMismatch": 0,
+      "localityCount": 189,
+      "populatedLocalities": 0,
+      "zeroParticipantLocalities": 189,
+      "populatedLocalityPercent": 0.0,
+      "invalidLocalityGeometries": 8,
+      "localities": [
+        {
+          "locality": "Abbey Caves",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ahipara",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Aranga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Arapohue",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Ararua",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Aratapu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Avenues",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Awakino Point",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Awanui",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Awarua",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Baylys Beach",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Broadwood",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Brynderwyn",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Cable Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Cape Reinga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Coopers Beach",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Dargaville",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Donnellys Crossing",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Glenbervie",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Glenbervie Forest",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hakaru",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Haruru",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Helena Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Herekino",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hihi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hikurangi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hoanga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Horahora",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Horeke",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Houhora",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hūkerenui",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kaeo",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Kaihu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kaikohe",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kaimaumau",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kaingaroa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kaitaia",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kaiwaka",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Karetu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Karikari Peninsula",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kauri",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kawakawa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kensington",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kerikeri",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kiripaka",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kohukohu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kokopu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Lake Ohia",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Langs Beach",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mahuta",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mamaranui",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mangamuka",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mangapai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Mangawhai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mangawhai Heads",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mangōnui",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mareretu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Maromaku",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Marsden Point",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mata",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Matakohe",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Matapouri",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Matarau",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Matauri Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Matawaia",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Maungakaramea",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Maungatapere",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Maungaturoto",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Maunu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mitimiti",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Moerewa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Morningside",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Motatau",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ngararatunua",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ngataki",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ngawha Springs",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ngunguru",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Nukutawhiti",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Oakleigh",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Okiato",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Omamari",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Omana",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Omanaia",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "One Tree Point",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Onerahi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Opononi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Opua",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Opuawhanga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Oromahoe",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Oruawharo",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Otaika",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Otangarei",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Oue",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pahi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Paihia",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pakaraka",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pakotai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Panguru",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Paparoa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Paparore",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Parahaki",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Parakao",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Parekura Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Parore",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Parua Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pataua North",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pataua South",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pawarenga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Peria",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pipiwai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Poroti",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Port Whangārei",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Portland",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pouto",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pukehuia",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pukenui",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pukenui Forest",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pukewharariki",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Punakitere Valley",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Punaruku",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Purua",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Puwera",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Raumanga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Rawene",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Rawhiti",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Regent",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Riponui",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Riverside",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ruakākā",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ruatangata West",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ruawai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Russell",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Springfield",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Taheke",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Taiharuru",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Taipa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Taipuha",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Takahiwai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Takahue",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tamaterau",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tangiteroria",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tangowahine",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Taupō Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tautoro",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Hāpua",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Kamo",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Kao",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Kōpuru",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Te Ti Mangonui",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tikipunga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tinopai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Titoki",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Topuni",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Totara North",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Towai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Turiwiri",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tutukaka",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Umawera",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waiharara",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waikare",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waimamaku",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waimate North",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waimā",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waiomio",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waiotira",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waipapa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waipapakauri",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waipoua",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waipoua Forest",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waipu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waitangi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whakapara",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whakapirau",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whananaki",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whangarei Airport",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whangaroa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whangaruru",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whangārei",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whangārei Heads",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whareora",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whau Valley",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Wheki Valley",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whirinaki",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Woodhill",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ōakura",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ōhaeawai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ōkaihau",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ōmāpere",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ōtaua",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        }
+      ]
+    },
+    "Auckland": {
+      "sourceFile": "data/participants/staged/participants-auckland-located-002.json",
+      "datasetMissionRegion": "Auckland",
+      "participantCount": 192,
+      "participantsMappedToAtLeastOneLINZLocality": 13,
+      "participantsExplicitlyUnresolvedButSourceLocated": 173,
+      "participantsWithPartiallyUnmatchedMapLocalities": 0,
+      "participantsWithNoGeography": 4,
+      "participantsWithMapLocalityMismatch": 2,
+      "localityCount": 280,
+      "populatedLocalities": 7,
+      "zeroParticipantLocalities": 273,
+      "populatedLocalityPercent": 2.5,
+      "invalidLocalityGeometries": 15,
+      "localities": [
+        {
+          "locality": "Albany",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Albany Heights",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Alfriston",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Algies Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Anawhata",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ararimu",
+          "participantCount": 2,
+          "participantStatus": "POPULATED",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ardmore",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Arkles Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Army Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Auckland Airport",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Auckland Central",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Avondale",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Bayswater",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Bayview",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Beach Haven",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Beachlands",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Belmont",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Big Omaha",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Birkdale",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Birkenhead",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Blockhouse Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Bombay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Botany Downs",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Brookby",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Browns Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Bucklands Beach",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Burswood",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Campbells Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Castor Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Chatswood",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Clarks Beach",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Clendon Park",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Clevedon",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Clover Park",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Coatesville",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Cockle Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Conifer Grove",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Cornwallis",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Dairy Flat",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Dannemora",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Devonport",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Dome Forest",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Dome Valley",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Drury",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "East Tāmaki",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "East Tāmaki Heights",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Eastern Beach",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Eden Terrace",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ellerslie",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Epsom",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Fairview Heights",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Farm Cove",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Favona",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Flat Bush",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Forrest Hill",
+          "participantCount": 3,
+          "participantStatus": "POPULATED",
+          "geometryValid": true
+        },
+        {
+          "locality": "Freemans Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Glen Eden",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Glen Innes",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Glenbrook",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Glendene",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Glendowie",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Glenfield",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Glorit",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Golflands",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Goodwood Heights",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Grafton",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Green Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Greenhithe",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Greenlane",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Grey Lynn",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Gulf Harbour",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Half Moon Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hatfields Beach",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hauraki",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Helensville",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Henderson",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Henderson Valley",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Herald Island",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Herne Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Highland Park",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hillcrest",
+          "participantCount": 2,
+          "participantStatus": "POPULATED",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hillpark",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hillsborough",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hobsonville",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Howick",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Huapai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Huia",
+          "participantCount": 3,
+          "participantStatus": "POPULATED",
+          "geometryValid": true
+        },
+        {
+          "locality": "Huntington Park",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hunua",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kaipara Flats",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Karaka",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Karekare",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Karioitahi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kaukapakapa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kawakawa Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kelston",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kingseat",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kingsland",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kohimarama",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kumeū",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Laingholm",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Leigh",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Long Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Lucas Heights",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Lynfield",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mahurangi East",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mahurangi West",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mairangi Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Makarau",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mangakura",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Manly",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Manukau",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Manukau Heads",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Manurewa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Manurewa East",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Maraetai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Massey",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Matakana",
+          "participantCount": 1,
+          "participantStatus": "POPULATED",
+          "geometryValid": true
+        },
+        {
+          "locality": "Matakatia",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mauku",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Meadowbank",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mechanics Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mellons Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Middlemore Hospital",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Milford",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mission Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Morningside",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mount Albert",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Mount Eden",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mount Roskill",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mount Wellington",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Muriwai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Murrays Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Māngere",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Māngere Bridge",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Māngere East",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Narrow Neck",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ness Valley",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "New Lynn",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "New Windsor",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Newmarket",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Nihotupu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Northcote",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Northcote Point",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Northcross",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Northpark",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Okura Bush",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Omaha",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "One Tree Hill",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Onehunga",
+          "participantCount": 1,
+          "participantStatus": "POPULATED",
+          "geometryValid": true
+        },
+        {
+          "locality": "Oneroa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Onetangi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Orakei",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Oratia",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Orewa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ostend",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Oteha",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Paerata",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pahurehure",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pakiri",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pakuranga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Pakuranga Heights",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Palm Beach",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Panmure",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Papakura",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Papatoetoe",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Parakai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Parau",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Parnell",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Patumahoe",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Penrose",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Piha",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pinehill",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pohuehue",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Point Chevalier",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Point England",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Point Wells",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pollok",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ponsonby",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Port Albert",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Puhoi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pukekohe",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Puni",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pāremoremo",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ramarama",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Randwick Park",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ranui",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Red Beach",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Red Hill",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Redvale",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Remuera",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Riverhead",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Rosedale",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Rosehill",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Rothesay Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Royal Oak",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Runciman",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Saint Heliers",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Saint Marys Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Sandringham",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Sandspit",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Schnapper Rock",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Shamrock Park",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Shelly Beach",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Shelly Park",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Silverdale",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Snells Beach",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Somerville",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "South Head",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "St Johns",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Stanley Point",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Stanmore Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Stillwater",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Stonefields",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Sunnyhills",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Sunnynook",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Sunnyvale",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Surfdale",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Swanson",
+          "participantCount": 1,
+          "participantStatus": "POPULATED",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tahekeroa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Takanini",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Takapuna",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tapora",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tauhoa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Taupaki",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Arai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Atatū Peninsula",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Atatū South",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Te Hana",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Henga / Bethells Beach",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "The Gardens",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Three Kings",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ti Point",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tindalls Beach",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Titirangi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tomarata",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Torbay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Totara Heights",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tāwharanui Peninsula",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tōtara Park",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tōtara Vale",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Unsworth Heights",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Wade Heads",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Wai o Taiki Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waiake",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waiatarua",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waiau Pa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waimauku",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Wainui",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Wairau Valley",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waitoki",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waitākere",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waiuku",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waiwera",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Warkworth",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waterview",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Wattle Downs",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Wellsford",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Wesley",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "West Harbour",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Western Springs",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Westgate",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Westhaven",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Westmere",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Weymouth",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whangaripo",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whangateau",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Wharehine",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whenuapai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whitford",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Windsor Park",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Wiri",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Woodhill Forest",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Āwhitu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ōkura",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ōmiha",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ōpaheke",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ōrere Point",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ōtara",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ōtāhuhu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        }
+      ]
+    },
+    "Waikato Region": {
+      "sourceFile": "data/participants/staged/participants-waikato-located-001.json",
+      "datasetMissionRegion": "Waikato",
+      "participantCount": 117,
+      "participantsMappedToAtLeastOneLINZLocality": 0,
+      "participantsExplicitlyUnresolvedButSourceLocated": 117,
+      "participantsWithPartiallyUnmatchedMapLocalities": 0,
+      "participantsWithNoGeography": 0,
+      "participantsWithMapLocalityMismatch": 0,
+      "localityCount": 327,
+      "populatedLocalities": 0,
+      "zeroParticipantLocalities": 327,
+      "populatedLocalityPercent": 0.0,
+      "invalidLocalityGeometries": 10,
+      "localities": [
+        {
+          "locality": "Acacia Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Aka Aka",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Amodeo Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Arapuni",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Avalon",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Awaiti",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Awakino",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Bader",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Baverstock",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Beerescourt",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Broadlands",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Buckland",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Burbush",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Cambridge",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Chartwell",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Chedworth",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Claudelands",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Colville",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Cooks Beach",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Coroglen",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Coromandel",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Deanwell",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Desert Road",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Dinsdale",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Enderley",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Eureka",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Fairfield",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Fairview Downs",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ferry Landing",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Fitzroy",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Flagstaff",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Fletcher Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Forest Lake",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Frankton",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Glen Afton",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Glen Massey",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Glen Murray",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Glenview",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Gordon",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Gordonton",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Grandview Heights",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hahei",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hamilton Central",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hamilton East",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hamilton Lake",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hangatiki",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Harrowfield",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hatepe",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hauturu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hikuai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hikutaia",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hillcrest",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hilltop",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hoe-O-Tainui",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Honikiwi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Horohoro",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Horotiu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Horsham Downs",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hot Water Beach",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Huntington",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Huntly",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Island Block",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Iwitahi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kaiaua",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kaihere",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kaimarama",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Karamu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Karangahake",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Karapiro",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kawhia",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kennedy Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kerepehi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kereta",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kihikihi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kinleith",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Kinleith Forest",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kinloch",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Komata",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kopaki",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kopu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kopuatai Wetland",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kopuku",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kuratau",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kūaotunu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kūaotunu West",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Lake Puketi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Leamington",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Lichfield",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Maeroa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Maihiihi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Makomako",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mamaku",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Manaia",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Manawaru",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mangakino",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Mangaokewa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mangaotaki",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mangatangi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mangatarata",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mangateparu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mangatāwhiri",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Maramarua",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Maramarua Forest",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Marokopa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Marotiri",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Matamata",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Matangi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Matarangi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Matatoki",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Matira",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Maunganamu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Maungatautari",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Melville",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mercer",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Meremere",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mihi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mokai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Morrinsville",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Motumaoho",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Motuoapa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Motutere",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Māhoenui",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mōkau",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Naike",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Nawton",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Netherton",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Newstead",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ngahape",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ngakuru",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ngarua",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ngatea",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ngatira",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ngāhinapōuri",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ngārimu Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ngāruawāhia",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Northgate",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Nukuhau",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ohaaki",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ohakuri",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ohinewai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Okauia",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Okoroire",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Omori",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Onemana",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Onewhero",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Opito Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Opoutere",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Orini",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Orongo",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Oruanui",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Otapaurau",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Otaua",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Otukou",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Otway",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Paeroa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Parawera",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Patetonga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pauanui",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Peacocke",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pepepe",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Piarere",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Piopio",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pipiroa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pirongia",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pokuru",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pomarangai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Port Charles",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Port Jackson",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Port Waikato",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Preece Point",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pukawa Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pukeatua",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pukekawa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pukekohe East",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pukemiro",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pukemoremore",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pukepoto",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Puketaha",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pukete",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Puketotara",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Puketutu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pumpkin Hill",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Purangi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Puriri",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Putāruru",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pōkeno",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pūkorokoro / Miranda",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Queenwood",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Raglan",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Rainbow Point",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Rangatira Park",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Rangipo",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Rangiriri",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Rangitoto",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Reporoa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Richmond Downs",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Richmond Heights",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Riverlea",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Rotokauri",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Rotokawa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Rotongaro",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Rotoorangi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Rototuna",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Rototuna North",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Rotowaro",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ruakura",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ruamahunga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ruawaro",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Rukuhia",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Silverdale",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Springdale",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "St Andrews",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Taharoa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tahorakurī Forest",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tahuna",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tairua",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tamahere",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tapapa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tapu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tatuanui",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tauhara",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tauhara Forest",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tauhei",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Taupiri",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Taupō",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Tauranga Taupō",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tauwhare",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Anga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Aroha",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Aroha West",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Awamutu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Hoe",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Kauwhata",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Kawa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Kohanga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Kouma",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Kowhai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Kūiti",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Mapara",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Mata",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Miro",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Ohaki",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Pahu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Poi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Puninga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Puru",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Rapa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Rapa Park",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Rauamoa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Rerenga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Ākau",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Temple View",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Thames",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Thornton Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tihiroa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tihoi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tirohanga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tirohia",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tokaanu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tokanui",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tokoroa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tuakau",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tuateawa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Turangaomoana",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Turua",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Two Mile Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tīrau",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tūrangi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waerenga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waharoa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waiaro",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waiau",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waihi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waihou",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waihāhā",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waikaretu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waikato Hospital",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waikawau",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waikawau",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waikeria",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waikino",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waikite Valley",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waikokowai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waimahora",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waingaro",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waiomu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waiotaka Valley",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waiotapu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waipa Valley",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waipahihi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waipakihi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Wairakei",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waitahanui",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waitaia Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waitakaruru",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waiterimu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waitetuna",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waitoa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waitomo",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waotu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Wardville",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Western Heights",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whakamaru",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whakatete Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whakatīwai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whangamarino",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Whangamatā",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whangapoua",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Wharekaho",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Wharepapa South",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Wharepūhunga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Wharewaka",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whatawhata",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whenuakite",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whiritoa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whitianga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whitikahu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whitiora",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Wiltsdown",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Wyuna Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Āria",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ātiamuri",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Ōhaupō",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ōpārau",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ōtewā",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ōtorohanga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ōwhiro",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        }
+      ]
+    },
+    "Bay of Plenty Region": {
+      "sourceFile": "data/participants/staged/participants-bay-of-plenty-located-003.json",
+      "datasetMissionRegion": "Bay of Plenty Region",
+      "participantCount": 227,
+      "participantsMappedToAtLeastOneLINZLocality": 0,
+      "participantsExplicitlyUnresolvedButSourceLocated": 225,
+      "participantsWithPartiallyUnmatchedMapLocalities": 0,
+      "participantsWithNoGeography": 2,
+      "participantsWithMapLocalityMismatch": 0,
+      "localityCount": 142,
+      "populatedLocalities": 0,
+      "zeroParticipantLocalities": 142,
+      "populatedLocalityPercent": 0.0,
+      "invalidLocalityGeometries": 6,
+      "localities": [
+        {
+          "locality": "Aongatete",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Athenree",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Athenree Gorge",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Awakeri",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Bellevue",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Bethlehem",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Bowentown",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Brookfield",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Cape Runaway",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Coastlands",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Edgecumbe",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Fairy Springs",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Fenton Park",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Fordlands",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Galatea",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Gate Pa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Glenholme",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Greerton",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hairini",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hamurana",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hannahs Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hawai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Hillcrest",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Holdens Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Judea",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kaingaroa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kaingaroa Forest",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kairua",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kapenga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Katikati",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kawaha Point",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Kawerau",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Koutu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Kutarere",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Lake Matahina",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Lake Okareka",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Lake Rotoma",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Lake Tarawera",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Lake Ōkataina",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Lower Kaimai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Lynmore",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Maketu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Manawahe",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mangakakahi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Maraenui",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Maraetotara",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Matahi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Matahina Forest",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Matapihi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Matatā",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Matipo Heights",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Matua",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Maungapohatu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Maungatapu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Minden",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Minginui",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mount Maunganui",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mount Tarawera",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Mourea",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Murupara",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ngapuna",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ngawaro",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ngongotahā",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ngongotahā Valley",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Nukuhou",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ohauiti",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ohinemutu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Okere Falls",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Omaio",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Omanawa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Oropi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Otakiri",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Otūmoetai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Paengaroa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Papamoa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Papamoa Beach",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Parkvale",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pikowai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Poike",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pomare",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pongakawa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Poroporo",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pukehangi",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pukehina",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Putauaki",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Pyes Pa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Rangitaiki",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Rangiuru",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Rerewhakaaitu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Rotoiti Forest",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Rotomā",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Rotorua",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ruatahuna",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ruatoki",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Selwyn Heights",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Springfield",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Sunnybrook",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tahawai",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tanners Point",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tarawera Forest",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tauranga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": false
+        },
+        {
+          "locality": "Tauranga South",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tauriko",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tawera",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Kaha",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Puke",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Puna",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Ranga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Te Teko",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Thornton",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tihiotonga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tikitere",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tirohanga",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Toatoa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tumunui",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tāneatua",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Tōrere",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Utuhina",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Victoria",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waihau Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waihi Beach",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waimana",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waimangu",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Wainui",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waiohau",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waiotahe",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waiotahe Valley",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waioweka",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Waitao",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Welcome Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Western Heights",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whakamārama",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whakarewarewa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whakatāne",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Whanarua Bay",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "White Pine Bush",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ōhope",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ōmataroa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ōmokoroa",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ōpōtiki",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ōtara",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        },
+        {
+          "locality": "Ōwhata",
+          "participantCount": 0,
+          "participantStatus": "ZERO_PARTICIPANTS",
+          "geometryValid": true
+        }
+      ]
+    }
+  },
+  "potentialLaunchBlockers": [
+    {
+      "type": "ALL_DECLARED_MAP_LOCALITIES_UNMATCHED",
+      "count": 2,
+      "severity": "FIX_OR_EXPLICITLY_UNRESOLVE"
+    },
+    {
+      "type": "NO_GEOGRAPHY",
+      "count": 6,
+      "severity": "REVIEW"
+    }
+  ],
+  "nonBlockingReviewClasses": [
+    {
+      "type": "INVALID_LOCALITY_GEOMETRY",
+      "count": 39,
+      "severity": "NON_BLOCKING_IF_BROWSER_RENDERING_CONFIRMED"
+    }
+  ],
+  "mapLocalityMismatchRecords": [
+    {
+      "id": "AKL-IND-OWN-014",
+      "name": "Laura",
+      "region": "Auckland",
+      "status": "ALL_MAP_LOCALITIES_UNMATCHED",
+      "matchedMapLocalities": [],
+      "unmatchedMapLocalities": [
+        "Auckland"
+      ],
+      "sourceLocalities": [
+        "Auckland"
+      ]
+    },
+    {
+      "id": "AKL-IND-OWN-015",
+      "name": "Bruce",
+      "region": "Auckland",
+      "status": "ALL_MAP_LOCALITIES_UNMATCHED",
+      "matchedMapLocalities": [],
+      "unmatchedMapLocalities": [
+        "Auckland"
+      ],
+      "sourceLocalities": [
+        "Auckland"
+      ]
+    }
+  ],
+  "noGeographyRecords": [
+    {
+      "id": "aotea-great-barrier-environmental-trust",
+      "name": "Aotea Great Barrier Environmental Trust",
+      "region": "Auckland",
+      "status": "NO_GEOGRAPHY"
+    },
+    {
+      "id": "aotea-trap-library",
+      "name": "Aotea Trap Library",
+      "region": "Auckland",
+      "status": "NO_GEOGRAPHY"
+    },
+    {
+      "id": "auckland-invasive-weeds-group",
+      "name": "Auckland Invasive Weeds Group",
+      "region": "Auckland",
+      "status": "NO_GEOGRAPHY"
+    },
+    {
+      "id": "auckland-king-tides-initiative",
+      "name": "Auckland King Tides Initiative",
+      "region": "Auckland",
+      "status": "NO_GEOGRAPHY"
+    },
+    {
+      "id": "bop-violet-pou",
+      "name": "Violet Pou",
+      "region": "Bay of Plenty Region",
+      "status": "NO_GEOGRAPHY"
+    },
+    {
+      "id": "bop-bill-kerrison",
+      "name": "Bill Kerrison",
+      "region": "Bay of Plenty Region",
+      "status": "NO_GEOGRAPHY"
+    }
+  ]
+}
