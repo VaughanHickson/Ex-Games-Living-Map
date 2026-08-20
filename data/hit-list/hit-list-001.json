@@ -1,0 +1,2435 @@
+{
+  "schema": "EXG-HIT-LIST-001",
+  "title": "The Hit List",
+  "principles": {
+    "extensible": true,
+    "participantSuggestionsAllowed": true,
+    "participantSuggestionsRequireVerification": true,
+    "moneyAffectsMerit": false,
+    "sourceEvidenceRequiredForPublication": true,
+    "mediaOwnershipClaimRequired": false,
+    "mediaUsageRightsRequired": true
+  },
+  "sections": [
+    {
+      "id": "stealthy-half",
+      "label": "The stealthy half",
+      "kind": "fauna",
+      "description": "Animal pests and predators: find them, understand them, and act through authorised missions."
+    },
+    {
+      "id": "quiet-half",
+      "label": "The quiet half",
+      "kind": "flora",
+      "description": "Invasive plants and weeds: ecological threats that do not move, but can transform whole landscapes."
+    }
+  ],
+  "entries": [
+    {
+      "id": "predator-possum",
+      "sectionId": "stealthy-half",
+      "parentId": null,
+      "name": "Possums",
+      "scientificName": "Trichosurus vulpecula",
+      "aliases": [
+        "brush-tailed possum"
+      ],
+      "entryType": "target_group",
+      "targetScope": "national_target",
+      "summary": "Introduced predator and browser included in the national Predator Free 2050 target.",
+      "missionRelevance": [
+        "detection",
+        "monitoring",
+        "control",
+        "eradication"
+      ],
+      "publicationStatus": "verified",
+      "verification": {
+        "status": "verified",
+        "verifiedAgainst": [
+          "Department of Conservation"
+        ],
+        "reviewNote": "National target class."
+      },
+      "media": [],
+      "sources": [
+        {
+          "label": "DOC — Predator Free 2050",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/what-is-predator-free/",
+          "authority": "authoritative",
+          "purpose": "National target scope"
+        },
+        {
+          "label": "DOC — PF2050 strategic documents",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/our-work/predator-free-2050-strategic-documents/",
+          "authority": "authoritative",
+          "purpose": "Current strategy"
+        }
+      ],
+      "suggestion": {
+        "submittedByParticipantId": null,
+        "submittedAt": null,
+        "verificationRequired": false
+      },
+      "researchQuestions": [],
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:predator-possum",
+      "observationEnabled": true,
+      "intelligenceStatus": "not_required",
+      "missionEligibility": "eligible",
+      "commentary": [],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "established"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "established"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "established"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "open"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "established"
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "Introduced predator and browser included in the national Predator Free 2050 target.",
+      "where": "",
+      "why": "Introduced predator and browser included in the national Predator Free 2050 target.",
+      "fieldObservations": []
+    },
+    {
+      "id": "predator-rats",
+      "sectionId": "stealthy-half",
+      "parentId": null,
+      "name": "Rats",
+      "scientificName": null,
+      "aliases": [],
+      "entryType": "target_group",
+      "targetScope": "national_target",
+      "summary": "Introduced rats are included in the national Predator Free 2050 target.",
+      "missionRelevance": [
+        "detection",
+        "monitoring",
+        "control",
+        "eradication"
+      ],
+      "publicationStatus": "verified",
+      "verification": {
+        "status": "verified",
+        "verifiedAgainst": [
+          "Department of Conservation"
+        ],
+        "reviewNote": "Species-level children can be added after source verification."
+      },
+      "media": [],
+      "sources": [
+        {
+          "label": "DOC — Predator Free 2050",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/what-is-predator-free/",
+          "authority": "authoritative",
+          "purpose": "National target scope"
+        },
+        {
+          "label": "DOC — animal pests",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/animal-pests-and-threats/",
+          "authority": "authoritative",
+          "purpose": "Threat context"
+        }
+      ],
+      "suggestion": {
+        "submittedByParticipantId": null,
+        "submittedAt": null,
+        "verificationRequired": false
+      },
+      "researchQuestions": [],
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:predator-rats",
+      "observationEnabled": true,
+      "intelligenceStatus": "not_required",
+      "missionEligibility": "eligible",
+      "commentary": [],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "open"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "established"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "established"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "open"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "established"
+        },
+        {
+          "key": "confusion-species",
+          "label": "Confusion species",
+          "status": "open"
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "Introduced rats are included in the national Predator Free 2050 target.",
+      "where": "",
+      "why": "Introduced rats are included in the national Predator Free 2050 target.",
+      "fieldObservations": []
+    },
+    {
+      "id": "predator-mustelids",
+      "sectionId": "stealthy-half",
+      "parentId": null,
+      "name": "Mustelids",
+      "scientificName": null,
+      "aliases": [],
+      "entryType": "target_group",
+      "targetScope": "national_target",
+      "summary": "Mustelids are a Predator Free 2050 target group. Ex Games presents stoats, weasels and ferrets beneath this parent target.",
+      "missionRelevance": [
+        "detection",
+        "tracking",
+        "trapping",
+        "control",
+        "eradication"
+      ],
+      "publicationStatus": "verified",
+      "verification": {
+        "status": "verified",
+        "verifiedAgainst": [
+          "Department of Conservation"
+        ],
+        "reviewNote": "Parent group; children are stoat, weasel and ferret."
+      },
+      "media": [],
+      "sources": [
+        {
+          "label": "DOC — Predator Free 2050",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/what-is-predator-free/",
+          "authority": "authoritative",
+          "purpose": "National target scope"
+        },
+        {
+          "label": "DOC — community trapping",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/community-trapping/",
+          "authority": "authoritative",
+          "purpose": "Mustelid grouping"
+        }
+      ],
+      "suggestion": {
+        "submittedByParticipantId": null,
+        "submittedAt": null,
+        "verificationRequired": false
+      },
+      "researchQuestions": [],
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:predator-mustelids",
+      "observationEnabled": true,
+      "intelligenceStatus": "not_required",
+      "missionEligibility": "eligible",
+      "commentary": [],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "open"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "established"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "established"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "open"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "established"
+        },
+        {
+          "key": "confusion-species",
+          "label": "Confusion species",
+          "status": "open",
+          "note": "Distinguish stoat, weasel and ferret reliably."
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "Mustelids are a Predator Free 2050 target group. Ex Games presents stoats, weasels and ferrets beneath this parent target.",
+      "where": "",
+      "why": "Mustelids are a Predator Free 2050 target group. Ex Games presents stoats, weasels and ferrets beneath this parent target.",
+      "fieldObservations": []
+    },
+    {
+      "id": "mustelid-stoat",
+      "sectionId": "stealthy-half",
+      "parentId": "predator-mustelids",
+      "name": "Stoat",
+      "scientificName": "Mustela erminea",
+      "aliases": [],
+      "entryType": "species",
+      "targetScope": "national_target",
+      "summary": "Mustelid predator; displayed as a child of Mustelids rather than as the whole target class.",
+      "missionRelevance": [
+        "detection",
+        "tracking",
+        "trapping",
+        "control",
+        "eradication"
+      ],
+      "publicationStatus": "verified",
+      "verification": {
+        "status": "verified",
+        "verifiedAgainst": [
+          "Department of Conservation"
+        ],
+        "reviewNote": "Mustelid child."
+      },
+      "media": [],
+      "sources": [
+        {
+          "label": "DOC — community trapping",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/community-trapping/",
+          "authority": "authoritative",
+          "purpose": "Mustelid species"
+        }
+      ],
+      "suggestion": {
+        "submittedByParticipantId": null,
+        "submittedAt": null,
+        "verificationRequired": false
+      },
+      "researchQuestions": [],
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:mustelid-stoat",
+      "observationEnabled": true,
+      "intelligenceStatus": "not_required",
+      "missionEligibility": "eligible",
+      "commentary": [],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "established"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "established"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "established"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "open"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "established"
+        },
+        {
+          "key": "confusion-species",
+          "label": "Confusion species",
+          "status": "open",
+          "note": "Distinguish stoat, weasel and ferret reliably."
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "Mustelid predator; displayed as a child of Mustelids rather than as the whole target class.",
+      "where": "",
+      "why": "Mustelid predator; displayed as a child of Mustelids rather than as the whole target class.",
+      "fieldObservations": []
+    },
+    {
+      "id": "mustelid-weasel",
+      "sectionId": "stealthy-half",
+      "parentId": "predator-mustelids",
+      "name": "Weasel",
+      "scientificName": "Mustela nivalis",
+      "aliases": [],
+      "entryType": "species",
+      "targetScope": "national_target",
+      "summary": "Mustelid predator; displayed beneath the Mustelids parent target.",
+      "missionRelevance": [
+        "detection",
+        "tracking",
+        "trapping",
+        "control",
+        "eradication"
+      ],
+      "publicationStatus": "verified",
+      "verification": {
+        "status": "verified",
+        "verifiedAgainst": [
+          "Department of Conservation"
+        ],
+        "reviewNote": "Mustelid child."
+      },
+      "media": [],
+      "sources": [
+        {
+          "label": "DOC — community trapping",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/community-trapping/",
+          "authority": "authoritative",
+          "purpose": "Mustelid species"
+        }
+      ],
+      "suggestion": {
+        "submittedByParticipantId": null,
+        "submittedAt": null,
+        "verificationRequired": false
+      },
+      "researchQuestions": [],
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:mustelid-weasel",
+      "observationEnabled": true,
+      "intelligenceStatus": "not_required",
+      "missionEligibility": "eligible",
+      "commentary": [],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "established"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "established"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "established"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "open"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "established"
+        },
+        {
+          "key": "confusion-species",
+          "label": "Confusion species",
+          "status": "open",
+          "note": "Distinguish stoat, weasel and ferret reliably."
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "Mustelid predator; displayed beneath the Mustelids parent target.",
+      "where": "",
+      "why": "Mustelid predator; displayed beneath the Mustelids parent target.",
+      "fieldObservations": []
+    },
+    {
+      "id": "mustelid-ferret",
+      "sectionId": "stealthy-half",
+      "parentId": "predator-mustelids",
+      "name": "Ferret",
+      "scientificName": "Mustela furo",
+      "aliases": [],
+      "entryType": "species",
+      "targetScope": "national_target",
+      "summary": "Mustelid predator; displayed beneath the Mustelids parent target.",
+      "missionRelevance": [
+        "detection",
+        "tracking",
+        "trapping",
+        "control",
+        "eradication"
+      ],
+      "publicationStatus": "verified",
+      "verification": {
+        "status": "verified",
+        "verifiedAgainst": [
+          "Department of Conservation"
+        ],
+        "reviewNote": "Mustelid child."
+      },
+      "media": [],
+      "sources": [
+        {
+          "label": "DOC — community trapping",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/community-trapping/",
+          "authority": "authoritative",
+          "purpose": "Mustelid species"
+        }
+      ],
+      "suggestion": {
+        "submittedByParticipantId": null,
+        "submittedAt": null,
+        "verificationRequired": false
+      },
+      "researchQuestions": [],
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:mustelid-ferret",
+      "observationEnabled": true,
+      "intelligenceStatus": "not_required",
+      "missionEligibility": "eligible",
+      "commentary": [],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "established"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "established"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "established"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "open"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "established"
+        },
+        {
+          "key": "confusion-species",
+          "label": "Confusion species",
+          "status": "open",
+          "note": "Distinguish stoat, weasel and ferret reliably."
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "Mustelid predator; displayed beneath the Mustelids parent target.",
+      "where": "",
+      "why": "Mustelid predator; displayed beneath the Mustelids parent target.",
+      "fieldObservations": []
+    },
+    {
+      "id": "predator-feral-cats",
+      "sectionId": "stealthy-half",
+      "parentId": null,
+      "name": "Feral cats",
+      "scientificName": "Felis catus",
+      "aliases": [],
+      "entryType": "target_group",
+      "targetScope": "national_target",
+      "summary": "Feral cats are included in the current Predator Free 2050 Strategy 2026–2030.",
+      "missionRelevance": [
+        "detection",
+        "monitoring",
+        "control",
+        "eradication"
+      ],
+      "publicationStatus": "verified",
+      "verification": {
+        "status": "verified",
+        "verifiedAgainst": [
+          "Department of Conservation"
+        ],
+        "reviewNote": "Distinguish feral cats from owned companion cats in implementation."
+      },
+      "media": [],
+      "sources": [
+        {
+          "label": "DOC — PF2050 strategic documents",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/our-work/predator-free-2050-strategic-documents/",
+          "authority": "authoritative",
+          "purpose": "Current national target scope"
+        }
+      ],
+      "suggestion": {
+        "submittedByParticipantId": null,
+        "submittedAt": null,
+        "verificationRequired": false
+      },
+      "researchQuestions": [],
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:predator-feral-cats",
+      "observationEnabled": true,
+      "intelligenceStatus": "not_required",
+      "missionEligibility": "eligible",
+      "commentary": [],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "established"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "established"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "established"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "open"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "established"
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "Feral cats are included in the current Predator Free 2050 Strategy 2026–2030.",
+      "where": "",
+      "why": "Feral cats are included in the current Predator Free 2050 Strategy 2026–2030.",
+      "fieldObservations": []
+    },
+    {
+      "id": "weed-wilding-conifers",
+      "sectionId": "quiet-half",
+      "parentId": null,
+      "name": "Wilding conifers",
+      "scientificName": null,
+      "aliases": [
+        "wilding pines"
+      ],
+      "entryType": "weed_group",
+      "targetScope": "ecological_threat",
+      "summary": "Invasive conifers that can permanently alter distinctive New Zealand landscapes.",
+      "missionRelevance": [
+        "identify",
+        "map",
+        "monitor",
+        "control",
+        "restoration-follow-up"
+      ],
+      "publicationStatus": "verified",
+      "verification": {
+        "status": "verified",
+        "verifiedAgainst": [
+          "Department of Conservation"
+        ],
+        "reviewNote": "Initial quiet-half seed; not presented as a PF2050 predator target."
+      },
+      "media": [],
+      "sources": [
+        {
+          "label": "DOC — wilding conifers",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/weeds/weeds-that-pose-serious-threats/wilding-conifers/",
+          "authority": "authoritative",
+          "purpose": "Threat and weed classification"
+        },
+        {
+          "label": "DOC — weeds",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/weeds/",
+          "authority": "authoritative",
+          "purpose": "General invasive-weed context"
+        }
+      ],
+      "suggestion": {
+        "submittedByParticipantId": null,
+        "submittedAt": null,
+        "verificationRequired": false
+      },
+      "researchQuestions": [],
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:weed-wilding-conifers",
+      "observationEnabled": true,
+      "intelligenceStatus": "reviewed",
+      "missionEligibility": "eligible",
+      "commentary": [],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "open"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "established"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "established"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "confusion-species",
+          "label": "Confusion species",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "open"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "established"
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "Invasive conifers that can permanently alter distinctive New Zealand landscapes.",
+      "where": "",
+      "why": "Invasive conifers that can permanently alter distinctive New Zealand landscapes.",
+      "fieldObservations": []
+    },
+    {
+      "id": "intel-mice",
+      "sectionId": "stealthy-half",
+      "name": "Mice",
+      "scientificName": "Mus musculus",
+      "aliases": [],
+      "entryType": "species",
+      "targetScope": "research_intelligence",
+      "summary": "Research and intelligence subject rather than a current PF2050 national target.",
+      "missionRelevance": [
+        "observe",
+        "map",
+        "research"
+      ],
+      "publicationStatus": "verified",
+      "verification": {
+        "status": "verified",
+        "verifiedAgainst": [
+          "DOC"
+        ]
+      },
+      "media": [],
+      "sources": [],
+      "researchQuestions": [
+        "Where are impacts most significant?",
+        "What evidence is missing?"
+      ],
+      "intelligenceStatus": "investigating",
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:intel-mice",
+      "observationEnabled": true,
+      "missionEligibility": "research_only",
+      "suggestion": {
+        "verificationRequired": false
+      },
+      "commentary": [
+        {
+          "id": "mice-commentary-001",
+          "text": "Mice are being noticed in places where their ecological impact is not well documented.",
+          "supporterCount": 7,
+          "evidenceCount": 2,
+          "verificationStatus": "unverified",
+          "localityIds": []
+        },
+        {
+          "id": "mice-commentary-002",
+          "text": "More local observations could help identify where impacts are most significant.",
+          "supporterCount": 14,
+          "evidenceCount": 4,
+          "verificationStatus": "evidence_supported",
+          "localityIds": []
+        }
+      ],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "established"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "established"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "open"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "confusion-species",
+          "label": "Confusion species",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "needs_evidence"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "established"
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "Research and intelligence subject rather than a current PF2050 national target.",
+      "where": "",
+      "why": "Research and intelligence subject rather than a current PF2050 national target.",
+      "fieldObservations": []
+    },
+    {
+      "id": "intel-hedgehogs",
+      "sectionId": "stealthy-half",
+      "name": "Hedgehogs",
+      "scientificName": "Erinaceus europaeus",
+      "aliases": [],
+      "entryType": "species",
+      "targetScope": "research_intelligence",
+      "summary": "Research and intelligence subject with documented ecological impacts.",
+      "missionRelevance": [
+        "observe",
+        "map",
+        "research"
+      ],
+      "publicationStatus": "verified",
+      "verification": {
+        "status": "verified",
+        "verifiedAgainst": [
+          "DOC"
+        ]
+      },
+      "media": [],
+      "sources": [],
+      "researchQuestions": [
+        "Where are impacts most significant?",
+        "What evidence is missing?"
+      ],
+      "intelligenceStatus": "investigating",
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:intel-hedgehogs",
+      "observationEnabled": true,
+      "missionEligibility": "research_only",
+      "suggestion": {
+        "verificationRequired": false
+      },
+      "commentary": [],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "established"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "established"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "open"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "confusion-species",
+          "label": "Confusion species",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "needs_evidence"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "established"
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "Research and intelligence subject with documented ecological impacts.",
+      "where": "",
+      "why": "Research and intelligence subject with documented ecological impacts.",
+      "fieldObservations": []
+    },
+    {
+      "id": "intel-german-wasp",
+      "sectionId": "stealthy-half",
+      "name": "German wasp",
+      "scientificName": "Vespula germanica",
+      "aliases": [],
+      "entryType": "species",
+      "targetScope": "research_intelligence",
+      "summary": "Research subject for ecological impact and distribution.",
+      "missionRelevance": [
+        "observe",
+        "map",
+        "research"
+      ],
+      "publicationStatus": "verified",
+      "verification": {
+        "status": "verified",
+        "verifiedAgainst": [
+          "DOC"
+        ]
+      },
+      "media": [],
+      "sources": [],
+      "researchQuestions": [
+        "Where are populations concentrated?"
+      ],
+      "intelligenceStatus": "investigating",
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:intel-german-wasp",
+      "observationEnabled": true,
+      "missionEligibility": "research_only",
+      "suggestion": {
+        "verificationRequired": false
+      },
+      "commentary": [],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "established"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "established"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "open"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "confusion-species",
+          "label": "Confusion species",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "needs_evidence"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "established"
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "Research subject for ecological impact and distribution.",
+      "where": "",
+      "why": "Research subject for ecological impact and distribution.",
+      "fieldObservations": []
+    },
+    {
+      "id": "intel-common-wasp",
+      "sectionId": "stealthy-half",
+      "name": "Common wasp",
+      "scientificName": "Vespula vulgaris",
+      "aliases": [],
+      "entryType": "species",
+      "targetScope": "research_intelligence",
+      "summary": "Research subject for ecological impact and distribution.",
+      "missionRelevance": [
+        "observe",
+        "map",
+        "research"
+      ],
+      "publicationStatus": "verified",
+      "verification": {
+        "status": "verified",
+        "verifiedAgainst": [
+          "DOC"
+        ]
+      },
+      "media": [],
+      "sources": [],
+      "researchQuestions": [
+        "Where are populations concentrated?"
+      ],
+      "intelligenceStatus": "investigating",
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:intel-common-wasp",
+      "observationEnabled": true,
+      "missionEligibility": "research_only",
+      "suggestion": {
+        "verificationRequired": false
+      },
+      "commentary": [],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "established"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "established"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "open"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "confusion-species",
+          "label": "Confusion species",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "needs_evidence"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "established"
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "Research subject for ecological impact and distribution.",
+      "where": "",
+      "why": "Research subject for ecological impact and distribution.",
+      "fieldObservations": []
+    },
+    {
+      "id": "intel-plague-skink",
+      "sectionId": "stealthy-half",
+      "name": "Plague skink",
+      "scientificName": "Lampropholis delicata",
+      "aliases": [
+        "Rainbow skink"
+      ],
+      "entryType": "species",
+      "targetScope": "research_intelligence",
+      "summary": "Research subject for distribution and ecological impact.",
+      "missionRelevance": [
+        "observe",
+        "map",
+        "research"
+      ],
+      "publicationStatus": "verified",
+      "verification": {
+        "status": "verified",
+        "verifiedAgainst": [
+          "DOC"
+        ]
+      },
+      "media": [],
+      "sources": [],
+      "researchQuestions": [
+        "Where is its range expanding?",
+        "What impacts are being observed?"
+      ],
+      "intelligenceStatus": "investigating",
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:intel-plague-skink",
+      "observationEnabled": true,
+      "missionEligibility": "research_only",
+      "suggestion": {
+        "verificationRequired": false
+      },
+      "commentary": [],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "established"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "established"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "open"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "confusion-species",
+          "label": "Confusion species",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "needs_evidence"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "established"
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "Research subject for distribution and ecological impact.",
+      "where": "",
+      "why": "Research subject for distribution and ecological impact.",
+      "fieldObservations": []
+    },
+    {
+      "id": "candidate-introduced-cockroaches",
+      "sectionId": "stealthy-half",
+      "name": "Introduced cockroaches",
+      "scientificName": null,
+      "aliases": [],
+      "entryType": "pest_class",
+      "targetScope": "research_intelligence",
+      "summary": "Candidate topic requiring species-level ecological assessment.",
+      "missionRelevance": [
+        "identify",
+        "observe",
+        "research"
+      ],
+      "publicationStatus": "candidate",
+      "verification": {
+        "status": "pending",
+        "verifiedAgainst": []
+      },
+      "media": [],
+      "sources": [],
+      "researchQuestions": [
+        "Which introduced species merit ecological attention?"
+      ],
+      "intelligenceStatus": "proposed",
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:candidate-introduced-cockroaches",
+      "observationEnabled": false,
+      "missionEligibility": "research_only",
+      "suggestion": {
+        "verificationRequired": true
+      },
+      "commentary": [],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "open"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "open"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "open"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "confusion-species",
+          "label": "Confusion species",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "needs_evidence"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "open"
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "Candidate topic requiring species-level ecological assessment.",
+      "where": "",
+      "why": "Candidate topic requiring species-level ecological assessment.",
+      "fieldObservations": []
+    },
+    {
+      "id": "threat-invasive-freshwater-clam",
+      "sectionId": "stealthy-half",
+      "parentId": null,
+      "name": "Invasive freshwater clam",
+      "scientificName": "Corbicula fluminea",
+      "aliases": [
+        "Gold clam",
+        "Freshwater gold clam",
+        "Asian clam"
+      ],
+      "entryType": "species",
+      "targetScope": "ecological_threat",
+      "summary": "Invasive freshwater species threatening aquatic ecosystems.",
+      "missionRelevance": [
+        "identify",
+        "observe",
+        "map",
+        "report",
+        "research"
+      ],
+      "publicationStatus": "verified",
+      "verification": {
+        "status": "verified",
+        "verifiedAgainst": [
+          "Department of Conservation"
+        ],
+        "reviewNote": "Initial quiet-half seed; not presented as a PF2050 predator target."
+      },
+      "media": [],
+      "sources": [
+        {
+          "label": "DOC — wilding conifers",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/weeds/weeds-that-pose-serious-threats/wilding-conifers/",
+          "authority": "authoritative",
+          "purpose": "Threat and weed classification"
+        },
+        {
+          "label": "DOC — weeds",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/weeds/",
+          "authority": "authoritative",
+          "purpose": "General invasive-weed context"
+        }
+      ],
+      "suggestion": {
+        "submittedByParticipantId": null,
+        "submittedAt": null,
+        "verificationRequired": false
+      },
+      "researchQuestions": [
+        "Where is its range expanding?"
+      ],
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:threat-invasive-freshwater-clam",
+      "observationEnabled": true,
+      "intelligenceStatus": "reviewed",
+      "missionEligibility": "eligible",
+      "commentary": [],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "established"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "established"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "established"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "needs_evidence"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "established"
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "Invasive freshwater species threatening aquatic ecosystems.",
+      "where": "",
+      "why": "Invasive freshwater species threatening aquatic ecosystems.",
+      "fieldObservations": []
+    },
+    {
+      "id": "threat-koi-carp",
+      "sectionId": "stealthy-half",
+      "parentId": null,
+      "name": "Koi carp",
+      "scientificName": "Cyprinus carpio",
+      "aliases": [],
+      "entryType": "species",
+      "targetScope": "ecological_threat",
+      "summary": "Invasive freshwater fish degrading aquatic habitat and water quality.",
+      "missionRelevance": [
+        "identify",
+        "observe",
+        "map",
+        "report",
+        "research"
+      ],
+      "publicationStatus": "verified",
+      "verification": {
+        "status": "verified",
+        "verifiedAgainst": [
+          "Department of Conservation"
+        ],
+        "reviewNote": "Initial quiet-half seed; not presented as a PF2050 predator target."
+      },
+      "media": [],
+      "sources": [
+        {
+          "label": "DOC — wilding conifers",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/weeds/weeds-that-pose-serious-threats/wilding-conifers/",
+          "authority": "authoritative",
+          "purpose": "Threat and weed classification"
+        },
+        {
+          "label": "DOC — weeds",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/weeds/",
+          "authority": "authoritative",
+          "purpose": "General invasive-weed context"
+        }
+      ],
+      "suggestion": {
+        "submittedByParticipantId": null,
+        "submittedAt": null,
+        "verificationRequired": false
+      },
+      "researchQuestions": [
+        "Where are populations expanding?"
+      ],
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:threat-koi-carp",
+      "observationEnabled": true,
+      "intelligenceStatus": "reviewed",
+      "missionEligibility": "eligible",
+      "commentary": [],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "established"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "established"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "established"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "needs_evidence"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "established"
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "Invasive freshwater fish degrading aquatic habitat and water quality.",
+      "where": "",
+      "why": "Invasive freshwater fish degrading aquatic habitat and water quality.",
+      "fieldObservations": []
+    },
+    {
+      "id": "threat-brown-bullhead-catfish",
+      "sectionId": "stealthy-half",
+      "parentId": null,
+      "name": "Brown bullhead catfish",
+      "scientificName": "Ameiurus nebulosus",
+      "aliases": [
+        "Catfish"
+      ],
+      "entryType": "species",
+      "targetScope": "ecological_threat",
+      "summary": "Introduced freshwater fish with ecological and distribution concerns.",
+      "missionRelevance": [
+        "identify",
+        "observe",
+        "map",
+        "report",
+        "research"
+      ],
+      "publicationStatus": "verified",
+      "verification": {
+        "status": "verified",
+        "verifiedAgainst": [
+          "Department of Conservation"
+        ],
+        "reviewNote": "Initial quiet-half seed; not presented as a PF2050 predator target."
+      },
+      "media": [],
+      "sources": [
+        {
+          "label": "DOC — wilding conifers",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/weeds/weeds-that-pose-serious-threats/wilding-conifers/",
+          "authority": "authoritative",
+          "purpose": "Threat and weed classification"
+        },
+        {
+          "label": "DOC — weeds",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/weeds/",
+          "authority": "authoritative",
+          "purpose": "General invasive-weed context"
+        }
+      ],
+      "suggestion": {
+        "submittedByParticipantId": null,
+        "submittedAt": null,
+        "verificationRequired": false
+      },
+      "researchQuestions": [
+        "Where is its distribution expanding?"
+      ],
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:threat-brown-bullhead-catfish",
+      "observationEnabled": true,
+      "intelligenceStatus": "reviewed",
+      "missionEligibility": "eligible",
+      "commentary": [],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "established"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "established"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "established"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "needs_evidence"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "established"
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "Introduced freshwater fish with ecological and distribution concerns.",
+      "where": "",
+      "why": "Introduced freshwater fish with ecological and distribution concerns.",
+      "fieldObservations": []
+    },
+    {
+      "id": "weed-old-mans-beard",
+      "sectionId": "quiet-half",
+      "parentId": null,
+      "name": "Old man’s beard",
+      "scientificName": "Clematis vitalba",
+      "aliases": [],
+      "entryType": "weed_group",
+      "targetScope": "ecological_threat",
+      "summary": "Invasive climbing plant that can smother native vegetation.",
+      "missionRelevance": [
+        "identify",
+        "observe",
+        "map",
+        "report",
+        "research"
+      ],
+      "publicationStatus": "verified",
+      "verification": {
+        "status": "verified",
+        "verifiedAgainst": [
+          "Department of Conservation"
+        ],
+        "reviewNote": "Initial quiet-half seed; not presented as a PF2050 predator target."
+      },
+      "media": [],
+      "sources": [
+        {
+          "label": "DOC — wilding conifers",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/weeds/weeds-that-pose-serious-threats/wilding-conifers/",
+          "authority": "authoritative",
+          "purpose": "Threat and weed classification"
+        },
+        {
+          "label": "DOC — weeds",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/weeds/",
+          "authority": "authoritative",
+          "purpose": "General invasive-weed context"
+        }
+      ],
+      "suggestion": {
+        "submittedByParticipantId": null,
+        "submittedAt": null,
+        "verificationRequired": false
+      },
+      "researchQuestions": [
+        "Where are infestations expanding?"
+      ],
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:weed-old-mans-beard",
+      "observationEnabled": true,
+      "intelligenceStatus": "reviewed",
+      "missionEligibility": "eligible",
+      "commentary": [],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "established"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "established"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "established"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "confusion-species",
+          "label": "Confusion species",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "needs_evidence"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "established"
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "Invasive climbing plant that can smother native vegetation.",
+      "where": "",
+      "why": "Invasive climbing plant that can smother native vegetation.",
+      "fieldObservations": []
+    },
+    {
+      "id": "weed-tradescantia",
+      "sectionId": "quiet-half",
+      "parentId": null,
+      "name": "Tradescantia",
+      "scientificName": "Tradescantia fluminensis",
+      "aliases": [
+        "Wandering willie"
+      ],
+      "entryType": "weed_group",
+      "targetScope": "ecological_threat",
+      "summary": "Invasive groundcover that suppresses native forest-floor regeneration.",
+      "missionRelevance": [
+        "identify",
+        "observe",
+        "map",
+        "report",
+        "research"
+      ],
+      "publicationStatus": "verified",
+      "verification": {
+        "status": "verified",
+        "verifiedAgainst": [
+          "Department of Conservation"
+        ],
+        "reviewNote": "Initial quiet-half seed; not presented as a PF2050 predator target."
+      },
+      "media": [],
+      "sources": [
+        {
+          "label": "DOC — wilding conifers",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/weeds/weeds-that-pose-serious-threats/wilding-conifers/",
+          "authority": "authoritative",
+          "purpose": "Threat and weed classification"
+        },
+        {
+          "label": "DOC — weeds",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/weeds/",
+          "authority": "authoritative",
+          "purpose": "General invasive-weed context"
+        }
+      ],
+      "suggestion": {
+        "submittedByParticipantId": null,
+        "submittedAt": null,
+        "verificationRequired": false
+      },
+      "researchQuestions": [
+        "Where are dense infestations suppressing regeneration?"
+      ],
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:weed-tradescantia",
+      "observationEnabled": true,
+      "intelligenceStatus": "reviewed",
+      "missionEligibility": "eligible",
+      "commentary": [],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "established"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "established"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "established"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "confusion-species",
+          "label": "Confusion species",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "needs_evidence"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "established"
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "Invasive groundcover that suppresses native forest-floor regeneration.",
+      "where": "",
+      "why": "Invasive groundcover that suppresses native forest-floor regeneration.",
+      "fieldObservations": []
+    },
+    {
+      "id": "weed-wild-ginger",
+      "sectionId": "quiet-half",
+      "parentId": null,
+      "name": "Wild ginger",
+      "scientificName": null,
+      "aliases": [
+        "Kahili ginger",
+        "Yellow ginger"
+      ],
+      "entryType": "weed_group",
+      "targetScope": "ecological_threat",
+      "summary": "Invasive ginger that forms dense stands and displaces native vegetation.",
+      "missionRelevance": [
+        "identify",
+        "observe",
+        "map",
+        "report",
+        "research"
+      ],
+      "publicationStatus": "verified",
+      "verification": {
+        "status": "verified",
+        "verifiedAgainst": [
+          "Department of Conservation"
+        ],
+        "reviewNote": "Initial quiet-half seed; not presented as a PF2050 predator target."
+      },
+      "media": [],
+      "sources": [
+        {
+          "label": "DOC — wilding conifers",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/weeds/weeds-that-pose-serious-threats/wilding-conifers/",
+          "authority": "authoritative",
+          "purpose": "Threat and weed classification"
+        },
+        {
+          "label": "DOC — weeds",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/weeds/",
+          "authority": "authoritative",
+          "purpose": "General invasive-weed context"
+        }
+      ],
+      "suggestion": {
+        "submittedByParticipantId": null,
+        "submittedAt": null,
+        "verificationRequired": false
+      },
+      "researchQuestions": [
+        "Where are infestations expanding?"
+      ],
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:weed-wild-ginger",
+      "observationEnabled": true,
+      "intelligenceStatus": "reviewed",
+      "missionEligibility": "eligible",
+      "commentary": [],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "open"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "established"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "established"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "confusion-species",
+          "label": "Confusion species",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "needs_evidence"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "established"
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "Invasive ginger that forms dense stands and displaces native vegetation.",
+      "where": "",
+      "why": "Invasive ginger that forms dense stands and displaces native vegetation.",
+      "fieldObservations": []
+    },
+    {
+      "id": "weed-chilean-rhubarb",
+      "sectionId": "quiet-half",
+      "parentId": null,
+      "name": "Chilean rhubarb",
+      "scientificName": "Gunnera tinctoria",
+      "aliases": [
+        "Gunnera"
+      ],
+      "entryType": "weed_group",
+      "targetScope": "ecological_threat",
+      "summary": "Invasive plant capable of forming dense stands and displacing native vegetation.",
+      "missionRelevance": [
+        "identify",
+        "observe",
+        "map",
+        "report",
+        "research"
+      ],
+      "publicationStatus": "verified",
+      "verification": {
+        "status": "verified",
+        "verifiedAgainst": [
+          "Department of Conservation"
+        ],
+        "reviewNote": "Initial quiet-half seed; not presented as a PF2050 predator target."
+      },
+      "media": [],
+      "sources": [
+        {
+          "label": "DOC — wilding conifers",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/weeds/weeds-that-pose-serious-threats/wilding-conifers/",
+          "authority": "authoritative",
+          "purpose": "Threat and weed classification"
+        },
+        {
+          "label": "DOC — weeds",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/weeds/",
+          "authority": "authoritative",
+          "purpose": "General invasive-weed context"
+        }
+      ],
+      "suggestion": {
+        "submittedByParticipantId": null,
+        "submittedAt": null,
+        "verificationRequired": false
+      },
+      "researchQuestions": [
+        "Where are infestations establishing or expanding?"
+      ],
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:weed-chilean-rhubarb",
+      "observationEnabled": true,
+      "intelligenceStatus": "reviewed",
+      "missionEligibility": "eligible",
+      "commentary": [],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "established"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "established"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "established"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "confusion-species",
+          "label": "Confusion species",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "needs_evidence"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "established"
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "Invasive plant capable of forming dense stands and displacing native vegetation.",
+      "where": "",
+      "why": "Invasive plant capable of forming dense stands and displacing native vegetation.",
+      "fieldObservations": []
+    },
+    {
+      "id": "rat-ship",
+      "sectionId": "stealthy-half",
+      "parentId": "predator-rats",
+      "name": "Ship rat",
+      "scientificName": "Rattus rattus",
+      "aliases": [
+        "Black rat"
+      ],
+      "entryType": "species",
+      "targetScope": "national_target",
+      "summary": "One of the rat species represented by the national Rats target.",
+      "missionRelevance": [
+        "detection",
+        "monitoring",
+        "control",
+        "eradication"
+      ],
+      "publicationStatus": "verified",
+      "verification": {
+        "status": "verified",
+        "verifiedAgainst": [
+          "Department of Conservation"
+        ],
+        "reviewNote": "Species-level children can be added after source verification."
+      },
+      "media": [],
+      "sources": [
+        {
+          "label": "DOC — Predator Free 2050",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/what-is-predator-free/",
+          "authority": "authoritative",
+          "purpose": "National target scope"
+        },
+        {
+          "label": "DOC — animal pests",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/animal-pests-and-threats/",
+          "authority": "authoritative",
+          "purpose": "Threat context"
+        }
+      ],
+      "suggestion": {
+        "submittedByParticipantId": null,
+        "submittedAt": null,
+        "verificationRequired": false
+      },
+      "researchQuestions": [
+        "How can ship rats be reliably distinguished from other rats?"
+      ],
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:rat-ship",
+      "observationEnabled": true,
+      "intelligenceStatus": "not_required",
+      "missionEligibility": "eligible",
+      "commentary": [],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "open"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "established"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "established"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "open"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "established"
+        },
+        {
+          "key": "confusion-species",
+          "label": "Confusion species",
+          "status": "open"
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "One of the rat species represented by the national Rats target.",
+      "where": "",
+      "why": "One of the rat species represented by the national Rats target.",
+      "fieldObservations": []
+    },
+    {
+      "id": "rat-norway",
+      "sectionId": "stealthy-half",
+      "parentId": "predator-rats",
+      "name": "Norway rat",
+      "scientificName": "Rattus norvegicus",
+      "aliases": [
+        "Brown rat"
+      ],
+      "entryType": "species",
+      "targetScope": "national_target",
+      "summary": "One of the rat species represented by the national Rats target.",
+      "missionRelevance": [
+        "detection",
+        "monitoring",
+        "control",
+        "eradication"
+      ],
+      "publicationStatus": "verified",
+      "verification": {
+        "status": "verified",
+        "verifiedAgainst": [
+          "Department of Conservation"
+        ],
+        "reviewNote": "Species-level children can be added after source verification."
+      },
+      "media": [],
+      "sources": [
+        {
+          "label": "DOC — Predator Free 2050",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/what-is-predator-free/",
+          "authority": "authoritative",
+          "purpose": "National target scope"
+        },
+        {
+          "label": "DOC — animal pests",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/animal-pests-and-threats/",
+          "authority": "authoritative",
+          "purpose": "Threat context"
+        }
+      ],
+      "suggestion": {
+        "submittedByParticipantId": null,
+        "submittedAt": null,
+        "verificationRequired": false
+      },
+      "researchQuestions": [
+        "How can Norway rats be reliably distinguished from other rats?"
+      ],
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:rat-norway",
+      "observationEnabled": true,
+      "intelligenceStatus": "not_required",
+      "missionEligibility": "eligible",
+      "commentary": [],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "open"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "established"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "established"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "open"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "established"
+        },
+        {
+          "key": "confusion-species",
+          "label": "Confusion species",
+          "status": "open"
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "One of the rat species represented by the national Rats target.",
+      "where": "",
+      "why": "One of the rat species represented by the national Rats target.",
+      "fieldObservations": []
+    },
+    {
+      "id": "rat-kiore",
+      "sectionId": "stealthy-half",
+      "parentId": "predator-rats",
+      "name": "Kiore",
+      "scientificName": "Rattus exulans",
+      "aliases": [
+        "Pacific rat"
+      ],
+      "entryType": "species",
+      "targetScope": "national_target",
+      "summary": "One of the rat species represented by the national Rats target.",
+      "missionRelevance": [
+        "detection",
+        "monitoring",
+        "control",
+        "eradication"
+      ],
+      "publicationStatus": "verified",
+      "verification": {
+        "status": "verified",
+        "verifiedAgainst": [
+          "Department of Conservation"
+        ],
+        "reviewNote": "Species-level children can be added after source verification."
+      },
+      "media": [],
+      "sources": [
+        {
+          "label": "DOC — Predator Free 2050",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/predator-free-2050/what-is-predator-free/",
+          "authority": "authoritative",
+          "purpose": "National target scope"
+        },
+        {
+          "label": "DOC — animal pests",
+          "url": "https://www.doc.govt.nz/nature/pests-and-threats/animal-pests-and-threats/",
+          "authority": "authoritative",
+          "purpose": "Threat context"
+        }
+      ],
+      "suggestion": {
+        "submittedByParticipantId": null,
+        "submittedAt": null,
+        "verificationRequired": false
+      },
+      "researchQuestions": [
+        "How can kiore be reliably distinguished from other rats?"
+      ],
+      "discussionEnabled": true,
+      "discussionTopicId": "hit-list:rat-kiore",
+      "observationEnabled": true,
+      "intelligenceStatus": "not_required",
+      "missionEligibility": "eligible",
+      "commentary": [],
+      "knowledgeComponents": [
+        {
+          "key": "identification",
+          "label": "Identification",
+          "status": "open"
+        },
+        {
+          "key": "nz-status",
+          "label": "NZ status",
+          "status": "established"
+        },
+        {
+          "key": "ecological-impact",
+          "label": "Ecological impact",
+          "status": "established"
+        },
+        {
+          "key": "distribution",
+          "label": "Distribution",
+          "status": "open"
+        },
+        {
+          "key": "visual-clues",
+          "label": "Visual clues",
+          "status": "open"
+        },
+        {
+          "key": "regional-intelligence",
+          "label": "Regional intelligence",
+          "status": "open"
+        },
+        {
+          "key": "sources",
+          "label": "Sources",
+          "status": "established"
+        },
+        {
+          "key": "confusion-species",
+          "label": "Confusion species",
+          "status": "open"
+        }
+      ],
+      "corePurpose": {
+        "informationPage": true,
+        "intelligenceGapMap": true,
+        "onlineMissionSource": true
+      },
+      "what": "One of the rat species represented by the national Rats target.",
+      "where": "",
+      "why": "One of the rat species represented by the national Rats target.",
+      "fieldObservations": []
+    }
+  ]
+}

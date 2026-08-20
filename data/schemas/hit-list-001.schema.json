@@ -1,0 +1,296 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://exgames.nz/schemas/hit-list-001.schema.json",
+  "title": "Ex Games Hit List",
+  "type": "object",
+  "required": [
+    "schema",
+    "sections",
+    "entries"
+  ],
+  "properties": {
+    "schema": {
+      "const": "EXG-HIT-LIST-001"
+    },
+    "sections": {
+      "type": "array"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "sectionId": {
+            "type": "string"
+          },
+          "parentId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "name": {
+            "type": "string"
+          },
+          "scientificName": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "entryType": {
+            "enum": [
+              "target_group",
+              "species",
+              "pest_class",
+              "weed_group"
+            ]
+          },
+          "targetScope": {
+            "enum": [
+              "national_target",
+              "ecological_threat",
+              "research_intelligence"
+            ]
+          },
+          "summary": {
+            "type": "string"
+          },
+          "missionRelevance": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "publicationStatus": {
+            "enum": [
+              "verified",
+              "candidate",
+              "retired"
+            ]
+          },
+          "researchQuestions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "intelligenceStatus": {
+            "enum": [
+              "not_required",
+              "proposed",
+              "investigating",
+              "evidence_supported",
+              "reviewed"
+            ]
+          },
+          "discussionEnabled": {
+            "type": "boolean"
+          },
+          "discussionTopicId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "observationEnabled": {
+            "type": "boolean"
+          },
+          "missionEligibility": {
+            "enum": [
+              "not_assessed",
+              "research_only",
+              "eligible",
+              "not_eligible"
+            ]
+          },
+          "verification": {
+            "type": "object"
+          },
+          "media": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "role",
+                "url",
+                "usageRights"
+              ],
+              "properties": {
+                "role": {
+                  "enum": [
+                    "subject",
+                    "identification",
+                    "sign",
+                    "impact",
+                    "comparison",
+                    "habitat"
+                  ]
+                },
+                "url": {
+                  "type": "string"
+                },
+                "caption": {
+                  "type": "string"
+                },
+                "credit": {
+                  "type": "string"
+                },
+                "usageRights": {
+                  "type": "string"
+                },
+                "sourceUrl": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "sources": {
+            "type": "array"
+          },
+          "suggestion": {
+            "type": "object"
+          },
+          "commentary": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "text",
+                "supporterCount",
+                "evidenceCount",
+                "verificationStatus"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "supporterCount": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "evidenceCount": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "verificationStatus": {
+                  "enum": [
+                    "unverified",
+                    "evidence_supported",
+                    "verified"
+                  ]
+                },
+                "localityIds": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "what": {
+            "type": "string"
+          },
+          "where": {
+            "type": "string"
+          },
+          "why": {
+            "type": "string"
+          },
+          "corePurpose": {
+            "type": "object"
+          },
+          "fieldObservations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "observationType",
+                "summary",
+                "evidenceCount",
+                "verificationStatus"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "observationType": {
+                  "enum": [
+                    "sighting",
+                    "sign",
+                    "behaviour",
+                    "impact",
+                    "other"
+                  ]
+                },
+                "summary": {
+                  "type": "string"
+                },
+                "locality": {
+                  "type": "string"
+                },
+                "observedAt": {
+                  "type": "string"
+                },
+                "participantId": {
+                  "type": "string"
+                },
+                "evidenceCount": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "verificationStatus": {
+                  "enum": [
+                    "unverified",
+                    "evidence_supported",
+                    "verified"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "required": [
+          "id",
+          "sectionId",
+          "name",
+          "entryType",
+          "targetScope",
+          "summary",
+          "missionRelevance",
+          "publicationStatus",
+          "verification",
+          "media",
+          "sources",
+          "researchQuestions",
+          "intelligenceStatus",
+          "discussionEnabled",
+          "observationEnabled",
+          "missionEligibility",
+          "suggestion",
+          "commentary",
+          "what",
+          "where",
+          "why",
+          "corePurpose",
+          "fieldObservations"
+        ]
+      }
+    }
+  }
+}

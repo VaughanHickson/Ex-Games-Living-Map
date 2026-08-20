@@ -1,0 +1,17 @@
+{
+  "package": "EXG-HIT-LIST-STRUCTURES-001",
+  "schema": "EXG-HIT-LIST-001",
+  "files": [
+    "hit-list-001.json",
+    "hit-list-001.schema.json",
+    "hit-list.ts",
+    "README-HIT-LIST-001.md"
+  ],
+  "seedEntryCount": 8,
+  "notes": [
+    "Mustelids are parented above stoat/weasel/ferret.",
+    "Feral cats reflect current DOC PF2050 2026–2030 strategy.",
+    "Wilding conifers are a quiet-half ecological-threat seed, not a PF2050 predator target.",
+    "Participant suggestions require verification before publication."
+  ]
+}

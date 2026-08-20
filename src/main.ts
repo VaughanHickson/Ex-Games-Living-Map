@@ -12,6 +12,12 @@ import {
   loadLocatedParticipants,
 } from './potentialParticipants'
 import { searchParticipants } from './search'
+import type { HitListData } from './hit-list'
+import {
+  knowledgeCompleteness,
+  openKnowledgeTasks,
+  deriveHitListMissionCandidates,
+} from './hit-list'
 import { installLivingWater } from './water/worldWater'
 
 const app = document.querySelector<HTMLDivElement>('#app')
@@ -48,6 +54,24 @@ class FindMeControl implements maplibregl.IControl {
 }
 map.addControl(new FindMeControl(), 'top-left')
 
+class HitListControl implements maplibregl.IControl {
+  private container?: HTMLDivElement
+  onAdd(): HTMLElement {
+    this.container=document.createElement('div')
+    this.container.className='maplibregl-ctrl maplibregl-ctrl-group'
+    const b=document.createElement('button')
+    b.className='ex-games-hit-list'
+    b.type='button'
+    b.textContent='The Hit List'
+    b.setAttribute('aria-label','Open the Ex Games Hit List')
+    this.container.appendChild(b)
+    return this.container
+  }
+  onRemove(){this.container?.remove();this.container=undefined}
+}
+map.addControl(new HitListControl(), 'top-left')
+
+
 map.addControl(
   new maplibregl.NavigationControl({
     showCompass: true,
@@ -64,6 +88,14 @@ participantPanel.className = 'participant-panel'
 participantPanel.hidden = true
 
 app.appendChild(participantPanel)
+
+const hitListDossier = document.createElement('main')
+hitListDossier.className = 'hit-list-dossier'
+hitListDossier.hidden = true
+app.appendChild(hitListDossier)
+
+const hitListData = await fetch('/data/hit-list-001.json')
+  .then(r => r.json()) as HitListData
 let hoveredLocalityId: string | number | undefined
 let activeParticipantLocality: string | undefined
 let participantReturn:
@@ -108,6 +140,166 @@ const getParticipant = (id: string) => {
     : base
 }
 
+const showHitList = () => {
+  participantPanel.hidden=false
+  const sections=hitListData.sections.map(sec => {
+    const rows=hitListData.entries.filter(e =>
+      e.sectionId===sec.id && !e.parentId
+    )
+    return `<section class="hit-list-section">
+      <h2>${sec.label}</h2><p>${sec.description}</p>
+      ${rows.map(e => `<button class="hit-list-entry"
+        data-hit-id="${e.id}">
+        <strong>${e.name}</strong>
+        <small>${e.targetScope.replaceAll('_',' ')}</small>
+        <small>${knowledgeCompleteness(e)}% developed ·
+          ${openKnowledgeTasks(e).length} open tasks</small>
+      </button>`).join('')}
+    </section>`
+  }).join('')
+  participantPanel.innerHTML=`<small>THE HIT LIST</small>
+    <h1>Know. Investigate. Discuss.</h1>${sections}
+    <button class="participant-close">Close</button>`
+}
+
+const hitListSlug = (name: string) =>
+  name.toLowerCase()
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g,'')
+    .replace(/[^a-z0-9]+/g,'-')
+    .replace(/^-|-$/g,'')
+
+const hitListEntryFromPath = () => {
+  const match=location.pathname.match(/^\/hit-list\/([^/]+)\/?$/)
+  if (!match) return undefined
+  return hitListData.entries.find(
+    entry => hitListSlug(entry.name)===match[1]
+  )
+}
+
+const showHitListEntry = (id: string, navigate=true) => {
+  const e=hitListData.entries.find(x => x.id===id)
+  if (!e) return
+  participantPanel.hidden=true
+  hitListDossier.hidden=false
+  const mapEl=document.querySelector<HTMLElement>('#map')
+  if (mapEl) mapEl.hidden=true
+  const path=`/hit-list/${hitListSlug(e.name)}`
+  if (navigate && location.pathname!==path)
+    history.pushState({hitListId:id},'',path)
+  const children=hitListData.entries.filter(x => x.parentId===id)
+  hitListDossier.innerHTML=`
+    <div class="hit-list-dossier-head">
+      <button class="hit-list-back">← The Hit List</button>
+      <div>
+        <small>NZ EX GAMES · THE HIT LIST</small>
+        <h1>${e.name}</h1>
+        <p>${e.summary}</p>
+      </div>
+      <div class="hit-list-dossier-status">
+        <strong>${e.targetScope.replaceAll('_',' ').toUpperCase()}</strong>
+        <span>${knowledgeCompleteness(e)}% developed</span>
+      </div>
+    </div>
+    <h3>VISUAL INTELLIGENCE</h3>
+    <div class="hit-list-visuals">
+      ${e.media.length ? e.media.map(m=>`
+        <figure>
+          <img src="${m.url}" alt="${m.caption ?? e.name}">
+          <figcaption><strong>${m.role}</strong>
+          ${m.caption ? ` · ${m.caption}` : ''}</figcaption>
+        </figure>`).join('') :
+        `<div class="hit-list-visual-gap">
+          <strong>OPEN VISUAL INTELLIGENCE</strong>
+          <span>Subject · identification · signs · impacts ·
+          comparisons · habitat</span>
+        </div>`}
+    </div>
+    <h3>KNOW</h3>
+    <div class="hit-list-know">
+      <div class="hit-list-know__item">
+        <strong>WHAT</strong>${e.what}
+      </div>
+      <div class="hit-list-know__item">
+        <strong>WHERE</strong>${e.where || 'OPEN INTELLIGENCE GAP'}
+      </div>
+      <div class="hit-list-know__item">
+        <strong>WHY</strong>${e.why}
+      </div>
+    </div>
+    ${e.scientificName ? `<p><em>${e.scientificName}</em></p>` : ''}
+    ${children.length ? `
+      <h3>SPECIES IN THIS GROUP</h3>
+      <div class="hit-list-children">
+        ${children.map(c=>`<button class="hit-list-entry"
+          data-hit-id="${c.id}">${c.name}</button>`).join('')}
+      </div>
+    ` : ''}
+    <h3>FIELD OBSERVATIONS</h3>
+    ${e.fieldObservations.length
+      ? e.fieldObservations.map(o =>
+        `<p><strong>${o.observationType.replaceAll('_',' ')}</strong><br>
+        ${o.summary}${o.locality ? ` · ${o.locality}` : ''}</p>`
+      ).join('')
+      : '<p>No field observations recorded yet.</p>'}
+    <h3>INVESTIGATE</h3>
+    <p><strong>${knowledgeCompleteness(e)}% developed</strong> ·
+      ${openKnowledgeTasks(e).length} open tasks</p>
+    <div class="hit-list-missions">
+      <h3>MISSIONS AVAILABLE</h3>
+      ${deriveHitListMissionCandidates(e).map(m=>`
+        <button class="hit-list-mission" data-mission-id="${m.id}">
+          <small>${m.mode.replaceAll('_',' ').toUpperCase()}</small>
+          <strong>${m.title}</strong>
+          <span>Open mission →</span>
+        </button>`).join('')}
+    </div>
+    ${openKnowledgeTasks(e).map(c =>
+      `<p><strong>${c.label}</strong> · ${c.status.replaceAll('_',' ')}</p>`
+    ).join('')}
+    ${e.researchQuestions.map(q=>`<p>${q}</p>`).join('')}
+    <h3>COMMENTARY</h3>
+    ${e.commentary.length
+      ? e.commentary.map(c => `<p><strong>${c.text}</strong> · ${c.supporterCount}</p>`).join('')
+      : `<p>${e.discussionEnabled
+        ? 'Commentary enabled — community layer reserved.'
+        : 'Commentary not enabled.'}</p>`}
+    `
+}
+
+window.addEventListener('popstate',() => {
+  const entry=hitListEntryFromPath()
+  if (entry) {
+    showHitListEntry(entry.id,false)
+    return
+  }
+
+  hitListDossier.hidden=true
+  participantPanel.hidden=true
+  const mapEl=document.querySelector<HTMLElement>('#map')
+  if (mapEl) mapEl.hidden=false
+})
+
+hitListDossier.addEventListener('click',(event) => {
+  const target=event.target as HTMLElement
+  const child=target.closest<HTMLElement>('.hit-list-entry')
+  if (child?.dataset.hitId) {
+    showHitListEntry(child.dataset.hitId)
+    return
+  }
+  if (target.closest('.hit-list-back')) {
+    if (history.length > 1) {
+      history.back()
+    } else {
+      history.replaceState({},'','/')
+      hitListDossier.hidden=true
+      const mapEl=document.querySelector<HTMLElement>('#map')
+      if (mapEl) mapEl.hidden=false
+      showHitList()
+    }
+  }
+})
+
 const showFindMe = () => {
   activeParticipantLocality = undefined
   participantReturn = { kind:'search' }
@@ -129,6 +321,10 @@ const showFindMe = () => {
 
 document.addEventListener("click", (event) => {
   const target = event.target as HTMLElement
+  if (target.closest(".ex-games-hit-list")) {
+    showHitList()
+    return
+  }
   if (target.closest(".ex-games-find-me")) showFindMe()
 })
 
@@ -996,7 +1192,15 @@ participantPanel.addEventListener('input', (event) => {
 
 participantPanel.addEventListener('click', (event) => {
 const target = event.target as HTMLElement
-
+const hit = target.closest<HTMLElement>('.hit-list-entry')
+if (hit?.dataset.hitId) {
+  showHitListEntry(hit.dataset.hitId)
+  return
+}
+if (target.closest('.hit-list-back')) {
+  showHitList()
+  return
+}
 const candidate = target.closest<HTMLElement>(".participant-search-candidate")
 if (candidate?.dataset.id) {
   participantReturn = activeParticipantLocality
@@ -1165,3 +1369,8 @@ if (participantBack) {
   return
 }
 })
+
+const initialHitListEntry=hitListEntryFromPath()
+if (initialHitListEntry) {
+  showHitListEntry(initialHitListEntry.id,false)
+}
