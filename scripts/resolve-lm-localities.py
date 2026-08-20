@@ -20,6 +20,11 @@ REGIONS = {
     "Auckland": "participants-auckland-located-002.json",
     "Waikato Region": "participants-waikato-located-001.json",
     "Bay of Plenty Region": "participants-bay-of-plenty-located-003.json",
+    "Taranaki Region": "participants-taranaki-located-001.json",
+    "Gisborne Region": "participants-gisborne-located-001.json",
+    "Hawke's Bay Region": "participants-hawkes-bay-located-001.json",
+    "Manawatū-Whanganui Region": "participants-manawatu-whanganui-located-001.json",
+    "Wellington Region": "participants-wellington-wairarapa-located-001.json",
 }
 
 # Explicit aliases are deliberately conservative. They only cover obvious
@@ -49,6 +54,10 @@ EXPLICIT_ALIASES = {
         "Atiamuri": "Ātiamuri",
         "Kāwhia": "Kawhia",
         "Cooks Beach/Ferry Landing": "Cooks Beach",
+    },
+    "Gisborne Region": {
+        "Wainui Beach": "Wainui",
+        "Kaiti Beach": "Kaiti",
     },
     "Bay of Plenty Region": {
         "Waihī Beach": "Waihi Beach",
@@ -313,7 +322,7 @@ def main():
                 )
 
     report["overall_resolution_counts_by_locality_value"] = dict(sorted(overall.items()))
-    report_path = REPORTS / "four-region-locality-resolution-001.json"
+    report_path = REPORTS / "nine-region-locality-resolution-001.json"
     report_path.write_text(
         json.dumps(report, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",

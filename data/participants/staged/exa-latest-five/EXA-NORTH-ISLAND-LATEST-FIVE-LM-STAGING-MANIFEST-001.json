@@ -1,0 +1,52 @@
+{
+  "batch": "NI-LATEST-FIVE-001",
+  "source_file": "EXA-NORTH-ISLAND-LATEST-FIVE-ENHANCED-LM-STAGING-001.csv",
+  "enhanced_reservoir_count": 2411,
+  "staged_count": 1711,
+  "held_count": 700,
+  "policy": "Tier 1 or Tier 2 candidate with existing locality evidence",
+  "coordinate_policy": "No coordinates inferred or invented. Resolve against authoritative NZ locality/boundary data in the next pass.",
+  "participant_status_policy": "All records remain discovered/unverified; staging does not imply participation or confirmation.",
+  "regions": [
+    {
+      "region": "Gisborne / Tairāwhiti",
+      "enhanced_candidates": 354,
+      "staged_for_locality_resolution": 267,
+      "held_for_later_review": 87,
+      "tier_1_staged": 53,
+      "tier_2_staged": 214
+    },
+    {
+      "region": "Hawke's Bay",
+      "enhanced_candidates": 440,
+      "staged_for_locality_resolution": 268,
+      "held_for_later_review": 172,
+      "tier_1_staged": 42,
+      "tier_2_staged": 226
+    },
+    {
+      "region": "Manawatū–Whanganui",
+      "enhanced_candidates": 499,
+      "staged_for_locality_resolution": 356,
+      "held_for_later_review": 143,
+      "tier_1_staged": 70,
+      "tier_2_staged": 286
+    },
+    {
+      "region": "Taranaki",
+      "enhanced_candidates": 489,
+      "staged_for_locality_resolution": 362,
+      "held_for_later_review": 127,
+      "tier_1_staged": 85,
+      "tier_2_staged": 277
+    },
+    {
+      "region": "Wellington–Wairarapa",
+      "enhanced_candidates": 629,
+      "staged_for_locality_resolution": 458,
+      "held_for_later_review": 171,
+      "tier_1_staged": 159,
+      "tier_2_staged": 299
+    }
+  ]
+}

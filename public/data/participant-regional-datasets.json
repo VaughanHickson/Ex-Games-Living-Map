@@ -15,6 +15,26 @@
     {
       "region": "Northland",
       "path": "/data/participants-northland-located-002.json"
+    },
+    {
+      "region": "Taranaki Region",
+      "path": "/data/participants-taranaki-located-001-resolved-001.json"
+    },
+    {
+      "region": "Gisborne Region",
+      "path": "/data/participants-gisborne-located-001-resolved-001.json"
+    },
+    {
+      "region": "Hawke's Bay Region",
+      "path": "/data/participants-hawkes-bay-located-001-resolved-001.json"
+    },
+    {
+      "region": "Manawatū-Whanganui Region",
+      "path": "/data/participants-manawatu-whanganui-located-001-resolved-001.json"
+    },
+    {
+      "region": "Wellington Region",
+      "path": "/data/participants-wellington-wairarapa-located-001-resolved-001.json"
     }
   ]
 }

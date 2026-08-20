@@ -13,10 +13,14 @@ def slug(text):
     return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", text.lower())).strip("-")
 
 def source_urls(values):
+    if isinstance(values, str):
+        values = [values]
     out = []
     for value in values or []:
         if isinstance(value, str):
-            out.append(value)
+            value = value.strip()
+            if value:
+                out.append(value)
         elif isinstance(value, dict):
             for key in ("url", "source_url", "href"):
                 if value.get(key):

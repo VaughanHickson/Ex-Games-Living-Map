@@ -66,10 +66,16 @@ participantPanel.hidden = true
 app.appendChild(participantPanel)
 let hoveredLocalityId: string | number | undefined
 let activeParticipantLocality: string | undefined
+let participantReturn:
+  | { kind: 'search' }
+  | { kind: 'locality'; locality: string }
+  | undefined
 let discoveredParticipants = [...locatedParticipants]
 
 const claimedParticipants = new Set<string>()
 const participantEdits = new Map<string, Record<string, string>>()
+const participantSelectedLocality = new Map<string, string>()
+let availableLocalities: { name: string; region: string }[] = []
 const verificationContacts = new Map<string, { email?: string; mobile?: string }>()
 const verificationTargets = new Map<string, string>()
 
@@ -104,6 +110,7 @@ const getParticipant = (id: string) => {
 
 const showFindMe = () => {
   activeParticipantLocality = undefined
+  participantReturn = { kind:'search' }
   participantPanel.hidden = false
   participantPanel.innerHTML = `
     <div class="participant-panel__head">
@@ -130,6 +137,7 @@ const showParticipants = (localityName: string) => {
     (item) => item.locality === localityName,
   )
   activeParticipantLocality = localityName
+  participantReturn = { kind:'locality', locality:localityName }
   participantPanel.hidden = false
   participantPanel.innerHTML = `
     <div class="participant-panel__head">
@@ -165,7 +173,9 @@ const openSearchMatch = (name: string, locality?: string) => {
   const match = result.candidates[0]
   if (!match) return result
 
-  activeParticipantLocality = match.participant.locality
+  participantReturn = locality
+    ? { kind: 'locality', locality }
+    : { kind: 'search' }
   showParticipant(match.participant.id)
 
   return result
@@ -176,7 +186,11 @@ const showParticipant = (id: string) => {
   if (!p) return
 
   participantPanel.innerHTML = `
-    <button class="participant-back">← ${activeParticipantLocality ?? p.locality} participants</button>
+    <button class="participant-edit-back" data-id="${p.id}">${
+      participantReturn?.kind === 'search'
+        ? '← Back to search'
+        : `← ${participantReturn?.locality ?? p.locality} participants`
+    }</button>
     <small>${p.type.toUpperCase()}</small>
     <h2>${p.name}</h2>
     <p>Review and adjust your information before verifying this profile.</p>
@@ -186,16 +200,60 @@ const showParticipant = (id: string) => {
     <label>Activities<input name="activities" value="${p.activities.join(', ')}"></label>
     <label>Detail<textarea name="detail">${p.detail ?? ''}</textarea></label>
 <label>Website<input name="website" value="${p.website ?? ''}"></label>
+    <label>Living Map locality
+      <select name="claimed-locality">
+        ${availableLocalities
+          .filter(x => x.region === p.region)
+          .map(x => `<option value="${x.name}" ${
+            x.name === (participantSelectedLocality.get(id) ?? p.locality)
+              ? 'selected'
+              : ''
+          }>${x.name}</option>`).join('')}
+      </select>
+    </label>
     <small>Change, add or remove anything before continuing.</small>
     <button class="participant-profile-action" data-id="${p.id}">${p.profileClaimed || claimedParticipants.has(p.id) ? 'Save updates' : 'Verify profile'}</button>
   `
 }
 
+const showLocalitySelection = (id: string) => {
+  const p = getParticipant(id)
+  if (!p) return
+  const selected = participantSelectedLocality.get(id) ?? p.locality
+  participantPanel.innerHTML = `
+    <small>MAP LOCATION</small>
+    <h2>Where should this profile appear?</h2>
+    <p>Choose a suburb or locality deliberately. You can change it later.</p>
+    <label>Locality
+      <select name="claimed-locality">
+        ${availableLocalities
+          .filter(x => x.region === p.region)
+          .map(x => `<option value="${x.name}" ${
+            x.name === selected ? 'selected' : ''
+          }>${x.name}</option>`).join('')}
+      </select>
+    </label>
+    <button class="participant-locality-confirm" data-id="${id}">Review location</button>
+    <button class="participant-locality-back" data-id="${id}">Back</button>`
+}
+
+const showLocalityConfirmation = (id: string) => {
+  const p = getParticipant(id)
+  const locality = participantSelectedLocality.get(id)
+  if (!p || !locality) return
+  participantPanel.innerHTML = `
+    <small>CONFIRM MAP LOCATION</small>
+    <h2>${locality}</h2>
+    <p>Your profile will appear in this locality on the Living Map.</p>
+    <button class="participant-locality-accept" data-id="${id}">Confirm and continue</button>
+    <button class="participant-locality-change" data-id="${id}">Change locality</button>`
+}
+
 const showVerification = (id: string) => {
-const p = getParticipant(id)
+const p=getParticipant(id)
 if (!p) return
-participantPanel.innerHTML = `
-<button class="verification-back" data-id="${p.id}" data-stage="contact">← Back</button>
+participantPanel.innerHTML=`
+<button class="verification-back" data-id="${id}" data-stage="contact">← Back to profile</button>
 <small>VERIFICATION PENDING</small>
 <h2>Verify your profile</h2>
 <p>${p.name}</p>
@@ -203,8 +261,7 @@ participantPanel.innerHTML = `
 <label>Email<input name="verify-email" type="email"></label>
 <div class="verification-or">OR</div>
 <label>Mobile<input name="verify-mobile" type="tel"></label>
-<button class="participant-verify" data-id="${p.id}">Send verification code</button>
-`
+<button class="participant-verify" data-id="${id}">Send verification code</button>`
 }
 
 const showVerificationMethod = (id: string) => {
@@ -240,10 +297,12 @@ const showClaimedParticipant = (id: string) => {
     <button class="participant-back">← ${activeParticipantLocality ?? p.locality} participants</button>
     <small>${p.type.toUpperCase()}</small>
     <h2>${p.name}</h2>
+    <p><strong>Living Map locality:</strong> ${participantSelectedLocality.get(id) ?? p.locality}</p>
     <p>${p.relationship}</p>
     <div class="participant-tags">${p.activities.map((a) => `<span>${a}</span>`).join('')}</div>
     ${p.detail ? `<p>${p.detail}</p>` : ''}
     ${p.website ? `<p>${p.website}</p>` : ''}
+    <button class="participant-locality-change" data-id="${p.id}">Change locality</button>
     <button class="participant-update" data-id="${p.id}">Update my details</button>
   `
 }
@@ -280,6 +339,18 @@ onRemove(){this.container?.remove();this.container=undefined}
 
 map.on('load', async () => {
   installLivingWater(map)
+
+  const localityData = await fetch(nzLocalitiesUrl).then(r => r.json())
+  availableLocalities = localityData.features
+    .map((f: any) => ({
+      name: f.properties?.name,
+      region: f.properties?.region,
+    }))
+    .filter((x: any) =>
+      typeof x.name === 'string' && typeof x.region === 'string'
+    )
+
+
   map.addSource('auckland-localities', {
     type: 'geojson',
     data: nzLocalitiesUrl,
@@ -928,6 +999,9 @@ const target = event.target as HTMLElement
 
 const candidate = target.closest<HTMLElement>(".participant-search-candidate")
 if (candidate?.dataset.id) {
+  participantReturn = activeParticipantLocality
+    ? { kind:'locality', locality:activeParticipantLocality }
+    : { kind:'search' }
   showParticipant(candidate.dataset.id)
   return
 }
@@ -961,12 +1035,31 @@ if (addParticipant?.textContent?.includes('Add yourself')) {
   return
 }
 
+const editBack = target.closest<HTMLElement>('.participant-edit-back')
+if (editBack?.dataset.id) {
+  const discard = confirm(
+    'Discard these changes? Your profile has not been verified or updated.'
+  )
+  if (!discard) return
+
+  participantEdits.delete(editBack.dataset.id)
+  participantSelectedLocality.delete(editBack.dataset.id)
+
+  if (participantReturn?.kind === 'search') showFindMe()
+  else if (participantReturn?.kind === 'locality')
+    showParticipants(participantReturn.locality)
+
+  return
+}
+
 const action = target.closest<HTMLElement>('.participant-profile-action')
 if (action?.dataset.id) {
 const fields = participantPanel.querySelectorAll<HTMLInputElement | HTMLTextAreaElement>('[name]')
 const edits: Record<string, string> = {}
 fields.forEach((field) => { edits[field.name] = field.value })
 participantEdits.set(action.dataset.id, edits)
+const locality=participantPanel.querySelector<HTMLSelectElement>('[name="claimed-locality"]')?.value
+if (locality) participantSelectedLocality.set(action.dataset.id,locality)
 if (claimedParticipants.has(action.dataset.id)) {
 showClaimedParticipant(action.dataset.id)
 } else {
@@ -974,8 +1067,41 @@ showVerification(action.dataset.id)
 }
 return
 }
+const lc = target.closest<HTMLElement>('.participant-locality-confirm')
+if (lc?.dataset.id) {
+  const id=lc.dataset.id
+  const v=participantPanel.querySelector<HTMLInputElement>('[name="claimed-locality"]')?.value.trim()
+  if (!v || !availableLocalities.some(x => x.name === v)) {
+    alert('Please choose a locality from the list.')
+    return
+  }
+  participantSelectedLocality.set(id,v)
+  showLocalityConfirmation(id)
+  return
+}
+const lchange = target.closest<HTMLElement>('.participant-locality-change')
+if (lchange?.dataset.id) {
+  showLocalitySelection(lchange.dataset.id)
+  return
+}
+const lback = target.closest<HTMLElement>('.participant-locality-back')
+if (lback?.dataset.id) {
+  showParticipant(lback.dataset.id)
+  return
+}
+const laccept = target.closest<HTMLElement>('.participant-locality-accept')
+if (laccept?.dataset.id) {
+  showVerification(laccept.dataset.id)
+  return
+}
 const verify = target.closest<HTMLElement>('.participant-verify')
 if (verify?.dataset.id) {
+const locality=participantPanel.querySelector<HTMLSelectElement>('[name="claimed-locality"]')?.value
+if (!locality) {
+alert('Please choose where this profile should appear.')
+return
+}
+participantSelectedLocality.set(verify.dataset.id,locality)
 const email = participantPanel.querySelector<HTMLInputElement>('[name="verify-email"]')?.value.trim()
 const mobile = participantPanel.querySelector<HTMLInputElement>('[name="verify-mobile"]')?.value.trim()
 if (!email && !mobile) {
@@ -990,11 +1116,26 @@ showVerificationCode(verify.dataset.id)
 }
 return
 }
+const confirmVerify = target.closest<HTMLElement>('.participant-confirm-verify')
+if (confirmVerify?.dataset.id) {
+  const id=confirmVerify.dataset.id
+  const code=participantPanel.querySelector<HTMLInputElement>('[name="verification-code"]')?.value.trim()
+  if (!code) {
+    alert('Please enter the verification code.')
+    return
+  }
+  claimedParticipants.add(id)
+  showClaimedParticipant(id)
+  return
+}
 const back = target.closest<HTMLElement>('.verification-back')
 if (back?.dataset.id) {
 const id = back.dataset.id
-if (back.dataset.stage === 'contact') showParticipant(id)
-else if (back.dataset.stage === 'method') showVerification(id)
+if (!back.dataset.stage || back.dataset.stage === 'contact') {
+showParticipant(id)
+return
+}
+if (back.dataset.stage === 'method') showVerification(id)
 else {
 const c = verificationContacts.get(id)
 c?.email && c?.mobile ? showVerificationMethod(id) : showVerification(id)
@@ -1008,12 +1149,19 @@ return
 }
 const card = target.closest<HTMLElement>('.participant-card')
 if (card?.dataset.id) {
+if (activeParticipantLocality) {
+participantReturn={kind:'locality',locality:activeParticipantLocality}
+}
 claimedParticipants.has(card.dataset.id)
 ? showClaimedParticipant(card.dataset.id)
 : showParticipant(card.dataset.id)
 return
 }
-if (target.closest('.participant-back') && activeParticipantLocality) {
-  showParticipants(activeParticipantLocality)
+const participantBack=target.closest<HTMLElement>('.participant-back')
+if (participantBack) {
+  if (participantReturn?.kind==='search') showFindMe()
+  else if (participantReturn?.kind==='locality')
+    showParticipants(participantReturn.locality)
+  return
 }
 })
