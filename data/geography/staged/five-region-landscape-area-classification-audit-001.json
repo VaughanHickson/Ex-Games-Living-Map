@@ -1,0 +1,3676 @@
+{
+  "schema": "EXG-LM-LANDSCAPE-AREA-CLASSIFICATION-AUDIT-001",
+  "source": "data/geography/staged/five-region-landscape-areas-001.json",
+  "policy": {
+    "audit_only": true,
+    "source_not_modified": true,
+    "simple_named_places_not_auto_promoted_to_landscape_areas": true
+  },
+  "otherLandscapeCount": 271,
+  "counts": {
+    "ADMIN_OR_WIDER_AREA": 7,
+    "COMPOUND_OR_MULTI_PLACE": 39,
+    "LIKELY_LANDSCAPE": 27,
+    "LIKELY_NAMED_PLACE": 189,
+    "NEEDS_REVIEW": 9
+  },
+  "countsByRegion": {
+    "Gisborne Region": {
+      "ADMIN_OR_WIDER_AREA": 3,
+      "COMPOUND_OR_MULTI_PLACE": 5,
+      "LIKELY_LANDSCAPE": 5,
+      "LIKELY_NAMED_PLACE": 53,
+      "NEEDS_REVIEW": 6
+    },
+    "Hawke's Bay Region": {
+      "COMPOUND_OR_MULTI_PLACE": 8,
+      "LIKELY_LANDSCAPE": 4,
+      "LIKELY_NAMED_PLACE": 24,
+      "NEEDS_REVIEW": 2
+    },
+    "Manawatū-Whanganui Region": {
+      "ADMIN_OR_WIDER_AREA": 2,
+      "COMPOUND_OR_MULTI_PLACE": 22,
+      "LIKELY_LANDSCAPE": 5,
+      "LIKELY_NAMED_PLACE": 32
+    },
+    "Taranaki Region": {
+      "ADMIN_OR_WIDER_AREA": 1,
+      "LIKELY_LANDSCAPE": 4,
+      "LIKELY_NAMED_PLACE": 48,
+      "NEEDS_REVIEW": 1
+    },
+    "Wellington Region": {
+      "ADMIN_OR_WIDER_AREA": 1,
+      "COMPOUND_OR_MULTI_PLACE": 4,
+      "LIKELY_LANDSCAPE": 9,
+      "LIKELY_NAMED_PLACE": 32
+    }
+  },
+  "records": [
+    {
+      "id": "area-gisborne-nga-ariki-kaiputahi-rohe",
+      "name": "Ngā Ariki Kaipūtahi rohe",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "ADMIN_OR_WIDER_AREA",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Taua o Ngā Ariki Kaipūtahi Limited"
+      ]
+    },
+    {
+      "id": "area-gisborne-ngati-porou-rohe",
+      "name": "Ngāti Porou rohe",
+      "region": "Gisborne Region",
+      "participantCount": 3,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "ADMIN_OR_WIDER_AREA",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Rūnanganui o Ngāti Porou",
+        "Raukumara Pae Maunga Charitable Trust",
+        "Kāhui Iles"
+      ]
+    },
+    {
+      "id": "area-gisborne-waipaoa-and-motu-related-rohe",
+      "name": "Waipaoa and Mōtū-related rohe",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "ADMIN_OR_WIDER_AREA",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Aitanga-a-Māhaki Trust"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-ngati-rangi-rohe",
+      "name": "Ngāti Rangi rohe",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "ADMIN_OR_WIDER_AREA",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Fred Clark"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-rangitane-o-manawatu-rohe",
+      "name": "Rangitāne o Manawatū rohe",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "ADMIN_OR_WIDER_AREA",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Ao Turoa Environmental Centre"
+      ]
+    },
+    {
+      "id": "area-taranaki-taranaki-iwi-rohe",
+      "name": "Taranaki Iwi rohe",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "ADMIN_OR_WIDER_AREA",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Kāhui o Taranaki"
+      ]
+    },
+    {
+      "id": "area-wellington-wellington-city",
+      "name": "Wellington City",
+      "region": "Wellington Region",
+      "participantCount": 7,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "ADMIN_OR_WIDER_AREA",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Berhampore Nursery",
+        "Friends of Owhiro Stream",
+        "Kumutoto",
+        "Ngā Kaimanaaki o Te Waimapihi",
+        "Zealandia Te Māra a Tāne",
+        "Liz Gibson",
+        "Martin Andrews"
+      ]
+    },
+    {
+      "id": "area-gisborne-gisborne-tairawhiti",
+      "name": "Gisborne / Tairāwhiti",
+      "region": "Gisborne Region",
+      "participantCount": 4,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Hinenui Whanui Charitable Trust",
+        "Te Rimu Trust",
+        "Mangaotane Farm Trust",
+        "Te Wai Mauri Limited"
+      ]
+    },
+    {
+      "id": "area-gisborne-kopuawhakapata-kopuawhiti-area",
+      "name": "Kopuawhakapata / Kopuawhiti area",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Poho o Rawiri Marae"
+      ]
+    },
+    {
+      "id": "area-gisborne-koranga-and-surrounding-tributaries",
+      "name": "Koranga and surrounding tributaries",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Mōtū Matawai Catchment Communities"
+      ]
+    },
+    {
+      "id": "area-gisborne-marae-and-kura-project-sites",
+      "name": "marae and kura project sites",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Tairāwhiti Ngutukākā"
+      ]
+    },
+    {
+      "id": "area-gisborne-waikahua-eastland-port-seawall",
+      "name": "Waikahua / Eastland Port seawall",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Eastland Port"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-ahuriri-napier",
+      "name": "Ahuriri/Napier",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ahuriri Tributaries Catchment Group Trust"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-hastings-and-havelock-north",
+      "name": "Hastings and Havelock North",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Forest and Bird Hastings-Havelock North Branch"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-takapau-maharakeke-porangahau",
+      "name": "Takapau/Maharakeke/Pōrangahau",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Watch Our Water Maharakeke and Pōrangahau (WOWMAP)"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-te-hauke-and-waihua",
+      "name": "Te Hauke and Waihua",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ngāti Pāhauwera Development Trust Limited"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-west-quay-napier",
+      "name": "West Quay, Napier",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "West Quay Body Corporate Committee"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-westshore-napier",
+      "name": "Westshore, Napier",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Taha – The Gap"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-okawa-ohiwia",
+      "name": "Ōkawa/Ohiwia",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Between the Two Rivers Community Catchment Collective"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-opoutama-mahia",
+      "name": "Ōpoutama, Māhia",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Waipiata Awa Revitalisation Project"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-aramoho-whanganui",
+      "name": "Aramoho, Whanganui",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 3,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Ao Hou Marae",
+        "Geoff Hipango",
+        "Sol Walsh"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-ashhurst-pohangina",
+      "name": "Ashhurst / Pohangina",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ian Rasmussen"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-ashhurst-otangaki",
+      "name": "Ashhurst / Ōtangaki",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Mike Shepherd"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-ashhurst-and-pohangina",
+      "name": "Ashhurst and Pohangina",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Trapping regional Ashhurst and Pohangina",
+        "Trapping regional Ashhurst and Pohangina (TrAP)"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-ashhurst-pohangina",
+      "name": "Ashhurst, Pohangina",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ian Rasmussen"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-awahuri-feilding",
+      "name": "Awahuri / Feilding",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Awahuri Forest Kitchener Park Trust"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-awahuri-manawatu",
+      "name": "Awahuri, Manawatū",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Awahuri Forest Kitchener Park Trust"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-castlecliff-whanganui",
+      "name": "Castlecliff, Whanganui",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 4,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Castlecliff Coast Care",
+        "Castlecliff Coastcare",
+        "Graham Pearson",
+        "Lyn Pearson"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-hautapu-taihape",
+      "name": "Hautapu / Taihape",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Hautapu Sub-Catchment Group"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-hiruharama-jerusalem",
+      "name": "Hiruharama/Jerusalem",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ngahere Manaaki"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-hiruharama-jerusalem",
+      "name": "Hiruhārama / Jerusalem",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ngahere Manaaki",
+        "Ron Hough"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-hiruharama-jerusalem",
+      "name": "Hiruhārama/Jerusalem",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ron"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-kai-iwi-whanganui",
+      "name": "Kai Iwi, Whanganui",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Kai Iwi Marae"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-kopua-near-dannevirke",
+      "name": "Kōpua, near Dannevirke",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Kopua Monastery Habitat Restoration Project"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-levin-taitoko",
+      "name": "Levin / Taitoko",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Maggie Peace"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-matiere-ruapehu",
+      "name": "Matiere, Ruapehu",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Matiere Catchment Group"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-owhango-ruapehu",
+      "name": "Owhango, Ruapehu",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Owhango Alive Society"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-palmerston-north-te-papaioea",
+      "name": "Palmerston North / Te Papaioea",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Rosemary Gear"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-pioneer-highway-palmerston-north",
+      "name": "Pioneer Highway, Palmerston North",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ngā Kaitiaki ō te Rerenga Rauropi"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-pokaka-ruapehu",
+      "name": "Pōkākā, Ruapehu",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ngāti Uenuku Trust"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-waitarere-horowhenua",
+      "name": "Waitārere, Horowhenua",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Waitārere Rise Residents Society"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-whanganui-ruapehu",
+      "name": "Whanganui/Ruapehu",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Bruce Rollinson",
+        "Mike Slater"
+      ]
+    },
+    {
+      "id": "area-wellington-avalon-and-boulcott",
+      "name": "Avalon and Boulcott",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Predator Free Avalon and Boulcott"
+      ]
+    },
+    {
+      "id": "area-wellington-kelson-and-belmont",
+      "name": "Kelson and Belmont",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Pareraho Forest Trust"
+      ]
+    },
+    {
+      "id": "area-wellington-ngaio-crofton-downs",
+      "name": "Ngaio, Crofton Downs",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Predator Free Ngaio & Crofton Downs"
+      ]
+    },
+    {
+      "id": "area-wellington-whangaehu-and-bideford",
+      "name": "Whangaehu and Bideford",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "COMPOUND_OR_MULTI_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Whangaehu Bideford Catchment Group"
+      ]
+    },
+    {
+      "id": "area-gisborne-longbush",
+      "name": "Longbush",
+      "region": "Gisborne Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "FOREST",
+      "participantNames": [
+        "Longbush Ecological Trust",
+        "Waikereru"
+      ]
+    },
+    {
+      "id": "area-gisborne-makorori-beach",
+      "name": "Makorori Beach",
+      "region": "Gisborne Region",
+      "participantCount": 4,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "COASTAL_AREA",
+      "participantNames": [
+        "Makorori Environmental Protection Society",
+        "Gwen Hinga",
+        "Martin Friel",
+        "Charlotte Friel"
+      ]
+    },
+    {
+      "id": "area-gisborne-titirangi-kaiti-hill",
+      "name": "Titirangi / Kaiti Hill",
+      "region": "Gisborne Region",
+      "participantCount": 3,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "RANGE_MOUNTAIN",
+      "participantNames": [
+        "Women’s Native Tree Project Trust",
+        "Ngāti Oneone",
+        "Whaia Titirangi"
+      ]
+    },
+    {
+      "id": "area-gisborne-waikanae-beach",
+      "name": "Waikanae Beach",
+      "region": "Gisborne Region",
+      "participantCount": 4,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "COASTAL_AREA",
+      "participantNames": [
+        "Coastal Restoration Trust of New Zealand",
+        "Waikanae Beach Coast Care Group",
+        "Dr Jennie Harré Hindmarsh",
+        "Waikanae Coast Care Group"
+      ]
+    },
+    {
+      "id": "area-gisborne-waioeka-gorge",
+      "name": "Waioeka Gorge",
+      "region": "Gisborne Region",
+      "participantCount": 10,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "VALLEY",
+      "participantNames": [
+        "Eastern Whio Link",
+        "Geoff McLaughlan",
+        "Tom Sherborne",
+        "Joel Crump",
+        "Shannon Henare",
+        "Sam",
+        "Tom",
+        "Jo",
+        "Shannon"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-mataruahou-napier-hill",
+      "name": "Mataruahou/Napier Hill",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "RANGE_MOUNTAIN",
+      "participantNames": [
+        "Predator Free Napier Hill"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-mohi-bush",
+      "name": "Mohi Bush",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "FOREST",
+      "participantNames": [
+        "EIT"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-napier-hill",
+      "name": "Napier Hill",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "RANGE_MOUNTAIN",
+      "participantNames": [
+        "Predator Free Napier Hill"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-waipukurau-otaia-bush",
+      "name": "Waipukurau/Ōtaia Bush",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "FOREST",
+      "participantNames": [
+        "Forest and Bird Central Hawke’s Bay Branch"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-durie-hill-whanganui",
+      "name": "Durie Hill, Whanganui",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "RANGE_MOUNTAIN",
+      "participantNames": [
+        "Sonia Forsey"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-manawatu-gorge",
+      "name": "Manawatū Gorge",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "VALLEY",
+      "participantNames": [
+        "Manawatū Gorge Biodiversity Project",
+        "Te Āpiti – Manawatū Gorge"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-stoney-creek",
+      "name": "Stoney Creek",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "RIVER_STREAM",
+      "participantNames": [
+        "Stoney Creek Catchment Project"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-tongariro-national-park",
+      "name": "Tongariro National Park",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "RESERVE_SANCTUARY",
+      "participantNames": [
+        "Project Tongariro",
+        "Tongariro Forest Kiwi Sanctuary"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-whanganui-national-park",
+      "name": "Whanganui National Park",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "RESERVE_SANCTUARY",
+      "participantNames": [
+        "Kia Whārite"
+      ]
+    },
+    {
+      "id": "area-taranaki-egmont-national-park",
+      "name": "Egmont National Park",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "RESERVE_SANCTUARY",
+      "participantNames": [
+        "Eve Cozzi"
+      ]
+    },
+    {
+      "id": "area-taranaki-nga-motu",
+      "name": "Ngā Motu",
+      "region": "Taranaki Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "ISLAND",
+      "participantNames": [
+        "Ngā Motu Marine Society",
+        "Taranaki Mounga"
+      ]
+    },
+    {
+      "id": "area-taranaki-pukekura-park",
+      "name": "Pukekura Park",
+      "region": "Taranaki Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "RESERVE_SANCTUARY",
+      "participantNames": [
+        "Halema Jamieson",
+        "Naomi Dowding-Smith"
+      ]
+    },
+    {
+      "id": "area-taranaki-te-papakura-o-taranaki-egmont-national-park",
+      "name": "Te Papakura o Taranaki (Egmont) National Park",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "RESERVE_SANCTUARY",
+      "participantNames": [
+        "Taranaki Mounga Project"
+      ]
+    },
+    {
+      "id": "area-wellington-bothamley-park",
+      "name": "Bothamley Park",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "RESERVE_SANCTUARY",
+      "participantNames": [
+        "Te Awa Taiao Cadets"
+      ]
+    },
+    {
+      "id": "area-wellington-mcalister-park",
+      "name": "McAlister Park",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "RESERVE_SANCTUARY",
+      "participantNames": [
+        "Ed's Wood"
+      ]
+    },
+    {
+      "id": "area-wellington-tanera-park",
+      "name": "Tanera Park",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "RESERVE_SANCTUARY",
+      "participantNames": [
+        "Tanera Gully Restoration Project"
+      ]
+    },
+    {
+      "id": "area-wellington-taupo-swamp",
+      "name": "Taupō Swamp",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "WETLAND_LAKE",
+      "participantNames": [
+        "Friends of Taupō Swamp & Catchment"
+      ]
+    },
+    {
+      "id": "area-wellington-te-motu-kairangi",
+      "name": "Te Motu Kairangi",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "ISLAND",
+      "participantNames": [
+        "Love Rimurimu"
+      ]
+    },
+    {
+      "id": "area-wellington-trelissick-park",
+      "name": "Trelissick Park",
+      "region": "Wellington Region",
+      "participantCount": 3,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "RESERVE_SANCTUARY",
+      "participantNames": [
+        "Trelissick Park Group",
+        "Frances Lee",
+        "Peter Reimann"
+      ]
+    },
+    {
+      "id": "area-wellington-waikawa-beach",
+      "name": "Waikawa Beach",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "COASTAL_AREA",
+      "participantNames": [
+        "Waikawa Beach Environment Group"
+      ]
+    },
+    {
+      "id": "area-wellington-whitireia-park",
+      "name": "Whitireia Park",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "RESERVE_SANCTUARY",
+      "participantNames": [
+        "Whitireia Park Restoration Group"
+      ]
+    },
+    {
+      "id": "area-wellington-otari-wilton-s-bush",
+      "name": "Ōtari-Wilton’s Bush",
+      "region": "Wellington Region",
+      "participantCount": 4,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_LANDSCAPE",
+      "suggestedAreaType": "FOREST",
+      "participantNames": [
+        "RAMBO",
+        "Jim Tait",
+        "Tim Park",
+        "Travis Moody"
+      ]
+    },
+    {
+      "id": "area-gisborne-awatere",
+      "name": "Awatere",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Whakapae Ururoa"
+      ]
+    },
+    {
+      "id": "area-gisborne-cape-runaway",
+      "name": "Cape Runaway",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Whakapae Ururoa"
+      ]
+    },
+    {
+      "id": "area-gisborne-clifton",
+      "name": "Clifton",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Sandra Campbell"
+      ]
+    },
+    {
+      "id": "area-gisborne-east-cape",
+      "name": "East Cape",
+      "region": "Gisborne Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Whakapae Ururoa",
+        "Raukūmara Pae Maunga"
+      ]
+    },
+    {
+      "id": "area-gisborne-eastland-port-seawall",
+      "name": "Eastland Port seawall",
+      "region": "Gisborne Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ecoworks",
+        "Whaia Titirangi"
+      ]
+    },
+    {
+      "id": "area-gisborne-gisborne-urban-waterways",
+      "name": "Gisborne urban waterways",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "KIWA Group"
+      ]
+    },
+    {
+      "id": "area-gisborne-hikuwai",
+      "name": "Hikuwai",
+      "region": "Gisborne Region",
+      "participantCount": 4,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Toby Williams",
+        "Rowan Struthers",
+        "Rod Sheridan",
+        "Kerry Hudson"
+      ]
+    },
+    {
+      "id": "area-gisborne-huiarua-station",
+      "name": "Huiarua Station",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Kura o Mata"
+      ]
+    },
+    {
+      "id": "area-gisborne-kopuaroa",
+      "name": "Kopuaroa",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "The Proprietors of Pahiitaua Incorporated"
+      ]
+    },
+    {
+      "id": "area-gisborne-makauri-aquifer",
+      "name": "Makauri Aquifer",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Aitanga a Māhaki"
+      ]
+    },
+    {
+      "id": "area-gisborne-makorori-dunes",
+      "name": "Makorori dunes",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Makorori Environmental Protection Society"
+      ]
+    },
+    {
+      "id": "area-gisborne-mangaoporo",
+      "name": "Mangaoporo",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Waiapu Koka Huhua Restoration Project"
+      ]
+    },
+    {
+      "id": "area-gisborne-mangapoike",
+      "name": "Mangapoike",
+      "region": "Gisborne Region",
+      "participantCount": 6,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Waingake Transformation Programme",
+        "Maraetaha Incorporated",
+        "Toby Williams",
+        "Rowan Struthers",
+        "Rod Sheridan",
+        "Kerry Hudson"
+      ]
+    },
+    {
+      "id": "area-gisborne-maraehara",
+      "name": "Maraehara",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Waiapu Koka Huhua Restoration Project"
+      ]
+    },
+    {
+      "id": "area-gisborne-mahia",
+      "name": "Māhia",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Whakatipu Māhia"
+      ]
+    },
+    {
+      "id": "area-gisborne-motu-village",
+      "name": "Mōtū village",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Mōtū Matawai Catchment Communities"
+      ]
+    },
+    {
+      "id": "area-gisborne-northern-tairawhiti",
+      "name": "Northern Tairāwhiti",
+      "region": "Gisborne Region",
+      "participantCount": 3,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Tangikaroro Native Nursery and Reserve",
+        "Raukumara Pae Maunga Charitable Trust",
+        "Tangikaroro Native Reserve"
+      ]
+    },
+    {
+      "id": "area-gisborne-nuhaka-headwaters",
+      "name": "Nuhaka headwaters",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Waingake Transformation Programme"
+      ]
+    },
+    {
+      "id": "area-gisborne-onepoto",
+      "name": "Onepoto",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Poho o Rawiri Marae"
+      ]
+    },
+    {
+      "id": "area-gisborne-pakarae",
+      "name": "Pakarae",
+      "region": "Gisborne Region",
+      "participantCount": 4,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Toby Williams",
+        "Rowan Struthers",
+        "Rod Sheridan",
+        "Kerry Hudson"
+      ]
+    },
+    {
+      "id": "area-gisborne-pakowhai",
+      "name": "Pakowhai",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Kevin Hare"
+      ]
+    },
+    {
+      "id": "area-gisborne-pamoa",
+      "name": "Pamoa",
+      "region": "Gisborne Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Waingake Transformation Programme",
+        "Maraetaha Incorporated"
+      ]
+    },
+    {
+      "id": "area-gisborne-pipiwhakao",
+      "name": "Pipiwhakao",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Kevin Hare"
+      ]
+    },
+    {
+      "id": "area-gisborne-poroporo",
+      "name": "Poroporo",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Waiapu Koka Huhua Restoration Project"
+      ]
+    },
+    {
+      "id": "area-gisborne-pukehapopo",
+      "name": "Pukehāpopō",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Paikea-Whitireia Trust"
+      ]
+    },
+    {
+      "id": "area-gisborne-rangitukia",
+      "name": "Rangitukia",
+      "region": "Gisborne Region",
+      "participantCount": 3,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Michael Crofoot",
+        "Susan Booth",
+        "Te Kautuku"
+      ]
+    },
+    {
+      "id": "area-gisborne-rongowhakaata-restoration-sites",
+      "name": "Rongowhakaata restoration sites",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Ngahuru Tikoitikoiere"
+      ]
+    },
+    {
+      "id": "area-gisborne-tairawhiti",
+      "name": "Tairāwhiti",
+      "region": "Gisborne Region",
+      "participantCount": 69,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Gisborne District Council",
+        "Department of Conservation",
+        "Trust Tairāwhiti",
+        "Leading from the Land Tairāwhiti",
+        "Tairawhiti Environment Centre",
+        "NZ Landcare Trust",
+        "Coastal Restoration Trust of New Zealand",
+        "Haumanu Tū Ora",
+        "Wai Restoration",
+        "Women’s Native Tree Project Trust",
+        "Tamanuhiri Tutu Poroporo Trust",
+        "Ecoworks",
+        "Green by Nature",
+        "ATS Environmental",
+        "Te Aitanga-a-Māhaki Trust",
+        "Tūranga Kaimahi mō te Taiao",
+        "Hinenui Whanui Charitable Trust",
+        "Ngāti Porou Holding Company Limited",
+        "Te Rimu Trust",
+        "Mangaotane Farm Trust",
+        "Tairāwhiti Ngutukākā",
+        "Te Kura o Mata",
+        "Ngatapa School",
+        "Eastern Institute of Technology",
+        "Te Whakapae Ururoa",
+        "Wai Connections",
+        "Mountains to Sea Conservation Trust",
+        "Te Ngahuru Tikoitikoiere",
+        "Mahaki Mahinga Kai",
+        "Tairāwhiti Forestry Action Group",
+        "Aratu Forests",
+        "DStevens",
+        "Te Rea",
+        "Transition Advisory Group",
+        "Te Ngahuru Tikotikoiere",
+        "Graeme Atkins",
+        "Tara Whaanga",
+        "Shaavone Brown",
+        "Hana Hardy",
+        "Kāhui Iles",
+        "Sam Gibson",
+        "Sam Rowland",
+        "Kerry Worsnop",
+        "Tania Swift",
+        "Renee Raroa",
+        "Patrick Willock",
+        "Nedine Thatcher-Swann",
+        "Jesamine W.",
+        "Amy Hardy",
+        "Frances Hines",
+        "Rena Kohere",
+        "Joe Waikari",
+        "Trudi Ngawhare",
+        "Daniel Williams",
+        "Toby Williams",
+        "Tina Porou",
+        "Ian Ruru",
+        "Te Aomihia Walker",
+        "Anne Bardsley",
+        "John Elliffe",
+        "Te Matai Trust",
+        "Maungarongo o Te Kooti Reserve",
+        "Koranga Station",
+        "Pukekiwi Station",
+        "Native Plant Nursery",
+        "Te Aitanga a Māhaki Trust",
+        "Lark Ridge",
+        "Waikohu River",
+        "Mana Taiao Tairāwhiti"
+      ]
+    },
+    {
+      "id": "area-gisborne-tangikaroro",
+      "name": "Tangikaroro",
+      "region": "Gisborne Region",
+      "participantCount": 4,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Tangikaroro Native Nursery and Reserve",
+        "Ecoworks",
+        "Wiremu Wanoa",
+        "Murray Palmer"
+      ]
+    },
+    {
+      "id": "area-gisborne-tapuaeroa",
+      "name": "Tapuaeroa",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Waiapu Koka Huhua Restoration Project"
+      ]
+    },
+    {
+      "id": "area-gisborne-taruheru",
+      "name": "Taruheru",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Restoring the Mauri and Ora of the Tūranganui Estuary System"
+      ]
+    },
+    {
+      "id": "area-gisborne-taruheru-tributary",
+      "name": "Taruheru tributary",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Women’s Native Tree Project Trust"
+      ]
+    },
+    {
+      "id": "area-gisborne-tatapouri",
+      "name": "Tatapouri",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Poho o Rawiri Marae"
+      ]
+    },
+    {
+      "id": "area-gisborne-te-arai",
+      "name": "Te Arai",
+      "region": "Gisborne Region",
+      "participantCount": 6,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Hans Rook",
+        "Patrick Willock",
+        "Toby Williams",
+        "Rowan Struthers",
+        "Rod Sheridan",
+        "Kerry Hudson"
+      ]
+    },
+    {
+      "id": "area-gisborne-te-kautuku",
+      "name": "Te Kautuku",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Kautuku Ahuwhenua Trust"
+      ]
+    },
+    {
+      "id": "area-gisborne-te-mahia",
+      "name": "Te Māhia",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Rongomaiwahine Iwi Trust"
+      ]
+    },
+    {
+      "id": "area-gisborne-te-puia",
+      "name": "Te Puia",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Ara Tipuna"
+      ]
+    },
+    {
+      "id": "area-gisborne-titirangi",
+      "name": "Titirangi",
+      "region": "Gisborne Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Poho o Rawiri Marae",
+        "Eastland Port"
+      ]
+    },
+    {
+      "id": "area-gisborne-turihaua",
+      "name": "Turihaua",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Turihaua Angus Stud"
+      ]
+    },
+    {
+      "id": "area-gisborne-turanga",
+      "name": "Tūranga",
+      "region": "Gisborne Region",
+      "participantCount": 3,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Rongowhakaata Iwi Trust",
+        "Te Aitanga-a-Māhaki Trust",
+        "Tūranga Kaimahi mō te Taiao"
+      ]
+    },
+    {
+      "id": "area-gisborne-turanga-flats",
+      "name": "Tūranga Flats",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Maungarongo Wetland Restoration Project"
+      ]
+    },
+    {
+      "id": "area-gisborne-turanganui-a-kiwa",
+      "name": "Tūranganui-a-Kiwa",
+      "region": "Gisborne Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Women’s Native Tree Project Trust",
+        "Tūranga Ararau"
+      ]
+    },
+    {
+      "id": "area-gisborne-uawa",
+      "name": "Uawa",
+      "region": "Gisborne Region",
+      "participantCount": 7,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Aitanga-a-Hauiti Centre of Excellence Trust",
+        "Toby Williams",
+        "Rowan Struthers",
+        "Rod Sheridan",
+        "Kerry Hudson",
+        "Ūawanui",
+        "Huiterangiora Kaitiaki"
+      ]
+    },
+    {
+      "id": "area-gisborne-waiapu",
+      "name": "Waiapu",
+      "region": "Gisborne Region",
+      "participantCount": 6,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Waipaina Awarau",
+        "Nedine Thatcher-Swann",
+        "Toby Williams",
+        "Rowan Struthers",
+        "Rod Sheridan",
+        "Kerry Hudson"
+      ]
+    },
+    {
+      "id": "area-gisborne-waikanae",
+      "name": "Waikanae",
+      "region": "Gisborne Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Kevin Hare",
+        "Restoring the Mauri and Ora of the Tūranganui Estuary System"
+      ]
+    },
+    {
+      "id": "area-gisborne-waikereru",
+      "name": "Waikereru",
+      "region": "Gisborne Region",
+      "participantCount": 8,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Longbush Ecological Trust",
+        "Ecoworks",
+        "Dame Anne Salmond",
+        "Steve Sawyer",
+        "Guido Haag",
+        "Nicola Carter",
+        "Malcolm Rutherford",
+        "Rick Thorpe"
+      ]
+    },
+    {
+      "id": "area-gisborne-waikohu",
+      "name": "Waikohu",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "The Proprietors of Pahiitaua Incorporated"
+      ]
+    },
+    {
+      "id": "area-gisborne-waru-estate",
+      "name": "Waru Estate",
+      "region": "Gisborne Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Aitanga-a-Hauiti Centre of Excellence Trust",
+        "Ūawanui Restoration Project"
+      ]
+    },
+    {
+      "id": "area-gisborne-whangawehi",
+      "name": "Whangawehi",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Whangawehi Catchment Management Group"
+      ]
+    },
+    {
+      "id": "area-gisborne-whareongaonga",
+      "name": "Whareongaonga",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Whareongaonga 5 Blocks Trust"
+      ]
+    },
+    {
+      "id": "area-gisborne-whareponga",
+      "name": "Whareponga",
+      "region": "Gisborne Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Warwick Allen",
+        "Paula Godfrey"
+      ]
+    },
+    {
+      "id": "area-gisborne-whatatuna",
+      "name": "Whatatuna",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Kevin Hare"
+      ]
+    },
+    {
+      "id": "area-gisborne-uawa",
+      "name": "Ūawa",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Nedine Thatcher-Swann"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-argyll-east",
+      "name": "Argyll East",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Argyll East School"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-cape-kidnappers",
+      "name": "Cape Kidnappers",
+      "region": "Hawke's Bay Region",
+      "participantCount": 4,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Cape Sanctuary",
+        "Andy Lowe",
+        "Julian Robertson",
+        "Liz Lowe"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-heretaunga-plains",
+      "name": "Heretaunga Plains",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Raupare Enhancement Society"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-hapua",
+      "name": "Hāpua",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Peter Fowler"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-kahahakuri",
+      "name": "Kahahakuri",
+      "region": "Hawke's Bay Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Kahahakuri Catchment",
+        "Andy Gunson"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-kaweka",
+      "name": "Kaweka",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Kaweka Community Catchment Collective"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-maharakeke",
+      "name": "Maharakeke",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Maharakeke Catchment Group"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-makara",
+      "name": "Makara",
+      "region": "Hawke's Bay Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Makara Catchment Group",
+        "Kate Laugesen"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-makaretu",
+      "name": "Makāretu",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Makāretu Sub-catchment Group"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-napier",
+      "name": "Napier",
+      "region": "Hawke's Bay Region",
+      "participantCount": 24,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ahuriri Estuary Restoration Group",
+        "Better Nature",
+        "Biodiversity Hawke’s Bay",
+        "Forest and Bird Napier Branch",
+        "Hōhepa Hawke’s Bay",
+        "Napier Port",
+        "Predator Free Urban Hawke's Bay",
+        "Rotary Club of Ahuriri",
+        "Annette Brosnan",
+        "Connie Norgate",
+        "Coral Buddo",
+        "Dinusha Jayathilake",
+        "Edward Ridgway-Cross",
+        "Heidi Stiefel",
+        "Jemma Thorogood",
+        "Jordan Ellmers",
+        "Matt Brady",
+        "Peter",
+        "Reon McKeesick",
+        "Richard Croad",
+        "Rob Buddo",
+        "Sofia Costa Conrad",
+        "Tony Billing",
+        "Zeta Hawke"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-papanui",
+      "name": "Papanui",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Papanui Catchment Group"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-pohokura",
+      "name": "Pohokura",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Pohokura Kiwi Project"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-poporangi",
+      "name": "Poporangi",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Pest Free Poporangi"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-poporangi-farm",
+      "name": "Poporangi Farm",
+      "region": "Hawke's Bay Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Jim Spall",
+        "Stuart Spall"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-pukehou",
+      "name": "Pukehou",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Pukehou School"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-smedley-station",
+      "name": "Smedley Station",
+      "region": "Hawke's Bay Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Judy Walters",
+        "Terry Walters"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-te-aute",
+      "name": "Te Aute",
+      "region": "Hawke's Bay Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Megan McBain",
+        "Miles McBain"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-te-mata-peak",
+      "name": "Te Mata Peak",
+      "region": "Hawke's Bay Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Mata Park Trust",
+        "Charlie Fergus"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-tukipo",
+      "name": "Tukipo",
+      "region": "Hawke's Bay Region",
+      "participantCount": 4,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Nathan Burkepile Landcare Trust",
+        "Tukipo Catchment Care Group",
+        "Colin Tyler",
+        "Rob Barry"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-upper-tukituki",
+      "name": "Upper Tukituki",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Paul Stuitje"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-waingongoro-awa",
+      "name": "Waingōngoro Awa",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Waingōngoro Awa Restoration Project"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-waitangi",
+      "name": "Waitangi",
+      "region": "Hawke's Bay Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Wai Mauri Trust",
+        "Antony Rewcastle"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-whangawehi",
+      "name": "Whangawehi",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Pat O’Brien"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-okawa",
+      "name": "Ōkawa",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ōkawa Trust"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-clifton",
+      "name": "Clifton",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Sandra Campbell"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-hiwinui",
+      "name": "Hiwinui",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Schnell-Gemmell Farm",
+        "Schnell-Gemmell Farm Mangaone Stream project"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-horowhenua",
+      "name": "Horowhenua",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 4,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Forest & Bird Horowhenua",
+        "Forest & Bird Horowhenua Branch",
+        "Ihaia Taueki Trust",
+        "Geoff Richie"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-horowhenua-manawatu",
+      "name": "Horowhenua-Manawatū",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Water Environmental Care Assn. Inc."
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-ihuraua-upper-tiraumea",
+      "name": "Ihuraua-Upper Tiraumea",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ihuraua-Upper Tiraumea Catchment"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-jerusalem-whanganui-awa",
+      "name": "Jerusalem Whanganui Awa",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Aorangi Whanau Trust"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-kaitoki",
+      "name": "Kaitoki",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Punga Paewai"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-kotiata",
+      "name": "Kotiata",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Kotiata Wetland Restoration Project"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-lower-norsewood",
+      "name": "Lower Norsewood",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Kuikui Charitable Trust",
+        "Wopwops Wetland Park"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-manawatu",
+      "name": "Manawatū",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 5,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Manawatū River Catchments Collective",
+        "Manawatū Source to Sea",
+        "Manchester Street School",
+        "St Joseph’s School",
+        "Ōpiki School"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-mangaotane",
+      "name": "Mangaotāne",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Mangaotāne Farms Trust",
+        "River of Man Adventures"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-masterton",
+      "name": "Masterton",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Upper Waipoua Kaitiaki Group"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-northeast-ruahine",
+      "name": "Northeast Ruahine",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Aorangi Awarua Trust"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-northern-manawatu",
+      "name": "Northern Manawatū",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Haynes Creek Catchment Group"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-ohakune-raetihi",
+      "name": "Ohakune–Raetihi",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Puketawa Track restoration"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-omori-kuratau",
+      "name": "Omori Kuratau",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Omori Kuratau Pest Management Group"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-pokaka",
+      "name": "Pōkākā",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Aiden Gilbert"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-porangahau",
+      "name": "Pōrangahau",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Pōrangahau Catchment Group",
+        "Robert McLean"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-rangitikei",
+      "name": "Rangitīkei",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 14,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Forest & Bird Rangitīkei Sutherlands Puriri trapping project",
+        "Forest and Bird Rangitīkei",
+        "Maata Kotahi Partnership Trust",
+        "Ngā Puna Rau o Rangitīkei",
+        "Ngā Wairiki Ngāti Apa",
+        "Ohaumoko Trust",
+        "Rangitīkei Environment Group",
+        "Rangitīkei Environmental Operations Limited",
+        "Rangitīkei Rivers Catchment Collective",
+        "Harriet Gibson",
+        "Louise Totman",
+        "Roger Dalrymple",
+        "Sian Nichols",
+        "Simon Plimmer"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-raparapa-a-hoe",
+      "name": "Raparapa-ā-Hoe",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Rangituaia Walker",
+        "Ted Whare"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-retaruke",
+      "name": "Retaruke",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Retaruke Catchment Group"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-ruahine",
+      "name": "Ruahine",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 15,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "David Middleditch",
+        "Duncan Foord",
+        "Ernie Cook",
+        "Gordon Groube",
+        "Graeme Richards",
+        "Graham Peters",
+        "Kirsten Olsen",
+        "Malcolm Thomas",
+        "Mary Bielski",
+        "Michelle Benton",
+        "Richard Lockett",
+        "Stephen Legg",
+        "Steve Bielski",
+        "Warren Wheeler",
+        "Yvette Cottam"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-ruapehu",
+      "name": "Ruapehu",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 10,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Lone Pine Property Trust",
+        "Ngā Waihua o Paerangi Trust",
+        "Ngāti Te Maunga Whenuakura",
+        "Otiranui Guardians",
+        "Johnny Richards",
+        "Keith Wood",
+        "Kino Haitana",
+        "Lucas Kumeroa",
+        "Taiaroa Haddon",
+        "Wiki Papa"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-southern-ruahine",
+      "name": "Southern Ruahine",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ruahine Kiwi"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-tararua",
+      "name": "Tararua",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Dannevirke Host Lions Club",
+        "Mangahao River Catchment Collective Group"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-tauraroa",
+      "name": "Tauraroa",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Tauraroa Catchment Group"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-te-horo",
+      "name": "Te Horo",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Parahamuti Wetland"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-upper-manawatu",
+      "name": "Upper Manawatū",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Blair Drysdale",
+        "Penelope Drysdale"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-upper-ongarue",
+      "name": "Upper Ongarue",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Upper Ongarue Catchment Group"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-waikanae",
+      "name": "Waikanae",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Waikanae Mahi mō te Taiao project",
+        "Robin Gunston"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-waitomo",
+      "name": "Waitomo",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Pikiariki Restoration"
+      ]
+    },
+    {
+      "id": "area-manawatu-whanganui-otaki",
+      "name": "Ōtaki",
+      "region": "Manawatū-Whanganui Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Waitohu Stream and Dune Care Group"
+      ]
+    },
+    {
+      "id": "area-taranaki-araheke-farm",
+      "name": "Araheke Farm",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Malcolm and Lorraine Campbell of Araheke Farm"
+      ]
+    },
+    {
+      "id": "area-taranaki-castlecliff",
+      "name": "Castlecliff",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Castlecliff Coast Care"
+      ]
+    },
+    {
+      "id": "area-taranaki-clifton",
+      "name": "Clifton",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Sandra Campbell"
+      ]
+    },
+    {
+      "id": "area-taranaki-east-stratford",
+      "name": "East Stratford",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "800 Trust"
+      ]
+    },
+    {
+      "id": "area-taranaki-east-taranaki",
+      "name": "East Taranaki",
+      "region": "Taranaki Region",
+      "participantCount": 12,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "East Taranaki Environment Trust",
+        "Anaru Marshall",
+        "Bob Schumacher",
+        "Corbyn Fabish",
+        "Gavin Faull",
+        "Gloria Campbell",
+        "Jayden Fabish",
+        "John Haylock",
+        "Karen Schumacher",
+        "Kat Strang",
+        "Olly Sleep",
+        "Rebecca Somerfield"
+      ]
+    },
+    {
+      "id": "area-taranaki-eastern-taranaki",
+      "name": "Eastern Taranaki",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Eastern Taranaki Environment Trust"
+      ]
+    },
+    {
+      "id": "area-taranaki-hauraki-gulf",
+      "name": "Hauraki Gulf",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ngāi Tai ki Tāmaki"
+      ]
+    },
+    {
+      "id": "area-taranaki-hollard-gardens",
+      "name": "Hollard Gardens",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Kevin Archer"
+      ]
+    },
+    {
+      "id": "area-taranaki-horohoro",
+      "name": "Horohoro",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Tipu Environmental"
+      ]
+    },
+    {
+      "id": "area-taranaki-makuri",
+      "name": "Makuri",
+      "region": "Taranaki Region",
+      "participantCount": 3,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Makuri Community Catchment Group",
+        "Niels Hansen",
+        "Dan Thurston-Crow"
+      ]
+    },
+    {
+      "id": "area-taranaki-manawatu",
+      "name": "Manawatu",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Kii Tahi Nursery Ltd"
+      ]
+    },
+    {
+      "id": "area-taranaki-mangaotuku-awa",
+      "name": "Mangaotuku awa",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Pihipihinga Kākano mai i Rangiātea Kura Kaupapa Māori"
+      ]
+    },
+    {
+      "id": "area-taranaki-matanehunehu-awa",
+      "name": "Matanehunehu awa",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Pūniho Pā"
+      ]
+    },
+    {
+      "id": "area-taranaki-mcdonald-s-glen",
+      "name": "McDonald’s Glen",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Matapu School"
+      ]
+    },
+    {
+      "id": "area-taranaki-mimitangiatua",
+      "name": "Mimitangiatua",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Rūnanga o Ngāti Mutunga"
+      ]
+    },
+    {
+      "id": "area-taranaki-mt-messenger",
+      "name": "Mt Messenger",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Tiaki Te Mauri O Parininihi Trust"
+      ]
+    },
+    {
+      "id": "area-taranaki-murihiku",
+      "name": "Murihiku",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Waiau Mahika Kai Trust"
+      ]
+    },
+    {
+      "id": "area-taranaki-muru-raupatu-marae",
+      "name": "Muru Raupatu marae",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Muru Raupatu marae"
+      ]
+    },
+    {
+      "id": "area-taranaki-new-zealand",
+      "name": "New Zealand",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Mountains to Sea Conservation Trust"
+      ]
+    },
+    {
+      "id": "area-taranaki-north-east-taranaki",
+      "name": "North East Taranaki",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Rob Maetzig"
+      ]
+    },
+    {
+      "id": "area-taranaki-north-taranaki",
+      "name": "North Taranaki",
+      "region": "Taranaki Region",
+      "participantCount": 3,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Taranaki Tree Trust",
+        "Uruti School",
+        "Māia Gibbs"
+      ]
+    },
+    {
+      "id": "area-taranaki-north-east-taranaki",
+      "name": "North-east Taranaki",
+      "region": "Taranaki Region",
+      "participantCount": 3,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "East Taranaki Environment Trust",
+        "Eastern Taranaki Environment Trust",
+        "Tiaki Te Mauri O Parininihi Trust"
+      ]
+    },
+    {
+      "id": "area-taranaki-north-eastern-taranaki",
+      "name": "North-eastern Taranaki",
+      "region": "Taranaki Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ngāti Maru",
+        "Te Rūnanga o Ngāti Mutunga"
+      ]
+    },
+    {
+      "id": "area-taranaki-northern-taranaki",
+      "name": "Northern Taranaki",
+      "region": "Taranaki Region",
+      "participantCount": 6,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ngāti Tama ki Taranaki",
+        "Conrad O'Carroll",
+        "Davis McClutchie",
+        "Paul Pripp",
+        "Roger MacGibbon",
+        "Sam Guerin"
+      ]
+    },
+    {
+      "id": "area-taranaki-okoki-pa",
+      "name": "Okoki Pā",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ngāti Mutunga"
+      ]
+    },
+    {
+      "id": "area-taranaki-omoana",
+      "name": "Omoana",
+      "region": "Taranaki Region",
+      "participantCount": 3,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "800 Trust",
+        "Kawhai Consultants Limited",
+        "Miranda Wells"
+      ]
+    },
+    {
+      "id": "area-taranaki-omona",
+      "name": "Omona",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Jono Walter"
+      ]
+    },
+    {
+      "id": "area-taranaki-parihaka",
+      "name": "Parihaka",
+      "region": "Taranaki Region",
+      "participantCount": 3,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Parihaka Pā",
+        "Te Whiti o Rongomai Mason",
+        "Tuhi-Ao Bailey"
+      ]
+    },
+    {
+      "id": "area-taranaki-parininihi",
+      "name": "Parininihi",
+      "region": "Taranaki Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ngāti Tama ki Taranaki",
+        "Tiaki Te Mauri O Parininihi Trust"
+      ]
+    },
+    {
+      "id": "area-taranaki-paritutu",
+      "name": "Paritūtū",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Tina Dalliston"
+      ]
+    },
+    {
+      "id": "area-taranaki-pouakai",
+      "name": "Pouakai",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Taranaki Mounga"
+      ]
+    },
+    {
+      "id": "area-taranaki-pouakai",
+      "name": "Pouākai",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Tāne Houston"
+      ]
+    },
+    {
+      "id": "area-taranaki-pukemiro",
+      "name": "Pukemiro",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ngāti Mutunga"
+      ]
+    },
+    {
+      "id": "area-taranaki-puniho-pa",
+      "name": "Puniho Pā",
+      "region": "Taranaki Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ray MacDonald",
+        "Waimirirangi MacDonald"
+      ]
+    },
+    {
+      "id": "area-taranaki-patea-bank",
+      "name": "Pātea Bank",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Project Reef"
+      ]
+    },
+    {
+      "id": "area-taranaki-rapanui",
+      "name": "Rapanui",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Rapanui Grey-faced Petrel Trust"
+      ]
+    },
+    {
+      "id": "area-taranaki-rotokare",
+      "name": "Rotokare",
+      "region": "Taranaki Region",
+      "participantCount": 7,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Rawhitiroa School",
+        "Rotokare Sanctuary",
+        "Rotokare Scenic Reserve Trust",
+        "Taranaki Kōhanga Kiwi at Rotokare",
+        "Helen Duff",
+        "Jess Fancy",
+        "Shakira Derbyshire"
+      ]
+    },
+    {
+      "id": "area-taranaki-south-taranaki",
+      "name": "South Taranaki",
+      "region": "Taranaki Region",
+      "participantCount": 5,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Matapu Preschool",
+        "Mt Hiwi Charitable Trust",
+        "Project Reef",
+        "South Taranaki Forest & Bird",
+        "Damian Roper"
+      ]
+    },
+    {
+      "id": "area-taranaki-waingongoro",
+      "name": "Waingongoro",
+      "region": "Taranaki Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Waingongoro Catchment Group",
+        "Ross Dunlop"
+      ]
+    },
+    {
+      "id": "area-taranaki-waipukupatea-awa",
+      "name": "Waipukupatea awa",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Whakaahurangi marae"
+      ]
+    },
+    {
+      "id": "area-taranaki-waitaha",
+      "name": "Waitaha",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Whiti o Rongomai Mason"
+      ]
+    },
+    {
+      "id": "area-taranaki-waitara-awa",
+      "name": "Waitara awa",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ngāti Maru"
+      ]
+    },
+    {
+      "id": "area-taranaki-waitotoroa-awa",
+      "name": "Waitotoroa awa",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Parihaka Pā"
+      ]
+    },
+    {
+      "id": "area-taranaki-waiweranui",
+      "name": "Waiweranui",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Whiti o Rongomai Mason"
+      ]
+    },
+    {
+      "id": "area-taranaki-whangamomona",
+      "name": "Whangamōmona",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "East Taranaki Environment Trust"
+      ]
+    },
+    {
+      "id": "area-taranaki-whanganui",
+      "name": "Whanganui",
+      "region": "Taranaki Region",
+      "participantCount": 8,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Castlecliff Coast Care",
+        "Grant Skilton",
+        "Kūaka Collective",
+        "Ngā Tāngata Tiaki o Whanganui",
+        "Ross Skilton",
+        "Te Ao Hou marae",
+        "Te Rūnanga o Tūpoho",
+        "Rosi Merz"
+      ]
+    },
+    {
+      "id": "area-taranaki-whitecliffs",
+      "name": "Whitecliffs",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Tiaki Te Mauri O Parininihi Trust"
+      ]
+    },
+    {
+      "id": "area-taranaki-oeo",
+      "name": "Ōeo",
+      "region": "Taranaki Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Fiona Young"
+      ]
+    },
+    {
+      "id": "area-wellington-daleton",
+      "name": "Daleton",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Daleton Wetlands Project"
+      ]
+    },
+    {
+      "id": "area-wellington-eastern-wairarapa",
+      "name": "Eastern Wairarapa",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Rewa Bush Biodiversity Monitoring Group"
+      ]
+    },
+    {
+      "id": "area-wellington-herbertville",
+      "name": "Herbertville",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Wainui Catchment Group"
+      ]
+    },
+    {
+      "id": "area-wellington-holdsworth",
+      "name": "Holdsworth",
+      "region": "Wellington Region",
+      "participantCount": 4,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Holdsworth Restoration Trust",
+        "Ian Shanks",
+        "James Harbord",
+        "Nigel Boniface"
+      ]
+    },
+    {
+      "id": "area-wellington-ihuraua-upper-tiraumea",
+      "name": "Ihuraua-Upper Tiraumea",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ihuraua-Upper Tiraumea Catchment Group"
+      ]
+    },
+    {
+      "id": "area-wellington-kaitawa",
+      "name": "Kaitawa",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Kapiti Ecological Restoration and Maintenance Trust"
+      ]
+    },
+    {
+      "id": "area-wellington-kaitoke-te-marua",
+      "name": "Kaitoke–Te Mārua",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Hutt Valley Canoe Club"
+      ]
+    },
+    {
+      "id": "area-wellington-lower-hutt",
+      "name": "Lower Hutt",
+      "region": "Wellington Region",
+      "participantCount": 9,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Eastern Hutt Rotary Club",
+        "Friends of Hayward's Scenic Reserve",
+        "Friends of the Waiwhetu Stream",
+        "Friends of Waiwhetū Stream",
+        "Lower Hutt Anglicans",
+        "Lower Hutt Forest and Bird",
+        "Predator Koraunui Free Stokes Valley",
+        "Te Wai Takamori o Te Awa Kairangi",
+        "Anton Jones"
+      ]
+    },
+    {
+      "id": "area-wellington-mana",
+      "name": "Mana",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Mana Cycle Group"
+      ]
+    },
+    {
+      "id": "area-wellington-mt-cook",
+      "name": "Mt Cook",
+      "region": "Wellington Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Gum Gully group",
+        "Papawai Stream Restoration Group"
+      ]
+    },
+    {
+      "id": "area-wellington-mt-victoria",
+      "name": "Mt Victoria",
+      "region": "Wellington Region",
+      "participantCount": 3,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Mt Victoria Bush Regeneration Group",
+        "Mt Victoria Vermin Trappers",
+        "Predator Free Mt. Vic"
+      ]
+    },
+    {
+      "id": "area-wellington-northern-wairarapa",
+      "name": "Northern Wairarapa",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Rangitūmau Community Catchment Group"
+      ]
+    },
+    {
+      "id": "area-wellington-onoke-spit",
+      "name": "Onoke Spit",
+      "region": "Wellington Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Denise MacKenzie",
+        "Dougal MacKenzie"
+      ]
+    },
+    {
+      "id": "area-wellington-pauatahanui-inlet",
+      "name": "Pauatahanui Inlet",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Guardians of Pāuatahanui Inlet"
+      ]
+    },
+    {
+      "id": "area-wellington-porirua",
+      "name": "Porirua",
+      "region": "Wellington Region",
+      "participantCount": 27,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Conservation Volunteers New Zealand",
+        "Friends of Mana Island",
+        "Mountains to Sea Wellington",
+        "Ngahere Korowai",
+        "Ngāti Toa School",
+        "Pest Free Porirua",
+        "Porirua Harbour Trust",
+        "Porirua School",
+        "Predator Free Porirua",
+        "Sustainable Coastlines",
+        "Te Awarua o Porirua Harbour and Catchments Community Trust",
+        "Te Puna Mātauranga o Ngāti Toa",
+        "Te Rito Organic Gardens",
+        "Te Rūnanga o Toa Rangatira",
+        "Tiaki Wai",
+        "Abbey Huriwai",
+        "Anita Baker",
+        "Aroha Spinks",
+        "Baillie Graham",
+        "Daniela Baggio",
+        "Gaugau Annandale-Stone",
+        "Helmut Modlik",
+        "Lindsey Gow",
+        "Lisa Young",
+        "Nigel Clarke",
+        "Rachel McClellan",
+        "Warrick Lyon"
+      ]
+    },
+    {
+      "id": "area-wellington-porirua-east",
+      "name": "Porirua East",
+      "region": "Wellington Region",
+      "participantCount": 3,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ranui Residents Association",
+        "Iulio Fa’auga",
+        "Shelby Lockwood"
+      ]
+    },
+    {
+      "id": "area-wellington-papawai-mangarara",
+      "name": "Pāpāwai-Mangarara",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "John Argue"
+      ]
+    },
+    {
+      "id": "area-wellington-pauatahanui-inlet",
+      "name": "Pāuatahanui Inlet",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Andre van Halderen"
+      ]
+    },
+    {
+      "id": "area-wellington-south-wairarapa",
+      "name": "South Wairarapa",
+      "region": "Wellington Region",
+      "participantCount": 4,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Kahutara School",
+        "South Wairarapa Biodiversity Group",
+        "Barrie Cook",
+        "Jim Law"
+      ]
+    },
+    {
+      "id": "area-wellington-south-wellington",
+      "name": "South Wellington",
+      "region": "Wellington Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Southern Environmental Association",
+        "Tawatawa Reserve"
+      ]
+    },
+    {
+      "id": "area-wellington-taueru",
+      "name": "Taueru",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Mike Birch"
+      ]
+    },
+    {
+      "id": "area-wellington-te-whanganui-a-tara",
+      "name": "Te Whanganui-a-Tara",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Conservation Volunteers New Zealand"
+      ]
+    },
+    {
+      "id": "area-wellington-tinui-whareama",
+      "name": "Tīnui-Whareama",
+      "region": "Wellington Region",
+      "participantCount": 3,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Tīnui-Whareama Catchment Group",
+        "Sam Johnson",
+        "Sue Malcolm"
+      ]
+    },
+    {
+      "id": "area-wellington-upper-hutt",
+      "name": "Upper Hutt",
+      "region": "Wellington Region",
+      "participantCount": 13,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Forest and Bird - Upper Hutt",
+        "Forest and Bird Upper Hutt branch",
+        "Friends of the Mawaihakona Stream",
+        "Friends of the Māwai Hakona",
+        "Mangaroa Farms",
+        "Mawaihakona Stream Restoration Group",
+        "New Zealand Biosecurity Services Ltd",
+        "Pest Free Upper Hutt",
+        "Pinehaven School",
+        "Silverstream Forest",
+        "Asher Hanley",
+        "Liam Prosser",
+        "Sue Millar"
+      ]
+    },
+    {
+      "id": "area-wellington-upper-mangatarere",
+      "name": "Upper Mangatārere",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Alison Dye"
+      ]
+    },
+    {
+      "id": "area-wellington-upper-waipoua",
+      "name": "Upper Waipoua",
+      "region": "Wellington Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Gill Murray",
+        "Michael Woodcock"
+      ]
+    },
+    {
+      "id": "area-wellington-waipoua",
+      "name": "Waipoua",
+      "region": "Wellington Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Upper Waipoua Kaitiaki",
+        "Upper Waipoua Kaitiaki Group"
+      ]
+    },
+    {
+      "id": "area-wellington-wairarapa",
+      "name": "Wairarapa",
+      "region": "Wellington Region",
+      "participantCount": 7,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Ahu Collective Environmental",
+        "Kohunui Marae Nursery",
+        "Pūkaha to Kawakawa Alliance",
+        "Sustainable Wairarapa Inc",
+        "Wairarapa Catchment Collective",
+        "Kathy Houkamau",
+        "Philippa Crisp"
+      ]
+    },
+    {
+      "id": "area-wellington-wairarapa-moana",
+      "name": "Wairarapa Moana",
+      "region": "Wellington Region",
+      "participantCount": 2,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Wairarapa Moana",
+        "Wairarapa Moana Wetlands Project"
+      ]
+    },
+    {
+      "id": "area-wellington-waiohine",
+      "name": "Waiōhine",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Waiōhine Action Group"
+      ]
+    },
+    {
+      "id": "area-wellington-whangaehu-bideford",
+      "name": "Whangaehu-Bideford",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Whangaehu Bideford Community Catchment Group"
+      ]
+    },
+    {
+      "id": "area-wellington-onoke-spit",
+      "name": "Ōnoke Spit",
+      "region": "Wellington Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "LIKELY_NAMED_PLACE",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Friends of Ōnoke Spit"
+      ]
+    },
+    {
+      "id": "area-gisborne-gisborne-environmental-mahi-project-area",
+      "name": "Gisborne environmental mahi project area",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "NEEDS_REVIEW",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Kautuku Ahuwhenua Trust"
+      ]
+    },
+    {
+      "id": "area-gisborne-gisborne-waterway-project-sites",
+      "name": "Gisborne waterway project sites",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "NEEDS_REVIEW",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Te Karaka Area School"
+      ]
+    },
+    {
+      "id": "area-gisborne-sh2-to-pacific-ocean",
+      "name": "SH2 to Pacific Ocean",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "NEEDS_REVIEW",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Whareongaonga 5 Blocks Trust"
+      ]
+    },
+    {
+      "id": "area-gisborne-stout-street-nursery-site",
+      "name": "Stout Street nursery site",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "NEEDS_REVIEW",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Eastern Institute of Technology"
+      ]
+    },
+    {
+      "id": "area-gisborne-te-arai-te-uru",
+      "name": "Te Ārai te Uru",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "NEEDS_REVIEW",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Kevin Hare"
+      ]
+    },
+    {
+      "id": "area-gisborne-turanga-iwi-project-areas",
+      "name": "Tūranga iwi project areas",
+      "region": "Gisborne Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "NEEDS_REVIEW",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Hinenui Whanui Charitable Trust"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-hastings-to-cape-kidnappers",
+      "name": "Hastings to Cape Kidnappers",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "NEEDS_REVIEW",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Cape to City"
+      ]
+    },
+    {
+      "id": "area-hawke-s-bay-te-whanganui-a-orotu",
+      "name": "Te Whanganui a Orotū",
+      "region": "Hawke's Bay Region",
+      "participantCount": 1,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "NEEDS_REVIEW",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Phil"
+      ]
+    },
+    {
+      "id": "area-taranaki-te-papakura-o-taranaki",
+      "name": "Te Papakura o Taranaki",
+      "region": "Taranaki Region",
+      "participantCount": 5,
+      "currentAreaType": "OTHER_LANDSCAPE",
+      "auditClass": "NEEDS_REVIEW",
+      "suggestedAreaType": null,
+      "participantNames": [
+        "Bryony Tubby",
+        "Drew",
+        "Sian Potier",
+        "Toby",
+        "Toby Shanley"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4070 @@
+{
+  "schema": "EXG-LM-AREA-GEOMETRY-QUEUE-001",
+  "source": "data/geography/staged/five-region-landscape-areas-002.json",
+  "status": "STAGED",
+  "policy": {
+    "authoritative_geometry_preferred": true,
+    "no_boundary_invention": true,
+    "representative_geometry_requires_explicit_decision": true
+  },
+  "count": 266,
+  "countsByPriority": {
+    "A": 77,
+    "B": 156,
+    "C": 33
+  },
+  "countsByRegion": {
+    "Gisborne Region": 72,
+    "Hawke's Bay Region": 47,
+    "Manawatū-Whanganui Region": 72,
+    "Taranaki Region": 35,
+    "Wellington Region": 40
+  },
+  "countsByType": {
+    "CATCHMENT": 48,
+    "COASTAL_AREA": 3,
+    "FOREST": 16,
+    "HARBOUR_BAY": 13,
+    "ISLAND": 8,
+    "PENINSULA": 4,
+    "RANGE_MOUNTAIN": 24,
+    "RESERVE_SANCTUARY": 15,
+    "RIVER_STREAM": 54,
+    "VALLEY": 23,
+    "WETLAND_LAKE": 25,
+    "WIDER_ECOLOGICAL_AREA": 33
+  },
+  "queue": [
+    {
+      "areaId": "area-hawke-s-bay-kaweka-forest-park",
+      "name": "Kaweka Forest Park",
+      "region": "Hawke's Bay Region",
+      "areaType": "FOREST",
+      "participantCount": 8,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "LINZ/place datasets",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-central-hawke-s-bay",
+      "name": "Central Hawke’s Bay",
+      "region": "Hawke's Bay Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 6,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-otari-wilton-s-bush",
+      "name": "Ōtari-Wilton’s Bush",
+      "region": "Wellington Region",
+      "areaType": "FOREST",
+      "participantCount": 4,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "LINZ/place datasets",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-whinray-scenic-reserve",
+      "name": "Whinray Scenic Reserve",
+      "region": "Gisborne Region",
+      "areaType": "RESERVE_SANCTUARY",
+      "participantCount": 3,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "council reserve GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-lake-tutira",
+      "name": "Lake Tūtira",
+      "region": "Hawke's Bay Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 3,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-lake-whatuma",
+      "name": "Lake Whatumā",
+      "region": "Hawke's Bay Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 3,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-trelissick-park",
+      "name": "Trelissick Park",
+      "region": "Wellington Region",
+      "areaType": "RESERVE_SANCTUARY",
+      "participantCount": 3,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "council reserve GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-lake-wairarapa",
+      "name": "Lake Wairarapa",
+      "region": "Wellington Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 3,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-longbush",
+      "name": "Longbush",
+      "region": "Gisborne Region",
+      "areaType": "FOREST",
+      "participantCount": 2,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "LINZ/place datasets",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-mahanga-forest",
+      "name": "Mahanga Forest",
+      "region": "Gisborne Region",
+      "areaType": "FOREST",
+      "participantCount": 2,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "LINZ/place datasets",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-kaiaua-bay",
+      "name": "Kaiaua Bay",
+      "region": "Gisborne Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 2,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-karaka-bay",
+      "name": "Karaka Bay",
+      "region": "Gisborne Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 2,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-lake-rotopounamu",
+      "name": "Lake Rotopounamu",
+      "region": "Gisborne Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 2,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-sisterson-lagoon",
+      "name": "Sisterson Lagoon",
+      "region": "Gisborne Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 2,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-te-wherowhero-lagoon",
+      "name": "Te Wherowhero lagoon",
+      "region": "Gisborne Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 2,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-central-hawke-s-bay",
+      "name": "Central Hawke's Bay",
+      "region": "Hawke's Bay Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 2,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-kaimanawa-forest-park",
+      "name": "Kaimanawa Forest Park",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "FOREST",
+      "participantCount": 2,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "LINZ/place datasets",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-nukumaru-reserve",
+      "name": "Nukumaru Reserve",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RESERVE_SANCTUARY",
+      "participantCount": 2,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "council reserve GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-tongariro-national-park",
+      "name": "Tongariro National Park",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RESERVE_SANCTUARY",
+      "participantCount": 2,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "council reserve GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-nga-motu",
+      "name": "Ngā Motu",
+      "region": "Taranaki Region",
+      "areaType": "ISLAND",
+      "participantCount": 2,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-pukekura-park",
+      "name": "Pukekura Park",
+      "region": "Taranaki Region",
+      "areaType": "RESERVE_SANCTUARY",
+      "participantCount": 2,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "council reserve GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-tararua-forest-park",
+      "name": "Tararua Forest Park",
+      "region": "Wellington Region",
+      "areaType": "FOREST",
+      "participantCount": 2,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "LINZ/place datasets",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-wellington-harbour",
+      "name": "Wellington Harbour",
+      "region": "Wellington Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 2,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-tawatawa-reserve",
+      "name": "Tawatawa Reserve",
+      "region": "Wellington Region",
+      "areaType": "RESERVE_SANCTUARY",
+      "participantCount": 2,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "council reserve GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-forestry-catchments",
+      "name": "forestry catchments",
+      "region": "Gisborne Region",
+      "areaType": "FOREST",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "LINZ/place datasets",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-huanui-forest",
+      "name": "Huanui Forest",
+      "region": "Gisborne Region",
+      "areaType": "FOREST",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "LINZ/place datasets",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-kopua-forest",
+      "name": "Kopua Forest",
+      "region": "Gisborne Region",
+      "areaType": "FOREST",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "LINZ/place datasets",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-ngati-porou-forestry-lands",
+      "name": "Ngāti Porou forestry lands",
+      "region": "Gisborne Region",
+      "areaType": "FOREST",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "LINZ/place datasets",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-waimanu-forest",
+      "name": "Waimanu Forest",
+      "region": "Gisborne Region",
+      "areaType": "FOREST",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "LINZ/place datasets",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-tolaga-bay-uawa",
+      "name": "Tolaga Bay / Uawa",
+      "region": "Gisborne Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-te-maungarongo-wetland",
+      "name": "Te Maungarongo Wetland",
+      "region": "Gisborne Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-kaimanawa-and-kaweka-forest-parks",
+      "name": "Kaimanawa and Kaweka Forest Parks",
+      "region": "Hawke's Bay Region",
+      "areaType": "FOREST",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "LINZ/place datasets",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-mohi-bush",
+      "name": "Mohi Bush",
+      "region": "Hawke's Bay Region",
+      "areaType": "FOREST",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "LINZ/place datasets",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-waipukurau-otaia-bush",
+      "name": "Waipukurau/Ōtaia Bush",
+      "region": "Hawke's Bay Region",
+      "areaType": "FOREST",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "LINZ/place datasets",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-lake-whatuma-central-hawke-s-bay",
+      "name": "Lake Whatumā, Central Hawke’s Bay",
+      "region": "Hawke's Bay Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-northern-hawke-s-bay",
+      "name": "Northern Hawke's Bay",
+      "region": "Hawke's Bay Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-northern-hawke-s-bay",
+      "name": "Northern Hawke’s Bay",
+      "region": "Hawke's Bay Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-southern-hawke-s-bay",
+      "name": "Southern Hawke’s Bay",
+      "region": "Hawke's Bay Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-te-angiangi-marine-reserve",
+      "name": "Te Angiangi Marine Reserve",
+      "region": "Hawke's Bay Region",
+      "areaType": "RESERVE_SANCTUARY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "council reserve GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-lake-poukawa",
+      "name": "Lake Poukawa",
+      "region": "Hawke's Bay Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-napier-lake-tutira",
+      "name": "Napier / Lake Tūtira",
+      "region": "Hawke's Bay Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-opouahi-lake-tutira",
+      "name": "Opouahi/Lake Tūtira",
+      "region": "Hawke's Bay Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-waihoratuna-lagoon",
+      "name": "Waihoratuna Lagoon",
+      "region": "Hawke's Bay Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-whakaki-lake",
+      "name": "Whakakī Lake",
+      "region": "Hawke's Bay Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-pukawa-bay",
+      "name": "Pukawa Bay",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-moutoa-island-whanganui-river",
+      "name": "Moutoa Island, Whanganui River",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "ISLAND",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-whanganui-national-park",
+      "name": "Whanganui National Park",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RESERVE_SANCTUARY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "council reserve GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-kokohuia-and-titoki-wetlands",
+      "name": "Kokohuia and Titoki wetlands",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-lake-horowhenua",
+      "name": "Lake Horowhenua",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-lake-horowhenua-levin",
+      "name": "Lake Horowhenua, Levin",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-lake-oporoa",
+      "name": "Lake Oporoa",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-lake-rotoaira",
+      "name": "Lake Rotoaira",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-te-maire-lagoon-near-shannon",
+      "name": "Te Maire Lagoon, near Shannon",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-waimeha-lagoon",
+      "name": "Waimeha Lagoon",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-te-wera-forestry-block",
+      "name": "Te Wera forestry block",
+      "region": "Taranaki Region",
+      "areaType": "FOREST",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "LINZ/place datasets",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-sandy-bay",
+      "name": "Sandy Bay",
+      "region": "Taranaki Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-nga-motu-sugar-loaf-islands",
+      "name": "Ngā Motu/Sugar Loaf Islands",
+      "region": "Taranaki Region",
+      "areaType": "ISLAND",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-egmont-national-park",
+      "name": "Egmont National Park",
+      "region": "Taranaki Region",
+      "areaType": "RESERVE_SANCTUARY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "council reserve GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-te-papakura-o-taranaki-egmont-national-park",
+      "name": "Te Papakura o Taranaki (Egmont) National Park",
+      "region": "Taranaki Region",
+      "areaType": "RESERVE_SANCTUARY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "council reserve GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-lake-rotokare",
+      "name": "Lake Rotokare",
+      "region": "Taranaki Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-remutaka-forest-park",
+      "name": "Remutaka Forest Park",
+      "region": "Wellington Region",
+      "areaType": "FOREST",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "LINZ/place datasets",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-paekakariki-pukerua-bay",
+      "name": "Paekākāriki–Pukerua Bay",
+      "region": "Wellington Region",
+      "areaType": "HARBOUR_BAY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-kapiti-island",
+      "name": "Kapiti Island",
+      "region": "Wellington Region",
+      "areaType": "ISLAND",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-kapiti-island",
+      "name": "Kāpiti Island",
+      "region": "Wellington Region",
+      "areaType": "ISLAND",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-mana-island",
+      "name": "Mana Island",
+      "region": "Wellington Region",
+      "areaType": "ISLAND",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-matiu-somes-island",
+      "name": "Matiu/Somes Island",
+      "region": "Wellington Region",
+      "areaType": "ISLAND",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-te-motu-kairangi",
+      "name": "Te Motu Kairangi",
+      "region": "Wellington Region",
+      "areaType": "ISLAND",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/island geometry",
+        "DOC public conservation land"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-bothamley-park",
+      "name": "Bothamley Park",
+      "region": "Wellington Region",
+      "areaType": "RESERVE_SANCTUARY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "council reserve GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-horoeka-scenic-reserve",
+      "name": "Horoeka Scenic Reserve",
+      "region": "Wellington Region",
+      "areaType": "RESERVE_SANCTUARY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "council reserve GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-mcalister-park",
+      "name": "McAlister Park",
+      "region": "Wellington Region",
+      "areaType": "RESERVE_SANCTUARY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "council reserve GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-tanera-park",
+      "name": "Tanera Park",
+      "region": "Wellington Region",
+      "areaType": "RESERVE_SANCTUARY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "council reserve GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-whitireia-park",
+      "name": "Whitireia Park",
+      "region": "Wellington Region",
+      "areaType": "RESERVE_SANCTUARY",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "DOC public conservation land",
+        "council reserve GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-lake-onoke",
+      "name": "Lake Onoke",
+      "region": "Wellington Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-lake-onoke",
+      "name": "Lake Ōnoke",
+      "region": "Wellington Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-taupo-swamp",
+      "name": "Taupō Swamp",
+      "region": "Wellington Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-waimeha-lagoon",
+      "name": "Waimeha Lagoon",
+      "region": "Wellington Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-wairio-wetland",
+      "name": "Wairio Wetland",
+      "region": "Wellington Region",
+      "areaType": "WETLAND_LAKE",
+      "participantCount": 1,
+      "priority": "A",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS",
+        "DOC"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-waimata-river",
+      "name": "Waimatā River",
+      "region": "Gisborne Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 11,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-waikanae-stream",
+      "name": "Waikanae Stream",
+      "region": "Gisborne Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 10,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-waioeka-gorge",
+      "name": "Waioeka Gorge",
+      "region": "Gisborne Region",
+      "areaType": "VALLEY",
+      "participantCount": 10,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-whanganui-river-catchment",
+      "name": "Whanganui River catchment",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 9,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-pakowhai-stream",
+      "name": "Pakowhai Stream",
+      "region": "Gisborne Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 8,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-waiwhakaiho-river",
+      "name": "Waiwhakaiho River",
+      "region": "Taranaki Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 8,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-waimata-catchment",
+      "name": "Waimatā Catchment",
+      "region": "Gisborne Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 7,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-mahia-peninsula",
+      "name": "Mahia Peninsula",
+      "region": "Hawke's Bay Region",
+      "areaType": "PENINSULA",
+      "participantCount": 7,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-taranaki-maunga",
+      "name": "Taranaki Maunga",
+      "region": "Taranaki Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 7,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-waiapu-catchment",
+      "name": "Waiapu Catchment",
+      "region": "Gisborne Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 5,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-waipaoa-catchment",
+      "name": "Waipaoa catchment",
+      "region": "Gisborne Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 5,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-waiapu-river",
+      "name": "Waiapu River",
+      "region": "Gisborne Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 5,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-manawatu-catchment",
+      "name": "Manawatū catchment",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 5,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-ruahine-ranges",
+      "name": "Ruahine Ranges",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 5,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-patea-river",
+      "name": "Pātea River",
+      "region": "Taranaki Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 5,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-makorori-beach",
+      "name": "Makorori Beach",
+      "region": "Gisborne Region",
+      "areaType": "COASTAL_AREA",
+      "participantCount": 4,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/place data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-waikanae-beach",
+      "name": "Waikanae Beach",
+      "region": "Gisborne Region",
+      "areaType": "COASTAL_AREA",
+      "participantCount": 4,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/place data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-waikirikiri-stream",
+      "name": "Waikirikiri Stream",
+      "region": "Gisborne Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 4,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-ahuriri-catchment",
+      "name": "Ahuriri catchment",
+      "region": "Hawke's Bay Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 4,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-kai-iwi-stream",
+      "name": "Kai Iwi Stream",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 4,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-whanganui-river",
+      "name": "Whanganui River",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 4,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-kaitake-range",
+      "name": "Kaitake Range",
+      "region": "Taranaki Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 4,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-kaitake-ranges",
+      "name": "Kaitake Ranges",
+      "region": "Taranaki Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 4,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-miramar-peninsula",
+      "name": "Miramar Peninsula",
+      "region": "Wellington Region",
+      "areaType": "PENINSULA",
+      "participantCount": 4,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-maungarongo",
+      "name": "Maungarongo",
+      "region": "Gisborne Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 3,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-titirangi-kaiti-hill",
+      "name": "Titirangi / Kaiti Hill",
+      "region": "Gisborne Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 3,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-pakowhai-stream",
+      "name": "Pākōwhai Stream",
+      "region": "Gisborne Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 3,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-taruheru-river",
+      "name": "Taruheru River",
+      "region": "Gisborne Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 3,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-esk-valley",
+      "name": "Esk Valley",
+      "region": "Hawke's Bay Region",
+      "areaType": "VALLEY",
+      "participantCount": 3,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-ototoka-stream",
+      "name": "Ototoka Stream",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 3,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-whanganui-kai-iwi-stream",
+      "name": "Whanganui / Kai Iwi Stream",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 3,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-te-arai-catchment",
+      "name": "Te Arai catchment",
+      "region": "Gisborne Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-waimata-river-catchment",
+      "name": "Waimatā River catchment",
+      "region": "Gisborne Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-uawa-catchment",
+      "name": "Ūawa catchment",
+      "region": "Gisborne Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-uawa-river-catchment",
+      "name": "Ūawa River Catchment",
+      "region": "Gisborne Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-hine-rauiri-stream",
+      "name": "Hine Rauiri stream",
+      "region": "Gisborne Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-kopuawhakapata-stream",
+      "name": "Kopuawhakapata Stream",
+      "region": "Gisborne Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-waimata-valley",
+      "name": "Waimatā Valley",
+      "region": "Gisborne Region",
+      "areaType": "VALLEY",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-tukituki-catchment",
+      "name": "Tukituki Catchment",
+      "region": "Hawke's Bay Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-kiwitea-catchment",
+      "name": "Kiwitea catchment",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-manawatu-river-catchment",
+      "name": "Manawatū River catchment",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-mokoia-catchment",
+      "name": "Mokoia catchment",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-rangitikei-catchment",
+      "name": "Rangitīkei catchment",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-ruahine-range",
+      "name": "Ruahine Range",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-whanganui-river-road",
+      "name": "Whanganui River Road",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-kaitieke-valley",
+      "name": "Kaitieke Valley",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "VALLEY",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-manawatu-gorge",
+      "name": "Manawatū Gorge",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "VALLEY",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-pohangina-valley",
+      "name": "Pohangina Valley",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "VALLEY",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-mount-hiwi",
+      "name": "Mount Hiwi",
+      "region": "Taranaki Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-waitotara-valley",
+      "name": "Waitōtara Valley",
+      "region": "Taranaki Region",
+      "areaType": "VALLEY",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-houghton-valley",
+      "name": "Houghton Valley",
+      "region": "Wellington Region",
+      "areaType": "VALLEY",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-hutt-valley",
+      "name": "Hutt Valley",
+      "region": "Wellington Region",
+      "areaType": "VALLEY",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-mangatarere-valley",
+      "name": "Mangatārere Valley",
+      "region": "Wellington Region",
+      "areaType": "VALLEY",
+      "participantCount": 2,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-awatere-river-catchment",
+      "name": "Awatere River catchment",
+      "region": "Gisborne Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-lower-catchment-near-gisborne",
+      "name": "lower catchment near Gisborne",
+      "region": "Gisborne Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-lower-waipaoa-catchment",
+      "name": "Lower Waipaoa catchment",
+      "region": "Gisborne Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-makatote-stream-catchment",
+      "name": "Makatote Stream catchment",
+      "region": "Gisborne Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-mangapoike-catchment",
+      "name": "Mangapoike catchment",
+      "region": "Gisborne Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-motu-catchment",
+      "name": "Mōtū Catchment",
+      "region": "Gisborne Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-river-catchments",
+      "name": "river catchments",
+      "region": "Gisborne Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-te-arai-and-waipaoa-catchments",
+      "name": "Te Arai and Waipaoa catchments",
+      "region": "Gisborne Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-upper-waimata-catchment",
+      "name": "upper Waimatā catchment",
+      "region": "Gisborne Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-waipaoa-and-te-arai-catchments",
+      "name": "Waipaoa and Te Arai catchments",
+      "region": "Gisborne Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-waipaoa-river-catchment",
+      "name": "Waipaoa River Catchment",
+      "region": "Gisborne Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-wharekopae-catchment",
+      "name": "Wharekopae catchment",
+      "region": "Gisborne Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-mahia-peninsula",
+      "name": "Mahia Peninsula",
+      "region": "Gisborne Region",
+      "areaType": "PENINSULA",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-maungataniwha",
+      "name": "Maungataniwha",
+      "region": "Gisborne Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-raukumara-range",
+      "name": "Raukumara Range",
+      "region": "Gisborne Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-raukumara-range",
+      "name": "Raukūmara Range",
+      "region": "Gisborne Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-titirangi-maunga",
+      "name": "Titirangi Maunga",
+      "region": "Gisborne Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-titirangi-maunga",
+      "name": "Tītīrangi Maunga",
+      "region": "Gisborne Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-hamanatua-stream",
+      "name": "Hamanatua Stream",
+      "region": "Gisborne Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-mata-river",
+      "name": "Mata River",
+      "region": "Gisborne Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-upper-motu-river",
+      "name": "upper Mōtū River",
+      "region": "Gisborne Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-urban-streams",
+      "name": "urban streams",
+      "region": "Gisborne Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-waikohu-river",
+      "name": "Waikohu River",
+      "region": "Gisborne Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-waimata-riverside",
+      "name": "Waimatā Riverside",
+      "region": "Gisborne Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-waipaoa-river",
+      "name": "Waipaoa River",
+      "region": "Gisborne Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-wharekopae-river",
+      "name": "Wharekopae River",
+      "region": "Gisborne Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-karamu-river-catchment",
+      "name": "Karamu River Catchment",
+      "region": "Hawke's Bay Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-karamu-catchment",
+      "name": "Karamū catchment",
+      "region": "Hawke's Bay Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-maharakeke-and-porangahau-catchment",
+      "name": "Maharakeke and Pōrangahau catchment",
+      "region": "Hawke's Bay Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-maungaharuru-tutira-catchment",
+      "name": "Maungaharuru–Tūtira catchment",
+      "region": "Hawke's Bay Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-tukituki-sub-catchment",
+      "name": "Tukituki sub-catchment",
+      "region": "Hawke's Bay Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-mahia-peninsula",
+      "name": "Māhia Peninsula",
+      "region": "Hawke's Bay Region",
+      "areaType": "PENINSULA",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/coastline",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-mataruahou-napier-hill",
+      "name": "Mataruahou/Napier Hill",
+      "region": "Hawke's Bay Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-maungaharuru",
+      "name": "Maungaharuru",
+      "region": "Hawke's Bay Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-maungaharuru-tutira",
+      "name": "Maungaharuru–Tūtira",
+      "region": "Hawke's Bay Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-maungataniwha",
+      "name": "Maungataniwha",
+      "region": "Hawke's Bay Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-napier-hill",
+      "name": "Napier Hill",
+      "region": "Hawke's Bay Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-northern-ruahine-range",
+      "name": "Northern Ruahine Range",
+      "region": "Hawke's Bay Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-boundary-stream",
+      "name": "Boundary Stream",
+      "region": "Hawke's Bay Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-karamu-stream",
+      "name": "Karamu Stream",
+      "region": "Hawke's Bay Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-maraetotara-river",
+      "name": "Maraetōtara River",
+      "region": "Hawke's Bay Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-ngaruroro-and-tutaekuri-rivers",
+      "name": "Ngaruroro and Tūtaekurī rivers",
+      "region": "Hawke's Bay Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-upper-maharakeke-stream",
+      "name": "Upper Maharakeke Stream",
+      "region": "Hawke's Bay Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-upper-tukituki-river",
+      "name": "Upper Tukituki River",
+      "region": "Hawke's Bay Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-waihua-river",
+      "name": "Waihua River",
+      "region": "Hawke's Bay Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-aorangi-ikewetea-and-waiokotore-catchments",
+      "name": "Aorangi, Ikewetea and Waiokotore catchments",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-mangatipona-stream-catchment-rangitikei",
+      "name": "Mangatipona Stream catchment, Rangitīkei",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-rangitikei-river-catchment",
+      "name": "Rangitīkei River catchment",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-timona-park-oroua-catchment",
+      "name": "Timona Park / Ōroua catchment",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-upper-whanganui-catchment",
+      "name": "Upper Whanganui catchment",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-whangaehu-catchment",
+      "name": "Whangaehu catchment",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-whanganui-catchment",
+      "name": "Whanganui catchment",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-oroua-catchment",
+      "name": "Ōroua catchment",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-durie-hill-whanganui",
+      "name": "Durie Hill, Whanganui",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-northern-ruahine-range",
+      "name": "Northern Ruahine Range",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-southern-ruahine-range",
+      "name": "Southern Ruahine Range",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-manawatu-river",
+      "name": "Manawatū River",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-mid-to-lower-whanganui-river",
+      "name": "Mid to lower Whanganui River",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-mid-to-lower-whanganui-river-reaches",
+      "name": "Mid to lower Whanganui River reaches",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-oroua-and-rangitikei-rivers",
+      "name": "Oroua & Rangitīkei Rivers",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-pukeokahu-rangitikei-river",
+      "name": "Pukeokahu / Rangitīkei River",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-rangitikei-river",
+      "name": "Rangitīkei River",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-retaruke-and-whanganui-rivers-ruapehu",
+      "name": "Retaruke and Whanganui Rivers, Ruapehu",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-stoney-creek",
+      "name": "Stoney Creek",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-taonui-stream-mangawhero-river-confluence",
+      "name": "Taonui Stream / Mangawhero River confluence",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-tongariro-river",
+      "name": "Tongariro River",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-turitea-stream-palmerston-north",
+      "name": "Turitea Stream, Palmerston North",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-upper-and-middle-whanganui-river",
+      "name": "Upper and middle Whanganui River",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-oroua-river",
+      "name": "Ōroua River",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-otaki-river-mouth",
+      "name": "Ōtaki River Mouth",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-ashhurst-and-pohangina-valley",
+      "name": "Ashhurst and Pohangina Valley",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-kahuterawa-valley",
+      "name": "Kahuterawa Valley",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-kirikau-valley-ruapehu",
+      "name": "Kirikau Valley, Ruapehu",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-moonshine-valley-aokautere",
+      "name": "Moonshine Valley / Aokautere",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-okoia-valley",
+      "name": "Okoia Valley",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-turitea-valley",
+      "name": "Turitea Valley",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-turitea-valley-summerhill-and-aokautere",
+      "name": "Turitea Valley, Summerhill and Aokautere",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-kaupokonui-river-catchment",
+      "name": "Kaupokonui River catchment",
+      "region": "Taranaki Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-mimitangiatua-catchment",
+      "name": "Mimitangiatua catchment",
+      "region": "Taranaki Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-upper-waikato-catchment",
+      "name": "Upper Waikato catchment",
+      "region": "Taranaki Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-waiongana-catchment",
+      "name": "Waiongana catchment",
+      "region": "Taranaki Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-waitara-catchment",
+      "name": "Waitara catchment",
+      "region": "Taranaki Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-waitotara-catchment",
+      "name": "Waitōtara catchment",
+      "region": "Taranaki Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-pouakai-range",
+      "name": "Pouakai Range",
+      "region": "Taranaki Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-southern-slopes-of-taranaki-maunga",
+      "name": "Southern slopes of Taranaki Maunga",
+      "region": "Taranaki Region",
+      "areaType": "RANGE_MOUNTAIN",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "DOC/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-kapuni-stream",
+      "name": "Kapuni Stream",
+      "region": "Taranaki Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-kaupokonui-river",
+      "name": "Kaūpokonui River",
+      "region": "Taranaki Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-mangaemiemi-stream",
+      "name": "Mangaemiemi Stream",
+      "region": "Taranaki Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-mangaotuku-stream",
+      "name": "Mangaotuku Stream",
+      "region": "Taranaki Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-tauararoa-stream",
+      "name": "Tauararoa Stream",
+      "region": "Taranaki Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-waitara-river",
+      "name": "Waitara River",
+      "region": "Taranaki Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-uruti-valley",
+      "name": "Uruti Valley",
+      "region": "Taranaki Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-waitaki-valley",
+      "name": "Waitaki Valley",
+      "region": "Taranaki Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-waitotara-valley",
+      "name": "Waitotara Valley",
+      "region": "Taranaki Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-kaiwharawhara-catchment",
+      "name": "Kaiwharawhara catchment",
+      "region": "Wellington Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-ruamahanga-river-catchment",
+      "name": "Ruamahanga River catchment",
+      "region": "Wellington Region",
+      "areaType": "CATCHMENT",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "regional council catchment GIS",
+        "LAWA/council source"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-waikawa-beach",
+      "name": "Waikawa Beach",
+      "region": "Wellington Region",
+      "areaType": "COASTAL_AREA",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ coastline/place data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-hutt-river",
+      "name": "Hutt River",
+      "region": "Wellington Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-otaki-river-mouth",
+      "name": "Otaki River Mouth",
+      "region": "Wellington Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-owhiro-stream",
+      "name": "Ōwhiro Stream",
+      "region": "Wellington Region",
+      "areaType": "RIVER_STREAM",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ hydro",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-mangaterere-valley",
+      "name": "Mangaterere Valley",
+      "region": "Wellington Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-maungakotukutuku-valley-paraparaumu",
+      "name": "Maungakotukutuku Valley, Paraparaumu",
+      "region": "Wellington Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-moores-valley",
+      "name": "Moores Valley",
+      "region": "Wellington Region",
+      "areaType": "VALLEY",
+      "participantCount": 1,
+      "priority": "B",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "LINZ/place/topographic data",
+        "regional/council GIS"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-turanganui-estuary",
+      "name": "Tūranganui Estuary",
+      "region": "Gisborne Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 6,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-kapiti-coast",
+      "name": "Kāpiti Coast",
+      "region": "Wellington Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 5,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-ahuriri-estuary",
+      "name": "Ahuriri Estuary",
+      "region": "Hawke's Bay Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 4,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-foxton-manawatu-estuary",
+      "name": "Foxton / Manawatū Estuary",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 4,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-manawatu-district",
+      "name": "Manawatū District",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 3,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-east-coast",
+      "name": "East Coast",
+      "region": "Gisborne Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 2,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-gisborne-east-coast",
+      "name": "Gisborne-East Coast",
+      "region": "Gisborne Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 2,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-kaitawa-estuary",
+      "name": "Kaitawa Estuary",
+      "region": "Gisborne Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 2,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-ahuriri-estuary-napier",
+      "name": "Ahuriri Estuary, Napier",
+      "region": "Hawke's Bay Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 2,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-ruapehu-district",
+      "name": "Ruapehu District",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 2,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-whanganui-district",
+      "name": "Whanganui district",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 2,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-wellington-south-coast",
+      "name": "Wellington South Coast",
+      "region": "Wellington Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 2,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-coastal-and-freshwater-project-areas",
+      "name": "coastal and freshwater project areas",
+      "region": "Gisborne Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-coastal-dunes",
+      "name": "coastal dunes",
+      "region": "Gisborne Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-coastal-gisborne",
+      "name": "coastal Gisborne",
+      "region": "Gisborne Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-gisborne-coast",
+      "name": "Gisborne coast",
+      "region": "Gisborne Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-gisborne-makorori-and-coastal-areas",
+      "name": "Makorori and coastal areas",
+      "region": "Gisborne Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-hastings-district",
+      "name": "Hastings District",
+      "region": "Hawke's Bay Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-southern-coast",
+      "name": "Southern Coast",
+      "region": "Hawke's Bay Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-wairoa-district",
+      "name": "Wairoa District",
+      "region": "Hawke's Bay Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-hawke-s-bay-waitangi-estuary",
+      "name": "Waitangi Estuary",
+      "region": "Hawke's Bay Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-horowhenua-coast",
+      "name": "Horowhenua coast",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-kai-iwi-whanganui-district",
+      "name": "Kai Iwi, Whanganui District",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-manawatu-estuary",
+      "name": "Manawatū Estuary",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-rangitikei-district",
+      "name": "Rangitīkei District",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-tararua-manawatu-district",
+      "name": "Tararua/Manawatū District",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-whanganui-and-ruapehu-districts",
+      "name": "Whanganui and Ruapehu districts",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-manawatu-whanganui-whanganui-region",
+      "name": "Whanganui region",
+      "region": "Manawatū-Whanganui Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-south-taranaki-district",
+      "name": "South Taranaki District",
+      "region": "Taranaki Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-taranaki-coast",
+      "name": "Taranaki coast",
+      "region": "Taranaki Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-taranaki-taranaki-coastline",
+      "name": "Taranaki coastline",
+      "region": "Taranaki Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-kapiti-coast",
+      "name": "Kapiti Coast",
+      "region": "Wellington Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    },
+    {
+      "areaId": "area-wellington-south-coast",
+      "name": "South Coast",
+      "region": "Wellington Region",
+      "areaType": "WIDER_ECOLOGICAL_AREA",
+      "participantCount": 1,
+      "priority": "C",
+      "currentBoundaryStatus": "UNRESOLVED",
+      "currentGeometryStatus": "NOT_ATTACHED",
+      "suggestedSourceClasses": [
+        "case-specific authoritative source",
+        "representative geometry only if necessary"
+      ],
+      "geometryDecision": "PENDING"
+    }
+  ]
+}
