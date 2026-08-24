@@ -1,0 +1,3694 @@
+{
+  "region": "Nelson Region",
+  "datasetStatus": "PRELOCATED_REQUIRES_LINZ_LOCALITY_RESOLUTION",
+  "participants": [
+    {
+      "id": "si-exg-si-01469",
+      "name": "Packers Creek trapping group (NZ Deerstalkers Packers Creek Rifle Range)",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Maitai Valley",
+      "localityRaw": "Maitai Valley",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Greg Couper",
+        "Carina Jackson"
+      ],
+      "summary": "Listed as a volunteer trapping effort at Packers Creek / the NZ Deerstalkers Packers Creek Rifle Range in the Maitai Valley, with Greg Couper and Carina Jackson named.",
+      "activities": [
+        "rats, possums, mustelids"
+      ],
+      "detail": "Listed as a volunteer trapping effort at Packers Creek / the NZ Deerstalkers Packers Creek Rifle Range in the Maitai Valley, with Greg Couper and Carina Jackson named.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01469"
+    },
+    {
+      "id": "si-exg-si-01470",
+      "name": "Greg Couper",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Maitai Valley",
+      "localityRaw": "Maitai Valley",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Packers Creek trapping group",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Greg Couper"
+      ],
+      "summary": "Named among Packers Creek / NZ Deerstalkers rifle range trapping volunteers in the June 2024 newsletter.",
+      "activities": [],
+      "detail": "Named among Packers Creek / NZ Deerstalkers rifle range trapping volunteers in the June 2024 newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01470"
+    },
+    {
+      "id": "si-exg-si-01471",
+      "name": "Carina Jackson",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Maitai Valley",
+      "localityRaw": "Maitai Valley",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Packers Creek trapping group",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Carina Jackson"
+      ],
+      "summary": "Named among Packers Creek / NZ Deerstalkers rifle range trapping volunteers in the June 2024 newsletter.",
+      "activities": [],
+      "detail": "Named among Packers Creek / NZ Deerstalkers rifle range trapping volunteers in the June 2024 newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01471"
+    },
+    {
+      "id": "si-exg-si-01472",
+      "name": "Will's Gully Group",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Richmond Hills",
+      "localityRaw": "Richmond Hills",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Will Rickerby",
+        "Bryan Riley",
+        "Alastair Mackintosh",
+        "Bruce Harvey",
+        "Richard Wells",
+        "Mike Oliver",
+        "Rick Griffin",
+        "Sarah Griffin"
+      ],
+      "summary": "Named neighbourhood trapping group in the Richmond Hills area listed in the June 2024 Tas/Nelson Conservation Volunteers Newsletter with a roster of named volunteers.",
+      "activities": [
+        "rats, possums, mustelids"
+      ],
+      "detail": "Named neighbourhood trapping group in the Richmond Hills area listed in the June 2024 Tas/Nelson Conservation Volunteers Newsletter with a roster of named volunteers.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01472"
+    },
+    {
+      "id": "si-exg-si-01473",
+      "name": "Will Rickerby",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Richmond Hills",
+      "localityRaw": "Richmond Hills",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Will's Gully Group",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Will Rickerby"
+      ],
+      "summary": "Listed as a Will's Gully Group / Richmond Hills volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "activities": [],
+      "detail": "Listed as a Will's Gully Group / Richmond Hills volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01473"
+    },
+    {
+      "id": "si-exg-si-01474",
+      "name": "Bryan Riley",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Richmond Hills",
+      "localityRaw": "Richmond Hills",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Will's Gully Group",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Bryan Riley"
+      ],
+      "summary": "Listed as a Will's Gully Group / Richmond Hills volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "activities": [],
+      "detail": "Listed as a Will's Gully Group / Richmond Hills volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01474"
+    },
+    {
+      "id": "si-exg-si-01475",
+      "name": "Alastair Mackintosh",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Richmond Hills",
+      "localityRaw": "Richmond Hills",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Will's Gully Group",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Alastair Mackintosh"
+      ],
+      "summary": "Listed as a Will's Gully Group / Richmond Hills volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "activities": [],
+      "detail": "Listed as a Will's Gully Group / Richmond Hills volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01475"
+    },
+    {
+      "id": "si-exg-si-01476",
+      "name": "Richard Wells",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Richmond Hills",
+      "localityRaw": "Richmond Hills",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Will's Gully Group",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Richard Wells"
+      ],
+      "summary": "Listed as a Will's Gully Group / Richmond Hills volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "activities": [],
+      "detail": "Listed as a Will's Gully Group / Richmond Hills volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01476"
+    },
+    {
+      "id": "si-exg-si-01477",
+      "name": "Mike Oliver",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Richmond Hills",
+      "localityRaw": "Richmond Hills",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Will's Gully Group",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Mike Oliver"
+      ],
+      "summary": "Listed as a Will's Gully Group / Richmond Hills volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "activities": [],
+      "detail": "Listed as a Will's Gully Group / Richmond Hills volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01477"
+    },
+    {
+      "id": "si-exg-si-01478",
+      "name": "Rick Griffin",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Richmond Hills",
+      "localityRaw": "Richmond Hills",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Will's Gully Group",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Rick Griffin"
+      ],
+      "summary": "Listed as a Will's Gully Group / Richmond Hills volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "activities": [],
+      "detail": "Listed as a Will's Gully Group / Richmond Hills volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01478"
+    },
+    {
+      "id": "si-exg-si-01479",
+      "name": "Sarah Griffin",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Richmond Hills",
+      "localityRaw": "Richmond Hills",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Will's Gully Group",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Sarah Griffin"
+      ],
+      "summary": "Listed as a Will's Gully Group / Richmond Hills volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "activities": [],
+      "detail": "Listed as a Will's Gully Group / Richmond Hills volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01479"
+    },
+    {
+      "id": "si-exg-si-01480",
+      "name": "Bruce Harvey",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Richmond Hills",
+      "localityRaw": "Richmond Hills",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Will's Gully Group",
+      "relatedEntities": [
+        "Native Bird Recovery Richmond"
+      ],
+      "namedPeople": [
+        "Bruce Harvey"
+      ],
+      "summary": "Listed as a volunteer under both Will's Gully Group and Native Bird Recovery Richmond in the June 2024 newsletter.",
+      "activities": [],
+      "detail": "Listed as a volunteer under both Will's Gully Group and Native Bird Recovery Richmond in the June 2024 newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01480"
+    },
+    {
+      "id": "si-exg-si-01481",
+      "name": "Easby Park / Reservoir Creek trapping group",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Easby Park, Richmond",
+      "localityRaw": "Easby Park, Richmond",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Paul Hewson",
+        "Giles Griffith",
+        "Mike van Enter",
+        "Greg Pickford",
+        "Alison Pickford",
+        "Keith Gorton",
+        "Desi Gorton",
+        "Steve Liddicoat",
+        "Linda Liddicoat",
+        "Nigel Barrett",
+        "Chris Finlay"
+      ],
+      "summary": "Named trapping effort at Easby Park / Reservoir Creek in the June 2024 Tas/Nelson Conservation Volunteers Newsletter with a large named volunteer roster.",
+      "activities": [
+        "rats, possums, mustelids"
+      ],
+      "detail": "Named trapping effort at Easby Park / Reservoir Creek in the June 2024 Tas/Nelson Conservation Volunteers Newsletter with a large named volunteer roster.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01481"
+    },
+    {
+      "id": "si-exg-si-01482",
+      "name": "Paul Hewson",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Easby Park, Richmond",
+      "localityRaw": "Easby Park, Richmond",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Easby Park / Reservoir Creek trapping group",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Paul Hewson"
+      ],
+      "summary": "Listed as an Easby Park / Reservoir Creek volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "activities": [],
+      "detail": "Listed as an Easby Park / Reservoir Creek volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01482"
+    },
+    {
+      "id": "si-exg-si-01483",
+      "name": "Giles Griffith",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Easby Park, Richmond",
+      "localityRaw": "Easby Park, Richmond",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Easby Park / Reservoir Creek trapping group",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Giles Griffith"
+      ],
+      "summary": "Listed as an Easby Park / Reservoir Creek volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "activities": [],
+      "detail": "Listed as an Easby Park / Reservoir Creek volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01483"
+    },
+    {
+      "id": "si-exg-si-01484",
+      "name": "Mike van Enter",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Easby Park, Richmond",
+      "localityRaw": "Easby Park, Richmond",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Easby Park / Reservoir Creek trapping group",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Mike van Enter"
+      ],
+      "summary": "Listed as an Easby Park / Reservoir Creek volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "activities": [],
+      "detail": "Listed as an Easby Park / Reservoir Creek volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01484"
+    },
+    {
+      "id": "si-exg-si-01485",
+      "name": "Greg Pickford",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Easby Park, Richmond",
+      "localityRaw": "Easby Park, Richmond",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Easby Park / Reservoir Creek trapping group",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Greg Pickford"
+      ],
+      "summary": "Listed as an Easby Park / Reservoir Creek volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "activities": [],
+      "detail": "Listed as an Easby Park / Reservoir Creek volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01485"
+    },
+    {
+      "id": "si-exg-si-01486",
+      "name": "Alison Pickford",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Easby Park, Richmond",
+      "localityRaw": "Easby Park, Richmond",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Easby Park / Reservoir Creek trapping group",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Alison Pickford"
+      ],
+      "summary": "Listed as an Easby Park / Reservoir Creek volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "activities": [],
+      "detail": "Listed as an Easby Park / Reservoir Creek volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01486"
+    },
+    {
+      "id": "si-exg-si-01487",
+      "name": "Keith Gorton",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Easby Park, Richmond",
+      "localityRaw": "Easby Park, Richmond",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Easby Park / Reservoir Creek trapping group",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Keith Gorton"
+      ],
+      "summary": "Listed as an Easby Park / Reservoir Creek volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "activities": [],
+      "detail": "Listed as an Easby Park / Reservoir Creek volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01487"
+    },
+    {
+      "id": "si-exg-si-01488",
+      "name": "Desi Gorton",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Easby Park, Richmond",
+      "localityRaw": "Easby Park, Richmond",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Easby Park / Reservoir Creek trapping group",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Desi Gorton"
+      ],
+      "summary": "Listed as an Easby Park / Reservoir Creek volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "activities": [],
+      "detail": "Listed as an Easby Park / Reservoir Creek volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01488"
+    },
+    {
+      "id": "si-exg-si-01489",
+      "name": "Steve Liddicoat",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Easby Park, Richmond",
+      "localityRaw": "Easby Park, Richmond",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Easby Park / Reservoir Creek trapping group",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Steve Liddicoat"
+      ],
+      "summary": "Listed as an Easby Park / Reservoir Creek volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "activities": [],
+      "detail": "Listed as an Easby Park / Reservoir Creek volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01489"
+    },
+    {
+      "id": "si-exg-si-01490",
+      "name": "Linda Liddicoat",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Easby Park, Richmond",
+      "localityRaw": "Easby Park, Richmond",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Easby Park / Reservoir Creek trapping group",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Linda Liddicoat"
+      ],
+      "summary": "Listed as an Easby Park / Reservoir Creek volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "activities": [],
+      "detail": "Listed as an Easby Park / Reservoir Creek volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01490"
+    },
+    {
+      "id": "si-exg-si-01491",
+      "name": "Nigel Barrett",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Easby Park, Richmond",
+      "localityRaw": "Easby Park, Richmond",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Easby Park / Reservoir Creek trapping group",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Nigel Barrett"
+      ],
+      "summary": "Listed as an Easby Park / Reservoir Creek volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "activities": [],
+      "detail": "Listed as an Easby Park / Reservoir Creek volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01491"
+    },
+    {
+      "id": "si-exg-si-01492",
+      "name": "Chris Finlay",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Easby Park, Richmond",
+      "localityRaw": "Easby Park, Richmond",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Easby Park / Reservoir Creek trapping group",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Chris Finlay"
+      ],
+      "summary": "Listed as an Easby Park / Reservoir Creek volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "activities": [],
+      "detail": "Listed as an Easby Park / Reservoir Creek volunteer trapper in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01492"
+    },
+    {
+      "id": "si-exg-si-01493",
+      "name": "Moira Tilling",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Paremata Flats Reserve, Delaware Bay",
+      "localityRaw": "Paremata Flats Reserve, Delaware Bay",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Paremata Flats Reserve restoration (Forest & Bird)",
+      "relatedEntities": [
+        "Forest & Bird Nelson Tasman"
+      ],
+      "namedPeople": [
+        "Moira Tilling"
+      ],
+      "summary": "Named as a volunteer at Paremata Flats Reserve / Delaware Bay in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "activities": [
+        "fernbird, banded rail"
+      ],
+      "detail": "Named as a volunteer at Paremata Flats Reserve / Delaware Bay in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01493"
+    },
+    {
+      "id": "si-exg-si-01494",
+      "name": "Forest & Bird Moturoa / West End volunteers",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Moturoa",
+      "localityRaw": "Moturoa / West End",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Forest & Bird Nelson Tasman",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Gillian Pollock",
+        "Mark Forward"
+      ],
+      "summary": "Listed in the June 2024 Tas/Nelson Conservation Volunteers Newsletter with Gillian Pollock and Mark Forward named.",
+      "activities": [],
+      "detail": "Listed in the June 2024 Tas/Nelson Conservation Volunteers Newsletter with Gillian Pollock and Mark Forward named.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01494"
+    },
+    {
+      "id": "si-exg-si-01495",
+      "name": "Gillian Pollock",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Nelson",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Forest & Bird Nelson Tasman",
+      "relatedEntities": [
+        "Forest & Bird Nelson Tasman branch"
+      ],
+      "namedPeople": [
+        "Gillian Pollock"
+      ],
+      "summary": "Named as a Moturoa/West End volunteer in the June 2024 newsletter; also published as the Forest & Bird Nelson Tasman branch contact.",
+      "activities": [],
+      "detail": "Branch email published as nelsontasman.branch@forestandbird.org.nz on the Forest & Bird branch page",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01495"
+    },
+    {
+      "id": "si-exg-si-01496",
+      "name": "Mark Forward",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Moturoa",
+      "localityRaw": "Moturoa / West End",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Forest & Bird Moturoa / West End volunteers",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Mark Forward"
+      ],
+      "summary": "Named as a Moturoa/West End volunteer in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "activities": [],
+      "detail": "Named as a Moturoa/West End volunteer in the June 2024 Tas/Nelson Conservation Volunteers Newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01496"
+    },
+    {
+      "id": "si-exg-si-01497",
+      "name": "Bryce Buckland",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Grampians Reserve",
+      "localityRaw": "Grampians Reserve",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://our.nelson.govt.nz/stories/grazing-on-the-grampians-a-long-term-vision-for-a-unique-reserve/"
+      ],
+      "website": "https://our.nelson.govt.nz/stories/grazing-on-the-grampians-a-long-term-vision-for-a-unique-reserve/",
+      "relationship": "Birdlife on Grampians",
+      "relatedEntities": [
+        "Nelson Nature Halo Project"
+      ],
+      "namedPeople": [
+        "Bryce Buckland"
+      ],
+      "summary": "Quoted as 'Birdlife on Grampians group coordinator' in Nelson City Council's Grampians story, describing ~25 volunteers, 11 years of trapping and removals of 1,000 possums, 3,500 rats and 93 weasels/stoats; also listed as 'group organiser' on the Nelson Nature Leader Page Apr22.",
+      "activities": [
+        "possums, rats, mice, stoats, weasels"
+      ],
+      "detail": "Quoted as 'Birdlife on Grampians group coordinator' in Nelson City Council's Grampians story, describing ~25 volunteers, 11 years of trapping and removals of 1,000 possums, 3,500 rats and 93 weasels/stoats; also listed as 'group organiser' on the Nelson Nature Leader Page Apr22.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01497"
+    },
+    {
+      "id": "si-exg-si-01498",
+      "name": "Kathryn Richards",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Marsden Valley, Stoke",
+      "localityRaw": "Marsden Valley, Stoke",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.nelsonpubliclibraries.govt.nz/assets/Nelson-Nature-Leader-Page-Apr22.pdf"
+      ],
+      "website": "https://www.nelsonpubliclibraries.govt.nz/assets/Nelson-Nature-Leader-Page-Apr22.pdf",
+      "relationship": "Marsden Valley Trappers",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Kathryn Richards"
+      ],
+      "summary": "Named as 'group coordinator' of the Marsden Valley Trappers on the Nelson Nature Leader Page Apr22. Resolves the first-name-only 'Kathryn' listed for Marsden Valley Trappers in the June 2024 volunteers newsletter.",
+      "activities": [
+        "rats, possums, mustelids"
+      ],
+      "detail": "Named as 'group coordinator' of the Marsden Valley Trappers on the Nelson Nature Leader Page Apr22. Resolves the first-name-only 'Kathryn' listed for Marsden Valley Trappers in the June 2024 volunteers newsletter.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01498"
+    },
+    {
+      "id": "si-exg-si-01499",
+      "name": "Stu Hanchet",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Pipers Reserve, between Toi Toi and Tahunanui",
+      "localityRaw": "Pipers Reserve, between Toi Toi and Tahunanui",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "http://www.nelsoncity.co.nz/assets/Environment/Nelson-Nature/nelson-nature-leader-pages/17286-NCC-Nelson-Nature-Leader-Page-Jul19-Proof-3.pdf"
+      ],
+      "website": "http://www.nelsoncity.co.nz/assets/Environment/Nelson-Nature/nelson-nature-leader-pages/17286-NCC-Nelson-Nature-Leader-Page-Jul19-Proof-3.pdf",
+      "relationship": "Pipers Reserve Trapping Group (Pipers Halo project)",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Stu Hanchet"
+      ],
+      "summary": "Named on the Nelson Nature Leader Page Jul19 as the eligibility contact for subsidised traps near Pipers Reserve with published email hanchet@slingshot.co.nz; described as 'group organiser' of the Pipers Halo group on the Apr22 leader page.",
+      "activities": [
+        "rats, stoats, possums"
+      ],
+      "detail": "hanchet@slingshot.co.nz (published on NCC Nelson Nature leader page)",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01499"
+    },
+    {
+      "id": "si-exg-si-01500",
+      "name": "Pipers Reserve Trapping Group",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Pipers Reserve",
+      "localityRaw": "Pipers Reserve / Tahuna Hills",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [
+        "Pipers Halo group",
+        "Pipers Halo project"
+      ],
+      "sources": [
+        "http://www.nelsoncity.co.nz/assets/Environment/Nelson-Nature/nelson-nature-leader-pages/17286-NCC-Nelson-Nature-Leader-Page-Jul19-Proof-3.pdf"
+      ],
+      "website": "http://www.nelsoncity.co.nz/assets/Environment/Nelson-Nature/nelson-nature-leader-pages/17286-NCC-Nelson-Nature-Leader-Page-Jul19-Proof-3.pdf",
+      "relationship": "Nelson Nature / Nelson Halo",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Stu Hanchet"
+      ],
+      "summary": "Nelson Halo community trapping group trapping Pipers Reserve since late 2018; became one of the latest Kiwibank Predator Free Communities; had removed 'over 100 rats and a dozen possums'; ran the 'Pipers Halo project' letter-drop to nearly 300 properties for subsidised backyard traps.",
+      "activities": [
+        "rats, stoats, possums",
+        "target birds bellbirds, tui, kereru"
+      ],
+      "detail": "Kiwibank Predator Free Community; subsidised backyard trap programme; contact hanchet@slingshot.co.nz",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01500"
+    },
+    {
+      "id": "si-exg-si-01501",
+      "name": "Brian Olorenshaw",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Church Hill",
+      "localityRaw": "Church Hill / inner-city Nelson",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.nelsonpubliclibraries.govt.nz/assets/Nelson-Nature-Leader-Page-Apr22.pdf"
+      ],
+      "website": "https://www.nelsonpubliclibraries.govt.nz/assets/Nelson-Nature-Leader-Page-Apr22.pdf",
+      "relationship": "Birds for Pikimai",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Brian Olorenshaw"
+      ],
+      "summary": "Named in connection with Birds for Pikimai (inner-city Nelson / Church Hill) on the Nelson Nature Leader Page Apr22.",
+      "activities": [
+        "urban native birds"
+      ],
+      "detail": "Named in connection with Birds for Pikimai (inner-city Nelson / Church Hill) on the Nelson Nature Leader Page Apr22.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01501"
+    },
+    {
+      "id": "si-exg-si-01502",
+      "name": "Birds for Pikimai",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Church Hill",
+      "localityRaw": "Church Hill / inner-city Nelson",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.nelsonpubliclibraries.govt.nz/assets/Nelson-Nature-Leader-Page-Apr22.pdf"
+      ],
+      "website": "https://www.nelsonpubliclibraries.govt.nz/assets/Nelson-Nature-Leader-Page-Apr22.pdf",
+      "relationship": "Nelson Nature / Nelson Halo",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Brian Olorenshaw"
+      ],
+      "summary": "Listed on the Nelson Nature Leader Page Apr22 as an inner-city Nelson (Church Hill / Pikimai) bird-focused community group.",
+      "activities": [
+        "urban native birds"
+      ],
+      "detail": "Listed on the Nelson Nature Leader Page Apr22 as an inner-city Nelson (Church Hill / Pikimai) bird-focused community group.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01502"
+    },
+    {
+      "id": "si-exg-si-01503",
+      "name": "Stepneyville Halo",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Stepneyville",
+      "localityRaw": "Stepneyville / Port Hills, Nelson",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.nelsonpubliclibraries.govt.nz/assets/Nelson-Nature-Leader-Page-Oct21.pdf"
+      ],
+      "website": "https://www.nelsonpubliclibraries.govt.nz/assets/Nelson-Nature-Leader-Page-Oct21.pdf",
+      "relationship": "Nelson Nature / Nelson Halo",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Jonathan Puddick",
+        "Matt Gleissner"
+      ],
+      "summary": "Nelson Nature Leader Page Oct21 describes Stepneyville Halo in the Port Hills, founded by Cawthron scientist Jonathan Puddick with Matt Gleissner, a Predator Free NZ Backyard Community Funding recipient, contact stepneyville.halo@gmail.com.",
+      "activities": [
+        "rats, possums, mustelids"
+      ],
+      "detail": "Published group email: stepneyville.halo@gmail.com; PFNZ Backyard Community Funding recipient",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01503"
+    },
+    {
+      "id": "si-exg-si-01504",
+      "name": "Jonathan Puddick",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Stepneyville",
+      "localityRaw": "Stepneyville / Port Hills",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.nelsonpubliclibraries.govt.nz/assets/Nelson-Nature-Leader-Page-Oct21.pdf"
+      ],
+      "website": "https://www.nelsonpubliclibraries.govt.nz/assets/Nelson-Nature-Leader-Page-Oct21.pdf",
+      "relationship": "Stepneyville Halo",
+      "relatedEntities": [
+        "Cawthron Institute"
+      ],
+      "namedPeople": [
+        "Jonathan Puddick"
+      ],
+      "summary": "Nelson Nature Leader Page Oct21 names him as the Cawthron scientist who founded Stepneyville Halo.",
+      "activities": [],
+      "detail": "Group email stepneyville.halo@gmail.com published on the same page",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01504"
+    },
+    {
+      "id": "si-exg-si-01505",
+      "name": "Matt Gleissner",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Stepneyville",
+      "localityRaw": "Stepneyville / Port Hills",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.nelsonpubliclibraries.govt.nz/assets/Nelson-Nature-Leader-Page-Oct21.pdf"
+      ],
+      "website": "https://www.nelsonpubliclibraries.govt.nz/assets/Nelson-Nature-Leader-Page-Oct21.pdf",
+      "relationship": "Stepneyville Halo",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Matt Gleissner"
+      ],
+      "summary": "Named alongside Jonathan Puddick in the Nelson Nature Leader Page Oct21 account of Stepneyville Halo.",
+      "activities": [],
+      "detail": "Named alongside Jonathan Puddick in the Nelson Nature Leader Page Oct21 account of Stepneyville Halo.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01505"
+    },
+    {
+      "id": "si-exg-si-01506",
+      "name": "Wakapuaka Sandflats Reserve predator control programme",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Wakapuaka Sandflats",
+      "localityRaw": "Wakapuaka Sandflats",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "http://www.nelson.govt.nz/assets/Nelson-Nature-Leader-Page-Jul22.pdf"
+      ],
+      "website": "http://www.nelson.govt.nz/assets/Nelson-Nature-Leader-Page-Jul22.pdf",
+      "relationship": "Nelson Nature",
+      "relatedEntities": [
+        "Kumanu (Nelmac)",
+        "Friends of Haulashore"
+      ],
+      "namedPeople": [],
+      "summary": "Nelson Nature Leader Page Jul22 records the launch of a coastal predator control programme at Wakapuaka Sandflats Reserve on 11 June 2022, delivered with NCC's contractor Kumanu.",
+      "activities": [
+        "coastal predators",
+        "estuarine birds"
+      ],
+      "detail": "Nelson Nature Leader Page Jul22 records the launch of a coastal predator control programme at Wakapuaka Sandflats Reserve on 11 June 2022, delivered with NCC's contractor Kumanu.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01506"
+    },
+    {
+      "id": "si-exg-si-01507",
+      "name": "Kumanu (Nelmac conservation services)",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Nelson city",
+      "localityRaw": "Nelson city",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.nelmac.co.nz/conservation/services/waterways-enhancement/"
+      ],
+      "website": "https://www.nelmac.co.nz/conservation/services/waterways-enhancement/",
+      "relationship": "",
+      "relatedEntities": [
+        "Nelson City Council",
+        "Nelson Nature"
+      ],
+      "namedPeople": [],
+      "summary": "Nelmac publishes conservation/waterways-enhancement services in the Nelson Tasman region; Kumanu staff are named as delivering NCC's Wakapuaka Sandflats predator control programme in the Nelson Nature Leader Page Jul22.",
+      "activities": [],
+      "detail": "Council-contracted ecological/waterways and predator-control delivery",
+      "discoveryConfidence": "MEDIUM",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01507"
+    },
+    {
+      "id": "si-exg-si-01508",
+      "name": "Ben Pavitt",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Haulashore Island",
+      "localityRaw": "Haulashore Island / Motu Manuka",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.nelson.govt.nz/news-and-media-releases/all-news-notices-and-media-releases?item=id:2wdn4uuu91cxbygjqvoc"
+      ],
+      "website": "https://www.nelson.govt.nz/news-and-media-releases/all-news-notices-and-media-releases?item=id:2wdn4uuu91cxbygjqvoc",
+      "relationship": "Nelson City Council",
+      "relatedEntities": [
+        "Friends of Haulashore"
+      ],
+      "namedPeople": [
+        "Ben Pavitt"
+      ],
+      "summary": "Named as Nelson City Council 'Contracts Supervisor - Biodiversity' in the council media release about Haulashore Island / Motu Manuka.",
+      "activities": [],
+      "detail": "Named as Nelson City Council 'Contracts Supervisor - Biodiversity' in the council media release about Haulashore Island / Motu Manuka.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01508"
+    },
+    {
+      "id": "si-exg-si-01509",
+      "name": "Nelson Botanical Society",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Nelson / top of the South",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://www.nelsonbotanicalsociety.org/"
+      ],
+      "website": "https://www.nelsonbotanicalsociety.org/",
+      "relationship": "",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Shannel Courtney"
+      ],
+      "summary": "Society website describes itself as a Te Tauihu native plant group running field trips (incl. 'Weeding at Wairoa' led by Shannel Courtney) covering indigenous plants and fungi in Northwest Nelson, Cobb Valley and Awatere Valley/Black Birch.",
+      "activities": [
+        "indigenous plants and fungi"
+      ],
+      "detail": "Botanical survey and weeding capability across Nelson/Tasman",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01509"
+    },
+    {
+      "id": "si-exg-si-01510",
+      "name": "Baxter Mosey-Reid",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "North Nelson",
+      "localityRaw": "North Nelson / Wakapuaka",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2021/11/TET-Annual-Report-2021-FINAL-web.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2021/11/TET-Annual-Report-2021-FINAL-web.pdf",
+      "relationship": "Wakapuaka Mouri",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Baxter Mosey-Reid"
+      ],
+      "summary": "Described in the TET Annual Report 2021 as a 'North Nelson teenager who loves growing plants' contributing to Wakapuaka Mouri.",
+      "activities": [],
+      "detail": "Described in the TET Annual Report 2021 as a 'North Nelson teenager who loves growing plants' contributing to Wakapuaka Mouri.",
+      "discoveryConfidence": "MEDIUM",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01510"
+    },
+    {
+      "id": "si-exg-si-01511",
+      "name": "Toi Toi Trappers",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Toi Toi, Nelson",
+      "localityRaw": "Toi Toi, Nelson",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://predatorfreenz.org/stories/fresh-funding-for-grassroots-trapping/"
+      ],
+      "website": "https://predatorfreenz.org/stories/fresh-funding-for-grassroots-trapping/",
+      "relationship": "",
+      "relatedEntities": [
+        "Predator Free New Zealand Trust"
+      ],
+      "namedPeople": [],
+      "summary": "Predator Free NZ Trust lists Toi Toi Trappers in 'the Nelson suburb of Toi Toi' as a funded group receiving chew cards and first traps, aiming for a trap in every fifth backyard to turn Toi Toi into a biodiversity corridor; target birds listed include korimako, ngirungiru, riroriro, tauhou, tieke, ruru, tui, piwakawaka, kereru and weka.",
+      "activities": [
+        "introduced predators",
+        "korimako, ngirungiru, riroriro, tauhou, tieke, ruru, tui, piwakawaka, kereru, weka"
+      ],
+      "detail": "PFNZ Predator Free Communities Programme funding recipient",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01511"
+    },
+    {
+      "id": "si-exg-si-01512",
+      "name": "Friends of Haulashore / Motu Manuka",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Haulashore Island",
+      "localityRaw": "Haulashore Island / Motu Manuka",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.nelson.govt.nz/news-and-media-releases/all-news-notices-and-media-releases?item=id:2wdn4uuu91cxbygjqvoc"
+      ],
+      "website": "https://www.nelson.govt.nz/news-and-media-releases/all-news-notices-and-media-releases?item=id:2wdn4uuu91cxbygjqvoc",
+      "relationship": "Nelson City Council / Nelson Nature",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Ben Pavitt"
+      ],
+      "summary": "Nelson City Council media release describes work on Haulashore Island / Motu Manuka and names NCC Contracts Supervisor - Biodiversity Ben Pavitt; the group is also listed on the Nelson Nature Leader Page Jul22.",
+      "activities": [],
+      "detail": "Nelson City Council media release describes work on Haulashore Island / Motu Manuka and names NCC Contracts Supervisor - Biodiversity Ben Pavitt; the group is also listed on the Nelson Nature Leader Page Jul22.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01512"
+    },
+    {
+      "id": "si-exg-si-01513",
+      "name": "Menzshed Nelson/Whakatu trap building",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Nelson city",
+      "localityRaw": "Nelson city",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://archive.nelsonweekly.co.nz/2020/07/local-men-on-trapping-mission/"
+      ],
+      "website": "https://archive.nelsonweekly.co.nz/2020/07/local-men-on-trapping-mission/",
+      "relationship": "",
+      "relatedEntities": [
+        "Brook Waimarama Sanctuary",
+        "Marsden Valley Trapping Group",
+        "Department of Conservation",
+        "Nelson City Council"
+      ],
+      "namedPeople": [
+        "Colin Johnstone",
+        "Wayne Logan"
+      ],
+      "summary": "Nelson Weekly reports Menzshed Nelson/Whakatu volunteers building rat traps for the Brook Waimarama Sanctuary, reaching a 600th trap, gathering twice a week, selling backyard traps for '$30'; volunteers Colin Johnstone and Wayne Logan named; the shed also works with Marsden Valley Trapping Group, DOC, NCC and Tahunanui Bowling Club.",
+      "activities": [
+        "rats, stoats"
+      ],
+      "detail": "Local trap manufacturing and supply chain for Nelson trapping groups",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01513"
+    },
+    {
+      "id": "si-exg-si-01514",
+      "name": "Colin Johnstone",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Nelson city",
+      "localityRaw": "Nelson city",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://archive.nelsonweekly.co.nz/2020/07/local-men-on-trapping-mission/"
+      ],
+      "website": "https://archive.nelsonweekly.co.nz/2020/07/local-men-on-trapping-mission/",
+      "relationship": "Menzshed Nelson/Whakatu",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Colin Johnstone"
+      ],
+      "summary": "Named as a Menzshed Nelson/Whakatu volunteer building 'ink rat traps' for the Brook Waimarama Sanctuary.",
+      "activities": [
+        "rats, stoats"
+      ],
+      "detail": "Named as a Menzshed Nelson/Whakatu volunteer building 'ink rat traps' for the Brook Waimarama Sanctuary.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01514"
+    },
+    {
+      "id": "si-exg-si-01515",
+      "name": "Wayne Logan",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Nelson city",
+      "localityRaw": "Nelson city",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://archive.nelsonweekly.co.nz/2020/07/local-men-on-trapping-mission/"
+      ],
+      "website": "https://archive.nelsonweekly.co.nz/2020/07/local-men-on-trapping-mission/",
+      "relationship": "Menzshed Nelson/Whakatu",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Wayne Logan"
+      ],
+      "summary": "Named as the Menzshed Nelson/Whakatu volunteer upgrading power tools used to make traps.",
+      "activities": [
+        "rats, stoats"
+      ],
+      "detail": "Named as the Menzshed Nelson/Whakatu volunteer upgrading power tools used to make traps.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01515"
+    },
+    {
+      "id": "si-exg-si-01516",
+      "name": "Nelson Yacht Club korora protection programme",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Nelson waterfront",
+      "localityRaw": "Nelson waterfront / The Boathouse",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.yachtingnz.org.nz/news/nelson-yacht-clubs-drive-protect-korora"
+      ],
+      "website": "https://www.yachtingnz.org.nz/news/nelson-yacht-clubs-drive-protect-korora",
+      "relationship": "",
+      "relatedEntities": [
+        "Nelson Nature",
+        "Nelson City Council",
+        "The Boathouse",
+        "Yachting New Zealand Clean Club programme"
+      ],
+      "namedPeople": [
+        "Tim-Fraser Harris"
+      ],
+      "summary": "Yachting New Zealand reports the Nelson Yacht Club's work to protect korora (little penguin) including 'the Penguins' Nest', pest trapping and partnership with The Boathouse, Nelson City Council and Nelson Nature; the club holds two-star Clean Club certification.",
+      "activities": [
+        "korora / little penguin"
+      ],
+      "detail": "Waterfront korora nest boxes and pest control",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01516"
+    },
+    {
+      "id": "si-exg-si-01517",
+      "name": "Tim-Fraser Harris",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Nelson waterfront",
+      "localityRaw": "Nelson waterfront",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.yachtingnz.org.nz/news/nelson-yacht-clubs-drive-protect-korora"
+      ],
+      "website": "https://www.yachtingnz.org.nz/news/nelson-yacht-clubs-drive-protect-korora",
+      "relationship": "Nelson Yacht Club",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Tim-Fraser Harris"
+      ],
+      "summary": "Named as Nelson Yacht Club 'club manager' in Yachting New Zealand's korora protection story.",
+      "activities": [
+        "korora / little penguin"
+      ],
+      "detail": "Named as Nelson Yacht Club 'club manager' in Yachting New Zealand's korora protection story.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01517"
+    },
+    {
+      "id": "si-exg-si-01518",
+      "name": "Andrew Newton",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Grampians Reserve",
+      "localityRaw": "Grampians Reserve",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://our.nelson.govt.nz/stories/grazing-on-the-grampians-a-long-term-vision-for-a-unique-reserve/"
+      ],
+      "website": "https://our.nelson.govt.nz/stories/grazing-on-the-grampians-a-long-term-vision-for-a-unique-reserve/",
+      "relationship": "Grampians Reserve (Nelson City Council)",
+      "relatedEntities": [
+        "Birdlife on Grampians",
+        "Nelson City Council"
+      ],
+      "namedPeople": [
+        "Andrew Newton"
+      ],
+      "summary": "NCC story: 'Grazier Andrew Newton has a unique role in Nelson life - guardian to the 80 sheep that now live on the Grampians Reserve', used to control old man's beard and banana passionfruit.",
+      "activities": [
+        "old man's beard, banana passionfruit, climbing asparagus (weed control by grazing)"
+      ],
+      "detail": "Conservation grazing weed-control operator",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01518"
+    },
+    {
+      "id": "si-exg-si-01519",
+      "name": "Roger Ball",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Nelson city",
+      "localityRaw": "Nelson city",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://our.nelson.govt.nz/stories/grazing-on-the-grampians-a-long-term-vision-for-a-unique-reserve/"
+      ],
+      "website": "https://our.nelson.govt.nz/stories/grazing-on-the-grampians-a-long-term-vision-for-a-unique-reserve/",
+      "relationship": "Nelson City Council",
+      "relatedEntities": [
+        "Grampians Reserve",
+        "Nelson Nature"
+      ],
+      "namedPeople": [
+        "Roger Ball"
+      ],
+      "summary": "Quoted in NCC's Grampians story as 'Group Manager Community Services' explaining reserve pest eradication approaches.",
+      "activities": [],
+      "detail": "Quoted in NCC's Grampians story as 'Group Manager Community Services' explaining reserve pest eradication approaches.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01519"
+    },
+    {
+      "id": "si-exg-si-01520",
+      "name": "Tim Skinner",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Nelson city",
+      "localityRaw": "Nelson city",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://our.nelson.govt.nz/stories/grazing-on-the-grampians-a-long-term-vision-for-a-unique-reserve/"
+      ],
+      "website": "https://our.nelson.govt.nz/stories/grazing-on-the-grampians-a-long-term-vision-for-a-unique-reserve/",
+      "relationship": "Nelson City Council",
+      "relatedEntities": [
+        "Grampians Reserve"
+      ],
+      "namedPeople": [
+        "Tim Skinner"
+      ],
+      "summary": "Quoted in NCC's Grampians story as 'Sports and Recreation Chair' on protective work at the Grampians.",
+      "activities": [],
+      "detail": "Quoted in NCC's Grampians story as 'Sports and Recreation Chair' on protective work at the Grampians.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01520"
+    },
+    {
+      "id": "si-exg-si-01521",
+      "name": "Grampians Reserve Ecological Restoration Plan (Wildlands)",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Grampians Reserve",
+      "localityRaw": "Grampians Reserve",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://our.nelson.govt.nz/stories/grazing-on-the-grampians-a-long-term-vision-for-a-unique-reserve/"
+      ],
+      "website": "https://our.nelson.govt.nz/stories/grazing-on-the-grampians-a-long-term-vision-for-a-unique-reserve/",
+      "relationship": "Nelson City Council",
+      "relatedEntities": [
+        "Wildlands",
+        "Birdlife on Grampians",
+        "Nelson Nature Halo Project"
+      ],
+      "namedPeople": [],
+      "summary": "NCC story records that the 2019 Ecological Restoration Plan for the Grampians was 'Produced alongside Council staff by ecological consultancy Wildlands', covering pests, fire, livestock and erosion; the Birdlife on Grampians group received a $5,000 Environmental Grants Scheme grant for replacement traps and bait under the Nelson Nature Halo Project and has received three council awards since 2009.",
+      "activities": [
+        "possums, rats, mice, stoats, weasels",
+        "longfin eel, kahikatea"
+      ],
+      "detail": "Ecological consultancy engaged for Nelson reserve restoration planning; council environmental grant channel",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01521"
+    },
+    {
+      "id": "si-exg-si-01522",
+      "name": "Graham Pullyn",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Marsden Valley, Stoke",
+      "localityRaw": "Marsden Valley, Stoke",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.nbs.co.nz/about/nbs-news/stoke-volunteers-working-to-preserve-marsden-valleys-biodiversity"
+      ],
+      "website": "https://www.nbs.co.nz/about/nbs-news/stoke-volunteers-working-to-preserve-marsden-valleys-biodiversity",
+      "relationship": "Marsden Valley Trapping Group",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Graham Pullyn"
+      ],
+      "summary": "Named as a Marsden Valley Trapping Group volunteer in NBS's Stoke biodiversity story.",
+      "activities": [
+        "rats, possums, mustelids"
+      ],
+      "detail": "Named as a Marsden Valley Trapping Group volunteer in NBS's Stoke biodiversity story.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01522"
+    },
+    {
+      "id": "si-exg-si-01523",
+      "name": "Howie Timms",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Stoke",
+      "localityRaw": "Stoke / Marsden Valley",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.nbs.co.nz/about/nbs-news/stoke-volunteers-working-to-preserve-marsden-valleys-biodiversity"
+      ],
+      "website": "https://www.nbs.co.nz/about/nbs-news/stoke-volunteers-working-to-preserve-marsden-valleys-biodiversity",
+      "relationship": "Nelson Building Society",
+      "relatedEntities": [
+        "Marsden Valley Trapping Group"
+      ],
+      "namedPeople": [
+        "Howie Timms"
+      ],
+      "summary": "Named in NBS's story about Stoke volunteers working to preserve Marsden Valley's biodiversity.",
+      "activities": [],
+      "detail": "Named in NBS's story about Stoke volunteers working to preserve Marsden Valley's biodiversity.",
+      "discoveryConfidence": "MEDIUM",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01523"
+    },
+    {
+      "id": "si-exg-si-01524",
+      "name": "Andy Dennis Memorial Scholarship",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Nelson",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://www.forestandbird.org.nz/branches/nelson-tasman"
+      ],
+      "website": "https://www.forestandbird.org.nz/branches/nelson-tasman",
+      "relationship": "Forest & Bird Nelson Tasman",
+      "relatedEntities": [
+        "NMIT"
+      ],
+      "namedPeople": [
+        "Andy Dennis"
+      ],
+      "summary": "Forest & Bird Nelson Tasman describes the Andy Dennis Memorial Scholarship, created with NMIT in memory of Andy Dennis, 'a long time member of the Nelson Branch of Forest & Bird' and 'a giant of the New Zealand conservation movement'.",
+      "activities": [],
+      "detail": "Conservation training pipeline into the Nelson workforce",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01524"
+    },
+    {
+      "id": "si-exg-si-01525",
+      "name": "Perrine Moncrieff Shield (Cawthron Scitec Expo)",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Nelson",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://www.forestandbird.org.nz/branches/nelson-tasman"
+      ],
+      "website": "https://www.forestandbird.org.nz/branches/nelson-tasman",
+      "relationship": "Forest & Bird Nelson Tasman",
+      "relatedEntities": [
+        "Cawthron Institute",
+        "Nayland College",
+        "Nelson Intermediate"
+      ],
+      "namedPeople": [],
+      "summary": "Forest & Bird Nelson Tasman is a silver supporter of the Cawthron Scitec Expo and awards the Perrine Moncrieff Shield to a project with a conservation theme; first awarded in the 1940s by Perrine Moncrieff (1893-1979). Recipients listed: 2023 (Nayland College), not awarded 2024, 2025 (Nelson Intermediate).",
+      "activities": [],
+      "detail": "Schools conservation-science award channel",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01525"
+    },
+    {
+      "id": "si-exg-si-01526",
+      "name": "Michael North",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Nelson Tasman",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://www.weedbusters.org.nz/get-involved/weedbusters-near-you/nelson-tasman-weedbusters/"
+      ],
+      "website": "https://www.weedbusters.org.nz/get-involved/weedbusters-near-you/nelson-tasman-weedbusters/",
+      "relationship": "Nelson Tasman Weedbusters",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Michael North"
+      ],
+      "summary": "Listed as the Nelson Tasman Weedbusters contact on the Weedbusters 'near you' directory.",
+      "activities": [
+        "invasive weeds"
+      ],
+      "detail": "Listed as the Nelson Tasman Weedbusters contact on the Weedbusters 'near you' directory.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01526"
+    },
+    {
+      "id": "si-exg-si-01527",
+      "name": "Native Restorations Ltd",
+      "entityType": "Organisation",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Top of the South; Nelson and Tasman service area",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://www.native-restorations.com/"
+      ],
+      "website": "https://www.native-restorations.com/",
+      "relationship": "Publicly advertises long-term biosecurity solutions across Nelson/Tasman",
+      "relatedEntities": [
+        "Potentially connected to regional landowners and projects",
+        "no evidenced named project edge."
+      ],
+      "namedPeople": [],
+      "summary": "Invasive plant removal, fencing and maintenance",
+      "activities": [
+        "Invasive plant species",
+        "pest-free habitat"
+      ],
+      "detail": "Relevant capability entity but no local project/client relationship surfaced.",
+      "discoveryConfidence": "MEDIUM",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01527"
+    },
+    {
+      "id": "si-exg-si-01528",
+      "name": "RMA Ecology",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Nelson / Tasman",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://www.rmaecology.co.nz/our-team"
+      ],
+      "website": "https://www.rmaecology.co.nz/our-team",
+      "relationship": "",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Graham Ussher",
+        "Zac Milner",
+        "Jeroen Lurling",
+        "Mark Newton",
+        "Emily Roper",
+        "Holly Madden",
+        "Douglas Fotheringham",
+        "Harrison Kroos",
+        "Liz Ussher"
+      ],
+      "summary": "Nelson/Tasman ecological consultancy publishing a named team: Dr Graham Ussher, Zac Milner, Jeroen Lurling, Mark Newton, Emily Roper, Holly Madden, Douglas Fotheringham, Harrison Kroos and Liz Ussher.",
+      "activities": [],
+      "detail": "Regional ecological survey/assessment capability",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01528"
+    },
+    {
+      "id": "si-exg-si-01529",
+      "name": "Graham Ussher",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Nelson / Tasman",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://www.rmaecology.co.nz/our-team"
+      ],
+      "website": "https://www.rmaecology.co.nz/our-team",
+      "relationship": "RMA Ecology",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Graham Ussher"
+      ],
+      "summary": "Listed on the RMA Ecology 'Our team' page.",
+      "activities": [],
+      "detail": "Listed on the RMA Ecology 'Our team' page.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01529"
+    },
+    {
+      "id": "si-exg-si-01530",
+      "name": "Zac Milner",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Nelson / Tasman",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://www.rmaecology.co.nz/our-team"
+      ],
+      "website": "https://www.rmaecology.co.nz/our-team",
+      "relationship": "RMA Ecology",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Zac Milner"
+      ],
+      "summary": "Listed on the RMA Ecology 'Our team' page.",
+      "activities": [],
+      "detail": "Listed on the RMA Ecology 'Our team' page.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01530"
+    },
+    {
+      "id": "si-exg-si-01531",
+      "name": "Jeroen Lurling",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Nelson / Tasman",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://www.rmaecology.co.nz/our-team"
+      ],
+      "website": "https://www.rmaecology.co.nz/our-team",
+      "relationship": "RMA Ecology",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Jeroen Lurling"
+      ],
+      "summary": "Listed on the RMA Ecology 'Our team' page.",
+      "activities": [],
+      "detail": "Listed on the RMA Ecology 'Our team' page.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01531"
+    },
+    {
+      "id": "si-exg-si-01532",
+      "name": "Mark Newton",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Nelson / Tasman",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://www.rmaecology.co.nz/our-team"
+      ],
+      "website": "https://www.rmaecology.co.nz/our-team",
+      "relationship": "RMA Ecology",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Mark Newton"
+      ],
+      "summary": "Listed on the RMA Ecology 'Our team' page.",
+      "activities": [],
+      "detail": "Listed on the RMA Ecology 'Our team' page.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01532"
+    },
+    {
+      "id": "si-exg-si-01533",
+      "name": "Emily Roper",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Nelson / Tasman",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://www.rmaecology.co.nz/our-team"
+      ],
+      "website": "https://www.rmaecology.co.nz/our-team",
+      "relationship": "RMA Ecology",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Emily Roper"
+      ],
+      "summary": "Listed on the RMA Ecology 'Our team' page.",
+      "activities": [],
+      "detail": "Listed on the RMA Ecology 'Our team' page.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01533"
+    },
+    {
+      "id": "si-exg-si-01534",
+      "name": "Holly Madden",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Nelson / Tasman",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://www.rmaecology.co.nz/our-team"
+      ],
+      "website": "https://www.rmaecology.co.nz/our-team",
+      "relationship": "RMA Ecology",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Holly Madden"
+      ],
+      "summary": "Listed on the RMA Ecology 'Our team' page.",
+      "activities": [],
+      "detail": "Listed on the RMA Ecology 'Our team' page.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01534"
+    },
+    {
+      "id": "si-exg-si-01535",
+      "name": "Douglas Fotheringham",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Nelson / Tasman",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://www.rmaecology.co.nz/our-team"
+      ],
+      "website": "https://www.rmaecology.co.nz/our-team",
+      "relationship": "RMA Ecology",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Douglas Fotheringham"
+      ],
+      "summary": "Listed on the RMA Ecology 'Our team' page.",
+      "activities": [],
+      "detail": "Listed on the RMA Ecology 'Our team' page.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01535"
+    },
+    {
+      "id": "si-exg-si-01536",
+      "name": "Harrison Kroos",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Nelson / Tasman",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://www.rmaecology.co.nz/our-team"
+      ],
+      "website": "https://www.rmaecology.co.nz/our-team",
+      "relationship": "RMA Ecology",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Harrison Kroos"
+      ],
+      "summary": "Listed on the RMA Ecology 'Our team' page.",
+      "activities": [],
+      "detail": "Listed on the RMA Ecology 'Our team' page.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01536"
+    },
+    {
+      "id": "si-exg-si-01537",
+      "name": "Liz Ussher",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Nelson / Tasman",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://www.rmaecology.co.nz/our-team"
+      ],
+      "website": "https://www.rmaecology.co.nz/our-team",
+      "relationship": "RMA Ecology",
+      "relatedEntities": [],
+      "namedPeople": [
+        "Liz Ussher"
+      ],
+      "summary": "Listed on the RMA Ecology 'Our team' page.",
+      "activities": [],
+      "detail": "Listed on the RMA Ecology 'Our team' page.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01537"
+    },
+    {
+      "id": "si-exg-si-01538",
+      "name": "Top of the South Community Foundation (conservation grants)",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Nelson Tasman",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://www.topsouthfoundation.org.nz/news/4287-banded-rail-project-enhancing-lives-of-birds-and-people/"
+      ],
+      "website": "https://www.topsouthfoundation.org.nz/news/4287-banded-rail-project-enhancing-lives-of-birds-and-people/",
+      "relationship": "",
+      "relatedEntities": [
+        "Battle for the Banded Rail",
+        "Salisbury School",
+        "Tasman District Council",
+        "Department of Conservation",
+        "Mohua Blue Penguin Trust"
+      ],
+      "namedPeople": [],
+      "summary": "Foundation reports granting Battle for the Banded Rail $3,550 in the year of publication to continue environmental and community work; records 80,000 plants planted in and around Waimea Inlet over nine seasons, more than 10,000 pests trapped, 3,500 volunteer hours in the last year, at least 20 banded rail pairs estimated in Waimea Inlet, and Salisbury School participation.",
+      "activities": [
+        "banded rail, Australasian bittern, kotuku, fernbird, marsh crake"
+      ],
+      "detail": "Regional community foundation funding conservation groups",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01538"
+    },
+    {
+      "id": "si-exg-si-01539",
+      "name": "Project Korora",
+      "entityType": "Project",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Nelson area",
+      "localityRaw": "Nelson area",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [
+        "Project Kororā"
+      ],
+      "sources": [
+        "https://www.tet.org.nz/projects/project-korora"
+      ],
+      "website": "https://www.tet.org.nz/projects/project-korora",
+      "relationship": "brings community groups iwi landowners and partners together",
+      "relatedEntities": [],
+      "namedPeople": [],
+      "summary": "connected predator-control network",
+      "activities": [
+        "Predators"
+      ],
+      "detail": "Relationship-rich local network",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01539"
+    },
+    {
+      "id": "si-exg-si-01540",
+      "name": "Nelson Halo",
+      "entityType": "Project",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Nelson/Brook Waimarama perimeter",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://meetings.nelson.govt.nz/Open/2022/12/CL_20221215_AGN_5806_AT_files/CL_20221215_AGN_5806_AT_Attachment_27338_1.PDF"
+      ],
+      "website": "https://meetings.nelson.govt.nz/Open/2022/12/CL_20221215_AGN_5806_AT_files/CL_20221215_AGN_5806_AT_Attachment_27338_1.PDF",
+      "relationship": "protects wildlife beyond sanctuary",
+      "relatedEntities": [],
+      "namedPeople": [],
+      "summary": "community-led predator control",
+      "activities": [
+        "Predators"
+      ],
+      "detail": "Clear sanctuary-to-community chain",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01540"
+    },
+    {
+      "id": "si-exg-si-01541",
+      "name": "Marsden Valley Trapping Group (MVTG)",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Upper Marsden Valley, Stoke",
+      "localityRaw": "Upper Marsden Valley, Stoke; adjacent to Brook Waimārama Sanctuary and neighbouring valleys",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.trap.nz/project/1417408/info"
+      ],
+      "website": "https://www.trap.nz/project/1417408/info",
+      "relationship": "Community group operating trap lines and practical restoration",
+      "relatedEntities": [],
+      "namedPeople": [],
+      "summary": "Predator trapping, weed removal, forest regeneration, wasp control support and nest-box maintenance",
+      "activities": [
+        "Rats, mice, possums, weasels, stoats, ferrets, hedgehogs, goats, pigs",
+        "native forest birds and lizards"
+      ],
+      "detail": "Public Trap.NZ record names the group, public email and Kathryn contact; companion Council/trail material documents activity since 2007 and its corridor relationship to Brook Waimārama.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01541"
+    },
+    {
+      "id": "si-exg-si-01542",
+      "name": "Kathryn (Marsden Valley Trapping Group contact; surname unresolved)",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Marsden Valley, Stoke",
+      "localityRaw": "Marsden Valley, Stoke",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.trap.nz/project/1417408/info"
+      ],
+      "website": "https://www.trap.nz/project/1417408/info",
+      "relationship": "Publicly listed contact; role title beyond contact not stated",
+      "relatedEntities": [],
+      "namedPeople": [],
+      "summary": "Public contact for community trapping project",
+      "activities": [
+        "Predator trapping and restoration"
+      ],
+      "detail": "Trap.NZ listing identifies Kathryn with a mobile number as project contact. No surname is published in the accessed evidence.",
+      "discoveryConfidence": "LOW",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01542"
+    },
+    {
+      "id": "si-exg-si-01543",
+      "name": "Birdlife on the Grampians",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Grampians Reserve, central Nelson",
+      "localityRaw": "Grampians Reserve, central Nelson",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://venturenewzealand.co.nz/place/grampians-reserve"
+      ],
+      "website": "https://venturenewzealand.co.nz/place/grampians-reserve",
+      "relationship": "Community group operating trapping since 2009",
+      "relatedEntities": [],
+      "namedPeople": [],
+      "summary": "Community predator trapping programme",
+      "activities": [
+        "Predators",
+        "native birdlife"
+      ],
+      "detail": "Public place information states Birdlife on Grampians has run a trapping programme since 2009; Council 2016 material names it among Nelson Nature volunteer groups.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01543"
+    },
+    {
+      "id": "si-exg-si-01544",
+      "name": "Birdlife, Centre of New Zealand",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Centre of New Zealand",
+      "localityRaw": "Centre of New Zealand / Botanical Hill area",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.trap.nz/project/708372/info"
+      ],
+      "website": "https://www.trap.nz/project/708372/info",
+      "relationship": "Community trapping-group listing",
+      "relatedEntities": [],
+      "namedPeople": [],
+      "summary": "Community trap lines and monitoring",
+      "activities": [
+        "Rats, mice, possums and mustelids"
+      ],
+      "detail": "Trap.NZ describes 11 rat/mouse traplines, possum/mustelid traps and two monitoring lines within the Centre of New Zealand area.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01544"
+    },
+    {
+      "id": "si-exg-si-01545",
+      "name": "Friends of Haulashore / Friends of Motu Mānuka",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Haulashore Island",
+      "localityRaw": "Haulashore Island/Motu Mānuka, Nelson waterfront",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.nelson.govt.nz/news-and-media-releases/all-news-notices-and-media-releases?item=id:2wdn4uuu91cxbygjqvoc"
+      ],
+      "website": "https://www.nelson.govt.nz/news-and-media-releases/all-news-notices-and-media-releases?item=id:2wdn4uuu91cxbygjqvoc",
+      "relationship": "Volunteer group working with Council contractors and New Zealand Penguin Initiative",
+      "relatedEntities": [],
+      "namedPeople": [],
+      "summary": "Predator trapping, wildlife monitoring, penguin nest-box/colony support and island restoration",
+      "activities": [
+        "Mice, rats, stoats",
+        "kororā/little blue penguins, pied shags, rare skink, lizards, lichens and shorebirds"
+      ],
+      "detail": "Council describes extensive trap network, professionals/volunteers, NZ Penguin Initiative partnership and regular kororā nesting. RNZ records group origin and project partners.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01545"
+    },
+    {
+      "id": "si-exg-si-01546",
+      "name": "Jonathan Banks",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Haulashore Island",
+      "localityRaw": "Haulashore Island/Motu Mānuka",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.rnz.co.nz/news/national/418106/photo-essay-offshore-nelson-island-focus-of-community-restoration-programme"
+      ],
+      "website": "https://www.rnz.co.nz/news/national/418106/photo-essay-offshore-nelson-island-focus-of-community-restoration-programme",
+      "relationship": "Cawthron environmental monitoring scientist and Friends of Haulashore volunteer",
+      "relatedEntities": [],
+      "namedPeople": [],
+      "summary": "Volunteer trap-line checking and environmental monitoring",
+      "activities": [
+        "Rodents",
+        "penguins, lizards and rare lichens"
+      ],
+      "detail": "RNZ identifies Banks as an environmental monitoring scientist at Cawthron Institute and volunteer trapper in the group, describing the 25-box trap line.",
+      "discoveryConfidence": "MEDIUM",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01546"
+    },
+    {
+      "id": "si-exg-si-01547",
+      "name": "Andrew Fidler",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Haulashore Island",
+      "localityRaw": "Haulashore Island/Motu Mānuka",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.portnelson.co.nz/media/xjtn35pl/pnl-open-day-24_event-guide_final.pdf"
+      ],
+      "website": "https://www.portnelson.co.nz/media/xjtn35pl/pnl-open-day-24_event-guide_final.pdf",
+      "relationship": "Friends of Haulashore volunteer; named 2024 Port Nelson event speaker",
+      "relatedEntities": [],
+      "namedPeople": [],
+      "summary": "Volunteer trapping, wildlife restoration and public presentation",
+      "activities": [
+        "Rodents",
+        "kororā, oystercatchers, lizards and island ecology"
+      ],
+      "detail": "Port Nelson programme identifies Fidler as speaker on Friends of Motu Manuka predator control. RNZ identifies him as a Friends volunteer and scientist.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01547"
+    },
+    {
+      "id": "si-exg-si-01548",
+      "name": "Finn Fidler",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Haulashore Island",
+      "localityRaw": "Haulashore Island/Motu Mānuka",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.rnz.co.nz/news/national/418106/photo-essay-offshore-nelson-island-focus-of-community-restoration-programme"
+      ],
+      "website": "https://www.rnz.co.nz/news/national/418106/photo-essay-offshore-nelson-island-focus-of-community-restoration-programme",
+      "relationship": "Volunteer, identified as Garin College senior student in 2020",
+      "relatedEntities": [],
+      "namedPeople": [],
+      "summary": "Records trap checks and uploads data to national trapping database",
+      "activities": [
+        "Rodent trapping and data recording"
+      ],
+      "detail": "RNZ reports that Finn recorded catches at each trap and uploaded the data to the national trapping database.",
+      "discoveryConfidence": "LOW",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01548"
+    },
+    {
+      "id": "si-exg-si-01549",
+      "name": "Menzshed Nelson",
+      "entityType": "Project",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Nelson",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://www.rnz.co.nz/news/national/418106/photo-essay-offshore-nelson-island-focus-of-community-restoration-programme"
+      ],
+      "website": "https://www.rnz.co.nz/news/national/418106/photo-essay-offshore-nelson-island-focus-of-community-restoration-programme",
+      "relationship": "Named supporter of Friends of Haulashore",
+      "relatedEntities": [],
+      "namedPeople": [],
+      "summary": "Supported Haulashore restoration programme",
+      "activities": [
+        "Island restoration and predator-control infrastructure"
+      ],
+      "detail": "RNZ names Menzshed charity as a supporter of the island project.",
+      "discoveryConfidence": "MEDIUM",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01549"
+    },
+    {
+      "id": "si-exg-si-01550",
+      "name": "Nelson Nature Environmental Grants Programme",
+      "entityType": "Organisation",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Nelson City Council boundary",
+      "localityRaw": "Nelson City Council boundary",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.nelson.govt.nz/6environment/environmental-grant-programme"
+      ],
+      "website": "https://www.nelson.govt.nz/6environment/environmental-grant-programme",
+      "relationship": "Funder/support node for groups/individuals; requires community/landowner conditions",
+      "relatedEntities": [],
+      "namedPeople": [],
+      "summary": "Funds community and landowner biodiversity, restoration and trapping work; can provide ecological advice, equipment and plants",
+      "activities": [
+        "Pest plants/animals, native plants, erosion and biodiversity"
+      ],
+      "detail": "Council says grants up to $20,000 can support biodiversity protection/restoration and may include professional advice, trapping equipment or plants; gives explicit pathway for community/landowner projects.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01550"
+    },
+    {
+      "id": "si-exg-si-01551",
+      "name": "Nelson Halo constituent-group network (unresolved groups: Sugarloaf and other operational-plan groups)",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Nelson Halo area",
+      "localityRaw": "Nelson Halo area",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.nelson.govt.nz/assets/Environment/Nelson-Nature/resources/Nelson-Nature-Halo-Halo-Operational-Plan-Final-June-19.pdf"
+      ],
+      "website": "https://www.nelson.govt.nz/assets/Environment/Nelson-Nature/resources/Nelson-Nature-Halo-Halo-Operational-Plan-Final-June-19.pdf",
+      "relationship": "Operational-plan constituent-group cluster",
+      "relatedEntities": [],
+      "namedPeople": [],
+      "summary": "Community predator control and habitat enhancement",
+      "activities": [
+        "Predator control and native habitat"
+      ],
+      "detail": "Search result identifies community trapping groups at Marsden Valley, Grampians and Sugarloaf. Marsden/Grampians were followed; Sugarloaf and remaining plan roster were not materially resolved.",
+      "discoveryConfidence": "LOW",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01551"
+    },
+    {
+      "id": "si-exg-si-01552",
+      "name": "Project Kororā (TET coastal predator-control collective)",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Coastal Nelson-Tasman",
+      "localityRaw": "Coastal Nelson-Tasman; exact member geography unresolved",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/projects/project-korora"
+      ],
+      "website": "https://www.tet.org.nz/projects/project-korora",
+      "relationship": "TET-led/featured relationship hub",
+      "relatedEntities": [],
+      "namedPeople": [],
+      "summary": "Connects pest-control groups, iwi, landowners and partners into predator-control network",
+      "activities": [
+        "Predator control and coastal wildlife (specific taxa/members not established)"
+      ],
+      "detail": "TET describes a community conservation collective linking local pest-control groups, iwi, landowners and partners. Repeated focused searching produced no accessible constituent roster, named public lead or distinct partner list.",
+      "discoveryConfidence": "MEDIUM",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01552"
+    },
+    {
+      "id": "si-exg-si-01553",
+      "name": "Te Tauihu Environment Trust (formerly Tasman Environmental Trust / TET)",
+      "entityType": "Organisation",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Richmond",
+      "localityRaw": "Richmond; region-wide",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/category/tet-projects/"
+      ],
+      "website": "https://www.tet.org.nz/category/tet-projects/",
+      "relationship": "Hub/partner for multiple candidate projects",
+      "relatedEntities": [
+        "Partner to Project Kororā, Pest Free Onetahua, Te Mamaku, Moutere, Roding, Wakapuaka Mouri and others."
+      ],
+      "namedPeople": [],
+      "summary": "Community-conservation project hub, volunteer support, restoration and predator-control support",
+      "activities": [
+        "Freshwater, habitat restoration, weeds, predators"
+      ],
+      "detail": "Direct regional hub with evidenced project-network relationships.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01553"
+    },
+    {
+      "id": "si-exg-si-01554",
+      "name": "Nelson Nature / Nelson Halo",
+      "entityType": "Project",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Nelson Whakatū",
+      "localityRaw": "Nelson Whakatū; Wakapuaka to Richmond Range and Tasman boundary",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.nelson.govt.nz/6environment/biodiversity/nelson-halo-a-community-predator-trapping-initiative"
+      ],
+      "website": "https://www.nelson.govt.nz/6environment/biodiversity/nelson-halo-a-community-predator-trapping-initiative",
+      "relationship": "Led by Nelson Nature; joint work with DOC, community groups, private landowners and Council",
+      "relatedEntities": [
+        "Connects Brook Waimārama Sanctuary, DOC, community groups, private landowners, Nelson Nature and local trappers."
+      ],
+      "namedPeople": [],
+      "summary": "Landscape-scale predator control and habitat enhancement; supports local groups and backyard trappers",
+      "activities": [
+        "Rats, stoats, possums",
+        "native wildlife and habitat"
+      ],
+      "detail": "Core named pathway; direct, practical control network.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01554"
+    },
+    {
+      "id": "si-exg-si-01555",
+      "name": "Brook Waimārama Sanctuary",
+      "entityType": "Organisation",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Brook Valley, Nelson",
+      "localityRaw": "Brook Valley, Nelson",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "http://www.nelson.govt.nz/environment/nelson-nature/community/partnerships/brook-waimarama-sanctuary/"
+      ],
+      "website": "http://www.nelson.govt.nz/environment/nelson-nature/community/partnerships/brook-waimarama-sanctuary/",
+      "relationship": "Anchor sanctuary adjacent to Nelson Halo; partner in Mahitahi profile",
+      "relatedEntities": [
+        "Connected to Nelson Halo, Nelson City Council and Project Mahitahi."
+      ],
+      "namedPeople": [],
+      "summary": "Predator-free sanctuary and wider landscape restoration interface",
+      "activities": [
+        "Native wildlife",
+        "predator exclusion/control"
+      ],
+      "detail": "Key sanctuary and repeated partnership node.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01555"
+    },
+    {
+      "id": "si-exg-si-01556",
+      "name": "Wakapuaka Sandflats Reserve predator-control volunteers",
+      "entityType": "Project",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Wakapuaka Sandflats Reserve",
+      "localityRaw": "Wakapuaka Sandflats Reserve",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "http://www.nelson.govt.nz/assets/Nelson-Nature-Leader-Page-Jul22.pdf"
+      ],
+      "website": "http://www.nelson.govt.nz/assets/Nelson-Nature-Leader-Page-Jul22.pdf",
+      "relationship": "Volunteer trappers inducted by Council contractor Kūmānu; Council, Kūmānu and DOC involvement",
+      "relatedEntities": [
+        "Connected to Nelson City Council, Kūmānu and DOC."
+      ],
+      "namedPeople": [],
+      "summary": "Volunteer trap setting and checking",
+      "activities": [
+        "Stoats, weasels, rats, mice"
+      ],
+      "detail": "Evidence of practical local practitioners, although group name and individual identities are not published.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01556"
+    },
+    {
+      "id": "si-exg-si-01557",
+      "name": "Kūmānu Environmental / Nelmac Kūmānu",
+      "entityType": "Organisation",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Nelson office",
+      "localityRaw": "Nelson office; region-wide delivery",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.nelmac.co.nz/conservation/services/waterways-enhancement/"
+      ],
+      "website": "https://www.nelmac.co.nz/conservation/services/waterways-enhancement/",
+      "relationship": "Contractor/partner to Council and DOC; Mahitahi partner",
+      "relatedEntities": [
+        "Connected to Wakapuaka Sandflats programme, DOC/Kea Conservation Trust, and Project Mahitahi."
+      ],
+      "namedPeople": [],
+      "summary": "Waterway enhancement, monitoring, planting, weed control, project/stakeholder management; trapping induction contractor",
+      "activities": [
+        "Water quality, native fish, riparian vegetation, weeds",
+        "broader biodiversity"
+      ],
+      "detail": "Publicly identifiable field-capability entity with direct delivery evidence.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01557"
+    },
+    {
+      "id": "si-exg-si-01558",
+      "name": "Warren McLean",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Nelson-Tasman",
+      "localityRaw": "Nelson-Tasman",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.nelmac.co.nz/conservation/services/waterways-enhancement/"
+      ],
+      "website": "https://www.nelmac.co.nz/conservation/services/waterways-enhancement/",
+      "relationship": "Named public service contact for Kūmānu waterway enhancement",
+      "relatedEntities": [
+        "Associated with Kūmānu Environmental/Nelmac Kūmānu."
+      ],
+      "namedPeople": [],
+      "summary": "Waterway enhancement delivery and project/stakeholder management",
+      "activities": [
+        "Ecological assessment, water monitoring, planting, riparian vegetation, weeds, native-fish ingress"
+      ],
+      "detail": "Named person with a direct public professional role in practical restoration delivery.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01558"
+    },
+    {
+      "id": "si-exg-si-01559",
+      "name": "Project Mahitahi / Maitai Ecological Restoration Project",
+      "entityType": "Project",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Mahitahi",
+      "localityRaw": "Mahitahi/Maitai River catchment",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.doc.govt.nz/news/media-releases/2020-media-releases/jobs-for-nature-boost-for-enhancing-nelsons-mahitahi-maitai-river/"
+      ],
+      "website": "https://www.doc.govt.nz/news/media-releases/2020-media-releases/jobs-for-nature-boost-for-enhancing-nelsons-mahitahi-maitai-river/",
+      "relationship": "Led by Nelson City Council with Te Tau Ihu iwi, DOC, landowners, community and delivery partners",
+      "relatedEntities": [
+        "Partners include Kūmānu, Ngāti Rārua, Ngāti Kuia, Te Ātiawa, Ngāti Koata Trust, Fulton Hogan, Brook Sanctuary, Easy Trails, Cawthron, Enviroschools, Nelson College for Girls and Multicultural Nelson Tasman."
+      ],
+      "namedPeople": [],
+      "summary": "Pest plant and animal management, site preparation, native planting, wetland restoration",
+      "activities": [
+        "River/catchment ecology",
+        "taonga species",
+        "pest plants and animals"
+      ],
+      "detail": "Major, funded catchment network with practitioner/partner edges.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01559"
+    },
+    {
+      "id": "si-exg-si-01560",
+      "name": "Ngāti Koata Trust",
+      "entityType": "Organisation",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Mahitahi and regional contexts",
+      "localityRaw": "Mahitahi and regional contexts",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://environment.govt.nz/assets/publications/Project_Profile-Mahitahi_Rev6.pdf"
+      ],
+      "website": "https://environment.govt.nz/assets/publications/Project_Profile-Mahitahi_Rev6.pdf",
+      "relationship": "Named Mahitahi partner/employer for animal pest control",
+      "relatedEntities": [
+        "Connected to Nelson City Council and other Mahitahi partners."
+      ],
+      "namedPeople": [],
+      "summary": "Animal pest control and restoration partnership",
+      "activities": [
+        "Animal pests",
+        "ecological restoration"
+      ],
+      "detail": "Direct evidence of field capability and project role.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01560"
+    },
+    {
+      "id": "si-exg-si-01561",
+      "name": "Cawthron Institute",
+      "entityType": "Project",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Nelson",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://environment.govt.nz/assets/publications/Project_Profile-Mahitahi_Rev6.pdf"
+      ],
+      "website": "https://environment.govt.nz/assets/publications/Project_Profile-Mahitahi_Rev6.pdf",
+      "relationship": "Named Project Mahitahi partner",
+      "relatedEntities": [
+        "Connected to NCC, iwi, contractor and community partners in Mahitahi."
+      ],
+      "namedPeople": [],
+      "summary": "Scientific/research partner in catchment restoration",
+      "activities": [
+        "Ecology and restoration (specific Mahitahi task not specified in source)"
+      ],
+      "detail": "Relevant regional ecological capability organisation, with direct partnership evidence.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01561"
+    },
+    {
+      "id": "si-exg-si-01562",
+      "name": "Waimea Inlet Coordination Group",
+      "entityType": "Group",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Waimea Inlet, Rough Island, Best Island, Māpua wetlands",
+      "localityRaw": "Waimea Inlet, Rough Island, Best Island, Māpua wetlands",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tasman.govt.nz/my-council/projects/economic-recovery-projects/jobs-for-nature"
+      ],
+      "website": "https://www.tasman.govt.nz/my-council/projects/economic-recovery-projects/jobs-for-nature",
+      "relationship": "Named partner in Tasman Council Jobs for Nature work",
+      "relatedEntities": [
+        "Connected to Tasman District Council, Nelson City Council, DOC and TET."
+      ],
+      "namedPeople": [],
+      "summary": "Coordinated estuary/wetland restoration and planting",
+      "activities": [
+        "Estuary, wetland, salt marsh, terrestrial habitat"
+      ],
+      "detail": "Multi-organisation restoration hub directly tied to council-funded field activity.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01562"
+    },
+    {
+      "id": "si-exg-si-01563",
+      "name": "Forest & Bird Nelson Tasman Branch",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Pelorus Bridge to Golden Bay",
+      "localityRaw": "Pelorus Bridge to Golden Bay; Paremata Reserve; Te Hoiere/Pelorus",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.forestandbird.org.nz/branches/nelson-tasman"
+      ],
+      "website": "https://www.forestandbird.org.nz/branches/nelson-tasman",
+      "relationship": "Runs Paremata trapping; Te Hoiere Bat Recovery with DOC and funders",
+      "relatedEntities": [
+        "Connected to Paremata project, DOC, Transpower, Lottery Grants Board, Te Hoiere Bat Recovery and youth awards."
+      ],
+      "namedPeople": [],
+      "summary": "Volunteer trapping, weed control, planting, bat recovery and youth engagement",
+      "activities": [
+        "Fernbird, banded rail, bats",
+        "pest species and weeds"
+      ],
+      "detail": "Large volunteer/practitioner network with distinct place-based projects.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01563"
+    },
+    {
+      "id": "si-exg-si-01564",
+      "name": "Paremata Reserve Restoration Project",
+      "entityType": "Project",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Paremata Flats Reserve",
+      "localityRaw": "Paremata Flats Reserve; Uri O Te Wai and Maori Pa Road trap lines",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.forestandbird.org.nz/projects/paremata-reserve-restoration-project"
+      ],
+      "website": "https://www.forestandbird.org.nz/projects/paremata-reserve-restoration-project",
+      "relationship": "Run by Forest & Bird Nelson Tasman volunteers",
+      "relatedEntities": [
+        "Connected to Forest & Bird Nelson Tasman and Nelson City Council jurisdiction."
+      ],
+      "namedPeople": [],
+      "summary": "Twice-weekly predator trapping, weeding and planting",
+      "activities": [
+        "Fernbird, banded rail",
+        "mice, rats, hedgehogs, weasels, stoats, possums, ferrets"
+      ],
+      "detail": "Direct, long-running hands-on practitioner group.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01564"
+    },
+    {
+      "id": "si-exg-si-01565",
+      "name": "Miang",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Paremata Reserve",
+      "localityRaw": "Paremata Reserve",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.forestandbird.org.nz/projects/paremata-reserve-restoration-project"
+      ],
+      "website": "https://www.forestandbird.org.nz/projects/paremata-reserve-restoration-project",
+      "relationship": "First name only in public project page",
+      "relatedEntities": [
+        "Connected to Paremata Reserve Restoration Project."
+      ],
+      "namedPeople": [],
+      "summary": "Volunteer coordination/contact for trapping team and working bees",
+      "activities": [
+        "Predator trapping and restoration"
+      ],
+      "detail": "Potential coordinator edge, but insufficient identification to resolve person safely.",
+      "discoveryConfidence": "LOW",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01565"
+    },
+    {
+      "id": "si-exg-si-01566",
+      "name": "Dr Daria Erastova",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Te Hoiere",
+      "localityRaw": "Te Hoiere/Pelorus Bridge and Rai Valley",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.forestandbird.org.nz/branches/nelson-tasman"
+      ],
+      "website": "https://www.forestandbird.org.nz/branches/nelson-tasman",
+      "relationship": "Named Te Hoiere Bat Recovery Project Manager",
+      "relatedEntities": [
+        "Connected to Forest & Bird Nelson Tasman, DOC, Transpower and Lottery Grants Board."
+      ],
+      "namedPeople": [],
+      "summary": "Project management for bat recovery involving trapping, weed control, planting and bat monitoring",
+      "activities": [
+        "Native bats and habitat",
+        "predators and weeds"
+      ],
+      "detail": "Named field-project leadership with public contact.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01566"
+    },
+    {
+      "id": "si-exg-si-01567",
+      "name": "Ian Price",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Nelson Tasman",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://www.forestandbird.org.nz/resources/forest-bird-honours-announced-across-new-zealand"
+      ],
+      "website": "https://www.forestandbird.org.nz/resources/forest-bird-honours-announced-across-new-zealand",
+      "relationship": "Named 2018 Forest & Bird leadership context",
+      "relatedEntities": [
+        "Associated with Forest & Bird Nelson Tasman."
+      ],
+      "namedPeople": [],
+      "summary": "Leadership in major volunteer planting/restoration effort",
+      "activities": [
+        "Native trees",
+        "predator/weed control"
+      ],
+      "detail": "Historic leadership is relevant but too old to establish current role.",
+      "discoveryConfidence": "LOW",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01567"
+    },
+    {
+      "id": "si-exg-si-01568",
+      "name": "Nelson City Council",
+      "entityType": "Project",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Nelson",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://www.doc.govt.nz/news/media-releases/2020-media-releases/jobs-for-nature-boost-for-enhancing-nelsons-mahitahi-maitai-river/"
+      ],
+      "website": "https://www.doc.govt.nz/news/media-releases/2020-media-releases/jobs-for-nature-boost-for-enhancing-nelsons-mahitahi-maitai-river/",
+      "relationship": "Leads Nelson Nature/Halo and Project Mahitahi; recipient of related funding",
+      "relatedEntities": [
+        "Connected to DOC, iwi, community groups, landowners, Brook Sanctuary, Kūmānu and Tasman Council."
+      ],
+      "namedPeople": [],
+      "summary": "Leads community conservation, catchment restoration and Jobs for Nature projects",
+      "activities": [
+        "Biodiversity, pest plants/animals, wetlands, habitat"
+      ],
+      "detail": "Government project hub and source of partners/groups.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01568"
+    },
+    {
+      "id": "si-exg-si-01569",
+      "name": "Department of Conservation (Nelson/Tasman)",
+      "entityType": "Organisation",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Nelson-Tasman",
+      "localityRaw": "Nelson-Tasman; Abel Tasman and regional sites",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.doc.govt.nz/about-us/our-partners/our-regional-partners/"
+      ],
+      "website": "https://www.doc.govt.nz/about-us/our-partners/our-regional-partners/",
+      "relationship": "Partner to Halo, Project Janszoon, Onetahua, Mahitahi and other regional work",
+      "relatedEntities": [
+        "Connected broadly to NCC, TET, Project Janszoon, KMTT, Kea Conservation Trust and community groups."
+      ],
+      "namedPeople": [],
+      "summary": "Conservation partnership, volunteer operations, funding and project delivery",
+      "activities": [
+        "Pests, species recovery, restoration and biodiversity"
+      ],
+      "detail": "Essential institutional network/funder/partner node, not an assumed Ex Games participant.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01569"
+    },
+    {
+      "id": "si-exg-si-01570",
+      "name": "Kotahitanga mō te Taiao Alliance",
+      "entityType": "Organisation",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Top of South including Tasman and Nelson",
+      "localityRaw": "Top of South including Tasman and Nelson",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.doc.govt.nz/news/media-releases/2020-media-releases/jobs-for-nature-boost-for-enhancing-nelsons-mahitahi-maitai-river/"
+      ],
+      "website": "https://www.doc.govt.nz/news/media-releases/2020-media-releases/jobs-for-nature-boost-for-enhancing-nelsons-mahitahi-maitai-river/",
+      "relationship": "Alliance of iwi, councils and DOC; enabled Mahitahi funding pathway",
+      "relatedEntities": [
+        "Connected to DOC, councils, eight iwi and Onetahua alignment."
+      ],
+      "namedPeople": [],
+      "summary": "Coordinates collaborative conservation/resilience work and project funding pathways",
+      "activities": [
+        "Landscape restoration, weeds, biodiversity"
+      ],
+      "detail": "Cross-network coordination/funder pathway, useful for next chain iteration.",
+      "discoveryConfidence": "HIGH",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01570"
+    },
+    {
+      "id": "si-exg-si-01571",
+      "name": "Wakapuaka Mouri",
+      "entityType": "Project",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Wakapuaka River and Delaware Bay estuary",
+      "localityRaw": "Wakapuaka River and Delaware Bay estuary",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/tet_project_type/predator-control/"
+      ],
+      "website": "https://www.tet.org.nz/tet_project_type/predator-control/",
+      "relationship": "TET project in 2021 annual report; listed in predator-control project category",
+      "relatedEntities": [
+        "Related geographically to Wakapuaka Sandflats and Council Jobs for Nature catchment work."
+      ],
+      "namedPeople": [],
+      "summary": "Catchment restoration (specific current activities not fully exposed in result)",
+      "activities": [
+        "River, estuary, habitats and community use values"
+      ],
+      "detail": "Named relevant catchment project but detailed current project structure/people require further validation.",
+      "discoveryConfidence": "MEDIUM",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01571"
+    },
+    {
+      "id": "si-exg-si-01572",
+      "name": "Nelson Tasman Conservation Volunteers newsletter network",
+      "entityType": "Project",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Tasman and Nelson",
+      "localityRaw": "Tasman and Nelson",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "TET-hosted newsletter provides cross-project discovery pathway",
+      "relatedEntities": [
+        "Potentially connects many local trapping groups and Kathryn contact."
+      ],
+      "namedPeople": [],
+      "summary": "Shares trapping reports and conservation-volunteer news",
+      "activities": [
+        "Predator trapping and volunteer conservation"
+      ],
+      "detail": "Useful source-family/network node; constituent groups were not fully extracted in this bounded iteration.",
+      "discoveryConfidence": "MEDIUM",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01572"
+    },
+    {
+      "id": "si-exg-si-01573",
+      "name": "Kathryn (surname not established)",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Not specified",
+      "localityRaw": "Not specified",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf"
+      ],
+      "website": "https://www.tet.org.nz/wp-content/uploads/2024/06/PDF-Tas_Nelson-Conservation-Volunteers-Newsletter_-June-2024.pdf",
+      "relationship": "Named only as Kathryn alongside direct contact details",
+      "relatedEntities": [
+        "Potential network link to Tas/Nelson conservation volunteers."
+      ],
+      "namedPeople": [],
+      "summary": "Public contact in Tas/Nelson Conservation Volunteers newsletter",
+      "activities": [
+        "Conservation volunteers/trapping (exact role not established)"
+      ],
+      "detail": "Contact is public but identity/authority insufficiently resolved; do not match to individuals without further evidence.",
+      "discoveryConfidence": "LOW",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01573"
+    },
+    {
+      "id": "si-exg-si-01574",
+      "name": "Perrine Moncrieff Shield recipients: Iris Moffat and Ryder Carter",
+      "entityType": "Person",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Nayland College",
+      "localityRaw": "Nayland College; Nelson Intermediate",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://www.forestandbird.org.nz/branches/nelson-tasman"
+      ],
+      "website": "https://www.forestandbird.org.nz/branches/nelson-tasman",
+      "relationship": "Award recipients recognised by regional branch",
+      "relatedEntities": [
+        "Connected to Forest & Bird Nelson Tasman and local schools."
+      ],
+      "namedPeople": [],
+      "summary": "Student ecological projects recognised by Forest & Bird branch",
+      "activities": [
+        "Native birds",
+        "kārearea"
+      ],
+      "detail": "Awards route surfaced public youth practitioners, but project scope/current activity insufficient to assess relevance.",
+      "discoveryConfidence": "LOW",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01574"
+    },
+    {
+      "id": "si-exg-si-01575",
+      "name": "Nelson College for Girls",
+      "entityType": "Organisation",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Nelson",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://environment.govt.nz/assets/publications/Project_Profile-Mahitahi_Rev6.pdf"
+      ],
+      "website": "https://environment.govt.nz/assets/publications/Project_Profile-Mahitahi_Rev6.pdf",
+      "relationship": "Named Project Mahitahi partner",
+      "relatedEntities": [
+        "Connected to NCC, Cawthron, Enviroschools and other Mahitahi partners."
+      ],
+      "namedPeople": [],
+      "summary": "Education/community partner in Mahitahi restoration",
+      "activities": [
+        "Catchment restoration/ecology"
+      ],
+      "detail": "School connection is evidenced but actual participant class/activities not specified.",
+      "discoveryConfidence": "MEDIUM",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01575"
+    },
+    {
+      "id": "si-exg-si-01576",
+      "name": "Nelson Enviroschools",
+      "entityType": "Project",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "",
+      "localityRaw": "Nelson",
+      "localityResolutionStatus": "region-only",
+      "aliases": [],
+      "sources": [
+        "https://environment.govt.nz/assets/publications/Project_Profile-Mahitahi_Rev6.pdf"
+      ],
+      "website": "https://environment.govt.nz/assets/publications/Project_Profile-Mahitahi_Rev6.pdf",
+      "relationship": "Named Project Mahitahi partner",
+      "relatedEntities": [
+        "Connected to NCC, Cawthron, school and multicultural partners."
+      ],
+      "namedPeople": [],
+      "summary": "Partner in Mahitahi restoration",
+      "activities": [
+        "Environmental education/restoration (specific tasks not stated)"
+      ],
+      "detail": "Potential school/community capability network, but no individual/project work detail surfaced.",
+      "discoveryConfidence": "MEDIUM",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01576"
+    },
+    {
+      "id": "si-exg-si-01577",
+      "name": "Multicultural Nelson Tasman",
+      "entityType": "Project",
+      "populationClass": "discovered",
+      "status": "located",
+      "region": "Nelson Region",
+      "localities": [],
+      "mapLocalities": [],
+      "localityCandidate": "Nelson-Tasman",
+      "localityRaw": "Nelson-Tasman",
+      "localityResolutionStatus": "candidate-locality",
+      "aliases": [],
+      "sources": [
+        "https://environment.govt.nz/assets/publications/Project_Profile-Mahitahi_Rev6.pdf"
+      ],
+      "website": "https://environment.govt.nz/assets/publications/Project_Profile-Mahitahi_Rev6.pdf",
+      "relationship": "Named Project Mahitahi partner",
+      "relatedEntities": [
+        "Connected to NCC and Mahitahi partner network."
+      ],
+      "namedPeople": [],
+      "summary": "Community partner in Mahitahi restoration",
+      "activities": [
+        "Community engagement in restoration (specific activities not stated)"
+      ],
+      "detail": "Potential inclusion/volunteer-network route; actual activity/people not identified.",
+      "discoveryConfidence": "MEDIUM",
+      "verificationStatus": "Public-source verified",
+      "claimStatus": "unclaimed",
+      "consentStatus": "not_obtained",
+      "publicationStatus": "DISCOVERED_UNCLAIMED_NOT_CONSENTED",
+      "sourceCanonicalId": "EXG-SI-01577"
+    }
+  ]
+}

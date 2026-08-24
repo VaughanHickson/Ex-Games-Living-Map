@@ -25,6 +25,13 @@ REGIONS = {
     "Hawke's Bay Region": "participants-hawkes-bay-located-001.json",
     "Manawatū-Whanganui Region": "participants-manawatu-whanganui-located-001.json",
     "Wellington Region": "participants-wellington-wairarapa-located-001.json",
+    "Canterbury Region": "participants-canterbury-located-001.json",
+    "Marlborough Region": "participants-marlborough-located-001.json",
+    "Nelson Region": "participants-nelson-located-001.json",
+    "Otago Region": "participants-otago-located-001.json",
+    "Southland Region": "participants-southland-located-001.json",
+    "Tasman Region": "participants-tasman-located-001.json",
+    "West Coast Region": "participants-west-coast-located-001.json",
 }
 
 # Explicit aliases are deliberately conservative. They only cover obvious
@@ -97,11 +104,15 @@ def source_localities(participant: dict) -> list[str]:
     if isinstance(vals, list) and vals:
         return [str(v).strip() for v in vals if str(v).strip()]
     vals = participant.get("localities")
-    if isinstance(vals, list):
+    if isinstance(vals, list) and vals:
         return [str(v).strip() for v in vals if str(v).strip()]
     val = participant.get("locality")
     if val:
         return [str(val).strip()]
+    for field in ("localityCandidate", "localityRaw"):
+        val = participant.get(field)
+        if val:
+            return [str(val).strip()]
     return []
 
 def classify_unresolved(name: str, region_name: str) -> str:

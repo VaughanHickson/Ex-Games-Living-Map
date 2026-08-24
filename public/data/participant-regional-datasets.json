@@ -35,6 +35,34 @@
     {
       "region": "Wellington Region",
       "path": "/data/participants-wellington-wairarapa-located-001-resolved-001.json"
+    },
+    {
+      "region": "Canterbury Region",
+      "path": "/data/participants-canterbury-located-001-resolved-001.json"
+    },
+    {
+      "region": "Marlborough Region",
+      "path": "/data/participants-marlborough-located-001-resolved-001.json"
+    },
+    {
+      "region": "Nelson Region",
+      "path": "/data/participants-nelson-located-001-resolved-001.json"
+    },
+    {
+      "region": "Otago Region",
+      "path": "/data/participants-otago-located-001-resolved-001.json"
+    },
+    {
+      "region": "Southland Region",
+      "path": "/data/participants-southland-located-001-resolved-001.json"
+    },
+    {
+      "region": "Tasman Region",
+      "path": "/data/participants-tasman-located-001-resolved-001.json"
+    },
+    {
+      "region": "West Coast Region",
+      "path": "/data/participants-west-coast-located-001-resolved-001.json"
     }
   ]
 }
