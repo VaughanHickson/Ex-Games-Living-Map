@@ -65,7 +65,7 @@ export const locatedParticipants: readonly LocatedParticipant[] =
       (p.mapLocalities?.length
         ? p.mapLocalities
         : (p.localities ?? (p.locality ? [p.locality] : []))
-      ).map(locality => ({
+      ).concat(!p.mapLocalities?.length && !p.localities?.length && !p.locality ? [""] : []).map(locality => ({
         id: p.id, name: p.name,
         locality: localityAliases[locality] ?? locality,
         region: seed.region,

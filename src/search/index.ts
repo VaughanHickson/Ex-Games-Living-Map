@@ -4,6 +4,7 @@ export interface ParticipantSearchIndexEntry {
   participant: LocatedParticipant
   name: string
   locality: string
+  region: string
   type: string
   searchText: string
 }
@@ -15,6 +16,7 @@ export const buildParticipantSearchIndex = (
     participant: p,
     name: p.name,
     locality: p.locality,
+    region: p.region,
     type: p.type,
     searchText: [p.name, p.locality, p.type, p.relationship, p.summary,
       p.detail, p.website, ...(p.activities ?? [])].filter(Boolean).join(' '),

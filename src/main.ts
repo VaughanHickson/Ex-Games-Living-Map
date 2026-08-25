@@ -98,6 +98,7 @@ const hitListData = await fetch('/data/hit-list-001.json')
   .then(r => r.json()) as HitListData
 let hoveredLocalityId: string | number | undefined
 let activeParticipantLocality: string | undefined
+let activeParticipantRegion: string | undefined
 let participantReturn:
   | { kind: 'search' }
   | { kind: 'locality'; locality: string }
@@ -362,7 +363,7 @@ const showParticipants = (localityName: string) => {
 }
 
 const openSearchMatch = (name: string, locality?: string) => {
-  const result = searchParticipants({ name, locality }, discoveredParticipants)
+  const result = searchParticipants({ name, locality, region: activeParticipantRegion }, discoveredParticipants)
 
   if (result.outcome !== 'EXISTING_MATCH') return result
 
@@ -398,6 +399,7 @@ const showParticipant = (id: string) => {
 <label>Website<input name="website" value="${p.website ?? ''}"></label>
     <label>Living Map locality
       <select name="claimed-locality">
+        <option value="">Select your locality</option>
         ${availableLocalities
           .filter(x => x.region === p.region)
           .map(x => `<option value="${x.name}" ${
@@ -422,6 +424,7 @@ const showLocalitySelection = (id: string) => {
     <p>Choose a suburb or locality deliberately. You can change it later.</p>
     <label>Locality
       <select name="claimed-locality">
+        <option value="">Select your locality</option>
         ${availableLocalities
           .filter(x => x.region === p.region)
           .map(x => `<option value="${x.name}" ${
@@ -506,6 +509,7 @@ const showClaimedParticipant = (id: string) => {
 
 
 const setActiveRegion = (map: maplibregl.Map, region: string) => {
+activeParticipantRegion = region || undefined
 const layers=['auckland-localities-fill','auckland-localities-outline',
 'auckland-localities-selected-fill','auckland-localities-selected-outline',
 'auckland-localities-selected-label',
@@ -1178,7 +1182,7 @@ participantPanel.addEventListener('input', (event) => {
   const query = target.value.trim()
   if (!query) { showSearchResult(''); return }
   const result = searchParticipants(
-    { name: query, locality: activeParticipantLocality },
+    { name: query, locality: activeParticipantLocality, region: activeParticipantRegion },
     discoveredParticipants,
   )
   if (result.outcome === 'NO_MATCH')
@@ -1228,6 +1232,7 @@ if (addParticipant?.textContent?.includes('Add yourself')) {
   const result = searchParticipants({
     name: query,
     locality: activeParticipantLocality,
+    region: activeParticipantRegion,
   }, discoveredParticipants)
 
   if (result.outcome === 'NO_MATCH') {

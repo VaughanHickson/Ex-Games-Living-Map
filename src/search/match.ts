@@ -17,6 +17,7 @@ const matchCandidate = (
   const tokens = searchTokens(request.name)
   return buildParticipantSearchIndex(participants)
     .filter((entry) => {
+      if (request.region && entry.region !== request.region) return false
       const haystack = normaliseSearchText(entry.searchText)
       return tokens.length > 0 && tokens.every((token) => haystack.includes(token))
     })
