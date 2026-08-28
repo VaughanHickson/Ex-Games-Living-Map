@@ -90,6 +90,7 @@ body {
 }
 
 .participant-panel {
+  box-sizing: border-box;
   position: absolute;
   top: 20px;
   left: 20px;
@@ -339,6 +340,8 @@ display: none;
 
 .hit-list-dossier {
   min-height: 100vh;
+  height: 100vh;
+  overflow-y: auto;
   box-sizing: border-box;
   padding: 32px clamp(24px, 6vw, 90px) 64px;
   background: #f3f1e7;
