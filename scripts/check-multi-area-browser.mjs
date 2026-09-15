@@ -27,7 +27,7 @@ try {
             res.setHeader('Content-Type','application/x-protobuf'); res.end(Buffer.alloc(0)); return
           }
           let payload
-          if (req.url === '/data/areas.json') payload = datasetMode === 'empty'
+          if (req.url === '/data/areas.json' && datasetMode !== 'production') payload = datasetMode === 'empty'
             ? { areaModel:'EXG-LM-AREA-MODEL-002', areas:[] } : fixture.dataset
           else if (req.url === '/data/participant-regional-datasets.json') payload = {
             datasets:datasetMode === 'fixtures' ? [...manifest.datasets, { region:'Auckland', path:'/fixture-participants' }] : manifest.datasets,
@@ -153,6 +153,35 @@ try {
   assert.equal(await evaluate(`(await window.__multiAreaTestMap.getSource('canonical-areas').getData()).features.length`),0)
   assert.deepEqual(errors,[])
   console.log('PASS: invalid relationships show a visible validation alert and produce no fabricated features.')
+  // Phase 2 acceptance: use the actual production registry and participant manifest.
+  datasetMode = 'production'
+  await send('Page.reload',{ignoreCache:true})
+  await until(`window.__multiAreaTestMap?.getSource('canonical-areas') && window.__multiAreaTestMap.isSourceLoaded('canonical-areas')`)
+  assert.equal(await evaluate(`(await window.__multiAreaTestMap.getSource('canonical-areas').getData()).features.length`),0)
+  assert.equal(await evaluate(`document.querySelectorAll('.area-validation-error').length`),0)
+  await evaluate(`document.querySelector('.ex-games-find-me').click();document.querySelector('.participant-search').value='Backcountry Trust';document.querySelector('.participant-search').dispatchEvent(new Event('input',{bubbles:true}));`)
+  assert.equal(await evaluate(`document.querySelectorAll('.participant-search-candidate').length`),1)
+  await evaluate(`document.querySelector('.participant-search-candidate').click()`)
+  assert.equal(await evaluate(`document.querySelector('[name="name"]').value`),'Backcountry Trust')
+  assert.equal(await evaluate(`document.querySelectorAll('.participant-area').length`),26)
+  await evaluate(`document.querySelector('[data-area-id="area-poteriteri-track"]').click()`)
+  assert.equal(await evaluate(`document.querySelectorAll('.area-participant').length`),1)
+  assert.equal(await evaluate(`document.querySelector('.area-participant').dataset.id`),'exg-backcountry-trust')
+  assert.ok(await evaluate(`document.querySelector('.participant-panel').textContent.includes('Permolat Southland performed the field work')`))
+  assert.ok(await evaluate(`document.querySelector('.participant-panel').textContent.includes('no map position is invented')`))
+  await fs.writeFile(path.join(cache,'bct-area-review.png'), Buffer.from((await send('Page.captureScreenshot',{format:'png'})).data,'base64'))
+  await evaluate(`document.querySelector('.area-participant').click()`)
+  assert.equal(await evaluate(`document.querySelectorAll('.participant-area').length`),26)
+  await fs.writeFile(path.join(cache,'bct-participant-review.png'), Buffer.from((await send('Page.captureScreenshot',{format:'png'})).data,'base64'))
+  console.log('PASS: actual BCT data loads once, traverses 26 unresolved Areas both ways, and exposes partner delivery without invented map features.')
+  for (const region of ['Southland Region','West Coast Region','Canterbury Region']) {
+    await evaluate(`document.querySelector('.ex-games-region-control').value=${JSON.stringify(region)};document.querySelector('.ex-games-region-control').dispatchEvent(new Event('change'));`)
+    await evaluate(`document.querySelector('.ex-games-find-me').click();document.querySelector('.participant-search').value='Backcountry Trust';document.querySelector('.participant-search').dispatchEvent(new Event('input',{bubbles:true}));`)
+    assert.equal(await evaluate(`document.querySelectorAll('.participant-search-candidate').length`),1)
+  }
+  assert.deepEqual(errors,[])
+  console.log('PASS: BCT returns once in each tested regional view; no uncaught browser exceptions.')
+
 } finally {
   socket?.close()
   if(browser) { browser.kill(); await new Promise(resolve=>browser.once('exit',resolve)) }

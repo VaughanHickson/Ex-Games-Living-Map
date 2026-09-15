@@ -1,0 +1,239 @@
+{
+  "purpose": "Review evidence only; not a runtime geographic relationship registry. Area.participantIds remains authoritative.",
+  "participantSource": "https://www.backcountrytrust.org.nz/",
+  "performanceReportSource": "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf",
+  "locationCandidateCount": 32,
+  "registeredNamedAreaCount": 26,
+  "geometryAttachedCount": 0,
+  "heldCandidateCount": 6,
+  "registeredEvidenceReferences": {
+    "area-leon-kinvig-hut": [
+      "bct-leon-kinvig-reroof-2022",
+      "bct-leon-kinvig-relocation-2024"
+    ],
+    "area-poutaki-hut": [
+      "bct-poutaki-rebuild-2021-2022"
+    ],
+    "area-poteriteri-track": [
+      "bct-poteriteri-clearing-2020"
+    ],
+    "area-hump-ridge-to-teal-bay-track": [
+      "bct-hump-ridge-teal-bay-2020"
+    ],
+    "area-top-waitaha-hut": [
+      "bct-top-waitaha-renovation-2020",
+      "bct-waitaha-mullins-toilets-2022"
+    ],
+    "area-mullins-hut": [
+      "bct-waitaha-mullins-toilets-2022"
+    ],
+    "area-brodrick-hut": [
+      "bct-brodrick-huxley-2021"
+    ],
+    "area-huxley-forks-hut": [
+      "bct-brodrick-huxley-2021"
+    ],
+    "area-kahikatea-lodge": [
+      "bct-kahikatea-lodge-2021"
+    ],
+    "area-bald-hill-track": [
+      "bct-bald-hill-track-2022"
+    ],
+    "area-jollie-brook-hut": [
+      "bct-jollie-brook-cold-stream-2022"
+    ],
+    "area-cold-stream-hut": [
+      "bct-jollie-brook-cold-stream-2022"
+    ],
+    "area-blyth-hut": [
+      "bct-investment-2022-2023-blyth-hut"
+    ],
+    "area-old-manson-hut": [
+      "bct-investment-2022-2023-old-manson-hut"
+    ],
+    "area-hawke-s-bay-kaweka-forest-park": [
+      "bct-investment-2022-2023-hawke-s-bay-kaweka-forest-park"
+    ],
+    "area-waitotara-tracks": [
+      "bct-investment-2022-2023-waitotara-tracks"
+    ],
+    "area-dianes-hut": [
+      "bct-investment-2022-2023-dianes-hut"
+    ],
+    "area-sayers-hut": [
+      "bct-investment-2022-2023-sayers-hut"
+    ],
+    "area-kirwins-hut": [
+      "bct-investment-2022-2023-kirwins-hut"
+    ],
+    "area-waikiti-bridge": [
+      "bct-investment-2022-2023-waikiti-bridge"
+    ],
+    "area-dunns-creek-hut": [
+      "bct-investment-2022-2023-dunns-creek-hut"
+    ],
+    "area-dickie-spur-hut": [
+      "bct-investment-2022-2023-dickie-spur-hut"
+    ],
+    "area-hopkins-valley-access-road": [
+      "bct-investment-2022-2023-hopkins-valley-access-road"
+    ],
+    "area-aspiring-hut": [
+      "bct-investment-2022-2023-aspiring-hut"
+    ],
+    "area-halfway-hut-dusky-track": [
+      "bct-investment-2022-2023-halfway-hut-dusky-track"
+    ],
+    "area-robin-saddle-biv": [
+      "bct-investment-2022-2023-robin-saddle-biv"
+    ]
+  },
+  "heldCandidates": [
+    {
+      "name": "Cascade Hut",
+      "sourceTerms": [
+        "Kaimanawa Forest Park",
+        "Tauranga-Taupō River",
+        "Cascade Creek"
+      ],
+      "status": "WITHHELD_FROM_AREA_REGISTRY",
+      "reason": "The checked project establishes the named hut, but not a single accepted registry region. Resolve regional assignment before import; no coordinates or boundary were supplied.",
+      "activityEvidence": [
+        {
+          "reference": "bct-cascade-restoration-2020-2021",
+          "period": "2020–21",
+          "classifications": [
+            "BCT_FUNDED",
+            "PARTNER_DELIVERED"
+          ],
+          "delivery": "Mike Main-led project team with DOC consultation",
+          "note": "A successful BCT funding proposal supported restoration costs.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/projects-blog/cascade-hut",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ]
+    },
+    {
+      "name": "Te Iringa Track",
+      "sourceTerms": [
+        "Kaimanawa"
+      ],
+      "status": "WITHHELD_FROM_AREA_REGISTRY",
+      "reason": "The investment evidence establishes named geography but does not resolve the required single registry region. Do not assign the region of a whole park to a site or route by inference.",
+      "activityEvidence": [
+        {
+          "reference": "bct-investment-2022-2023-te-iringa-track",
+          "period": "2022–23",
+          "classifications": [
+            "BCT_FUNDED"
+          ],
+          "delivery": "Not established by the investment-list evidence",
+          "note": "BCT reports investment associated with Te Iringa Track.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ]
+    },
+    {
+      "name": "Balloon Hut",
+      "sourceTerms": [
+        "Kahurangi National Park"
+      ],
+      "status": "WITHHELD_FROM_AREA_REGISTRY",
+      "reason": "The investment evidence establishes named geography but does not resolve the required single registry region. Do not assign the region of a whole park to a site or route by inference.",
+      "activityEvidence": [
+        {
+          "reference": "bct-investment-2022-2023-balloon-hut",
+          "period": "2022–23",
+          "classifications": [
+            "BCT_FUNDED"
+          ],
+          "delivery": "Not established by the investment-list evidence",
+          "note": "BCT reports investment associated with Balloon Hut.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ]
+    },
+    {
+      "name": "Mid Wairoa Hut",
+      "sourceTerms": [
+        "Richmond Forest Park"
+      ],
+      "status": "WITHHELD_FROM_AREA_REGISTRY",
+      "reason": "The investment evidence establishes named geography but does not resolve the required single registry region. Do not assign the region of a whole park to a site or route by inference.",
+      "activityEvidence": [
+        {
+          "reference": "bct-investment-2022-2023-mid-wairoa-hut",
+          "period": "2022–23",
+          "classifications": [
+            "BCT_FUNDED"
+          ],
+          "delivery": "Not established by the investment-list evidence",
+          "note": "BCT reports investment associated with Mid Wairoa Hut.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ]
+    },
+    {
+      "name": "Temple Basin historic road bridge",
+      "sourceTerms": [
+        "Arthur’s Pass National Park"
+      ],
+      "status": "WITHHELD_FROM_AREA_REGISTRY",
+      "reason": "The investment evidence establishes named geography but does not resolve the required single registry region. Do not assign the region of a whole park to a site or route by inference.",
+      "activityEvidence": [
+        {
+          "reference": "bct-investment-2022-2023-temple-basin-historic-road-bridge",
+          "period": "2022–23",
+          "classifications": [
+            "BCT_FUNDED"
+          ],
+          "delivery": "Not established by the investment-list evidence",
+          "note": "BCT reports investment associated with Temple Basin historic road bridge.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ]
+    },
+    {
+      "name": "Marlborough hut and track work with DOC Renwick",
+      "sourceTerms": [
+        "Marlborough",
+        "DOC Renwick"
+      ],
+      "status": "WITHHELD_FROM_AREA_REGISTRY",
+      "reason": "Marlborough is known, but the programme description does not identify physical hut/track Areas. Retain evidence pending named sites or an explicitly supported geographic scope.",
+      "activityEvidence": [
+        {
+          "reference": "bct-investment-2022-2023-marlborough-renwick",
+          "period": "2022–23",
+          "classifications": [
+            "BCT_FUNDED",
+            "BCT_SUPPORTED"
+          ],
+          "delivery": "DOC Renwick collaboration; delivery allocation not established",
+          "note": "BCT reports joint hut and track work with DOC Renwick; individual physical sites are not identified in the supplied list.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ]
+    }
+  ],
+  "deduplicationNotes": [
+    "Top Waitaha Hut is one Area with renovation and toilet-installation evidence.",
+    "The toilet activity is shared by Top Waitaha and Mullins; neither hut is merged.",
+    "Brodrick and Huxley Forks retain distinct Areas and a shared activity reference.",
+    "Jollie Brook and Cold Stream retain distinct Areas and a shared activity reference.",
+    "Halfway Hut ID is qualified by Dusky Track to avoid conflating other huts of the same name.",
+    "Kaweka Forest Park reuses its staged Area ID; staged records and their relationships remain unchanged, and unreviewed associations are not promoted.",
+    "Parent parks and valleys remain source terms/context; no inferred parent boundary or additional relationship system is introduced."
+  ],
+  "verificationNotes": [
+    "All supplied core project URLs were checked against official BCT articles, including archive entries resolved to direct article URLs.",
+    "Report-only classification BCT_FUNDED expresses reported investment, not BCT delivery. More detailed delivery classifications require activity-specific review.",
+    "Regional context supplements are not geometry sources; no coordinates were imported.",
+    "Identity and scale are BCT self-reported, not independent impact verification."
+  ]
+}

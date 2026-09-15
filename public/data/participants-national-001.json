@@ -1,0 +1,33 @@
+{
+  "region": "New Zealand",
+  "participants": [
+    {
+      "id": "exg-backcountry-trust",
+      "name": "Backcountry Trust",
+      "shortName": "BCT",
+      "country": "New Zealand",
+      "scope": "National",
+      "operatingBaseline": "2014–",
+      "entityType": "Trust",
+      "status": "located",
+      "domain": "Backcountry hut and track restoration/support",
+      "website": "https://www.backcountrytrust.org.nz/",
+      "sources": [
+        "https://www.backcountrytrust.org.nz/"
+      ],
+      "relationship": "Supports backcountry huts and tracks through funding, volunteer teams, contracted work and partnerships; delivery varies by activity.",
+      "summary": "Backcountry Trust supports the maintenance and restoration of New Zealand backcountry huts and tracks on public conservation land through funding, volunteer activity, contracted work and partnerships.",
+      "scaleStatement": "Since 2014 BCT reports funding restoration of more than 300 huts and 2,000 km of walking and mountain-bike tracks.",
+      "activities": [
+        "Backcountry hut and track restoration/support",
+        "Funding",
+        "Volunteer activity",
+        "Contracted work",
+        "Partnerships"
+      ],
+      "detail": "BCT · New Zealand · National · Operating baseline: 2014–. Since 2014 BCT reports funding restoration of more than 300 huts and 2,000 km of walking and mountain-bike tracks (BCT website). Associated Areas record geographic activity, not measured ecological impact. Named geography is retained without invented coordinates; funding and partner delivery are distinguished in each Area description.",
+      "verificationStatus": "SOURCE_CHECKED",
+      "verificationNote": "Identity and scale checked against the official BCT website. The existing located state means identified geography, not verified point geometry."
+    }
+  ]
+}

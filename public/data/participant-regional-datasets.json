@@ -63,6 +63,10 @@
     {
       "region": "West Coast Region",
       "path": "/data/participants-west-coast-located-001-resolved-001.json"
+    },
+    {
+      "region": "New Zealand",
+      "path": "/data/participants-national-001.json"
     }
   ]
 }

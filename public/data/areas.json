@@ -1,4 +1,922 @@
 {
   "areaModel": "EXG-LM-AREA-MODEL-002",
-  "areas": []
+  "areas": [
+    {
+      "id": "area-leon-kinvig-hut",
+      "name": "Leon Kinvig Hut",
+      "areaType": "HUT",
+      "region": "Manawatū-Whanganui Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Ruahine Forest Park",
+        "Manawatū"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/projects-blog/leon-kinvig-hut-relocation-and-restoration"
+      ],
+      "description": "2022: Earlier BCT contract work re-roofed the hut; this is distinct from the later relocation. Delivery: BCT contract team. [BCT_CONTRACTED] 2024: Relocation and restoration involved BCT volunteers and BCT reserves alongside Cyclone Gabrielle restoration funding. Delivery: BCT volunteer teams and project partners. [BCT_DIRECT_TEAM, BCT_VOLUNTEER_TEAM, BCT_FUNDED, JOINTLY_FUNDED]",
+      "activityEvidence": [
+        {
+          "reference": "bct-leon-kinvig-reroof-2022",
+          "period": "2022",
+          "classifications": [
+            "BCT_CONTRACTED"
+          ],
+          "delivery": "BCT contract team",
+          "note": "Earlier BCT contract work re-roofed the hut; this is distinct from the later relocation.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/projects-blog/leon-kinvig-hut-relocation-and-restoration",
+          "verificationStatus": "SOURCE_CHECKED"
+        },
+        {
+          "reference": "bct-leon-kinvig-relocation-2024",
+          "period": "2024",
+          "classifications": [
+            "BCT_DIRECT_TEAM",
+            "BCT_VOLUNTEER_TEAM",
+            "BCT_FUNDED",
+            "JOINTLY_FUNDED"
+          ],
+          "delivery": "BCT volunteer teams and project partners",
+          "note": "Relocation and restoration involved BCT volunteers and BCT reserves alongside Cyclone Gabrielle restoration funding.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/projects-blog/leon-kinvig-hut-relocation-and-restoration",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-poutaki-hut",
+      "name": "Poutaki Hut",
+      "areaType": "HUT",
+      "region": "Hawke's Bay Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Gwavas Conservation Area"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/projects-blog/poutaki-hut"
+      ],
+      "description": "December 2021–January 2022: Full hut rebuild by a BCT-organised team. The source heading gives December 2021/January 2022; a body reference to January 2021 is inconsistent. Delivery: Team organised by Backcountry Trust. [BCT_DIRECT_TEAM]",
+      "activityEvidence": [
+        {
+          "reference": "bct-poutaki-rebuild-2021-2022",
+          "period": "December 2021–January 2022",
+          "classifications": [
+            "BCT_DIRECT_TEAM"
+          ],
+          "delivery": "Team organised by Backcountry Trust",
+          "note": "Full hut rebuild by a BCT-organised team. The source heading gives December 2021/January 2022; a body reference to January 2021 is inconsistent.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/projects-blog/poutaki-hut",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-poteriteri-track",
+      "name": "Poteriteri Track",
+      "areaType": "TRACK",
+      "region": "Southland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Fiordland National Park",
+        "Lake Teal Hut",
+        "Lake Poteriteri Hut"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/projects-blog/poteriteri-track"
+      ],
+      "description": "November 2020: BCT financed approximately 14 km of track clearing; Permolat Southland performed the field work. Delivery: Permolat Southland. [BCT_FUNDED, PARTNER_DELIVERED]",
+      "activityEvidence": [
+        {
+          "reference": "bct-poteriteri-clearing-2020",
+          "period": "November 2020",
+          "classifications": [
+            "BCT_FUNDED",
+            "PARTNER_DELIVERED"
+          ],
+          "delivery": "Permolat Southland",
+          "note": "BCT financed approximately 14 km of track clearing; Permolat Southland performed the field work.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/projects-blog/poteriteri-track",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-hump-ridge-to-teal-bay-track",
+      "name": "Hump Ridge to Teal Bay Track",
+      "areaType": "TRACK",
+      "region": "Southland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Rowallan Forest",
+        "northern Hump Ridge",
+        "Teal Bay",
+        "southeast Fiordland"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/projects-blog/hump-ridge-to-teal-bay-track"
+      ],
+      "description": "September 2020: Approximately 4.7 km of track maintenance delivered by Permolat Southland, with support from BCT, DOC and Rowallan Alton Inc. The support relationship does not establish that all parties jointly financed the work. Delivery: Permolat Southland. [BCT_SUPPORTED, PARTNER_DELIVERED]",
+      "activityEvidence": [
+        {
+          "reference": "bct-hump-ridge-teal-bay-2020",
+          "period": "September 2020",
+          "classifications": [
+            "BCT_SUPPORTED",
+            "PARTNER_DELIVERED"
+          ],
+          "delivery": "Permolat Southland",
+          "note": "Approximately 4.7 km of track maintenance delivered by Permolat Southland, with support from BCT, DOC and Rowallan Alton Inc. The support relationship does not establish that all parties jointly financed the work.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/projects-blog/hump-ridge-to-teal-bay-track",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-top-waitaha-hut",
+      "name": "Top Waitaha Hut",
+      "areaType": "HUT",
+      "region": "West Coast Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "upper Waitaha Valley",
+        "Waitaha Valley"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/projects-blog/top-waitaha-hut",
+        "https://www.backcountrytrust.org.nz/projects-blog/dunnies-for-top-waitaha-and-mullins-huts"
+      ],
+      "description": "2020: BCT granted $15,000 toward hut renovation by the project team. Delivery: Colin Morris and project team working with DOC. [BCT_FUNDED, PARTNER_DELIVERED] April 2022: BCT volunteers installed toilet facilities at two distinct huts: Top Waitaha and Mullins. Delivery: BCT volunteer team. [BCT_DIRECT_TEAM, BCT_VOLUNTEER_TEAM]",
+      "activityEvidence": [
+        {
+          "reference": "bct-top-waitaha-renovation-2020",
+          "period": "2020",
+          "classifications": [
+            "BCT_FUNDED",
+            "PARTNER_DELIVERED"
+          ],
+          "delivery": "Colin Morris and project team working with DOC",
+          "note": "BCT granted $15,000 toward hut renovation by the project team.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/projects-blog/top-waitaha-hut",
+          "verificationStatus": "SOURCE_CHECKED"
+        },
+        {
+          "reference": "bct-waitaha-mullins-toilets-2022",
+          "period": "April 2022",
+          "classifications": [
+            "BCT_DIRECT_TEAM",
+            "BCT_VOLUNTEER_TEAM"
+          ],
+          "delivery": "BCT volunteer team",
+          "note": "BCT volunteers installed toilet facilities at two distinct huts: Top Waitaha and Mullins.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/projects-blog/dunnies-for-top-waitaha-and-mullins-huts",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-mullins-hut",
+      "name": "Mullins Hut",
+      "areaType": "HUT",
+      "region": "West Coast Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Toaroha Valley"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/projects-blog/dunnies-for-top-waitaha-and-mullins-huts"
+      ],
+      "description": "April 2022: BCT volunteers installed toilet facilities at two distinct huts: Top Waitaha and Mullins. Delivery: BCT volunteer team. [BCT_DIRECT_TEAM, BCT_VOLUNTEER_TEAM]",
+      "activityEvidence": [
+        {
+          "reference": "bct-waitaha-mullins-toilets-2022",
+          "period": "April 2022",
+          "classifications": [
+            "BCT_DIRECT_TEAM",
+            "BCT_VOLUNTEER_TEAM"
+          ],
+          "delivery": "BCT volunteer team",
+          "note": "BCT volunteers installed toilet facilities at two distinct huts: Top Waitaha and Mullins.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/projects-blog/dunnies-for-top-waitaha-and-mullins-huts",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-brodrick-hut",
+      "name": "Brodrick Hut",
+      "areaType": "HUT",
+      "region": "Canterbury Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Ruataniwha Conservation Park"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/projects-blog/brodrick-huxley-forks-huts"
+      ],
+      "description": "January 2021: A shared operation installed a toilet at Brodrick Hut and worked on a meat safe at Huxley Forks Hut. BCT staff participation does not imply BCT alone delivered or financed the work. Delivery: Mike Lagan and project team, accompanied by BCT Rob Brown and DOC Jeff Coulter. [BCT_DIRECT_TEAM, PARTNER_DELIVERED]",
+      "activityEvidence": [
+        {
+          "reference": "bct-brodrick-huxley-2021",
+          "period": "January 2021",
+          "classifications": [
+            "BCT_DIRECT_TEAM",
+            "PARTNER_DELIVERED"
+          ],
+          "delivery": "Mike Lagan and project team, accompanied by BCT Rob Brown and DOC Jeff Coulter",
+          "note": "A shared operation installed a toilet at Brodrick Hut and worked on a meat safe at Huxley Forks Hut. BCT staff participation does not imply BCT alone delivered or financed the work.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/projects-blog/brodrick-huxley-forks-huts",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-huxley-forks-hut",
+      "name": "Huxley Forks Hut",
+      "areaType": "HUT",
+      "region": "Canterbury Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Ruataniwha Conservation Park"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/projects-blog/brodrick-huxley-forks-huts"
+      ],
+      "description": "January 2021: A shared operation installed a toilet at Brodrick Hut and worked on a meat safe at Huxley Forks Hut. BCT staff participation does not imply BCT alone delivered or financed the work. Delivery: Mike Lagan and project team, accompanied by BCT Rob Brown and DOC Jeff Coulter. [BCT_DIRECT_TEAM, PARTNER_DELIVERED]",
+      "activityEvidence": [
+        {
+          "reference": "bct-brodrick-huxley-2021",
+          "period": "January 2021",
+          "classifications": [
+            "BCT_DIRECT_TEAM",
+            "PARTNER_DELIVERED"
+          ],
+          "delivery": "Mike Lagan and project team, accompanied by BCT Rob Brown and DOC Jeff Coulter",
+          "note": "A shared operation installed a toilet at Brodrick Hut and worked on a meat safe at Huxley Forks Hut. BCT staff participation does not imply BCT alone delivered or financed the work.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/projects-blog/brodrick-huxley-forks-huts",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-kahikatea-lodge",
+      "name": "Kahikatea Lodge",
+      "areaType": "HUT",
+      "region": "Otago Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Waianakarua Scenic Reserve",
+        "Ōamaru"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/projects-blog/kahikatea-lodge-a-brand-new-hut-for-otago"
+      ],
+      "description": "2021: BCT provided funding support for a new six-bunk hut built by NZDA North Otago. Other funding included the Otago Community Trust and NZDA fundraising. Delivery: North Otago branch, New Zealand Deerstalkers Association. [BCT_FUNDED, PARTNER_DELIVERED, JOINTLY_FUNDED]",
+      "activityEvidence": [
+        {
+          "reference": "bct-kahikatea-lodge-2021",
+          "period": "2021",
+          "classifications": [
+            "BCT_FUNDED",
+            "PARTNER_DELIVERED",
+            "JOINTLY_FUNDED"
+          ],
+          "delivery": "North Otago branch, New Zealand Deerstalkers Association",
+          "note": "BCT provided funding support for a new six-bunk hut built by NZDA North Otago. Other funding included the Otago Community Trust and NZDA fundraising.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/projects-blog/kahikatea-lodge-a-brand-new-hut-for-otago",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-bald-hill-track",
+      "name": "Bald Hill Track",
+      "areaType": "TRACK",
+      "region": "West Coast Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Bald Hill Range",
+        "Bald Hill",
+        "Fraser Peak",
+        "about 35 km south of Hokitika"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/projects-blog/bald-hill-track"
+      ],
+      "description": "March 2022: BCT funded route work between Bald Hill and Fraser Peak; Permolat volunteers delivered it. Delivery: Permolat volunteers. [BCT_FUNDED, PARTNER_DELIVERED]",
+      "activityEvidence": [
+        {
+          "reference": "bct-bald-hill-track-2022",
+          "period": "March 2022",
+          "classifications": [
+            "BCT_FUNDED",
+            "PARTNER_DELIVERED"
+          ],
+          "delivery": "Permolat volunteers",
+          "note": "BCT funded route work between Bald Hill and Fraser Peak; Permolat volunteers delivered it.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/projects-blog/bald-hill-track",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-jollie-brook-hut",
+      "name": "Jollie Brook Hut",
+      "areaType": "HUT",
+      "region": "Canterbury Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Lake Sumner Forest Park"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/projects-blog/jollie-brook-and-cold-stream-huts"
+      ],
+      "description": "March 2022: A BCT grant supported volunteer restoration of Jollie Brook and Cold Stream huts, retained as separate physical Areas. Delivery: Volunteer project team. [BCT_FUNDED, PARTNER_DELIVERED]",
+      "activityEvidence": [
+        {
+          "reference": "bct-jollie-brook-cold-stream-2022",
+          "period": "March 2022",
+          "classifications": [
+            "BCT_FUNDED",
+            "PARTNER_DELIVERED"
+          ],
+          "delivery": "Volunteer project team",
+          "note": "A BCT grant supported volunteer restoration of Jollie Brook and Cold Stream huts, retained as separate physical Areas.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/projects-blog/jollie-brook-and-cold-stream-huts",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-cold-stream-hut",
+      "name": "Cold Stream Hut",
+      "areaType": "HUT",
+      "region": "Canterbury Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Lake Sumner Forest Park"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/projects-blog/jollie-brook-and-cold-stream-huts"
+      ],
+      "description": "March 2022: A BCT grant supported volunteer restoration of Jollie Brook and Cold Stream huts, retained as separate physical Areas. Delivery: Volunteer project team. [BCT_FUNDED, PARTNER_DELIVERED]",
+      "activityEvidence": [
+        {
+          "reference": "bct-jollie-brook-cold-stream-2022",
+          "period": "March 2022",
+          "classifications": [
+            "BCT_FUNDED",
+            "PARTNER_DELIVERED"
+          ],
+          "delivery": "Volunteer project team",
+          "note": "A BCT grant supported volunteer restoration of Jollie Brook and Cold Stream huts, retained as separate physical Areas.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/projects-blog/jollie-brook-and-cold-stream-huts",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-blyth-hut",
+      "name": "Blyth Hut",
+      "areaType": "HUT",
+      "region": "Manawatū-Whanganui Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Tongariro National Park"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+        "https://www.topomap.co.nz/Locations/Manawatu-Wanganui"
+      ],
+      "description": "2022–23: BCT reports investment associated with Blyth Hut. This geographic association does not establish field-work delivery, precise work extent or ecological impact. Delivery: Not established by the investment-list evidence. [BCT_FUNDED]",
+      "activityEvidence": [
+        {
+          "reference": "bct-investment-2022-2023-blyth-hut",
+          "period": "2022–23",
+          "classifications": [
+            "BCT_FUNDED"
+          ],
+          "delivery": "Not established by the investment-list evidence",
+          "note": "BCT reports investment associated with Blyth Hut. This geographic association does not establish field-work delivery, precise work extent or ecological impact.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-old-manson-hut",
+      "name": "Old Manson Hut",
+      "areaType": "HUT",
+      "region": "Hawke's Bay Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Kaweka Forest Park"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+        "https://www.pottonandburton.co.nz/wp-content/uploads/2015/02/Shelter-from-the-Storm-spread.pdf"
+      ],
+      "description": "2022–23: BCT reports investment associated with Old Manson Hut. This geographic association does not establish field-work delivery, precise work extent or ecological impact. Delivery: Not established by the investment-list evidence. [BCT_FUNDED]",
+      "activityEvidence": [
+        {
+          "reference": "bct-investment-2022-2023-old-manson-hut",
+          "period": "2022–23",
+          "classifications": [
+            "BCT_FUNDED"
+          ],
+          "delivery": "Not established by the investment-list evidence",
+          "note": "BCT reports investment associated with Old Manson Hut. This geographic association does not establish field-work delivery, precise work extent or ecological impact.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-hawke-s-bay-kaweka-forest-park",
+      "name": "Kaweka Forest Park",
+      "areaType": "FOREST",
+      "region": "Hawke's Bay Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Kaweka Forest Park track work"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6"
+      ],
+      "description": "2022–23: BCT reports investment associated with Kaweka Forest Park. This geographic association does not establish field-work delivery, precise work extent or ecological impact. Delivery: Not established by the investment-list evidence. [BCT_FUNDED]",
+      "activityEvidence": [
+        {
+          "reference": "bct-investment-2022-2023-hawke-s-bay-kaweka-forest-park",
+          "period": "2022–23",
+          "classifications": [
+            "BCT_FUNDED"
+          ],
+          "delivery": "Not established by the investment-list evidence",
+          "note": "BCT reports investment associated with Kaweka Forest Park. This geographic association does not establish field-work delivery, precise work extent or ecological impact.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named landscape association for unspecified track work; it does not mean work covered the entire forest park. Reuses the matching staged geographic ID without promoting unreviewed staged participant associations. No boundary or route is attached."
+    },
+    {
+      "id": "area-waitotara-tracks",
+      "name": "Waitōtara Tracks",
+      "areaType": "TRACK_NETWORK",
+      "region": "Manawatū-Whanganui Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Waitotara Tracks",
+        "Whanganui"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6"
+      ],
+      "description": "2022–23: BCT reports investment associated with Waitōtara Tracks. This geographic association does not establish field-work delivery, precise work extent or ecological impact. Delivery: Not established by the investment-list evidence. [BCT_FUNDED]",
+      "activityEvidence": [
+        {
+          "reference": "bct-investment-2022-2023-waitotara-tracks",
+          "period": "2022–23",
+          "classifications": [
+            "BCT_FUNDED"
+          ],
+          "delivery": "Not established by the investment-list evidence",
+          "note": "BCT reports investment associated with Waitōtara Tracks. This geographic association does not establish field-work delivery, precise work extent or ecological impact.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-dianes-hut",
+      "name": "Dianes Hut",
+      "areaType": "HUT",
+      "region": "Hawke's Bay Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Ruahine Forest Park",
+        "Diane’s Hut"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+        "https://www.doc.govt.nz/parks-and-recreation/places-to-go/manawatu-whanganui/places/ruahine-forest-park/things-to-do/huts/dianes-hut/"
+      ],
+      "description": "2022–23: BCT reports investment associated with Dianes Hut. This geographic association does not establish field-work delivery, precise work extent or ecological impact. Delivery: Not established by the investment-list evidence. [BCT_FUNDED]",
+      "activityEvidence": [
+        {
+          "reference": "bct-investment-2022-2023-dianes-hut",
+          "period": "2022–23",
+          "classifications": [
+            "BCT_FUNDED"
+          ],
+          "delivery": "Not established by the investment-list evidence",
+          "note": "BCT reports investment associated with Dianes Hut. This geographic association does not establish field-work delivery, precise work extent or ecological impact.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-sayers-hut",
+      "name": "Sayers Hut",
+      "areaType": "HUT",
+      "region": "Wellington Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Tararua Forest Park",
+        "Sayer Hut"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+        "https://www.doc.govt.nz/footer-links/contact-us/send-us-your-photos/places-we-need-photos/"
+      ],
+      "description": "2022–23: BCT reports investment associated with Sayers Hut. This geographic association does not establish field-work delivery, precise work extent or ecological impact. Delivery: Not established by the investment-list evidence. [BCT_FUNDED]",
+      "activityEvidence": [
+        {
+          "reference": "bct-investment-2022-2023-sayers-hut",
+          "period": "2022–23",
+          "classifications": [
+            "BCT_FUNDED"
+          ],
+          "delivery": "Not established by the investment-list evidence",
+          "note": "BCT reports investment associated with Sayers Hut. This geographic association does not establish field-work delivery, precise work extent or ecological impact.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-kirwins-hut",
+      "name": "Kirwins Hut",
+      "areaType": "HUT",
+      "region": "West Coast Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Reefton"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6"
+      ],
+      "description": "2022–23: BCT reports investment associated with Kirwins Hut. This geographic association does not establish field-work delivery, precise work extent or ecological impact. Delivery: Not established by the investment-list evidence. [BCT_FUNDED]",
+      "activityEvidence": [
+        {
+          "reference": "bct-investment-2022-2023-kirwins-hut",
+          "period": "2022–23",
+          "classifications": [
+            "BCT_FUNDED"
+          ],
+          "delivery": "Not established by the investment-list evidence",
+          "note": "BCT reports investment associated with Kirwins Hut. This geographic association does not establish field-work delivery, precise work extent or ecological impact.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-waikiti-bridge",
+      "name": "Waikiti Bridge",
+      "areaType": "BRIDGE",
+      "region": "West Coast Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "West Coast"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6"
+      ],
+      "description": "2022–23: BCT reports investment associated with Waikiti Bridge. This geographic association does not establish field-work delivery, precise work extent or ecological impact. Delivery: Not established by the investment-list evidence. [BCT_FUNDED]",
+      "activityEvidence": [
+        {
+          "reference": "bct-investment-2022-2023-waikiti-bridge",
+          "period": "2022–23",
+          "classifications": [
+            "BCT_FUNDED"
+          ],
+          "delivery": "Not established by the investment-list evidence",
+          "note": "BCT reports investment associated with Waikiti Bridge. This geographic association does not establish field-work delivery, precise work extent or ecological impact.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-dunns-creek-hut",
+      "name": "Dunns Creek Hut",
+      "areaType": "HUT",
+      "region": "West Coast Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "West Coast"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6"
+      ],
+      "description": "2022–23: BCT reports investment associated with Dunns Creek Hut. This geographic association does not establish field-work delivery, precise work extent or ecological impact. Delivery: Not established by the investment-list evidence. [BCT_FUNDED]",
+      "activityEvidence": [
+        {
+          "reference": "bct-investment-2022-2023-dunns-creek-hut",
+          "period": "2022–23",
+          "classifications": [
+            "BCT_FUNDED"
+          ],
+          "delivery": "Not established by the investment-list evidence",
+          "note": "BCT reports investment associated with Dunns Creek Hut. This geographic association does not establish field-work delivery, precise work extent or ecological impact.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-dickie-spur-hut",
+      "name": "Dickie Spur Hut",
+      "areaType": "HUT",
+      "region": "West Coast Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "West Coast"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6"
+      ],
+      "description": "2022–23: BCT reports investment associated with Dickie Spur Hut. This geographic association does not establish field-work delivery, precise work extent or ecological impact. Delivery: Not established by the investment-list evidence. [BCT_FUNDED]",
+      "activityEvidence": [
+        {
+          "reference": "bct-investment-2022-2023-dickie-spur-hut",
+          "period": "2022–23",
+          "classifications": [
+            "BCT_FUNDED"
+          ],
+          "delivery": "Not established by the investment-list evidence",
+          "note": "BCT reports investment associated with Dickie Spur Hut. This geographic association does not establish field-work delivery, precise work extent or ecological impact.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-hopkins-valley-access-road",
+      "name": "Hopkins Valley access road",
+      "areaType": "ROAD",
+      "region": "Canterbury Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Hopkins Valley"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+        "https://www.doc.govt.nz/parks-and-recreation/things-to-do/hunting/where-to-hunt/canterbury/canterbury-hunting/where-to-hunt/hopkins-and-huxley/"
+      ],
+      "description": "2022–23: BCT reports investment associated with Hopkins Valley access road. This geographic association does not establish field-work delivery, precise work extent or ecological impact. Delivery: Not established by the investment-list evidence. [BCT_FUNDED]",
+      "activityEvidence": [
+        {
+          "reference": "bct-investment-2022-2023-hopkins-valley-access-road",
+          "period": "2022–23",
+          "classifications": [
+            "BCT_FUNDED"
+          ],
+          "delivery": "Not established by the investment-list evidence",
+          "note": "BCT reports investment associated with Hopkins Valley access road. This geographic association does not establish field-work delivery, precise work extent or ecological impact.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-aspiring-hut",
+      "name": "Aspiring Hut",
+      "areaType": "HUT",
+      "region": "Otago Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Otago"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6"
+      ],
+      "description": "2022–23: BCT reports investment associated with Aspiring Hut. This geographic association does not establish field-work delivery, precise work extent or ecological impact. Delivery: Not established by the investment-list evidence. [BCT_FUNDED]",
+      "activityEvidence": [
+        {
+          "reference": "bct-investment-2022-2023-aspiring-hut",
+          "period": "2022–23",
+          "classifications": [
+            "BCT_FUNDED"
+          ],
+          "delivery": "Not established by the investment-list evidence",
+          "note": "BCT reports investment associated with Aspiring Hut. This geographic association does not establish field-work delivery, precise work extent or ecological impact.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-halfway-hut-dusky-track",
+      "name": "Halfway Hut",
+      "areaType": "HUT",
+      "region": "Southland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Dusky Track",
+        "Fiordland National Park"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6"
+      ],
+      "description": "2022–23: BCT reports investment associated with Halfway Hut. This geographic association does not establish field-work delivery, precise work extent or ecological impact. Delivery: Not established by the investment-list evidence. [BCT_FUNDED]",
+      "activityEvidence": [
+        {
+          "reference": "bct-investment-2022-2023-halfway-hut-dusky-track",
+          "period": "2022–23",
+          "classifications": [
+            "BCT_FUNDED"
+          ],
+          "delivery": "Not established by the investment-list evidence",
+          "note": "BCT reports investment associated with Halfway Hut. This geographic association does not establish field-work delivery, precise work extent or ecological impact.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    },
+    {
+      "id": "area-robin-saddle-biv",
+      "name": "Robin Saddle Biv",
+      "areaType": "BIVOUAC",
+      "region": "Southland Region",
+      "boundaryStatus": "UNRESOLVED",
+      "geometryStatus": "NOT_ATTACHED",
+      "sourceTerms": [
+        "Fiordland National Park",
+        "Robin Saddle Hut"
+      ],
+      "participantIds": [
+        "exg-backcountry-trust"
+      ],
+      "sources": [
+        "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6"
+      ],
+      "description": "2022–23: BCT reports investment associated with Robin Saddle Biv. This geographic association does not establish field-work delivery, precise work extent or ecological impact. Delivery: Not established by the investment-list evidence. [BCT_FUNDED]",
+      "activityEvidence": [
+        {
+          "reference": "bct-investment-2022-2023-robin-saddle-biv",
+          "period": "2022–23",
+          "classifications": [
+            "BCT_FUNDED"
+          ],
+          "delivery": "Not established by the investment-list evidence",
+          "note": "BCT reports investment associated with Robin Saddle Biv. This geographic association does not establish field-work delivery, precise work extent or ecological impact.",
+          "sourceUrl": "https://www.backcountrytrust.org.nz/uploads/1/1/8/6/118692908/backcountry_trust_perfomance_report_2023_www2.pdf#page=6",
+          "verificationStatus": "SOURCE_CHECKED"
+        }
+      ],
+      "verificationStatus": "NAMED_GEOGRAPHY_SOURCE_CHECKED",
+      "geographyNote": "Named geography only. Precise position, route or boundary has not been supplied and verified; no geometry is attached."
+    }
+  ]
 }
