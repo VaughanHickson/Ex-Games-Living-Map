@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc && tsc -p tsconfig.edge.json && vite build",
     "preview": "vite preview",
-    "postbuild": "cp node_modules/maplibre-gl/dist/maplibre-gl-worker.mjs dist/assets/ && cp node_modules/maplibre-gl/dist/maplibre-gl-shared.mjs dist/assets/ && cp node_modules/maplibre-gl/dist/maplibre-gl.mjs dist/assets/"
+    "postbuild": "cp node_modules/maplibre-gl/dist/maplibre-gl-worker.mjs dist/assets/ && cp node_modules/maplibre-gl/dist/maplibre-gl-shared.mjs dist/assets/ && cp node_modules/maplibre-gl/dist/maplibre-gl.mjs dist/assets/",
+    "test": "node --test tests/*.test.mjs",
+    "validate:areas": "node scripts/validate-areas.mjs"
   },
   "devDependencies": {
     "typescript": "~6.0.2",

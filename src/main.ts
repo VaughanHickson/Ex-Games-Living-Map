@@ -2,6 +2,8 @@ import * as maplibregl from 'maplibre-gl'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import './style.css'
 import { firstLivingMapArea } from './areas'
+import { areaFeatures } from './area-model'
+import { installAreaLayers, areaMarkup, participantAreaMarkup } from './area-presentation'
 import { nzLocalitiesUrl } from './localities'
 import { nzRegions } from './regions'
 import { exGamesBrand, exGamesPalette } from './brand'
@@ -10,6 +12,7 @@ import { riverheadParticipants } from './participants'
 import {
   locatedParticipants,
   loadLocatedParticipants,
+  areaIndex, areaLoadError, participantInLocality, participantInRegion,
 } from './potentialParticipants'
 import { searchParticipants } from './search'
 import type { HitListData } from './hit-list'
@@ -88,6 +91,38 @@ participantPanel.className = 'participant-panel'
 participantPanel.hidden = true
 
 app.appendChild(participantPanel)
+if (areaLoadError) {
+  const warning = document.createElement('p')
+  warning.setAttribute('role', 'alert')
+  warning.className = 'area-validation-error'
+  warning.textContent = `Area data unavailable: ${areaLoadError}`
+  app.appendChild(warning)
+}
+
+const showArea = (id: string, focus = false) => {
+  const area = areaIndex.areasById.get(id)
+  if (!area) return
+  participantPanel.hidden = false
+  participantPanel.innerHTML = areaMarkup(id, areaIndex, discoveredParticipants)
+  if (focus && area.geometry) {
+    // Fit the actual geometry, never replace it with a centroid.
+    const positions: number[][] = []
+    const collect = (value: unknown) => {
+      if (!Array.isArray(value)) return
+      if (typeof value[0] === 'number') positions.push(value as number[])
+      else value.forEach(collect)
+    }
+    collect(area.geometry.coordinates)
+    const bounds = new maplibregl.LngLatBounds()
+    for (const position of positions) bounds.extend([position[0], position[1]])
+    setActiveRegion(map, area.region)
+    const regionSelect = document.querySelector<HTMLSelectElement>('.ex-games-region-control')
+    if (regionSelect) regionSelect.value = area.region
+    map.fitBounds(bounds, { padding: 80, maxZoom: 14 })
+    participantPanel.hidden = false
+  }
+}
+
 
 const hitListDossier = document.createElement('main')
 hitListDossier.className = 'hit-list-dossier'
@@ -331,7 +366,7 @@ document.addEventListener("click", (event) => {
 
 const showParticipants = (localityName: string) => {
   const participants = discoveredParticipants.filter(
-    (item) => item.locality === localityName,
+    (item) => participantInLocality(item.id, localityName, activeParticipantRegion),
   )
   activeParticipantLocality = localityName
   participantReturn = { kind:'locality', locality:localityName }
@@ -391,6 +426,7 @@ const showParticipant = (id: string) => {
     <small>${p.type.toUpperCase()}</small>
     <h2>${p.name}</h2>
     <p>Review and adjust your information before verifying this profile.</p>
+    ${participantAreaMarkup(p.id, areaIndex)}
     <label>Name<input name="name" value="${p.name}"></label>
     <label>Relationship<textarea name="relationship">${p.relationship}</textarea></label>
     <label>Summary<textarea name="summary">${p.summary}</textarea></label>
@@ -401,7 +437,7 @@ const showParticipant = (id: string) => {
       <select name="claimed-locality">
         <option value="">Select your locality</option>
         ${availableLocalities
-          .filter(x => x.region === p.region)
+          .filter(x => participantInRegion(p.id, x.region))
           .map(x => `<option value="${x.name}" ${
             x.name === (participantSelectedLocality.get(id) ?? p.locality)
               ? 'selected'
@@ -426,7 +462,7 @@ const showLocalitySelection = (id: string) => {
       <select name="claimed-locality">
         <option value="">Select your locality</option>
         ${availableLocalities
-          .filter(x => x.region === p.region)
+          .filter(x => participantInRegion(p.id, x.region))
           .map(x => `<option value="${x.name}" ${
             x.name === selected ? 'selected' : ''
           }>${x.name}</option>`).join('')}
@@ -496,6 +532,7 @@ const showClaimedParticipant = (id: string) => {
     <button class="participant-back">← ${activeParticipantLocality ?? p.locality} participants</button>
     <small>${p.type.toUpperCase()}</small>
     <h2>${p.name}</h2>
+    ${participantAreaMarkup(p.id, areaIndex)}
     <p><strong>Living Map locality:</strong> ${participantSelectedLocality.get(id) ?? p.locality}</p>
     <p>${p.relationship}</p>
     <div class="participant-tags">${p.activities.map((a) => `<span>${a}</span>`).join('')}</div>
@@ -510,6 +547,11 @@ const showClaimedParticipant = (id: string) => {
 
 const setActiveRegion = (map: maplibregl.Map, region: string) => {
 activeParticipantRegion = region || undefined
+const areaSource = map.getSource('canonical-areas') as maplibregl.GeoJSONSource | undefined
+areaSource?.setData(areaFeatures(areaIndex, region || undefined))
+// A regional view does not duplicate identities, and stale cards must not survive a filter change.
+participantPanel.hidden = true
+activeParticipantLocality = undefined
 const layers=['auckland-localities-fill','auckland-localities-outline',
 'auckland-localities-selected-fill','auckland-localities-selected-outline',
 'auckland-localities-selected-label',
@@ -782,6 +824,8 @@ map.on('load', async () => {
 
   map.addControl(new RegionControl(), 'top-left')
 
+  installAreaLayers(map, areaIndex, id => showArea(id))
+
   map.addSource('target-2050-candidates', {
     type: 'geojson',
     data: firstTarget2050Candidate,
@@ -863,6 +907,7 @@ map.on('load', async () => {
   })
 
   map.on('click', 'auckland-localities-fill', (event) => {
+    if (map.queryRenderedFeatures(event.point, { layers: ['canonical-areas-fill', 'canonical-areas-line', 'canonical-areas-point'] }).length) return
     const feature = event.features?.[0]
 
     if (!feature || feature.id === undefined) {
@@ -895,7 +940,7 @@ map.on('load', async () => {
     activeParticipantLocality = localityName
     participantPanel.hidden = true
 
-    loadLocatedParticipants(localityName)
+    loadLocatedParticipants(localityName, activeParticipantRegion)
       .then((participants) => {
         if (!participants.length) {
           activeParticipantLocality = undefined
@@ -1196,6 +1241,14 @@ participantPanel.addEventListener('input', (event) => {
 
 participantPanel.addEventListener('click', (event) => {
 const target = event.target as HTMLElement
+const areaButton = target.closest<HTMLElement>('.participant-area')
+if (areaButton?.dataset.areaId) { showArea(areaButton.dataset.areaId, true); return }
+const areaParticipant = target.closest<HTMLElement>('.area-participant')
+if (areaParticipant?.dataset.id) {
+  participantReturn = { kind: 'search' }
+  showParticipant(areaParticipant.dataset.id)
+  return
+}
 const hit = target.closest<HTMLElement>('.hit-list-entry')
 if (hit?.dataset.hitId) {
   showHitListEntry(hit.dataset.hitId)

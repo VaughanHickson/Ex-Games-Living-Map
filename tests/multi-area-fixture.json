@@ -1,0 +1,250 @@
+{
+  "participants": [
+    {
+      "id": "A",
+      "name": "Fixture Participant A",
+      "status": "located",
+      "entityType": "Synthetic test participant",
+      "localities": [
+        "Riverhead"
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Fixture Participant B",
+      "status": "located",
+      "entityType": "Synthetic test participant",
+      "localities": [
+        "Riverhead"
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Fixture Participant C",
+      "status": "located",
+      "entityType": "Synthetic test participant",
+      "localities": [
+        "Riverhead"
+      ]
+    },
+    {
+      "id": "D",
+      "name": "Fixture Participant D",
+      "status": "located",
+      "entityType": "Synthetic test participant",
+      "localities": [
+        "Riverhead"
+      ]
+    },
+    {
+      "id": "E",
+      "name": "Fixture Participant E",
+      "status": "located",
+      "entityType": "Synthetic test participant",
+      "localities": [
+        "Riverhead"
+      ]
+    },
+    {
+      "id": "F",
+      "name": "Fixture Participant F",
+      "status": "located",
+      "entityType": "Synthetic test participant",
+      "localities": [
+        "Riverhead"
+      ]
+    },
+    {
+      "id": "G",
+      "name": "Fixture Participant G",
+      "status": "located",
+      "entityType": "Synthetic test participant",
+      "localities": [
+        "Riverhead"
+      ]
+    }
+  ],
+  "dataset": {
+    "areaModel": "EXG-LM-AREA-MODEL-002",
+    "areas": [
+      {
+        "id": "fixture-area-1",
+        "name": "Fixture Area 1",
+        "areaType": "OTHER_LANDSCAPE",
+        "region": "Auckland",
+        "boundaryStatus": "REPRESENTATIVE",
+        "geometryStatus": "ATTACHED",
+        "sourceTerms": [
+          "Synthetic geometry for tests only"
+        ],
+        "sources": [
+          "Synthetic fixture; not a real place"
+        ],
+        "participantIds": [
+          "B"
+        ],
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.765,
+            -36.848
+          ]
+        }
+      },
+      {
+        "id": "fixture-area-2",
+        "name": "Fixture Area 2",
+        "areaType": "OTHER_LANDSCAPE",
+        "region": "Auckland",
+        "boundaryStatus": "REPRESENTATIVE",
+        "geometryStatus": "ATTACHED",
+        "sourceTerms": [
+          "Synthetic geometry for tests only"
+        ],
+        "sources": [
+          "Synthetic fixture; not a real place"
+        ],
+        "participantIds": [
+          "C"
+        ],
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            174.755,
+            -36.85
+          ]
+        }
+      },
+      {
+        "id": "fixture-area-3",
+        "name": "Fixture Area 3",
+        "areaType": "OTHER_LANDSCAPE",
+        "region": "Auckland",
+        "boundaryStatus": "REPRESENTATIVE",
+        "geometryStatus": "ATTACHED",
+        "sourceTerms": [
+          "Synthetic geometry for tests only"
+        ],
+        "sources": [
+          "Synthetic fixture; not a real place"
+        ],
+        "participantIds": [
+          "C"
+        ],
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              174.76,
+              -36.84
+            ],
+            [
+              174.77,
+              -36.84
+            ]
+          ]
+        }
+      },
+      {
+        "id": "fixture-area-4",
+        "name": "Fixture Area 4",
+        "areaType": "OTHER_LANDSCAPE",
+        "region": "Northland Region",
+        "boundaryStatus": "REPRESENTATIVE",
+        "geometryStatus": "ATTACHED",
+        "sourceTerms": [
+          "Synthetic geometry for tests only"
+        ],
+        "sources": [
+          "Synthetic fixture; not a real place"
+        ],
+        "participantIds": [
+          "C"
+        ],
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                174.78,
+                -36.85
+              ],
+              [
+                174.79,
+                -36.85
+              ],
+              [
+                174.79,
+                -36.86
+              ],
+              [
+                174.78,
+                -36.85
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "id": "fixture-area-5",
+        "name": "Fixture Area 5",
+        "areaType": "OTHER_LANDSCAPE",
+        "region": "Auckland",
+        "boundaryStatus": "REPRESENTATIVE",
+        "geometryStatus": "ATTACHED",
+        "sourceTerms": [
+          "Synthetic geometry for tests only"
+        ],
+        "sources": [
+          "Synthetic fixture; not a real place"
+        ],
+        "participantIds": [
+          "D",
+          "E"
+        ],
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  174.73,
+                  -36.85
+                ],
+                [
+                  174.74,
+                  -36.85
+                ],
+                [
+                  174.74,
+                  -36.86
+                ],
+                [
+                  174.73,
+                  -36.85
+                ]
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "id": "fixture-area-6",
+        "name": "Fixture Area 6",
+        "areaType": "OTHER_LANDSCAPE",
+        "region": "Auckland",
+        "boundaryStatus": "UNRESOLVED",
+        "geometryStatus": "NOT_ATTACHED",
+        "sourceTerms": [
+          "Synthetic geometry for tests only"
+        ],
+        "sources": [
+          "Synthetic fixture; not a real place"
+        ],
+        "participantIds": [
+          "F"
+        ]
+      }
+    ]
+  }
+}

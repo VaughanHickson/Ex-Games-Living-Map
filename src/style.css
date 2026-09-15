@@ -461,3 +461,23 @@ display: none;
     margin-top: .15em;
   }
 }
+
+/* Area traversal uses the existing participant panel. */
+.participant-area, .area-participant {
+  display: block;
+  width: 100%;
+  margin: 0.4rem 0;
+  padding: 0.65rem;
+  text-align: left;
+  cursor: pointer;
+}
+.area-validation-error {
+  position: absolute;
+  top: 0;
+  left: 20%;
+  right: 20%;
+  z-index: 10;
+  background: #fff4d6;
+  color: #382800;
+  padding: 1rem;
+}

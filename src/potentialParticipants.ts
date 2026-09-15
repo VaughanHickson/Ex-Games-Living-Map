@@ -1,34 +1,6 @@
-export interface LocatedParticipant {
-  id: string
-  name: string
-  locality: string
-  region: string
-  type: string
-  website?: string
-  sourceUrl?: string
-  status: 'located'
-  relationship?: string
-  summary?: string
-  activities?: string[]
-  detail?: string
-}
-
-type SeedParticipant = {
-  id: string
-  name: string
-  entityType?: string
-  populationClass?: string
-  status: 'located'
-  localities?: string[]
-  mapLocalities?: string[]
-  locality?: string
-  sources?: string[]
-  relationship?: string
-  summary?: string
-  activities?: string[]
-  detail?: string
-  website?: string | null
-}
+import { buildParticipantRegistry, type SeedParticipant } from './participant-model'
+import { buildAreaIndex, type AreaDataset } from './area-model'
+export type { LocatedParticipant } from './participant-model'
 
 const regionalDatasetManifest = await fetch(
   '/data/participant-regional-datasets.json'
@@ -52,31 +24,31 @@ const seeds = (
   )
 ).filter(Boolean)
 
-const localityAliases: Record<string,string> = {
-'Hukerenui':'Hūkerenui','Mokau':'Mōkau','Okaihau':'Ōkaihau',
-'Okura':'Ōkura','Puhipuhi':'Puhi Puhi','Ruakaka':'Ruakākā',
-'Taupo Bay':'Taupō Bay','Whangarei':'Whangārei',
-'Whangarei Heads':'Whangārei Heads',
-}
+const registry = buildParticipantRegistry(seeds as { region: string; participants: SeedParticipant[] }[])
+export const locatedParticipants = registry.participants
+export const participantLocalities = (id: string) => registry.localityMemberships.get(id) ?? []
 
-export const locatedParticipants: readonly LocatedParticipant[] =
-  seeds.flatMap(seed =>
-    (seed.participants as SeedParticipant[]).flatMap(p =>
-      (p.mapLocalities?.length
-        ? p.mapLocalities
-        : (p.localities ?? (p.locality ? [p.locality] : []))
-      ).concat(!p.mapLocalities?.length && !p.localities?.length && !p.locality ? [""] : []).map(locality => ({
-        id: p.id, name: p.name,
-        locality: localityAliases[locality] ?? locality,
-        region: seed.region,
-        type: p.entityType ?? p.populationClass ?? 'Participant',
-        sourceUrl: p.sources?.[0], relationship: p.relationship,
-        summary: p.summary, activities: p.activities,
-        detail: p.detail, website: p.website ?? undefined,
-        status: 'located' as const,
-      }))
-    )
-  )
+export let areaLoadError: string | undefined
+export const areaIndex = await (async () => {
+  try {
+    const response = await fetch('/data/areas.json')
+    if (!response.ok) throw new Error(`Area dataset HTTP ${response.status}`)
+    const index = buildAreaIndex(await response.json() as AreaDataset, locatedParticipants)
+    for (const warning of index.warnings) console.warn(warning)
+    return index
+  } catch (error) {
+    areaLoadError = error instanceof Error ? error.message : 'Area dataset unavailable'
+    console.error(`Area validation failed: ${areaLoadError}`)
+    return buildAreaIndex({ areaModel: 'EXG-LM-AREA-MODEL-002', areas: [] }, locatedParticipants)
+  }
+})()
 
-export const loadLocatedParticipants = async (locality: string) =>
-  locatedParticipants.filter(p => p.locality === locality)
+export const participantInRegion = (id: string, region: string) =>
+  participantLocalities(id).some(m => m.region === region)
+  || areaIndex.areasForParticipant(id).some(a => a.region === region)
+
+export const participantInLocality = (id: string, locality: string, region?: string) =>
+  participantLocalities(id).some(m => m.locality === locality && (!region || m.region === region))
+
+export const loadLocatedParticipants = async (locality: string, region?: string) =>
+  locatedParticipants.filter(p => participantInLocality(p.id, locality, region))
