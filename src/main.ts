@@ -22,6 +22,7 @@ import {
   deriveHitListMissionCandidates,
 } from './hit-list'
 import { installLivingWater } from './water/worldWater'
+import { applyNationalArrivalBounds, installArrivalDiscoveryLayer } from './discoveryPrototype'
 
 const app = document.querySelector<HTMLDivElement>('#app')
 
@@ -34,8 +35,8 @@ app.innerHTML = '<div id="map" aria-label="Interactive map of Aotearoa New Zeala
 const map = new maplibregl.Map({
   container: 'map',
   style: 'https://tiles.openfreemap.org/styles/liberty',
-  center: [174.7633, -36.8485],
-  zoom: 9.5,
+  center: [174.0, -41.3],
+  zoom: 5.2,
   bearing: 0,
   pitch: 0,
 })
@@ -581,6 +582,7 @@ onRemove(){this.container?.remove();this.container=undefined}
 
 map.on('load', async () => {
   installLivingWater(map)
+  applyNationalArrivalBounds(map)
 
   const localityData = await fetch(nzLocalitiesUrl).then(r => r.json())
   availableLocalities = localityData.features
@@ -635,6 +637,14 @@ map.on('load', async () => {
       'line-opacity': 0.95,
     },
   })
+
+  const discoveryState = installArrivalDiscoveryLayer(map, discoveredParticipants, areaIndex, (kind, id) => {
+    if (kind === 'participant') {
+      showParticipant(id)
+      return
+    }
+    showArea(id)
+  }, localityData.features)
 
   map.addLayer({
     id: 'auckland-localities-fill',
@@ -907,6 +917,7 @@ map.on('load', async () => {
   })
 
   map.on('click', 'auckland-localities-fill', (event) => {
+    discoveryState.hide()
     if (map.queryRenderedFeatures(event.point, { layers: ['canonical-areas-fill', 'canonical-areas-line', 'canonical-areas-point'] }).length) return
     const feature = event.features?.[0]
 
@@ -1041,6 +1052,7 @@ map.on('load', async () => {
   })
 
   map.on('click', 'dev-northland-authoritative-areas-fill', (event) => {
+    discoveryState.hide()
     const feature = event.features?.[0]
     const properties = feature?.properties
 
@@ -1079,6 +1091,7 @@ map.on('load', async () => {
   })
 
   map.on('click', 'target-2050-candidate', (event) => {
+    discoveryState.hide()
     const feature = event.features?.[0]
     const properties = feature?.properties
 
@@ -1134,6 +1147,7 @@ map.on('load', async () => {
   let selectedAreaId: string | number | undefined
 
   map.on('click', 'living-map-area-fill', (event) => {
+    discoveryState.hide()
     const feature = event.features?.[0]
 
     if (!feature || feature.id === undefined) {
@@ -1173,6 +1187,14 @@ map.on('load', async () => {
 
   map.on('mouseenter', 'living-map-area-fill', () => {
     map.getCanvas().style.cursor = 'pointer'
+  })
+
+  map.on('zoomend', () => {
+    if (map.getZoom() > 6.2) {
+      discoveryState.hide()
+    } else if (!participantPanel.hidden && !participantReturn && map.getLayer('lm-arrival-discovery-ring')) {
+      discoveryState.show()
+    }
   })
 
   map.on('mouseleave', 'living-map-area-fill', () => {

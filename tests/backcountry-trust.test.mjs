@@ -36,11 +36,12 @@ const classes = id => area(id).activityEvidence.flatMap(e => e.classifications)
 test('BCT loads once as a national identity without participant geography arrays', () => {
   assert.equal(runtime.areaLoadError, undefined)
   assert.ok(bct)
-  assert.equal(national.participants.length, 1)
+  assert.equal(national.participants.length, 2)
   assert.equal(national.participants[0].shortName, 'BCT')
   assert.equal(national.participants[0].country, 'New Zealand')
   assert.equal(national.participants[0].scope, 'National')
   assert.equal(national.participants[0].operatingBaseline, '2014–')
+  assert.equal(national.participants[1].shortName, 'NZ Lizard ID')
   assert.equal(bct.website, 'https://www.backcountrytrust.org.nz/')
   assert.equal(runtime.locatedParticipants.filter(p => p.id === pid).length, 1)
   for (const key of ['location','locations','areaIds','locality','localities','mapLocalities']) {
@@ -49,7 +50,7 @@ test('BCT loads once as a national identity without participant geography arrays
   const existing = manifest.datasets.filter(d => d.path !== '/data/participants-national-001.json')
     .flatMap(d => read('public'+d.path).participants)
   assert.equal(existing.length, 4444)
-  assert.equal(runtime.locatedParticipants.length, new Set(existing.map(p => p.id)).size + 1)
+  assert.equal(runtime.locatedParticipants.length, new Set(existing.map(p => p.id)).size + 2)
   for (const old of existing) {
     assert.equal(runtime.locatedParticipants.find(p => p.id === old.id)?.name, old.name, old.id)
     assert.notEqual(old.id, pid)

@@ -33,11 +33,11 @@ export const areaLayerIds = ['canonical-areas-fill', 'canonical-areas-line', 'ca
 export function installAreaLayers(map: LivingMap, index: AreaIndex, select: (id: string) => void) {
   map.addSource('canonical-areas', { type: 'geojson', data: areaFeatures(index) })
   map.addLayer({ id: areaLayerIds[0], type: 'fill', source: 'canonical-areas',
-    filter: ['==', ['geometry-type'], 'Polygon'], paint: { 'fill-color':exGamesPalette.forestGreen, 'fill-opacity':0.3 } })
+    filter: ['==', ['geometry-type'], 'Polygon'], paint: { 'fill-color':exGamesPalette.forestGreen, 'fill-opacity':0.22 } })
   map.addLayer({ id: areaLayerIds[1], type: 'line', source: 'canonical-areas',
-    filter: ['!=', ['geometry-type'], 'Point'], paint: { 'line-color':exGamesPalette.warmGold, 'line-width':3 } })
+    filter: ['!=', ['geometry-type'], 'Point'], paint: { 'line-color':exGamesPalette.manukaGrey, 'line-width':2, 'line-opacity':0.78 } })
   map.addLayer({ id: areaLayerIds[2], type: 'circle', source: 'canonical-areas',
-    filter: ['==', ['geometry-type'], 'Point'], paint: { 'circle-color':exGamesPalette.forestGreen, 'circle-radius':7, 'circle-stroke-width':2, 'circle-stroke-color':exGamesPalette.warmGold } })
+    filter: ['==', ['geometry-type'], 'Point'], paint: { 'circle-color':exGamesPalette.forestGreen, 'circle-radius':6, 'circle-stroke-width':1.5, 'circle-stroke-color':exGamesPalette.manukaGrey } })
   // One handler avoids opening the same polygon twice through its fill/outline.
   map.on('click', event => {
     const feature = map.queryRenderedFeatures(event.point, { layers: areaLayerIds })[0]
