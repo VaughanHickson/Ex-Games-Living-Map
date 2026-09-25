@@ -28,6 +28,33 @@
       "detail": "BCT · New Zealand · National · Operating baseline: 2014–. Since 2014 BCT reports funding restoration of more than 300 huts and 2,000 km of walking and mountain-bike tracks (BCT website). Associated Areas record geographic activity, not measured ecological impact. Named geography is retained without invented coordinates; funding and partner delivery are distinguished in each Area description.",
       "verificationStatus": "SOURCE_CHECKED",
       "verificationNote": "Identity and scale checked against the official BCT website. The existing located state means identified geography, not verified point geometry."
+    },
+    {
+      "id": "exg-nz-lizard-identification-expert-id",
+      "name": "New Zealand Lizard Identification - Expert ID",
+      "shortName": "NZ Lizard ID",
+      "country": "New Zealand",
+      "scope": "National",
+      "entityType": "Community",
+      "status": "located",
+      "domain": "New Zealand lizard identification and expert ID support",
+      "website": "https://www.facebook.com/groups/228066221073092",
+      "sources": [
+        "https://www.facebook.com/groups/228066221073092",
+        "https://www.lizardexpertnz.co.nz/dr-mandy-tocher-biography/",
+        "https://www.ecan.govt.nz/get-involved/news-and-events/2026/plague-skink-sighting-in-canterbury-how-to-identify-and-report-it"
+      ],
+      "relationship": "Community-based lizard identification discussion and expert ID support for New Zealand species; ECan's 2026 plague-skink guidance directs people who suspect they have found a plague skink to photograph it and post the photos to this Facebook group for identification, without implying that the group is operated by, affiliated with, or formally endorsed by ECan.",
+      "summary": "This national community supports New Zealand lizard identification and expert discussion, including the public pathway described by ECan for identifying suspected plague skink sightings by posting photos to the Facebook group.",
+      "activities": [
+        "Lizard identification support",
+        "Expert ID requests",
+        "Species discussion",
+        "Public identification guidance"
+      ],
+      "detail": "New Zealand Lizard Identification - Expert ID · New Zealand · National. A national community focused on lizard identification and expert support for New Zealand species. ECan's 2026 plague-skink guidance directs people who suspect they have found a plague skink to photograph it and post the photos to this Facebook group for identification; this documents a public referral pathway only and does not imply formal affiliation or endorsement.",
+      "verificationStatus": "SOURCE_CHECKED",
+      "verificationNote": "Identity and national scope are based on the named Facebook group and expert profile; the ECan 2026 plague-skink guidance documents a public referral pathway to the group for photo-based identification and does not imply ECan operation, affiliation, or formal endorsement."
     }
   ]
 }
