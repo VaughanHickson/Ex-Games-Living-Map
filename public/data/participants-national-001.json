@@ -55,6 +55,41 @@
       "detail": "New Zealand Lizard Identification - Expert ID · New Zealand · National. A national community focused on lizard identification and expert support for New Zealand species. ECan's 2026 plague-skink guidance directs people who suspect they have found a plague skink to photograph it and post the photos to this Facebook group for identification; this documents a public referral pathway only and does not imply formal affiliation or endorsement.",
       "verificationStatus": "SOURCE_CHECKED",
       "verificationNote": "Identity and national scope are based on the named Facebook group and expert profile; the ECan 2026 plague-skink guidance documents a public referral pathway to the group for photo-based identification and does not imply ECan operation, affiliation, or formal endorsement."
+    },
+    {
+      "id": "exg-nz-brando-yelavich",
+      "name": "Brando Yelavich",
+      "shortName": "Wildboy",
+      "country": "New Zealand",
+      "scope": "National",
+      "entityType": "individual",
+      "status": "located",
+      "domain": "New Zealand field exploration and environmental stewardship",
+      "website": "https://www.brandoyelavich.com/",
+      "sources": [
+        "https://www.nzgeo.com/stories/into-the-wild/",
+        "https://www.wildernessmag.co.nz/adventure-post-like/",
+        "https://nzaht.org/explorer-journeys-brando-yelavich/",
+        "https://nzaht.org/alumni-news-august-2025/",
+        "https://www.brandoyelavich.com/",
+        "https://www.brandoyelavich.com/new-zealand-coastline",
+        "https://www.facebook.com/brandoyelavich"
+      ],
+      "relationship": "Independent New Zealand explorer and environmental communicator; identified by Ex Games as a relevant real-world person/activity. This record does not indicate Ex Games affiliation, endorsement, registration, participation, or consent.",
+      "summary": "Brando Yelavich, also known as Wildboy, is a New Zealand explorer, filmmaker and author whose adventures have taken him through some of New Zealand's most remote landscapes. His field experience includes hunting and foraging, environmental cleanup, weed and wilding-pine removal, tree planting and environmental storytelling. His work encourages practical engagement with nature and care for the places people explore.",
+      "activities": [
+        "Environmental stewardship",
+        "environmental advocacy",
+        "Pest animal control",
+        "Pest plant control",
+        "Weed control",
+        "Wilding pines",
+        "Native planting",
+        "tree planting"
+      ],
+      "detail": "His official website describes an approximately 8,700 km, 600-day New Zealand coastline expedition. New Zealand Geographic independently reports foraging, fishing and hunting, including goats, rabbits and possums; Wilderness documents his kaitiakitanga messaging and describes tree planting and removal of wilding pine or weeds. Antarctic Heritage Trust identifies him as a 2018 Inspiring Explorers participant on its Greenland Ice Cap expedition. A publicly presented gully-cleanup video was observed during candidate review; it is treated only as observed public evidence and is not independently characterized here.",
+      "verificationStatus": "SOURCE_CHECKED",
+      "verificationNote": "Independent corroboration: New Zealand Geographic and Wilderness Magazine support the expedition history and described field/environmental activities; Antarctic Heritage Trust supports the 2018 Inspiring Explorers expedition. First-party evidence: Brando Yelavich's official website supports his public identity and the approximately 8,700 km / 600-day coastline expedition. Candidate-review observation: a public gully-cleanup video on the linked Facebook presence was observed; no more specific claim is inferred from it. LOCATED only; no Ex Games participation, endorsement, affiliation, registration, or consent is implied."
     }
   ]
 }

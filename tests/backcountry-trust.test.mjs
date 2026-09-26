@@ -20,6 +20,7 @@ const national = read('public/data/participants-national-001.json')
 const dataset = read('public/data/areas.json')
 const evidence = read('data/backcountry-trust-phase2-evidence.json')
 const pid = 'exg-backcountry-trust'
+const brandoId = 'exg-nz-brando-yelavich'
 const actualFetch = globalThis.fetch
 // Exercise the actual loader against production JSON, without network access.
 globalThis.fetch = async path => new Response(JSON.stringify(read('public'+path)), { status:200 })
@@ -30,18 +31,28 @@ const { areaFeatures } = await import('../src/area-model.ts')
 const { participantAreaMarkup, areaMarkup } = await import('../src/area-presentation.ts')
 const index = runtime.areaIndex
 const bct = runtime.locatedParticipants.find(p => p.id === pid)
+const brando = runtime.locatedParticipants.find(p => p.id === brandoId)
 const area = id => index.areasById.get('area-'+id)
 const classes = id => area(id).activityEvidence.flatMap(e => e.classifications)
 
 test('BCT loads once as a national identity without participant geography arrays', () => {
   assert.equal(runtime.areaLoadError, undefined)
   assert.ok(bct)
-  assert.equal(national.participants.length, 2)
+  assert.ok(brando)
+  assert.equal(national.participants.length, 3)
   assert.equal(national.participants[0].shortName, 'BCT')
   assert.equal(national.participants[0].country, 'New Zealand')
   assert.equal(national.participants[0].scope, 'National')
   assert.equal(national.participants[0].operatingBaseline, '2014–')
   assert.equal(national.participants[1].shortName, 'NZ Lizard ID')
+  assert.equal(national.participants[2].name, 'Brando Yelavich')
+  assert.equal(national.participants[2].shortName, 'Wildboy')
+  assert.equal(national.participants[2].country, 'New Zealand')
+  assert.equal(national.participants[2].scope, 'National')
+  assert.equal(national.participants[2].entityType, 'individual')
+  assert.equal(national.participants[2].status, 'located')
+  assert.equal(Object.hasOwn(national.participants[2], 'active'), false)
+  assert.match(brando.summary, /Wildboy/)
   assert.equal(bct.website, 'https://www.backcountrytrust.org.nz/')
   assert.equal(runtime.locatedParticipants.filter(p => p.id === pid).length, 1)
   for (const key of ['location','locations','areaIds','locality','localities','mapLocalities']) {
@@ -50,7 +61,7 @@ test('BCT loads once as a national identity without participant geography arrays
   const existing = manifest.datasets.filter(d => d.path !== '/data/participants-national-001.json')
     .flatMap(d => read('public'+d.path).participants)
   assert.equal(existing.length, 4444)
-  assert.equal(runtime.locatedParticipants.length, new Set(existing.map(p => p.id)).size + 2)
+  assert.equal(runtime.locatedParticipants.length, new Set(existing.map(p => p.id)).size + 3)
   for (const old of existing) {
     assert.equal(runtime.locatedParticipants.find(p => p.id === old.id)?.name, old.name, old.id)
     assert.notEqual(old.id, pid)
@@ -116,6 +127,9 @@ test('search and counts stay singular nationally and in each supported region', 
     assert.equal(count, 1, region)
   }
   assert.equal(searchParticipants({ name:'BCT' }).candidates.filter(c => c.participant.id === pid).length, 1)
+  const wildboyResults = searchParticipants({ name:'Wildboy' }).candidates.filter(c => c.participant.id === brandoId)
+  assert.equal(wildboyResults.length, 1)
+  assert.equal(wildboyResults[0].participant.status, 'located')
   assert.equal(buildParticipantSearchIndex([bct,bct,bct]).length, 1)
   assert.equal(searchParticipants({ name:'Backcountry Trust', region:'Auckland' }).candidates.length, 0)
   assert.equal(runtime.participantInRegion(pid, 'Marlborough Region'), false)
