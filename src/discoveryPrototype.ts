@@ -470,93 +470,116 @@ export const installArrivalDiscoveryLayer = (
   let animationTime = 0
   const slotFades = new Map<number, SlotFade>()
 
-  const dataSource = {
-    type: 'geojson' as const,
-    data: discoveryFeatureCollection(activeSignals.map((signal) => signal.record)),
+  const ensureLayers = () => {
+    if (!map.isStyleLoaded()) return false
+
+    if (!map.getSource(sourceId)) {
+      map.addSource(sourceId, {
+        type: 'geojson',
+        data: discoveryFeatureCollection(activeSignals.map((signal) => signal.record)),
+      })
+    }
+
+    if (!map.getLayer(ringLayerId)) {
+      map.addLayer({
+        id: ringLayerId,
+        type: 'circle',
+        source: sourceId,
+        layout: { visibility: active ? 'visible' : 'none' },
+        paint: {
+          'circle-radius': [
+            '*',
+            ['interpolate', ['linear'], ['zoom'], 3, 15, 7, 22],
+            1,
+          ],
+          'circle-color': exGamesPalette.warmGold,
+          'circle-opacity': ['*', 0.2, ['coalesce', ['feature-state', 'fadeOpacity'], 1]],
+          'circle-stroke-width': 2,
+          'circle-stroke-color': exGamesPalette.mist,
+        },
+      })
+    }
+
+    if (!map.getLayer(coreLayerId)) {
+      map.addLayer({
+        id: coreLayerId,
+        type: 'circle',
+        source: sourceId,
+        layout: { visibility: active ? 'visible' : 'none' },
+        paint: {
+          'circle-radius': ['interpolate', ['linear'], ['zoom'], 3, 5, 7, 10],
+          'circle-color': exGamesPalette.warmGold,
+          'circle-opacity': ['coalesce', ['feature-state', 'fadeOpacity'], 1],
+          'circle-stroke-width': 2.5,
+          'circle-stroke-color': exGamesPalette.kauriDark,
+        },
+      })
+    }
+
+    if (!map.getLayer(labelLayerId)) {
+      map.addLayer({
+        id: labelLayerId,
+        type: 'symbol',
+        source: sourceId,
+        layout: {
+          visibility: active ? 'visible' : 'none',
+          'text-field': ['get', 'label'],
+          'text-font': ['Noto Sans Bold'],
+          'text-size': ['interpolate', ['linear'], ['zoom'], 4, 12, 7, 15],
+          'text-allow-overlap': false,
+          'text-ignore-placement': false,
+          'text-anchor': 'top',
+          'text-offset': [0, -1.1],
+        },
+        paint: {
+          'text-color': exGamesPalette.kauriDark,
+          'text-halo-color': exGamesPalette.mist,
+          'text-halo-width': 2.6,
+          'text-opacity': ['coalesce', ['feature-state', 'fadeOpacity'], 1],
+        },
+      })
+    }
+
+    return true
   }
 
   const updateSource = (nextData: ReturnType<typeof discoveryFeatureCollection>) => {
+    if (!ensureLayers()) return false
     const source = map.getSource(sourceId) as { setData?: (data: unknown) => void } | undefined
-    if (source?.setData) {
-      source.setData(nextData)
-      return
-    }
-    map.addSource(sourceId, { type: 'geojson', data: nextData })
+    if (!source?.setData) return false
+    source.setData(nextData)
+    return true
   }
 
   const setSignalOpacity = (record: DiscoveryRecord, opacity: number) => {
+    if (!ensureLayers()) return
     map.setFeatureState({ source: sourceId, id: `${record.kind}:${record.id}` }, { fadeOpacity: opacity })
   }
 
-  updateSource(dataSource.data)
-
-  if (!map.getLayer(ringLayerId)) {
-    map.addLayer({
-      id: ringLayerId,
-      type: 'circle',
-      source: sourceId,
-      paint: {
-        'circle-radius': [
-          '*',
-          ['interpolate', ['linear'], ['zoom'], 3, 15, 7, 22],
-          1,
-        ],
-        'circle-color': exGamesPalette.warmGold,
-        'circle-opacity': ['*', 0.2, ['coalesce', ['feature-state', 'fadeOpacity'], 1]],
-        'circle-stroke-width': 2,
-        'circle-stroke-color': exGamesPalette.mist,
-      },
-    })
-  }
-
-  if (!map.getLayer(coreLayerId)) {
-    map.addLayer({
-      id: coreLayerId,
-      type: 'circle',
-      source: sourceId,
-      paint: {
-        'circle-radius': ['interpolate', ['linear'], ['zoom'], 3, 5, 7, 10],
-        'circle-color': exGamesPalette.warmGold,
-        'circle-opacity': ['coalesce', ['feature-state', 'fadeOpacity'], 1],
-        'circle-stroke-width': 2.5,
-        'circle-stroke-color': exGamesPalette.kauriDark,
-      },
-    })
-  }
-
-  if (!map.getLayer(labelLayerId)) {
-    map.addLayer({
-      id: labelLayerId,
-      type: 'symbol',
-      source: sourceId,
-      layout: {
-        'text-field': ['get', 'label'],
-        'text-font': ['Noto Sans Bold'],
-        'text-size': ['interpolate', ['linear'], ['zoom'], 4, 12, 7, 15],
-        'text-allow-overlap': false,
-        'text-ignore-placement': false,
-        'text-anchor': 'top',
-        'text-offset': [0, -1.1],
-      },
-      paint: {
-        'text-color': exGamesPalette.kauriDark,
-        'text-halo-color': exGamesPalette.mist,
-        'text-halo-width': 2.6,
-        'text-opacity': ['coalesce', ['feature-state', 'fadeOpacity'], 1],
-      },
-    })
-  }
+  ensureLayers()
 
   const refresh = () => {
     const featureData = discoveryFeatureCollection(activeSignals.map((signal) => signal.record))
     updateSource(featureData)
   }
 
+  map.on('style.load', () => {
+    if (!ensureLayers()) return
+    refresh()
+    for (const id of [ringLayerId, coreLayerId, labelLayerId]) {
+      map.setLayoutProperty(id, 'visibility', active ? 'visible' : 'none')
+    }
+  })
+
   const startPulse = () => {
     if (reducedMotion || typeof window.requestAnimationFrame !== 'function') return
     if (pulseFrame !== undefined) window.cancelAnimationFrame(pulseFrame)
     const animate = (timestamp: number) => {
       if (!active) return
+      if (!ensureLayers()) {
+        pulseFrame = window.requestAnimationFrame(animate)
+        return
+      }
       animationTime = timestamp
       for (const [slotIndex, fade] of slotFades) {
         const progress = Math.max(0, Math.min(1, (timestamp - fade.startedAt) / DISCOVERY_SLOT_FADE_DURATION_MS))
@@ -632,6 +655,7 @@ export const installArrivalDiscoveryLayer = (
     if (pulseFrame !== undefined) window.cancelAnimationFrame(pulseFrame)
     pulseFrame = undefined
     slotFades.clear()
+    if (!ensureLayers()) return
     map.setLayoutProperty(ringLayerId, 'visibility', 'none')
     map.setLayoutProperty(coreLayerId, 'visibility', 'none')
     map.setLayoutProperty(labelLayerId, 'visibility', 'none')
@@ -642,9 +666,11 @@ export const installArrivalDiscoveryLayer = (
     heartbeat = createDiscoveryHeartbeatState(baseSignals, reducedMotion, targetCount)
     activeSignals = heartbeat.activeSignals
     refresh()
-    map.setLayoutProperty(ringLayerId, 'visibility', 'visible')
-    map.setLayoutProperty(coreLayerId, 'visibility', 'visible')
-    map.setLayoutProperty(labelLayerId, 'visibility', 'visible')
+    if (ensureLayers()) {
+      map.setLayoutProperty(ringLayerId, 'visibility', 'visible')
+      map.setLayoutProperty(coreLayerId, 'visibility', 'visible')
+      map.setLayoutProperty(labelLayerId, 'visibility', 'visible')
+    }
     if (!reducedMotion) {
       startRotation()
       startPulse()

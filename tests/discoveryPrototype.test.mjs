@@ -330,10 +330,11 @@ test('reduced-motion installation keeps a stable nationwide set without scheduli
   const sources = new Map()
   const layers = new Map()
   const map = {
-    addSource: (id, source) => sources.set(id, source),
+    addSource: (id, source) => sources.set(id, { ...source, setData(data) { this.data = data } }),
     getSource: (id) => sources.get(id),
     addLayer: (layer) => layers.set(layer.id, layer),
     getLayer: (id) => layers.get(id),
+    isStyleLoaded: () => true,
     setLayoutProperty: () => {},
     on: () => {},
     getCanvas: () => ({ style: {} }),
@@ -376,15 +377,21 @@ test('normal installation schedules three-second rotation separately from the co
   const sources = new Map()
   const layers = new Map()
   const paintUpdates = []
+  const handlers = new Map()
+  let styleLoaded = true
   const map = {
-    addSource: (id, source) => sources.set(id, source),
+    addSource: (id, source) => sources.set(id, { ...source, setData(data) { this.data = data } }),
     getSource: (id) => sources.get(id),
     addLayer: (layer) => layers.set(layer.id, layer),
     getLayer: (id) => layers.get(id),
+    isStyleLoaded: () => styleLoaded,
     setLayoutProperty: () => {},
-    setPaintProperty: (...args) => paintUpdates.push(args),
+    setPaintProperty: (id, ...args) => {
+      if (!layers.has(id)) throw new Error(`Cannot style non-existing layer "${id}"`)
+      paintUpdates.push([id, ...args])
+    },
     setFeatureState: (target, state) => featureStates.set(target.id, { ...featureStates.get(target.id), ...state }),
-    on: () => {},
+    on: (event, callback) => handlers.set(event, callback),
     getCanvas: () => ({ style: {} }),
     removeLayer: (id) => layers.delete(id),
     removeSource: (id) => sources.delete(id),
@@ -394,6 +401,15 @@ test('normal installation schedules three-second rotation separately from the co
     const discovery = installArrivalDiscoveryLayer(map, runtime.locatedParticipants, runtime.areaIndex, () => {}, localityFeatures)
     assert.deepEqual(scheduled.map((item) => item.interval), [DISCOVERY_ROTATION_INTERVAL_MS])
     assert.equal(animationCount, 1)
+    styleLoaded = false
+    sources.clear()
+    layers.clear()
+    styleLoaded = true
+    handlers.get('style.load')()
+    assert.ok(sources.has('lm-arrival-discovery'))
+    assert.ok(layers.has('lm-arrival-discovery-ring'))
+    assert.ok(layers.has('lm-arrival-discovery-core'))
+    assert.ok(layers.has('lm-arrival-discovery-label'))
     const before = sources.get('lm-arrival-discovery').data.features.map((feature) => feature.properties.signalId)
     scheduled[0].callback()
     assert.equal(DISCOVERY_SLOT_FADE_DURATION_MS, 1000)
