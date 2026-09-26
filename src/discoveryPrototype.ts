@@ -487,11 +487,7 @@ export const installArrivalDiscoveryLayer = (
         source: sourceId,
         layout: { visibility: active ? 'visible' : 'none' },
         paint: {
-          'circle-radius': [
-            '*',
-            ['interpolate', ['linear'], ['zoom'], 3, 15, 7, 22],
-            1,
-          ],
+          'circle-radius': ['interpolate', ['linear'], ['zoom'], 3, 15, 7, 22],
           'circle-color': exGamesPalette.warmGold,
           'circle-opacity': ['*', 0.2, ['coalesce', ['feature-state', 'fadeOpacity'], 1]],
           'circle-stroke-width': 2,
@@ -615,9 +611,13 @@ export const installArrivalDiscoveryLayer = (
       const scale = 1 + (breath + 1) * 0.07
       const opacity = 0.16 + (breath + 1) * 0.04
       map.setPaintProperty(ringLayerId, 'circle-radius', [
-        '*',
-        ['interpolate', ['linear'], ['zoom'], 3, 15, 7, 22],
-        scale,
+        'interpolate',
+        ['linear'],
+        ['zoom'],
+        3,
+        15 * scale,
+        7,
+        22 * scale,
       ])
       map.setPaintProperty(ringLayerId, 'circle-opacity', [
         '*',

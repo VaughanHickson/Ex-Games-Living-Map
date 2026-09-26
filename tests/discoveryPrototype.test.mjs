@@ -332,7 +332,12 @@ test('reduced-motion installation keeps a stable nationwide set without scheduli
   const map = {
     addSource: (id, source) => sources.set(id, { ...source, setData(data) { this.data = data } }),
     getSource: (id) => sources.get(id),
-    addLayer: (layer) => layers.set(layer.id, layer),
+    addLayer: (layer) => {
+      if (layer.id === 'lm-arrival-discovery-ring') {
+        assert.equal(layer.paint['circle-radius'][0], 'interpolate')
+      }
+      layers.set(layer.id, layer)
+    },
     getLayer: (id) => layers.get(id),
     isStyleLoaded: () => true,
     setLayoutProperty: () => {},
@@ -382,7 +387,12 @@ test('normal installation schedules three-second rotation separately from the co
   const map = {
     addSource: (id, source) => sources.set(id, { ...source, setData(data) { this.data = data } }),
     getSource: (id) => sources.get(id),
-    addLayer: (layer) => layers.set(layer.id, layer),
+    addLayer: (layer) => {
+      if (layer.id === 'lm-arrival-discovery-ring') {
+        assert.equal(layer.paint['circle-radius'][0], 'interpolate')
+      }
+      layers.set(layer.id, layer)
+    },
     getLayer: (id) => layers.get(id),
     isStyleLoaded: () => styleLoaded,
     setLayoutProperty: () => {},
@@ -439,6 +449,9 @@ test('normal installation schedules three-second rotation separately from the co
     assert.equal(featureStates.get(replacementFeature.id).fadeOpacity, 1)
     assert.equal(typeof pulseCallback, 'function')
     assert.ok(paintUpdates.length >= 2)
+    const radiusUpdate = paintUpdates.find(([id, property]) => id === 'lm-arrival-discovery-ring' && property === 'circle-radius')
+    assert.ok(radiusUpdate)
+    assert.equal(radiusUpdate[2][0], 'interpolate')
     discovery.destroy()
   } finally {
     if (previousWindow) Object.defineProperty(globalThis, 'window', previousWindow)
