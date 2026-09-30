@@ -1,0 +1,157 @@
+{
+  "id": "te-mata-park-reconciliation-001",
+  "reviewedAt": "2026-10-01",
+  "baselineCommit": "e37b52942436ef29423986486e140405ad076724",
+  "canonicalParticipantId": "exg-hawke-s-bay-te-mata-park-trust",
+  "status": "located",
+  "dataset": "data/participants/resolved/participants-hawkes-bay-located-001-resolved-001.json",
+  "productionDataset": "public/data/participants-hawkes-bay-located-001-resolved-001.json",
+  "reconciledIds": [
+    "exg-hawke-s-bay-te-mata-park"
+  ],
+  "decision": "Retain the established Te Mata Park Trust organisation ID. Consolidate the related Park activity record into it; Te Mata Park is the place/activity context, not a second ecological actor. No new participant identity. Historical staged research remains unchanged.",
+  "priorRecords": [
+    {
+      "id": "exg-hawke-s-bay-te-mata-park",
+      "name": "Te Mata Park",
+      "entityType": "project",
+      "status": "located",
+      "localities": [
+        "Havelock North"
+      ],
+      "relationship": "",
+      "summary": "Hosts community native-tree planting and restoration activity.",
+      "activities": [
+        "native planting",
+        "habitat restoration"
+      ],
+      "sources": [
+        "https://titokilandcare.co.nz/"
+      ],
+      "enrichmentStatus": "B — strong",
+      "populationSources": [
+        "exa-latest-five-001"
+      ],
+      "mapLocalities": [
+        "Havelock North"
+      ],
+      "localityResolution": {
+        "version": "001",
+        "results": [
+          {
+            "source": "Havelock North",
+            "resolved": "Havelock North",
+            "status": "EXACT",
+            "confidence": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "exg-hawke-s-bay-te-mata-park-trust",
+      "name": "Te Mata Park Trust",
+      "entityType": "community_group",
+      "status": "located",
+      "localities": [
+        "Te Mata Peak"
+      ],
+      "relationship": "",
+      "summary": "Undertakes pest control to support ngahere and native-species recovery in Te Mata Park.",
+      "activities": [
+        "pest control",
+        "forest restoration"
+      ],
+      "sources": [
+        "https://www.biodiversityhb.org/news-and-events/latest-news/article/116/local-biodiversity-grant-boosts-conservation-in-action"
+      ],
+      "enrichmentStatus": "B — strong",
+      "populationSources": [
+        "exa-latest-five-001"
+      ],
+      "mapLocalities": [],
+      "localityResolution": {
+        "version": "001",
+        "results": [
+          {
+            "source": "Te Mata Peak",
+            "status": "UNRESOLVED_PLACE"
+          }
+        ]
+      }
+    }
+  ],
+  "geography": "Reuse the existing Park record Havelock North locality membership. Retain Te Mata Peak as an unresolved place; no coordinates, boundaries or new Area are invented.",
+  "evidence": [
+    {
+      "url": "https://www.tematapark.co.nz/five-years-of-trapping-in-the-park/",
+      "publishedAt": "2026-09-11",
+      "supports": [
+        "670 introduced predators removed over five years",
+        "82 traps",
+        "volunteer predator control"
+      ]
+    },
+    {
+      "url": "https://www.tematapark.co.nz/get-involved/",
+      "supports": [
+        "Predator Control Group records catches in TrapNZ",
+        "Friends of Te Mata Park manages pest plants and native planting",
+        "community volunteering"
+      ],
+      "note": "This undated page says over 65 traps; use the dated September 2026 report for the 82-trap figure."
+    },
+    {
+      "url": "https://www.tematapark.co.nz/spotlight-on-ngahere-restoration-strategy-and-plans/",
+      "publishedAt": "2026-06-03",
+      "supports": [
+        "native restoration",
+        "biodiversity restoration"
+      ]
+    },
+    {
+      "url": "https://www.tematapark.co.nz/natural-environment/native-forests-webbs-bush/",
+      "supports": [
+        "ecological education",
+        "forest ecosystems and native biodiversity learning resources"
+      ]
+    },
+    {
+      "url": "https://www.tematapark.co.nz/green-flag-community-award/",
+      "publishedAt": "2025-02-03",
+      "supports": [
+        "Te Mata Park Trust Board governance and responsible management"
+      ]
+    }
+  ],
+  "findAddEquivalence": {
+    "finding": "Same existing canonical LM search/projection path; full accepted-registration equivalence is not implemented and cannot be asserted.",
+    "livingMapBaseline": "e37b52942436ef29423986486e140405ad076724",
+    "platformProductionBaseline": "975584e2c9537b7fc714d007820bcb45ba8a5bea",
+    "structure": "LM SeedParticipant uses entityType, status, localities/mapLocalities and public sources. Platform Participant uses kind, slug, places and verified. There is no production acceptance-to-LM dataset writer in the inspected release.",
+    "status": "This record remains located. Platform registration accepted is a review lifecycle state, not LOCATED or ACTIVE; its development canonical writer creates verified:false participants.",
+    "provenance": "LM retains public sources and historical populationSources; registration separately retains user/assisted field provenance, reviewer decisions and private contacts. This enrichment creates none of those claims.",
+    "search": "Exact Te Mata Park Trust searches use EXISTING_MATCH/ENDORSE_EXISTING routing; Te Mata Park uses possible-match review. Routing is not an endorsement. Platform projectParticipant publishes only verified participants. Unscoped token matching also returns two unrelated candidates for Te Mata Park; the exact Trust name and Hawke’s Bay-scoped Park query resolve to the retained identity. These are search false positives, not duplicate Te Mata identities.",
+    "projection": "Manifest -> regional JSON -> buildParticipantRegistry -> locatedParticipants -> searchParticipants -> existing participant panel. Full source arrays remain in JSON; the runtime projects only the first sourceUrl. No per-record rendering or search code.",
+    "capabilities": "Find/Add Add currently displays a registration handoff message without persistence/admission. Platform acceptance service requires a canonical writer and creates an authority relationship; only an in-memory writer is present and service calls occur in tests. This located enrichment grants no user authority, verification, ACTIVE state or participation.",
+    "references": [
+      "src/participant-model.ts",
+      "src/potentialParticipants.ts",
+      "src/search/index.ts",
+      "src/search/registration-handoff.ts",
+      "src/main.ts",
+      "Ex-Games-Website:src/domain/participant.ts",
+      "Ex-Games-Website:src/domain/registration.ts",
+      "Ex-Games-Website:src/services/registration-service.ts",
+      "Ex-Games-Website:src/services/dev-persistence.ts",
+      "Ex-Games-Website:src/search/projections.ts"
+    ]
+  },
+  "validation": {
+    "tests": "36 passed, 0 failed (npm test)",
+    "areaValidator": "4446 participant identities; 26 Areas; 0 geographic features",
+    "participantValidator": "All 17 manifest datasets plus changed resolved source: zero errors; existing region-only notices retained.",
+    "unrelatedHawkesBayRecordsUnchanged": 266,
+    "legacyScan": "A broader non-manifest scan also included historical public/data/participants-auckland.json, which has 100 pre-existing status != located errors. It is not a production manifest input and is unchanged.",
+    "productionBuild": "Passed; emitted JS/CSS filenames and SHA-256 match the existing production assets."
+  }
+}

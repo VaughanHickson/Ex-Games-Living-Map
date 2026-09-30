@@ -60,7 +60,7 @@ test('BCT loads once as a national identity without participant geography arrays
   }
   const existing = manifest.datasets.filter(d => d.path !== '/data/participants-national-001.json')
     .flatMap(d => read('public'+d.path).participants)
-  assert.equal(existing.length, 4444)
+  assert.equal(existing.length, 4443)
   assert.equal(runtime.locatedParticipants.length, new Set(existing.map(p => p.id)).size + 3)
   for (const old of existing) {
     assert.equal(runtime.locatedParticipants.find(p => p.id === old.id)?.name, old.name, old.id)

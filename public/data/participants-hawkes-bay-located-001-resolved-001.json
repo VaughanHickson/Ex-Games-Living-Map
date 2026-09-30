@@ -3300,20 +3300,31 @@
       }
     },
     {
-      "id": "exg-hawke-s-bay-te-mata-park",
-      "name": "Te Mata Park",
-      "entityType": "project",
+      "id": "exg-hawke-s-bay-te-mata-park-trust",
+      "name": "Te Mata Park Trust",
+      "entityType": "community_group",
       "status": "located",
       "localities": [
+        "Te Mata Peak",
         "Havelock North"
       ],
-      "relationship": "",
-      "summary": "Hosts community native-tree planting and restoration activity.",
+      "relationship": "Responsible management entity for Te Mata Park, Hawke's Bay.",
+      "summary": "Te Mata Park Trust manages Te Mata Park, Hawke's Bay, supporting predator control, pest-plant control, native restoration, biodiversity, community volunteering and ecological education.",
       "activities": [
-        "native planting",
-        "habitat restoration"
+        "predator control",
+        "pest-plant control",
+        "native restoration",
+        "biodiversity",
+        "community volunteering",
+        "ecological education"
       ],
       "sources": [
+        "https://www.tematapark.co.nz/five-years-of-trapping-in-the-park/",
+        "https://www.tematapark.co.nz/get-involved/",
+        "https://www.tematapark.co.nz/spotlight-on-ngahere-restoration-strategy-and-plans/",
+        "https://www.tematapark.co.nz/natural-environment/native-forests-webbs-bush/",
+        "https://www.tematapark.co.nz/green-flag-community-award/",
+        "https://www.biodiversityhb.org/news-and-events/latest-news/article/116/local-biodiversity-grant-boosts-conservation-in-action",
         "https://titokilandcare.co.nz/"
       ],
       "enrichmentStatus": "B — strong",
@@ -3327,45 +3338,19 @@
         "version": "001",
         "results": [
           {
+            "source": "Te Mata Peak",
+            "status": "UNRESOLVED_PLACE"
+          },
+          {
             "source": "Havelock North",
             "resolved": "Havelock North",
             "status": "EXACT",
             "confidence": 1.0
           }
         ]
-      }
-    },
-    {
-      "id": "exg-hawke-s-bay-te-mata-park-trust",
-      "name": "Te Mata Park Trust",
-      "entityType": "community_group",
-      "status": "located",
-      "localities": [
-        "Te Mata Peak"
-      ],
-      "relationship": "",
-      "summary": "Undertakes pest control to support ngahere and native-species recovery in Te Mata Park.",
-      "activities": [
-        "pest control",
-        "forest restoration"
-      ],
-      "sources": [
-        "https://www.biodiversityhb.org/news-and-events/latest-news/article/116/local-biodiversity-grant-boosts-conservation-in-action"
-      ],
-      "enrichmentStatus": "B — strong",
-      "populationSources": [
-        "exa-latest-five-001"
-      ],
-      "mapLocalities": [],
-      "localityResolution": {
-        "version": "001",
-        "results": [
-          {
-            "source": "Te Mata Peak",
-            "status": "UNRESOLVED_PLACE"
-          }
-        ]
-      }
+      },
+      "website": "https://www.tematapark.co.nz/",
+      "detail": "The Trust reported on 11 September 2026 that its volunteer Predator Control Team removed 670 introduced predators over five years and monitored 82 traps across Te Mata Park. Its volunteer information describes Predator Control Group catch recording in TrapNZ and Friends of Te Mata Park native planting, maintenance and pest-plant management. The Trust also documents native revegetation for biodiversity and forest-ecosystem learning resources. LOCATED from public evidence only; this listing does not imply endorsement, partnership, consent, competition participation, nomination acceptance or Ex Games membership."
     },
     {
       "id": "exg-hawke-s-bay-te-muriwai-o-te-whanga",
