@@ -15,4 +15,4 @@ export const exGamesBrand = {
 } as const
 
 /** Same accepted artwork served by WWW; identity only, no map state. */
-export const exGamesIdentity = '<img src="https://www.nzexgames.nz/brand/accepted-red-x-wordmark.png" alt="NZ Ex Game(s)" width="1990" height="290" style="display:block;width:180px;max-width:100%;height:auto;background:#fff" />'
+export const exGamesIdentity = '<img src="https://www.nzexgames.nz/brand/nature-001/nz-ex-games-wordmark.svg" alt="NZ Ex Game(s)" width="805" height="122" style="display:block;width:180px;max-width:100%;height:auto;background:#fff" />'

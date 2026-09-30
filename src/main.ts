@@ -6,6 +6,7 @@ import { areaFeatures } from './area-model'
 import { installAreaLayers, areaMarkup, participantAreaMarkup } from './area-presentation'
 import { nzLocalitiesUrl } from './localities'
 import { nzRegions } from './regions'
+import { buildRegionBounds, fitSelectedRegion, type RegionBounds } from './region-viewport'
 import { exGamesBrand, exGamesPalette, exGamesIdentity } from './brand'
 import { firstTarget2050Candidate } from './candidates'
 import { riverheadParticipants } from './participants'
@@ -145,6 +146,7 @@ const claimedParticipants = new Set<string>()
 const participantEdits = new Map<string, Record<string, string>>()
 const participantSelectedLocality = new Map<string, string>()
 let availableLocalities: { name: string; region: string }[] = []
+let regionBounds: ReadonlyMap<string, RegionBounds> = new Map()
 const verificationContacts = new Map<string, { email?: string; mobile?: string }>()
 const verificationTargets = new Map<string, string>()
 
@@ -562,6 +564,7 @@ for (const id of layers) {
 map.setFilter(id,region ? ['==',['get','region'],region] : null)
 map.setLayoutProperty(id,'visibility',region ? 'visible' : 'none')
 }
+fitSelectedRegion(map, region, regionBounds)
 }
 
 class RegionControl implements maplibregl.IControl {
@@ -585,6 +588,7 @@ map.on('load', async () => {
   applyNationalArrivalBounds(map)
 
   const localityData = await fetch(nzLocalitiesUrl).then(r => r.json())
+  regionBounds = buildRegionBounds(await fetch('/data/nz-regions.geojson').then(r => r.json()))
   availableLocalities = localityData.features
     .map((f: any) => ({
       name: f.properties?.name,
