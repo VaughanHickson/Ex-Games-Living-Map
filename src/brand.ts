@@ -13,3 +13,6 @@ export const exGamesBrand = {
   purpose: 'Protect Our Land. Restore Our Future.',
   masterImagePath: '/brand/ex-games-web-master-image.png',
 } as const
+
+/** Same accepted artwork served by WWW; identity only, no map state. */
+export const exGamesIdentity = '<img src="https://www.nzexgames.nz/brand/accepted-red-x-wordmark.png" alt="NZ Ex Game(s)" width="1990" height="290" style="display:block;width:180px;max-width:100%;height:auto;background:#fff" />'

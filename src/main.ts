@@ -6,7 +6,7 @@ import { areaFeatures } from './area-model'
 import { installAreaLayers, areaMarkup, participantAreaMarkup } from './area-presentation'
 import { nzLocalitiesUrl } from './localities'
 import { nzRegions } from './regions'
-import { exGamesBrand, exGamesPalette } from './brand'
+import { exGamesBrand, exGamesPalette, exGamesIdentity } from './brand'
 import { firstTarget2050Candidate } from './candidates'
 import { riverheadParticipants } from './participants'
 import {
@@ -229,7 +229,7 @@ const showHitListEntry = (id: string, navigate=true) => {
     <div class="hit-list-dossier-head">
       <button class="hit-list-back">← The Hit List</button>
       <div>
-        <small>NZ EX GAMES · THE HIT LIST</small>
+        ${exGamesIdentity}<small>THE HIT LIST</small>
         <h1>${e.name}</h1>
         <p>${e.summary}</p>
       </div>
@@ -992,7 +992,7 @@ map.on('load', async () => {
           : revealsTarget2050Candidate
             ? `
               <div class="ex-games-popup__brand">
-                <span>${exGamesBrand.name}</span>
+                ${exGamesIdentity}
                 <small>${exGamesBrand.mission}</small>
               </div>
               <strong>${localityName}</strong>
@@ -1072,7 +1072,7 @@ map.on('load', async () => {
       .setLngLat(event.lngLat)
       .setHTML(`
         <div class="ex-games-popup__brand">
-          <span>${exGamesBrand.name}</span>
+          ${exGamesIdentity}
           <small>Area Model 002 · development proof</small>
         </div>
         <strong>${properties.name ?? 'Landscape Area'}</strong>
@@ -1103,7 +1103,7 @@ map.on('load', async () => {
       .setLngLat(event.lngLat)
       .setHTML(`
         <div class="ex-games-popup__brand">
-          <span>${exGamesBrand.name}</span>
+          ${exGamesIdentity}
           <small>${exGamesBrand.mission}</small>
         </div>
         <strong>${properties.name}</strong>
@@ -1174,7 +1174,7 @@ map.on('load', async () => {
       .setLngLat(event.lngLat)
       .setHTML(`
         <div class="ex-games-popup__brand">
-          <span>${exGamesBrand.name}</span>
+          ${exGamesIdentity}
           <small>${exGamesBrand.mission}</small>
         </div>
         <strong>${properties.name}</strong>
