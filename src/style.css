@@ -174,7 +174,7 @@ display: none;
 }
 
 .participant-card:hover .participant-claim-status::after {
-  content: 'IS THIS YOU? · VERIFY PROFILE';
+  content: 'VIEW RECORD · LOCAL PREVIEW';
   font-size: 10px;
   letter-spacing: 0.06em;
 }

@@ -7,7 +7,7 @@ import { installAreaLayers, areaMarkup, participantAreaMarkup } from './area-pre
 import { nzLocalitiesUrl } from './localities'
 import { nzRegions } from './regions'
 import { buildRegionBounds, fitSelectedRegion, type RegionBounds } from './region-viewport'
-import { exGamesBrand, exGamesPalette, exGamesIdentity } from './brand'
+import { exGamesBrand, exGamesPalette, exGamesIdentity, publicRecordCopy } from './brand'
 import { firstTarget2050Candidate } from './candidates'
 import { riverheadParticipants } from './participants'
 import {
@@ -68,7 +68,7 @@ class HitListControl implements maplibregl.IControl {
     b.className='ex-games-hit-list'
     b.type='button'
     b.textContent='The Hit List'
-    b.setAttribute('aria-label','Open the Ex Games Hit List')
+    b.setAttribute('aria-label','Open the NZ Ex Games Hit List')
     this.container.appendChild(b)
     return this.container
   }
@@ -196,7 +196,7 @@ const showHitList = () => {
       </button>`).join('')}
     </section>`
   }).join('')
-  participantPanel.innerHTML=`<small>THE HIT LIST</small>
+  participantPanel.innerHTML=`${exGamesIdentity}<small>THE HIT LIST</small><p>Reference information and research questions. Public Mission assignments and submissions are not available here.</p>
     <h1>Know. Investigate. Discuss.</h1>${sections}
     <button class="participant-close">Close</button>`
 }
@@ -233,7 +233,7 @@ const showHitListEntry = (id: string, navigate=true) => {
       <div>
         ${exGamesIdentity}<small>THE HIT LIST</small>
         <h1>${e.name}</h1>
-        <p>${e.summary}</p>
+        <p>${publicRecordCopy(e.summary)}</p>
       </div>
       <div class="hit-list-dossier-status">
         <strong>${e.targetScope.replaceAll('_',' ').toUpperCase()}</strong>
@@ -257,13 +257,13 @@ const showHitListEntry = (id: string, navigate=true) => {
     <h3>KNOW</h3>
     <div class="hit-list-know">
       <div class="hit-list-know__item">
-        <strong>WHAT</strong>${e.what}
+        <strong>WHAT</strong>${publicRecordCopy(e.what)}
       </div>
       <div class="hit-list-know__item">
         <strong>WHERE</strong>${e.where || 'OPEN INTELLIGENCE GAP'}
       </div>
       <div class="hit-list-know__item">
-        <strong>WHY</strong>${e.why}
+        <strong>WHY</strong>${publicRecordCopy(e.why)}
       </div>
     </div>
     ${e.scientificName ? `<p><em>${e.scientificName}</em></p>` : ''}
@@ -345,9 +345,9 @@ const showFindMe = () => {
   participantPanel.hidden = false
   participantPanel.innerHTML = `
     <div class="participant-panel__head">
-      <small>LIVING MAP</small>
+      ${exGamesIdentity}<small>LIVING MAP</small>
       <h2>Find yourself or your group</h2>
-      <p>Search the Living Map. If we do not know you yet, you can add yourself.</p>
+      <p>LOCATED ≠ ACTIVE. A sourced record does not establish participation or consent. The Add control checks records only; public registration and adding listings are unavailable. No claim is needed to explore NZ Ex Games.</p>
       <input class="participant-search"
         placeholder="Name, group, project or organisation" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" autofocus />
       <div class="participant-search-result" aria-live="polite"></div>
@@ -377,14 +377,14 @@ const showParticipants = (localityName: string) => {
   participantPanel.innerHTML = `
     <div class="participant-panel__head">
       <small>${localityName.toUpperCase()}</small>
-      <h2>Located Participants</h2>
-      <p>${participants.length} located on the map</p>
+      ${exGamesIdentity}<h2>Located people and organisations</h2>
+      <p>${participants.length} sourced records on the map. LOCATED does not mean ACTIVE participation, consent or competition entry.</p><p>Adding and removing public listings is not available here. The controls below do not publish changes.</p>
       <input class="participant-search"
         placeholder="Find yourself or your group" />
       <div class="participant-search-result" aria-live="polite"></div>
        <div class="participant-actions">
          <button class="participant-action">Add yourself / your organisation</button>
-         <button class="participant-action">Remove my listing</button>
+         <button class="participant-action">Removal unavailable</button>
        </div>
     </div>
     <div class="participant-list">
@@ -393,7 +393,7 @@ const showParticipants = (localityName: string) => {
   <strong>${p.name}</strong>
   <small>${p.type}</small>
   <em class="participant-claim-status">
-    IS THIS YOU? · VERIFY PROFILE
+    VIEW RECORD · LOCAL PREVIEW
   </em>
 </button>`).join('')}
     </div>
@@ -428,13 +428,13 @@ const showParticipant = (id: string) => {
     }</button>
     <small>${p.type.toUpperCase()}</small>
     <h2>${p.name}</h2>
-    <p>Review and adjust your information before verifying this profile.</p>
+    ${exGamesIdentity}<p>Local preview only. Edits stay in this open page and disappear when it is reloaded; they do not update the public record, verify your identity or establish ACTIVE participation. Claiming a record is not required to take part. Use fictional details to explore the preview.</p>
     ${participantAreaMarkup(p.id, areaIndex)}
     <label>Name<input name="name" value="${p.name}"></label>
-    <label>Relationship<textarea name="relationship">${p.relationship}</textarea></label>
-    <label>Summary<textarea name="summary">${p.summary}</textarea></label>
+    <label>Relationship<textarea name="relationship">${publicRecordCopy(p.relationship)}</textarea></label>
+    <label>Summary<textarea name="summary">${publicRecordCopy(p.summary)}</textarea></label>
     <label>Activities<input name="activities" value="${p.activities.join(', ')}"></label>
-    <label>Detail<textarea name="detail">${p.detail ?? ''}</textarea></label>
+    <label>Detail<textarea name="detail">${publicRecordCopy(p.detail ?? '')}</textarea></label>
 <label>Website<input name="website" value="${p.website ?? ''}"></label>
     <label>Living Map locality
       <select name="claimed-locality">
@@ -448,8 +448,8 @@ const showParticipant = (id: string) => {
           }>${x.name}</option>`).join('')}
       </select>
     </label>
-    <small>Change, add or remove anything before continuing.</small>
-    <button class="participant-profile-action" data-id="${p.id}">${p.profileClaimed || claimedParticipants.has(p.id) ? 'Save updates' : 'Verify profile'}</button>
+    <small>Preview changes only; nothing is submitted or published.</small>
+    <button class="participant-profile-action" data-id="${p.id}">${p.profileClaimed || claimedParticipants.has(p.id) ? 'Keep preview edits' : 'Preview contact step'}</button>
   `
 }
 
@@ -459,8 +459,8 @@ const showLocalitySelection = (id: string) => {
   const selected = participantSelectedLocality.get(id) ?? p.locality
   participantPanel.innerHTML = `
     <small>MAP LOCATION</small>
-    <h2>Where should this profile appear?</h2>
-    <p>Choose a suburb or locality deliberately. You can change it later.</p>
+    <h2>Preview a locality</h2>
+    <p>This local preview does not move or publish the public record.</p>
     <label>Locality
       <select name="claimed-locality">
         <option value="">Select your locality</option>
@@ -482,7 +482,7 @@ const showLocalityConfirmation = (id: string) => {
   participantPanel.innerHTML = `
     <small>CONFIRM MAP LOCATION</small>
     <h2>${locality}</h2>
-    <p>Your profile will appear in this locality on the Living Map.</p>
+    <p>This locality is selected for the local preview only. The public Living Map record is unchanged.</p>
     <button class="participant-locality-accept" data-id="${id}">Confirm and continue</button>
     <button class="participant-locality-change" data-id="${id}">Change locality</button>`
 }
@@ -492,14 +492,14 @@ const p=getParticipant(id)
 if (!p) return
 participantPanel.innerHTML=`
 <button class="verification-back" data-id="${id}" data-stage="contact">← Back to profile</button>
-<small>VERIFICATION PENDING</small>
-<h2>Verify your profile</h2>
+${exGamesIdentity}<small>LOCAL PREVIEW · NO VERIFICATION</small>
+<h2>Contact preview</h2>
 <p>${p.name}</p>
-<p>Choose email or mobile to verify your profile.</p>
+<p>Email and mobile verification are not available. This preview does not send a code or verify an identity. Do not enter real contact details.</p>
 <label>Email<input name="verify-email" type="email"></label>
 <div class="verification-or">OR</div>
 <label>Mobile<input name="verify-mobile" type="tel"></label>
-<button class="participant-verify" data-id="${id}">Send verification code</button>`
+<button class="participant-verify" data-id="${id}">Preview code step</button>`
 }
 
 const showVerificationMethod = (id: string) => {
@@ -507,8 +507,8 @@ const c = verificationContacts.get(id)
 if (!c) return
 participantPanel.innerHTML = `
 <button class="verification-back" data-id="${id}" data-stage="method">← Back</button>
-<small>VERIFICATION PENDING</small>
-<h2>Choose verification method</h2>
+${exGamesIdentity}<small>LOCAL PREVIEW · NO VERIFICATION</small>
+<h2>Preview contact method</h2>
 ${c.email ? `<button class="verify-method" data-id="${id}" data-method="email">Email · ${c.email}</button>` : ''}
 ${c.mobile ? `<button class="verify-method" data-id="${id}" data-method="mobile">SMS · ${c.mobile}</button>` : ''}
 `
@@ -519,12 +519,12 @@ const p = getParticipant(id)
 if (!p) return
 participantPanel.innerHTML = `
 <button class="verification-back" data-id="${p.id}" data-stage="code">← Back</button>
-<small>VERIFICATION PENDING</small>
-<h2>Enter verification code</h2>
+${exGamesIdentity}<small>LOCAL PREVIEW · NO VERIFICATION</small>
+<h2>Preview code entry</h2>
 <p>${p.name}</p>
-<p>Verification code sent to ${verificationTargets.get(id) ?? 'your chosen contact method'}.</p>
+<p>No code has been sent. This is a local preview for ${verificationTargets.get(id) ?? 'the example contact'}. Entering a value does not verify an identity.</p>
 <label>Verification code<input name="verification-code" inputmode="numeric"></label>
-<button class="participant-confirm-verify" data-id="${p.id}">Verify code</button>
+<button class="participant-confirm-verify" data-id="${p.id}">Finish local preview</button>
 `
 }
 
@@ -536,13 +536,13 @@ const showClaimedParticipant = (id: string) => {
     <small>${p.type.toUpperCase()}</small>
     <h2>${p.name}</h2>
     ${participantAreaMarkup(p.id, areaIndex)}
-    <p><strong>Living Map locality:</strong> ${participantSelectedLocality.get(id) ?? p.locality}</p>
-    <p>${p.relationship}</p>
+    ${exGamesIdentity}<p>Local preview only: no public record changed and no identity verified. This does not establish ACTIVE participation or competition entry.</p><p><strong>Preview locality:</strong> ${participantSelectedLocality.get(id) ?? p.locality}</p>
+    <p>${publicRecordCopy(p.relationship)}</p>
     <div class="participant-tags">${p.activities.map((a) => `<span>${a}</span>`).join('')}</div>
-    ${p.detail ? `<p>${p.detail}</p>` : ''}
+    ${p.detail ? `<p>${publicRecordCopy(p.detail)}</p>` : ''}
     ${p.website ? `<p>${p.website}</p>` : ''}
     <button class="participant-locality-change" data-id="${p.id}">Change locality</button>
-    <button class="participant-update" data-id="${p.id}">Update my details</button>
+    <button class="participant-update" data-id="${p.id}">Edit local preview</button>
   `
 }
 
@@ -1244,7 +1244,7 @@ participantPanel.addEventListener('keydown', (event) => {
     return
   }
 
-  showSearchResult('No existing participant found. You can continue to register.')
+  showSearchResult('No sourced record found. Public registration and adding a listing are not available here.')
 })
 
 participantPanel.addEventListener('input', (event) => {
@@ -1257,7 +1257,7 @@ participantPanel.addEventListener('input', (event) => {
     discoveredParticipants,
   )
   if (result.outcome === 'NO_MATCH')
-    showSearchResult('No existing participant found.')
+    showSearchResult('No sourced record found.')
   else
     showSearchResult(
       result.outcome === 'EXISTING_MATCH' ? 'Existing match:' : 'Possible matches:',
@@ -1315,11 +1315,11 @@ if (addParticipant?.textContent?.includes('Add yourself')) {
   }, discoveredParticipants)
 
   if (result.outcome === 'NO_MATCH') {
-    showSearchResult('No existing participant found. Registration can begin from here.')
+    showSearchResult('No sourced record found. Public registration and adding a listing are not available here. You can explore NZ Ex Games without a listing or account.')
     return
   }
 
-  showSearchResult('Review the existing or possible match before registering.')
+  showSearchResult('Review the existing or possible sourced record. A match does not mean someone has joined or agreed to participate.')
   return
 }
 

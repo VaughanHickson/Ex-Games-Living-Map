@@ -1,0 +1,11 @@
+{
+  "build": "PASS: tsc, edge tsc, Vite",
+  "protected_files_unchanged": 237,
+  "data_engine_search_and_persistence": "unchanged; executable AST of main.ts preserved excluding display-only copies/brand",
+  "viewports": [
+    1440,
+    390
+  ],
+  "states": 14,
+  "rollback_index_sha256": "0b6f22d7014a00bbd18364380123f5e607985c686552ed48be0dbe1b993f42cb"
+}
