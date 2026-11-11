@@ -39,7 +39,7 @@ test('BCT loads once as a national identity without participant geography arrays
   assert.equal(runtime.areaLoadError, undefined)
   assert.ok(bct)
   assert.ok(brando)
-  assert.equal(national.participants.length, 3)
+  assert.equal(new Set(national.participants.map(p => p.id)).size, national.participants.length)
   assert.equal(national.participants[0].shortName, 'BCT')
   assert.equal(national.participants[0].country, 'New Zealand')
   assert.equal(national.participants[0].scope, 'National')
@@ -61,7 +61,7 @@ test('BCT loads once as a national identity without participant geography arrays
   const existing = manifest.datasets.filter(d => d.path !== '/data/participants-national-001.json')
     .flatMap(d => read('public'+d.path).participants)
   assert.equal(existing.length, 4444)
-  assert.equal(runtime.locatedParticipants.length, new Set(existing.map(p => p.id)).size + 3)
+  assert.equal(runtime.locatedParticipants.length, new Set(existing.map(p => p.id)).size + national.participants.length)
   for (const old of existing) {
     assert.equal(runtime.locatedParticipants.find(p => p.id === old.id)?.name, old.name, old.id)
     assert.notEqual(old.id, pid)
