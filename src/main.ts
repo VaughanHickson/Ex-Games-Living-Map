@@ -36,6 +36,7 @@ app.innerHTML = '<div id="map" aria-label="Interactive map of Aotearoa New Zeala
 
 const map = new maplibregl.Map({
   container: 'map',
+  attributionControl: { compact: true },
   style: 'https://tiles.openfreemap.org/styles/liberty',
   center: [174.0, -41.3],
   zoom: 5.2,

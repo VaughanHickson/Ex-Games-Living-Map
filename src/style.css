@@ -498,6 +498,10 @@ display: none;
 .participant-panel { z-index: 6; }
 @media (max-width: 640px) {
   #app { grid-template-columns: minmax(0, 1fr); grid-template-rows: 52% minmax(0, 1fr); }
-  .located-browser { border-top: 1px solid #adb5a8; }
+  .located-browser { border-top: 1px solid #adb5a8; font-size: 12px; padding: 8px; }
+  .located-browser h2 { font-size: 18px; margin: 0; }
+  .located-browser p { margin: 4px 0; }
+  .located-browser label { margin: 4px 0; }
+  .located-browser input, .located-browser select { padding: 6px; }
   .participant-panel { max-height: calc(100dvh - 145px); }
 }
