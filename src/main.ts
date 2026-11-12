@@ -1283,6 +1283,7 @@ if (candidate?.dataset.id) {
 if (target.closest('.participant-close')) {
   participantPanel.hidden = true
   activeParticipantLocality = undefined
+  if (!activeParticipantRegion) arrivalDiscovery?.show()
   return
 }
 const addParticipant = target.closest<HTMLElement>('.participant-action')

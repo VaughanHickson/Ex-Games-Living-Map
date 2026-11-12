@@ -343,7 +343,7 @@ test('reduced-motion installation keeps a stable nationwide set without scheduli
     },
     getLayer: (id) => layers.get(id),
     isStyleLoaded: () => ready,
-    setLayoutProperty: () => {},
+    setLayoutProperty: (id, property, value) => { layers.get(id).layout[property] = value },
     on: () => {},
     once: (event, callback) => { assert.equal(event, 'idle'); idle = callback },
     getCanvas: () => ({ style: {} }),
@@ -357,6 +357,12 @@ test('reduced-motion installation keeps a stable nationwide set without scheduli
     ready = true
     idle()
     assert.equal(layers.size, 3)
+    ready = false // A region change loads tiles while the style layers already exist.
+    discovery.hide()
+    assert.ok([...layers.values()].every(layer => layer.layout.visibility === 'none'))
+    discovery.show()
+    assert.ok([...layers.values()].every(layer => layer.layout.visibility === 'visible'))
+    ready = true
     const features = sources.get('lm-arrival-discovery').data.features
     assert.equal(features.length, DISCOVERY_DESKTOP_TARGET_CONCURRENCY)
     assert.equal(intervalCount, 0)

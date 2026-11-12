@@ -660,10 +660,11 @@ export const installArrivalDiscoveryLayer = (
     if (pulseFrame !== undefined) window.cancelAnimationFrame(pulseFrame)
     pulseFrame = undefined
     slotFades.clear()
-    if (!ensureLayers()) return
-    map.setLayoutProperty(ringLayerId, 'visibility', 'none')
-    map.setLayoutProperty(coreLayerId, 'visibility', 'none')
-    map.setLayoutProperty(labelLayerId, 'visibility', 'none')
+    ensureLayers()
+    // Tile loading must not prevent visibility changes on existing layers.
+    for (const id of [ringLayerId, coreLayerId, labelLayerId]) {
+      if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', 'none')
+    }
   }
 
   const show = () => {
@@ -671,10 +672,9 @@ export const installArrivalDiscoveryLayer = (
     heartbeat = createDiscoveryHeartbeatState(baseSignals, reducedMotion, targetCount)
     activeSignals = heartbeat.activeSignals
     refresh()
-    if (ensureLayers()) {
-      map.setLayoutProperty(ringLayerId, 'visibility', 'visible')
-      map.setLayoutProperty(coreLayerId, 'visibility', 'visible')
-      map.setLayoutProperty(labelLayerId, 'visibility', 'visible')
+    ensureLayers()
+    for (const id of [ringLayerId, coreLayerId, labelLayerId]) {
+      if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', 'visible')
     }
     if (!reducedMotion) {
       startRotation()
