@@ -483,26 +483,9 @@ display: none;
 }
 
 /* Keep region controls reachable while browsing records, including touch screens. */
-#app { display: grid; grid-template-columns: minmax(0, 1fr) 320px; height: 100dvh; }
-#map { position: relative; min-width: 0; height: 100%; }
-.located-browser { overflow: auto; padding: 14px; background: #f5f4ec; color: #17251c; font: 14px/1.4 system-ui, sans-serif; }
-.located-browser h2 { margin: 0 0 8px; }
-.located-browser label { display: block; margin: 10px 0; }
-.located-browser input, .located-browser select { display: block; width: 100%; box-sizing: border-box; padding: 9px; font: inherit; }
-.located-list { display: grid; gap: 8px; }
-.located-actor { display: grid; gap: 4px; width: 100%; padding: 10px; border: 1px solid #adb5a8; background: white; color: #17251c; text-align: left; font: inherit; cursor: pointer; }
-.located-actor small { font-size: 12px; }
-.located-marker-note { font-size: 12px; }
-.located-clear, .located-more, .located-open-profile { display: inline-block; padding: 10px; margin: 10px 0; }
-.located-clear[hidden], .located-more[hidden] { display: none; }
+.located-open-profile { display: inline-block; padding: 10px; margin: 10px 0; }
 .participant-panel { z-index: 6; }
 @media (max-width: 640px) {
-  #app { grid-template-columns: minmax(0, 1fr); grid-template-rows: 52% minmax(0, 1fr); }
-  .located-browser { border-top: 1px solid #adb5a8; font-size: 12px; padding: 8px; }
-  .located-browser h2 { font-size: 18px; margin: 0; }
-  .located-browser p { margin: 4px 0; }
-  .located-browser label { margin: 4px 0; }
-  .located-browser input, .located-browser select { padding: 6px; }
   .participant-panel { max-height: calc(100dvh - 145px); }
 }
 

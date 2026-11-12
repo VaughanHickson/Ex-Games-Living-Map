@@ -89,6 +89,7 @@ map.addControl(
 )
 
 let locatedBrowsing: ReturnType<typeof installLocatedBrowsing> | undefined
+let arrivalDiscovery: ReturnType<typeof installArrivalDiscoveryLayer> | undefined
 let selectedLocalityId: string | number | undefined
 
 const participantPanel = document.createElement('aside')
@@ -549,6 +550,8 @@ map.setLayoutProperty(id,'visibility',region ? 'visible' : 'none')
 }
 fitSelectedRegion(map, region, regionBounds)
 locatedBrowsing?.selectRegion(region)
+if (region) arrivalDiscovery?.hide()
+else arrivalDiscovery?.show()
 }
 
 class RegionControl implements maplibregl.IControl {
@@ -626,7 +629,7 @@ map.on('load', async () => {
     },
   })
 
-  locatedBrowsing = installLocatedBrowsing(map, discoveredParticipants, localityData.features, showParticipant)
+  locatedBrowsing = installLocatedBrowsing(map, discoveredParticipants, localityData.features, showParticipants)
 
   const discoveryState = installArrivalDiscoveryLayer(map, discoveredParticipants, areaIndex, (kind, id) => {
     if (kind === 'participant') {
@@ -635,6 +638,7 @@ map.on('load', async () => {
     }
     showArea(id)
   }, localityData.features)
+  arrivalDiscovery = discoveryState
 
   map.addLayer({
     id: 'auckland-localities-fill',
@@ -1184,7 +1188,7 @@ map.on('load', async () => {
   map.on('zoomend', () => {
     if (map.getZoom() > 6.2) {
       discoveryState.hide()
-    } else if (!participantPanel.hidden && !participantReturn && map.getLayer('lm-arrival-discovery-ring')) {
+    } else if (!activeParticipantRegion && participantPanel.hidden && map.getLayer('lm-arrival-discovery-ring')) {
       discoveryState.show()
     }
   })
