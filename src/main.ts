@@ -377,11 +377,6 @@ const showParticipants = (localityName: string) => {
   )
   activeParticipantLocality = localityName
   participantReturn = { kind: 'locality', locality: localityName }
-  if (participants.length === 1) {
-    showParticipant(participants[0].id)
-    return
-  }
-
   participantPanel.hidden = false
   const heading = document.createElement('h2')
   heading.textContent = localityName
