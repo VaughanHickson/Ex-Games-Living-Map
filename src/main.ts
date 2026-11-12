@@ -375,32 +375,34 @@ const showParticipants = (localityName: string) => {
     (item) => participantInLocality(item.id, localityName, activeParticipantRegion),
   )
   activeParticipantLocality = localityName
-  participantReturn = { kind:'locality', locality:localityName }
+  participantReturn = { kind: 'locality', locality: localityName }
+  if (participants.length === 1) {
+    showParticipant(participants[0].id)
+    return
+  }
+
   participantPanel.hidden = false
-  participantPanel.innerHTML = `
-    <div class="participant-panel__head">
-      <small>${localityName.toUpperCase()}</small>
-      ${exGamesIdentity}<h2>Located people and organisations</h2>
-      <p>${participants.length} sourced records on the map. LOCATED does not mean ACTIVE participation, consent or competition entry.</p><p>Adding and removing public listings is not available here. The controls below do not publish changes.</p>
-      <input class="participant-search"
-        placeholder="Find yourself or your group" />
-      <div class="participant-search-result" aria-live="polite"></div>
-       <div class="participant-actions">
-         <button class="participant-action">Add yourself / your organisation</button>
-         <button class="participant-action">Removal unavailable</button>
-       </div>
-    </div>
-    <div class="participant-list">
-      ${participants.map((p) => `
-<button class="participant-card" data-id="${p.id}">
-  <strong>${p.name}</strong>
-  <small>${p.type}</small>
-  <em class="participant-claim-status">
-    VIEW RECORD · LOCAL PREVIEW
-  </em>
-</button>`).join('')}
-    </div>
-    <button class="participant-close">Close</button>`
+  const heading = document.createElement('h2')
+  heading.textContent = localityName
+  const close = document.createElement('button')
+  close.type = 'button'
+  close.className = 'participant-close'
+  close.textContent = 'Back to map'
+  const list = document.createElement('div')
+  list.className = 'participant-list participant-list--locality'
+  for (const participant of participants) {
+    const card = document.createElement('button')
+    card.type = 'button'
+    card.className = 'participant-card'
+    card.dataset.id = participant.id
+    const name = document.createElement('strong')
+    name.textContent = participant.name
+    const type = document.createElement('small')
+    type.textContent = participant.type
+    card.append(name, type)
+    list.append(card)
+  }
+  participantPanel.replaceChildren(heading, close, list)
 }
 
 const openSearchMatch = (name: string, locality?: string) => {
@@ -942,6 +944,7 @@ map.on('load', async () => {
 
     loadLocatedParticipants(localityName, activeParticipantRegion)
       .then((participants) => {
+        if (activeParticipantLocality !== localityName || !participantPanel.hidden) return
         if (!participants.length) {
           activeParticipantLocality = undefined
           return

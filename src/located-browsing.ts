@@ -61,7 +61,8 @@ export function installLocatedBrowsing(map: LivingMap, records: readonly Located
     }
     more.hidden=visible.length<=limit;clear.hidden=!locality
     const positions=new Map<string,GeoJSON.Feature<GeoJSON.Point>>()
-    for(const p of visible) for(const m of participantLocalities(p.id)) {
+    const showBrowseMarkers = Boolean(region || query || type.value || locality)
+    for(const p of showBrowseMarkers ? visible : []) for(const m of participantLocalities(p.id)) {
       if(region&&normaliseRegion(m.region)!==normaliseRegion(region))continue
       const key=`${normaliseRegion(m.region)}:${normaliseLocality(m.locality)}`,coordinates=geometry.get(key)
       if(!coordinates)continue
@@ -77,7 +78,8 @@ export function installLocatedBrowsing(map: LivingMap, records: readonly Located
     const name=event.features?.[0]?.properties?.locality
     if(typeof name!=='string')return
     locality=normaliseLocality(name);limit=40;shell.querySelector('.located-locality')!.textContent=name;render()
-    shell.scrollIntoView({block:'nearest'})
+    if (visible.length === 1) open(visible[0].id)
+    else shell.scrollIntoView({block:'nearest'})
   })
   map.on('mouseenter',layer,()=>{map.getCanvas().style.cursor='pointer'})
   map.on('mouseleave',layer,()=>{map.getCanvas().style.cursor=''})

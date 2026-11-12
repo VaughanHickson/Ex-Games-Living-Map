@@ -88,33 +88,34 @@ const makeRecords = () => [
   ),
 ]
 
-test('national rotation keeps five desktop discoveries and replaces one slot every three seconds', () => {
+test('national rotation keeps six profiles per island and replaces one slot every three seconds', () => {
   assert.equal(DISCOVERY_ROTATION_INTERVAL_MS, 3000)
   assert.equal(DISCOVERY_PULSE_PERIOD_MS, 4200)
-  assert.equal(DISCOVERY_TARGET_CONCURRENCY, 5)
-  assert.equal(DISCOVERY_DESKTOP_TARGET_CONCURRENCY, 5)
-  assert.equal(DISCOVERY_MOBILE_TARGET_CONCURRENCY, 3)
-  assert.equal(getDiscoverySignalCount(1440), 5)
-  assert.equal(getDiscoverySignalCount(500), 3)
+  assert.equal(DISCOVERY_TARGET_CONCURRENCY, 12)
+  assert.equal(DISCOVERY_DESKTOP_TARGET_CONCURRENCY, 12)
+  assert.equal(DISCOVERY_MOBILE_TARGET_CONCURRENCY, 12)
+  assert.equal(getDiscoverySignalCount(1440), 12)
+  assert.equal(getDiscoverySignalCount(500), 12)
 
   const records = makeRecords()
   let state = createDiscoveryHeartbeatState(records)
-  assert.equal(state.activeSignals.length, 5)
+  assert.equal(state.activeSignals.length, 12)
 
   const beforeIds = state.activeSignals.map((signal) => signal.record.id)
   state = advanceDiscoveryHeartbeat(records, state)
-  assert.equal(state.activeSignals.length, 5)
+  assert.equal(state.activeSignals.length, 12)
   assert.equal(state.activeSignals.filter((signal) => !beforeIds.includes(signal.record.id)).length, 1)
 })
 
-test('selection avoids duplicate records and limits simultaneous regional concentration', () => {
+test('rotation preserves six distinct records on each island', () => {
   const records = makeRecords()
   let state = createDiscoveryHeartbeatState(records)
   for (let rotation = 0; rotation < 36; rotation += 1) {
     const ids = state.activeSignals.map((signal) => signal.record.id)
     const regions = state.activeSignals.map((signal) => signal.record.region)
     assert.equal(new Set(ids).size, ids.length)
-    assert.equal(new Set(regions).size, regions.length)
+    assert.equal(regions.filter((region) => getDiscoveryIsland(region) === 'north').length, 6)
+    assert.equal(regions.filter((region) => getDiscoveryIsland(region) === 'south').length, 6)
     state = advanceDiscoveryHeartbeat(records, state)
   }
 })
@@ -168,7 +169,8 @@ test('records rotate within regions and selection is reproducible for the same c
     state = advanceDiscoveryHeartbeat(oneRegionRecords, state)
     for (const signal of state.activeSignals) seen.add(signal.record.id)
   }
-  assert.ok(seen.size > DISCOVERY_TARGET_CONCURRENCY)
+  assert.equal(state.activeSignals.length, 6)
+  assert.ok(seen.size > state.activeSignals.length)
 })
 
 test('discovery signals exclude national-only placeholder participants without region assignment', () => {

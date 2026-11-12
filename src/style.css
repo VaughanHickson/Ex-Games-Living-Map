@@ -505,3 +505,9 @@ display: none;
   .located-browser input, .located-browser select { padding: 6px; }
   .participant-panel { max-height: calc(100dvh - 145px); }
 }
+
+.participant-list--locality {
+  max-height: min(440px, 55dvh);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}

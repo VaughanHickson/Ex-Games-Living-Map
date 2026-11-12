@@ -34,9 +34,9 @@ export type DiscoveryHeartbeatState = {
 export const DISCOVERY_ROTATION_INTERVAL_MS = 3000
 export const DISCOVERY_PULSE_PERIOD_MS = 4200
 export const DISCOVERY_SLOT_FADE_DURATION_MS = 1000
-export const DISCOVERY_TARGET_CONCURRENCY = 5
+export const DISCOVERY_TARGET_CONCURRENCY = 12
 export const DISCOVERY_DESKTOP_TARGET_CONCURRENCY = DISCOVERY_TARGET_CONCURRENCY
-export const DISCOVERY_MOBILE_TARGET_CONCURRENCY = 3
+export const DISCOVERY_MOBILE_TARGET_CONCURRENCY = DISCOVERY_TARGET_CONCURRENCY
 
 type LocalityPolygonGeometry =
   | { type: 'Polygon'; coordinates: number[][][] }
@@ -302,13 +302,21 @@ const chooseRegion = (
   ))[0]
 }
 
-const missingIsland = (signals: ActiveDiscoverySignal[], eligibleRecords: DiscoveryRecord[]): 'north' | 'south' | undefined => {
-  const availableIslands = new Set(eligibleRecords.map((record) => getDiscoveryIsland(record.region)).filter(Boolean))
-  const selectedIslands = new Set(signals.map((signal) => getDiscoveryIsland(signal.record.region)).filter(Boolean))
-  if (availableIslands.has('north') && availableIslands.has('south')) {
-    if (!selectedIslands.has('north')) return 'north'
-    if (!selectedIslands.has('south')) return 'south'
-  }
+const nextDiscoveryIsland = (
+  signals: ActiveDiscoverySignal[],
+  records: DiscoveryRecord[],
+  targetCount: number,
+): 'north' | 'south' | undefined => {
+  const north = signals.filter(({ record }) => getDiscoveryIsland(record.region) === 'north').length
+  const south = signals.length - north
+  const selected = new Set(signals.map(({ record }) => record.id))
+  const canAdd = (island: 'north' | 'south') => records.some(
+    (record) => getDiscoveryIsland(record.region) === island && !selected.has(record.id),
+  )
+  const northAvailable = north < Math.ceil(targetCount / 2) && canAdd('north')
+  const southAvailable = south < Math.floor(targetCount / 2) && canAdd('south')
+  if (northAvailable && (!southAvailable || north <= south)) return 'north'
+  if (southAvailable) return 'south'
   return undefined
 }
 
@@ -340,7 +348,8 @@ export const selectStableDiscoverySignals = (
   const usedRegions = new Set<string>()
   for (let slot = 0; slot < count && selected.length < records.length; slot += 1) {
     const current = selected.map((record) => ({ record }))
-    const requiredIsland = missingIsland(current, records)
+    const requiredIsland = nextDiscoveryIsland(current, records, count)
+    if (!requiredIsland) break
     const region = chooseRegion(groups, emptyState, new Set(selected.map((record) => record.id)), usedRegions, requiredIsland)
     if (!region) break
     const candidate = chooseRecordInRegion(region, groups, emptyState, new Set(selected.map((record) => record.id)))
@@ -373,7 +382,8 @@ export const createDiscoveryHeartbeatState = (
   }
   const usedRegions = new Set<string>()
   for (let slot = 0; slot < targetCount && slot < records.length; slot += 1) {
-    const requiredIsland = missingIsland(state.activeSignals, records)
+    const requiredIsland = nextDiscoveryIsland(state.activeSignals, records, targetCount)
+    if (!requiredIsland) break
     const region = chooseRegion(groups, state, new Set(state.activeSignals.map((signal) => signal.record.id)), usedRegions, requiredIsland)
     if (!region) break
     const record = chooseRecordInRegion(region, groups, state, new Set(state.activeSignals.map((signal) => signal.record.id)))
@@ -402,29 +412,23 @@ export const advanceDiscoveryHeartbeat = (
     replacementIndex: state.replacementIndex + 1,
     targetCount: state.targetCount,
   }
-  if (next.activeSignals.length < Math.min(next.targetCount, records.length)) {
-    const region = chooseRegion(groups, next, new Set(next.activeSignals.map((signal) => signal.record.id)), new Set(next.activeSignals.map((signal) => signal.record.region)))
-    if (region) {
-      const record = chooseRecordInRegion(region, groups, next, new Set(next.activeSignals.map((signal) => signal.record.id)))
-      if (record) next.activeSignals.push({ record })
-    }
-  } else {
-    const slot = next.replacementIndex % next.activeSignals.length
-    const excludedSignals = next.activeSignals.filter((_, index) => index !== slot)
-    const excludedIds = new Set(excludedSignals.map((signal) => signal.record.id))
-    const excludedRegions = new Set(excludedSignals.map((signal) => signal.record.region))
-    const requiredIsland = missingIsland(excludedSignals, records)
-    const region = chooseRegion(groups, next, excludedIds, excludedRegions, requiredIsland)
-    if (region) {
-      const record = chooseRecordInRegion(region, groups, next, excludedIds)
-      if (record) {
-        next.activeSignals[slot] = { record }
-        next.regionLastSelected[region] = next.replacementIndex
-        next.regionCursors[region] = (groups[region].indexOf(record) + 1) % groups[region].length
-        next.lastRecordIds[region] = record.id
-      }
-    }
-  }
+  if (!next.activeSignals.length) return next
+  const slot = next.replacementIndex % next.activeSignals.length
+  const current = next.activeSignals[slot].record
+  const island = getDiscoveryIsland(current.region)
+  if (!island) return next
+
+  const excludedIds = new Set(next.activeSignals.map(({ record }) => record.id))
+  const excludedRegions = new Set(next.activeSignals.filter((_, index) => index !== slot).map(({ record }) => record.region))
+  const region = chooseRegion(groups, next, excludedIds, excludedRegions, island)
+  if (!region) return next
+  const record = chooseRecordInRegion(region, groups, next, excludedIds)
+  if (!record) return next
+
+  next.activeSignals[slot] = { record }
+  next.regionLastSelected[region] = next.replacementIndex
+  next.regionCursors[region] = (groups[region].indexOf(record) + 1) % groups[region].length
+  next.lastRecordIds[region] = record.id
   return next
 }
 
@@ -460,6 +464,7 @@ export const installArrivalDiscoveryLayer = (
   const labelLayerId = 'lm-arrival-discovery-label'
 
   const baseSignals = buildDiscoverySignals(participants, areaIndex, localities)
+    .filter((record) => record.kind === 'participant')
   const reducedMotion = prefersReducedMotion()
   const targetCount = getDiscoverySignalCount(window.innerWidth)
   let heartbeat = createDiscoveryHeartbeatState(baseSignals, reducedMotion, targetCount)
