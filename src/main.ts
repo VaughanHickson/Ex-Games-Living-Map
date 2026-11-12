@@ -1,3 +1,4 @@
+import { installLocatedBrowsing } from './located-browsing'
 import * as maplibregl from 'maplibre-gl'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import './style.css'
@@ -50,7 +51,7 @@ class FindMeControl implements maplibregl.IControl {
     const button = document.createElement('button')
     button.className = 'ex-games-find-me'
     button.type = 'button'
-    button.textContent = 'Find me / Add me'
+    button.textContent = 'Add / Find Yourself'
     button.setAttribute('aria-label', 'Find yourself or add yourself to the Living Map')
     this.container.appendChild(button)
     return this.container
@@ -86,6 +87,7 @@ map.addControl(
   'top-right',
 )
 
+let locatedBrowsing: ReturnType<typeof installLocatedBrowsing> | undefined
 let selectedLocalityId: string | number | undefined
 
 const participantPanel = document.createElement('aside')
@@ -364,7 +366,7 @@ document.addEventListener("click", (event) => {
     showHitList()
     return
   }
-  if (target.closest(".ex-games-find-me")) showFindMe()
+  if (target.closest(".ex-games-find-me")) window.top!.location.href = "https://www.nzexgames.nz/map#add-find-yourself"
 })
 
 const showParticipants = (localityName: string) => {
@@ -419,38 +421,16 @@ const openSearchMatch = (name: string, locality?: string) => {
 const showParticipant = (id: string) => {
   const p = getParticipant(id)
   if (!p) return
-
-  participantPanel.innerHTML = `
-    <button class="participant-edit-back" data-id="${p.id}">${
-      participantReturn?.kind === 'search'
-        ? '← Back to search'
-        : `← ${participantReturn?.locality ?? p.locality} participants`
-    }</button>
-    <small>${p.type.toUpperCase()}</small>
-    <h2>${p.name}</h2>
-    ${exGamesIdentity}<p>Local preview only. Edits stay in this open page and disappear when it is reloaded; they do not update the public record, verify your identity or establish ACTIVE participation. Claiming a record is not required to take part. Use fictional details to explore the preview.</p>
-    ${participantAreaMarkup(p.id, areaIndex)}
-    <label>Name<input name="name" value="${p.name}"></label>
-    <label>Relationship<textarea name="relationship">${publicRecordCopy(p.relationship)}</textarea></label>
-    <label>Summary<textarea name="summary">${publicRecordCopy(p.summary)}</textarea></label>
-    <label>Activities<input name="activities" value="${p.activities.join(', ')}"></label>
-    <label>Detail<textarea name="detail">${publicRecordCopy(p.detail ?? '')}</textarea></label>
-<label>Website<input name="website" value="${p.website ?? ''}"></label>
-    <label>Living Map locality
-      <select name="claimed-locality">
-        <option value="">Select your locality</option>
-        ${availableLocalities
-          .filter(x => participantInRegion(p.id, x.region))
-          .map(x => `<option value="${x.name}" ${
-            x.name === (participantSelectedLocality.get(id) ?? p.locality)
-              ? 'selected'
-              : ''
-          }>${x.name}</option>`).join('')}
-      </select>
-    </label>
-    <small>Preview changes only; nothing is submitted or published.</small>
-    <button class="participant-profile-action" data-id="${p.id}">${p.profileClaimed || claimedParticipants.has(p.id) ? 'Keep preview edits' : 'Preview contact step'}</button>
-  `
+  participantPanel.hidden = false
+  participantPanel.innerHTML = ''
+  const heading = document.createElement('h2'); heading.textContent = p.name
+  const status = document.createElement('p'); status.textContent = 'LOCATED · sourced public record. This does not establish ACTIVE participation or authority.'
+  const detail = document.createElement('p'); detail.textContent = p.summary || p.relationship || p.type
+  const link = document.createElement('a'); link.textContent = 'Open profile'
+  link.href = 'https://www.nzexgames.nz/map#participant=' + encodeURIComponent(p.id)
+  link.target = '_top'; link.className = 'located-open-profile'
+  const close = document.createElement('button'); close.type = 'button'; close.className = 'participant-close'; close.textContent = 'Back to map'
+  participantPanel.append(heading, status, detail, link, close)
 }
 
 const showLocalitySelection = (id: string) => {
@@ -565,6 +545,7 @@ map.setFilter(id,region ? ['==',['get','region'],region] : null)
 map.setLayoutProperty(id,'visibility',region ? 'visible' : 'none')
 }
 fitSelectedRegion(map, region, regionBounds)
+locatedBrowsing?.selectRegion(region)
 }
 
 class RegionControl implements maplibregl.IControl {
@@ -641,6 +622,8 @@ map.on('load', async () => {
       'line-opacity': 0.95,
     },
   })
+
+  locatedBrowsing = installLocatedBrowsing(map, discoveredParticipants, localityData.features, showParticipant)
 
   const discoveryState = installArrivalDiscoveryLayer(map, discoveredParticipants, areaIndex, (kind, id) => {
     if (kind === 'participant') {
@@ -921,6 +904,7 @@ map.on('load', async () => {
   })
 
   map.on('click', 'auckland-localities-fill', (event) => {
+    if (map.queryRenderedFeatures(event.point, { layers: ['located-locality-markers'] }).length) return
     discoveryState.hide()
     if (map.queryRenderedFeatures(event.point, { layers: ['canonical-areas-fill', 'canonical-areas-line', 'canonical-areas-point'] }).length) return
     const feature = event.features?.[0]

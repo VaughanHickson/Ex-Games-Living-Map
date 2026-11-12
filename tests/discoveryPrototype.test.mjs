@@ -329,6 +329,7 @@ test('reduced-motion installation keeps a stable nationwide set without scheduli
 
   const sources = new Map()
   const layers = new Map()
+  let ready = false, idle
   const map = {
     addSource: (id, source) => sources.set(id, { ...source, setData(data) { this.data = data } }),
     getSource: (id) => sources.get(id),
@@ -339,9 +340,10 @@ test('reduced-motion installation keeps a stable nationwide set without scheduli
       layers.set(layer.id, layer)
     },
     getLayer: (id) => layers.get(id),
-    isStyleLoaded: () => true,
+    isStyleLoaded: () => ready,
     setLayoutProperty: () => {},
     on: () => {},
+    once: (event, callback) => { assert.equal(event, 'idle'); idle = callback },
     getCanvas: () => ({ style: {} }),
     removeLayer: (id) => layers.delete(id),
     removeSource: (id) => sources.delete(id),
@@ -349,6 +351,10 @@ test('reduced-motion installation keeps a stable nationwide set without scheduli
 
   try {
     const discovery = installArrivalDiscoveryLayer(map, runtime.locatedParticipants, runtime.areaIndex, () => {}, localityFeatures)
+    assert.equal(layers.size, 0)
+    ready = true
+    idle()
+    assert.equal(layers.size, 3)
     const features = sources.get('lm-arrival-discovery').data.features
     assert.equal(features.length, DISCOVERY_DESKTOP_TARGET_CONCURRENCY)
     assert.equal(intervalCount, 0)
@@ -402,6 +408,7 @@ test('normal installation schedules three-second rotation separately from the co
     },
     setFeatureState: (target, state) => featureStates.set(target.id, { ...featureStates.get(target.id), ...state }),
     on: (event, callback) => handlers.set(event, callback),
+    once: (event, callback) => handlers.set(event, callback),
     getCanvas: () => ({ style: {} }),
     removeLayer: (id) => layers.delete(id),
     removeSource: (id) => sources.delete(id),

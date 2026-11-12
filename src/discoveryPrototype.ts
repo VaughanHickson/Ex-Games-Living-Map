@@ -714,6 +714,9 @@ export const installArrivalDiscoveryLayer = (
   })
 
   show()
+  // Source/layer additions during load temporarily make isStyleLoaded false.
+  // Reduced-motion sessions have no animation loop to retry their installation.
+  map.once('idle', refresh)
 
   return { destroy, hide, show }
 }
