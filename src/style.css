@@ -490,7 +490,7 @@ display: none;
 }
 
 /* The locality heading and close control stay outside the scrolling names. */
-.participant-panel:has(.participant-list--locality) {
+.participant-panel:not([hidden]):has(.participant-list--locality) {
   display: flex;
   flex-direction: column;
   left: auto;
@@ -508,7 +508,7 @@ display: none;
   overscroll-behavior: contain;
 }
 @media (max-width: 640px) {
-  .participant-panel:has(.participant-list--locality) {
+  .participant-panel:not([hidden]):has(.participant-list--locality) {
     top: 140px;
     bottom: 12px;
     left: 12px;
