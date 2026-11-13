@@ -9775,6 +9775,35 @@
       "populationSources": [
         "northland-resolved-002"
       ]
+    },
+    {
+      "id": "exg-northland-noah-wakelam",
+      "name": "Noah Wakelam",
+      "entityType": "individual",
+      "status": "located",
+      "localities": [
+        "Dargaville"
+      ],
+      "mapLocalities": [
+        "Dargaville"
+      ],
+      "website": "https://www.facebook.com/profile.php?id=61595147490556",
+      "summary": "Noah Wakelam is based in rural Dargaville, Northland. His published bio describes commercial possum trapping for the fur and pet-food markets. He shares practical explainer videos through his public Facebook profile.",
+      "activities": [
+        "possum trapping",
+        "practical skills education",
+        "explainer videos"
+      ],
+      "sources": [
+        "https://freedom.kiwi/2026-candidates",
+        "https://www.facebook.com/profile.php?id=61595147490556"
+      ],
+      "relationship": "Individual with publicly described possum-trapping activity and practical explainer videos.",
+      "verificationStatus": "SOURCE_CHECKED",
+      "verificationNote": "Dargaville locality and commercial possum trapping are described in his published biography at freedom.kiwi/2026-candidates; its indexed biography text was checked on 13 November 2026. The owner confirmed the broad locality and identified the supplied Facebook profile as the source for the explainer videos. Exact Facebook profile identity was checked through public metadata. Broad locality only; no residential or work-site coordinates are assigned. LOCATED does not establish ACTIVE participation, authority, endorsement or consent.",
+      "populationSources": [
+        "owner-noah-wakelam-located-001"
+      ]
     }
   ]
 }
