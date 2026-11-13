@@ -2506,6 +2506,35 @@
       "populationSources": [
         "long-tail-enhanced-001"
       ]
+    },
+    {
+      "id": "exg-waikato-cole-shootsbowfishin",
+      "name": "Cole Shootsbowfishin (Coleshootsbowfishing)",
+      "entityType": "individual",
+      "status": "located",
+      "localities": [
+        "Hamilton"
+      ],
+      "mapLocalities": [
+        "Hamilton"
+      ],
+      "website": "https://www.facebook.com/profile.php?id=61580444920089",
+      "summary": "Hamilton-based digital creator who shares bowfishing footage, including a post from the Waihou River.",
+      "activities": [
+        "bowfishing",
+        "digital content creation"
+      ],
+      "sources": [
+        "https://www.facebook.com/profile.php?id=61580444920089",
+        "https://www.facebook.com/reel/1695779362216857/"
+      ],
+      "relationship": "Public profile lists Hamilton, New Zealand. The Waihou River is the location mentioned in a bowfishing post, not the profile locality.",
+      "detail": "Contact option: Facebook Messenger via the Message button on the Facebook profile. The profile also lists TikTok @coleshootsbowfishing (https://www.tiktok.com/@coleshootsbowfishing).",
+      "verificationStatus": "SOURCE_CHECKED",
+      "verificationNote": "Checked in Safari on 14 November 2026: exact Facebook profile display name and alias, Digital creator category, Hamilton locality, visible Message button, linked TikTok handle, and public post caption mentioning the Waihou with #bowfishingnz. Messenger availability is recorded from the button only; no message was sent. Broad locality only; no residential or work-site coordinates. Located does not establish Active participation, competition entry, account authority, endorsement or permission to work in the field.",
+      "populationSources": [
+        "owner-cole-shootsbowfishin-located-001"
+      ]
     }
   ]
 }
