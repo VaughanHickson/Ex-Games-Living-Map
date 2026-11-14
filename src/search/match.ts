@@ -7,6 +7,7 @@ import type {
 import { buildParticipantSearchIndex } from './index'
 import { locatedParticipants, type LocatedParticipant } from '../potentialParticipants'
 import { normaliseSearchText, sameSearchText, searchTokens } from './normalise'
+import { sameRegion } from '../locality-positions'
 
 const matchCandidate = (
   request: ParticipantSearchRequest,
@@ -17,7 +18,7 @@ const matchCandidate = (
   const tokens = searchTokens(request.name)
   return buildParticipantSearchIndex(participants)
     .filter((entry) => {
-      if (request.region && !entry.regions.includes(request.region)) return false
+      if (request.region && !entry.regions.some(region => sameRegion(region, request.region!))) return false
       const haystack = normaliseSearchText(entry.searchText)
       return tokens.length > 0 && tokens.every((token) => haystack.includes(token))
     })

@@ -1,6 +1,7 @@
 import type { LocalityDisplayFeature } from './discoveryPrototype'
 
 export const normaliseRegion = (value: string) => value.replace(/ Region$/, '').normalize('NFC')
+export const sameRegion = (left: string, right: string) => normaliseRegion(left) === normaliseRegion(right)
 const normaliseLocality = (value: string) => value.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase()
 export const localityKey = (region: string, name: string) => `${normaliseRegion(region)}:${normaliseLocality(name)}`
 type Bounds = [number, number, number, number]

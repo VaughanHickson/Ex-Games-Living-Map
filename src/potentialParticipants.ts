@@ -1,5 +1,6 @@
 import { buildParticipantRegistry, type SeedParticipant } from './participant-model'
 import { buildAreaIndex, type AreaDataset } from './area-model'
+import { sameRegion } from './locality-positions'
 export type { LocatedParticipant } from './participant-model'
 
 const regionalDatasetManifest = await fetch(
@@ -44,11 +45,11 @@ export const areaIndex = await (async () => {
 })()
 
 export const participantInRegion = (id: string, region: string) =>
-  participantLocalities(id).some(m => m.region === region)
-  || areaIndex.areasForParticipant(id).some(a => a.region === region)
+  participantLocalities(id).some(m => sameRegion(m.region, region))
+  || areaIndex.areasForParticipant(id).some(a => sameRegion(a.region, region))
 
 export const participantInLocality = (id: string, locality: string, region?: string) =>
-  participantLocalities(id).some(m => m.locality === locality && (!region || m.region === region))
+  participantLocalities(id).some(m => m.locality === locality && (!region || sameRegion(m.region, region)))
 
 export const loadLocatedParticipants = async (locality: string, region?: string) =>
   locatedParticipants.filter(p => participantInLocality(p.id, locality, region))
